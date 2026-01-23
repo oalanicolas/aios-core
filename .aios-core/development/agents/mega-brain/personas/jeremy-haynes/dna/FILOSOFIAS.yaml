@@ -1,0 +1,239 @@
+# FILOSOFIAS - JEREMY HAYNES
+# Crencas fundamentais que aparecem 3+ vezes em contextos diferentes
+# Versao: 2.0.0 | Atualizado: 2026-01-10 | Fase 5 Consolidation
+
+versao: "2.0.0"
+pessoa: "Jeremy Haynes"
+camada: "FILOSOFIAS"
+total_itens: 22
+
+itens:
+  # ═══════════════════════════════════════════════════════════════
+  # PRICING & VALOR
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FIL-001"
+    titulo: "Recurring Superior a Transactional"
+    descricao: "Recurring high-ticket e superior ao transactional. Mas so funciona se entregar valor que exceda preco a cada 30 dias."
+    peso: 0.95
+    chunks: ["JH001_001"]
+    fontes: ["JH001"]
+    aplicacao: "Estruturacao de oferta, modelo de receita"
+    citacao: "You want to charge somebody every 30 days, you have to exceed the value of what they paid."
+
+  - id: "JH-FIL-002"
+    titulo: "Fair Pricing"
+    descricao: "Fair Pricing nao e cobrar o maximo. E criar troca onde ambas partes reconhecem valor > custo."
+    peso: 0.95
+    chunks: ["JH001_002"]
+    fontes: ["JH001"]
+    aplicacao: "Precificacao, proposta de valor"
+    citacao: "Whatever you are going to charge, you have to be able to EXCEED the value of what that counterparty is getting from it BEFORE the next charge comes."
+
+  - id: "JH-FIL-003"
+    titulo: "Consumption Rate Theory"
+    descricao: "Preco alto = Skin in the game = Implementacao rapida = Resultado. Cobrar barato e desservico."
+    peso: 0.90
+    chunks: ["JH001_003"]
+    fontes: ["JH001"]
+    aplicacao: "Justificativa etica para preco alto"
+    citacao: "I deeply believe that I think you're actually doing a big disservice to people by only charging them a one-time transactional amount."
+
+  - id: "JH-FIL-004"
+    titulo: "Pricing = Certeza do Sistema"
+    descricao: "Preco e reflexo da certeza do seu sistema para produzir resultados. Subir conforme certeza aumenta."
+    peso: 0.90
+    chunks: ["JH001_004"]
+    fontes: ["JH001"]
+    aplicacao: "Jornada de pricing, quando subir preco"
+    citacao: "Pricing is reflected with the certainty of your system for producing those ongoing results."
+
+  - id: "JH-FIL-005"
+    titulo: "What You Charge = Your Identity"
+    descricao: "O preco que voce cobra e um reflexo direto da sua identidade e autoconceito como profissional."
+    peso: 0.90
+    chunks: ["JH068_012"]
+    fontes: ["BATCH-068"]
+    aplicacao: "Mentalidade de pricing, posicionamento"
+    citacao: "What you charge is a reflection of your identity."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SALES
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FIL-006"
+    titulo: "Convincing vs Persuading"
+    descricao: "Convincing e para SEU beneficio. Persuading e para o beneficio DELES. Venda etica e persuasao."
+    peso: 0.95
+    chunks: ["JH072_003"]
+    fontes: ["BATCH-072"]
+    aplicacao: "Etica em vendas, abordagem consultiva"
+    citacao: "Convincing = for MY benefit. Persuading = for THEIR benefit."
+
+  - id: "JH-FIL-007"
+    titulo: "Results are EFFECT not CAUSE"
+    descricao: "Resultados sao EFEITO, nao CAUSA. Foque nos inputs corretos e resultados virao."
+    peso: 0.90
+    chunks: ["JH074_008"]
+    fontes: ["BATCH-074"]
+    aplicacao: "Mentalidade de vendas, foco em processo"
+    citacao: "Results are an EFFECT, not a CAUSE."
+
+  - id: "JH-FIL-008"
+    titulo: "Secret Shopping > All Training"
+    descricao: "Secret shopping (comprar de concorrentes) supera qualquer outro metodo de treinamento de vendas."
+    peso: 0.95
+    chunks: ["JH078_015"]
+    fontes: ["BATCH-078"]
+    aplicacao: "Treinamento de vendas, competitive intelligence"
+    citacao: "Secret Shopping > all other training methods."
+
+  # ═══════════════════════════════════════════════════════════════
+  # MARKETING
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FIL-009"
+    titulo: "Consumer Behavior Shifted"
+    descricao: "Comportamento do consumidor mudou - estao cansados de VSLs tradicionais. Adapte-se."
+    peso: 0.90
+    chunks: ["JH069_004"]
+    fontes: ["BATCH-069"]
+    aplicacao: "Estrategia de funil, formato de conteudo"
+    citacao: "Consumer behavior shifted - fed up with VSLs."
+
+  - id: "JH-FIL-010"
+    titulo: "Creative Hit Rate Reality"
+    descricao: "Hit rate de criativos abaixo de 10% e NORMAL. Sucesso vem de VOLUME, nao de acertar sempre."
+    peso: 0.90
+    chunks: ["JH070_006"]
+    fontes: ["BATCH-070"]
+    aplicacao: "Producao de criativos, expectativas"
+    citacao: "Creative hit rate sub-10% is normal—build volume."
+
+  - id: "JH-FIL-011"
+    titulo: "Hydra Philosophy"
+    descricao: "Martelar o lead ate comprar ou descadastrar. Nao ha meio termo. Follow-up agressivo."
+    peso: 0.95
+    chunks: ["JH068_008"]
+    fontes: ["BATCH-068"]
+    aplicacao: "Follow-up, nurturing, persistencia"
+    citacao: "Hydra: hammer until they buy or unsubscribe."
+
+  - id: "JH-FIL-012"
+    titulo: "Follow-Up Heals Everything"
+    descricao: "Follow-up literalmente cura tudo. Qualquer problema no funil pode ser resolvido com mais follow-up."
+    peso: 0.95
+    chunks: ["JH076_011"]
+    fontes: ["BATCH-076"]
+    aplicacao: "Estrategia de vendas, recuperacao de leads"
+    citacao: "Follow-up literally heals everything."
+
+  # ═══════════════════════════════════════════════════════════════
+  # BUSINESS
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FIL-013"
+    titulo: "Redundancies Principle"
+    descricao: "Redundancias = se um canal quebrar, voce ainda nao esta ferrado. Diversifique."
+    peso: 0.90
+    chunks: ["JH080_002"]
+    fontes: ["BATCH-080"]
+    aplicacao: "Gestao de risco, diversificacao"
+    citacao: "Redundancies = if one gets fucked, still not fucked."
+
+  - id: "JH-FIL-014"
+    titulo: "MRR Enterprise Value"
+    descricao: "Cada $1 de MRR adiciona $50-80 de enterprise value. MRR e o multiplicador."
+    peso: 0.95
+    chunks: ["JH082_004"]
+    fontes: ["BATCH-082"]
+    aplicacao: "Valuation, exit strategy, modelo de receita"
+    citacao: "Every $1 MRR adds $50-80 enterprise value."
+
+  - id: "JH-FIL-015"
+    titulo: "School Conditioning"
+    descricao: "Escola condicionou pessoas a vender tempo, nao valor. Desaprender isso e o primeiro passo."
+    peso: 0.85
+    chunks: ["JH084_003"]
+    fontes: ["BATCH-084"]
+    aplicacao: "Mentalidade de precificacao, value-based"
+    citacao: "School conditioned people to sell time, not value."
+
+  # ═══════════════════════════════════════════════════════════════
+  # MINDSET
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FIL-016"
+    titulo: "Time Collapsing Mindset"
+    descricao: "Gun to head - 7 dias para atingir meta de 90 dias. O que voce faria?"
+    peso: 0.95
+    chunks: ["JH079_001"]
+    fontes: ["BATCH-079"]
+    aplicacao: "Produtividade, urgencia, priorizacao"
+    citacao: "Gun to head, 7 days to achieve 90-day goal."
+
+  - id: "JH-FIL-017"
+    titulo: "Niche Will Get You Rich"
+    descricao: "NICHO VAI TE ENRIQUECER - inch wide, mile deep. Especializacao supera generalizacao."
+    peso: 0.95
+    chunks: ["JH081_007"]
+    fontes: ["BATCH-081"]
+    aplicacao: "Posicionamento, especializacao"
+    citacao: "NICHE WILL GET YOU RICH - inch wide, mile deep."
+
+  - id: "JH-FIL-018"
+    titulo: "Different > Better"
+    descricao: "Ser DIFERENTE e melhor do que ser MELHOR. Diferenciacao supera competicao direta."
+    peso: 0.90
+    chunks: ["JH083_005"]
+    fontes: ["BATCH-083"]
+    aplicacao: "Posicionamento, branding, USP"
+    citacao: "Different is better than better."
+
+  - id: "JH-FIL-019"
+    titulo: "Selective Attention"
+    descricao: "Voce so consegue ver o que escolhe ver. Atencao seletiva determina realidade."
+    peso: 0.85
+    chunks: ["JH075_009"]
+    fontes: ["BATCH-075"]
+    aplicacao: "Mindset, foco, percepcao"
+    citacao: "You can only see what you choose to see."
+
+  # ═══════════════════════════════════════════════════════════════
+  # AD STRATEGY
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FIL-020"
+    titulo: "Andromeda Era"
+    descricao: "Estamos na era Andromeda - 50+ criativos por semana vs 3-4 do passado. Volume e rei."
+    peso: 0.90
+    chunks: ["JH071_002"]
+    fontes: ["BATCH-071"]
+    aplicacao: "Producao de criativos, scaling"
+    citacao: "Andromeda Algorithm demands 50+ creatives/week vs old 3-4/week."
+
+  - id: "JH-FIL-021"
+    titulo: "DSL > VSL"
+    descricao: "Deck Sales Letter supera VSL em 2024+. 77% chegam ao slide 5 vs 5-9% clicam play no VSL."
+    peso: 0.95
+    chunks: ["JH077_014"]
+    fontes: ["BATCH-077"]
+    aplicacao: "Formato de funil, conversao"
+    citacao: "DSL gets 77% to slide 5 vs VSL 5-9% press play."
+
+  - id: "JH-FIL-022"
+    titulo: "Pentagon Solution Era"
+    descricao: "AI reputation management e obrigatorio. 5 areas de ataque: Reddit, Trustpilot, Press, Blogs, Authority."
+    peso: 0.90
+    chunks: ["JH073_006"]
+    fontes: ["BATCH-073"]
+    aplicacao: "Reputacao online, AI, PR"
+    citacao: "Pentagon Solution: 5-area AI attack for reputation."
+
+metadados:
+  total_chunks_processados: 22
+  batches_fonte: ["BATCH-068", "BATCH-069", "BATCH-070", "BATCH-071", "BATCH-072", "BATCH-073", "BATCH-074", "BATCH-075", "BATCH-076", "BATCH-077", "BATCH-078", "BATCH-079", "BATCH-080", "BATCH-081", "BATCH-082", "BATCH-083", "BATCH-084"]
+  peso_medio: 0.91
+  criado_em: "2025-12-28T00:00:00Z"
+  atualizado_em: "2026-01-10T17:30:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  fase: "Phase 5 Consolidation"
+  changelog:
+    - data: "2026-01-10T17:30:00Z"
+      acao: "Enriquecimento Fase 5 - 18 filosofias adicionadas"
+      fonte: "SOURCE-JH.md + BATCH-068 a BATCH-084"
+      versao: "2.0.0"

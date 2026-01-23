@@ -1,0 +1,384 @@
+# FRAMEWORKS - JEREMY HAYNES
+# Estruturas nomeadas com componentes definidos (sem ordem rigida)
+# Versao: 2.0.0 | Atualizado: 2026-01-10 | Fase 5 Consolidation
+
+versao: "2.0.0"
+pessoa: "Jeremy Haynes"
+camada: "FRAMEWORKS"
+total_itens: 25
+
+itens:
+  # ═══════════════════════════════════════════════════════════════
+  # AD STRATEGIES
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FRM-001"
+    titulo: "Hydra Strategy"
+    descricao: "Lead form ANTES do VSSL para filtrar nao-qualificados. Multi-headed approach."
+    peso: 0.95
+    chunks: ["JH068_001"]
+    fontes: ["BATCH-068"]
+    componentes:
+      - "Lead Form antes do VSSL (filtro)"
+      - "Multi-channel follow-up simultaneo"
+      - "Email + SMS + Retargeting em paralelo"
+      - "Hammer until buy or unsubscribe"
+    aplicacao: "Qualificacao de leads, funil high-ticket"
+    resultado: "Reduz cost per call, aumenta lead quality"
+
+  - id: "JH-FRM-002"
+    titulo: "Venus Fly Trap 1.0"
+    descricao: "3-video content funnel original para nurturing."
+    peso: 0.95
+    chunks: ["JH068_002"]
+    fontes: ["BATCH-068"]
+    componentes:
+      - "Video 1: Hook + Pain Points"
+      - "Video 2: Solution Overview"
+      - "Video 3: Offer + CTA"
+      - "15 videos total (5 por step)"
+      - "25% watch = move to next step"
+    aplicacao: "Content funnel, video ads"
+    resultado: "Nurturing sem ser invasivo"
+
+  - id: "JH-FRM-003"
+    titulo: "Venus Fly Trap 2.0"
+    descricao: "Versao evoluida do VFT com 3-step content funnel."
+    peso: 0.95
+    chunks: ["JH069_003"]
+    fontes: ["BATCH-069"]
+    componentes:
+      - "Step 1: Awareness videos"
+      - "Step 2: Education videos"
+      - "Step 3: Conversion videos"
+      - "Dynamic audience progression"
+      - "Engagement-based sequencing"
+    aplicacao: "Advanced content funnel"
+    resultado: "$12M in 3.5 months case"
+
+  - id: "JH-FRM-004"
+    titulo: "Tornado Ad Strategy"
+    descricao: "High-velocity creative rotation para evitar ad fatigue."
+    peso: 0.90
+    chunks: ["JH070_004"]
+    fontes: ["BATCH-070"]
+    componentes:
+      - "Rotacao rapida de criativos"
+      - "Multiplos angulos simultaneos"
+      - "A/B testing agressivo"
+      - "Kill losers fast, scale winners"
+    aplicacao: "Scaling ads, creative testing"
+    resultado: "Evita ad fatigue, mantém CPA"
+
+  - id: "JH-FRM-005"
+    titulo: "Harvester Ad Strategy"
+    descricao: "Estrategia evergreen para conversao constante."
+    peso: 0.90
+    chunks: ["JH071_005"]
+    fontes: ["BATCH-071"]
+    componentes:
+      - "Evergreen creative assets"
+      - "Long-term optimization"
+      - "Consistent messaging"
+      - "Low maintenance scaling"
+    aplicacao: "Evergreen campaigns, stability"
+    resultado: "Revenue previsivel"
+
+  - id: "JH-FRM-006"
+    titulo: "Forester Ad Strategy"
+    descricao: "Versao upgraded que levou de $8.3M para $46M."
+    peso: 0.95
+    chunks: ["JH072_006"]
+    fontes: ["BATCH-072"]
+    componentes:
+      - "Strategic forest planting"
+      - "Multiple revenue streams"
+      - "Long-term brand building"
+      - "Compound growth approach"
+    aplicacao: "Scale strategy, brand growth"
+    resultado: "$8.3M → $46M growth"
+
+  - id: "JH-FRM-007"
+    titulo: "Andromeda Algorithm"
+    descricao: "50+ criativos/semana vs 3-4 do passado. Nova era de ads."
+    peso: 0.90
+    chunks: ["JH073_007"]
+    fontes: ["BATCH-073"]
+    componentes:
+      - "50+ criativos por semana"
+      - "AI-assisted creation"
+      - "Rapid iteration"
+      - "Volume over perfection"
+    aplicacao: "Creative production, scaling"
+    resultado: "Algorithm favorability"
+
+  # ═══════════════════════════════════════════════════════════════
+  # FUNNEL FRAMEWORKS
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FRM-008"
+    titulo: "DSL (Deck Sales Letter)"
+    descricao: "Slides substituindo VSL. 77% chegam ao slide 5 vs VSL 5-9%."
+    peso: 0.95
+    chunks: ["JH077_008"]
+    fontes: ["BATCH-077"]
+    componentes:
+      - "Slide deck em vez de video"
+      - "Progress bar visivel"
+      - "Click-through engagement"
+      - "Lower barrier to consume"
+    aplicacao: "Sales presentation, funil"
+    resultado: "77% reach slide 5 vs VSL 5-9% press play"
+    metricas:
+      - "Cost per call DSL: $30-80"
+      - "Cost per call VSL: $90-120"
+
+  - id: "JH-FRM-009"
+    titulo: "Mini Webinar 1.0"
+    descricao: "Webinar curto (5-15 min) no funil de vendas."
+    peso: 0.90
+    chunks: ["JH074_009"]
+    fontes: ["BATCH-074"]
+    componentes:
+      - "5-15 minutos de duracao"
+      - "Hook → Problem → Solution → Offer"
+      - "Embedded na landing page"
+      - "Direto para application"
+    aplicacao: "Landing page, qualification"
+
+  - id: "JH-FRM-010"
+    titulo: "Mini Webinar 2.0"
+    descricao: "Versao evoluida que gerou $12M em 3.5 meses."
+    peso: 0.95
+    chunks: ["JH075_010"]
+    fontes: ["BATCH-075"]
+    componentes:
+      - "Structured value delivery"
+      - "Multiple CTAs throughout"
+      - "Scarcity integration"
+      - "Retargeting loops"
+    aplicacao: "High-conversion webinars"
+    resultado: "$12M in 3.5 months"
+
+  - id: "JH-FRM-011"
+    titulo: "Challenge Funnel Mastery"
+    descricao: "Timeline de 8 semanas para promocao de challenge."
+    peso: 0.90
+    chunks: ["JH076_011"]
+    fontes: ["BATCH-076"]
+    componentes:
+      - "8-week promotion timeline"
+      - "Pre-launch buildup"
+      - "Challenge delivery"
+      - "Backend conversion"
+    aplicacao: "Challenge launches"
+    resultado: "$4M case study"
+
+  # ═══════════════════════════════════════════════════════════════
+  # FOLLOW-UP & SALES
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FRM-012"
+    titulo: "Follow-Up Architecture"
+    descricao: "Little Things → Big Things → Break Glass tactics."
+    peso: 0.95
+    chunks: ["JH078_012"]
+    fontes: ["BATCH-078"]
+    componentes:
+      - "Little Things: Daily touchpoints"
+      - "Big Things: Weekly major actions"
+      - "Break Glass: Emergency tactics"
+      - "Escalation protocol"
+    aplicacao: "Sales follow-up, closing"
+
+  - id: "JH-FRM-013"
+    titulo: "Interest Spectrum"
+    descricao: "Curiosity → General → Highly → Convicted."
+    peso: 0.90
+    chunks: ["JH079_013"]
+    fontes: ["BATCH-079"]
+    componentes:
+      - "Curiosity: Just browsing"
+      - "General Interest: Exploring"
+      - "Highly Interested: Comparing"
+      - "Convicted: Ready to buy"
+    aplicacao: "Lead scoring, nurturing"
+
+  - id: "JH-FRM-014"
+    titulo: "Break Glass Tactics"
+    descricao: "Taticas de emergencia - 'Sent From iPhone' = 40K+ responses."
+    peso: 0.90
+    chunks: ["JH080_014"]
+    fontes: ["BATCH-080"]
+    componentes:
+      - "Personal email signatures"
+      - "Casual formatting"
+      - "Urgency messaging"
+      - "Direct CEO outreach feel"
+    aplicacao: "Re-engagement, emergency"
+    resultado: "40K+ responses"
+
+  - id: "JH-FRM-015"
+    titulo: "Pentagon Solution"
+    descricao: "5-area AI attack para reputation management."
+    peso: 0.95
+    chunks: ["JH081_015"]
+    fontes: ["BATCH-081"]
+    componentes:
+      - "Reddit management"
+      - "Trustpilot optimization"
+      - "Press/PR coverage"
+      - "Blog/content seeding"
+      - "Authority building"
+    aplicacao: "Reputation, AI PR"
+
+  - id: "JH-FRM-016"
+    titulo: "Hammer Strategy"
+    descricao: "Sistema completo de 48h para maximizar show rate."
+    peso: 0.95
+    chunks: ["JH002_007"]
+    fontes: ["JH002"]
+    componentes:
+      - "Confirmation Page: Tons de conteudo educacional"
+      - "Email Hammer: 12 emails em 48h (cada 2h, 6am-6pm)"
+      - "Text Reminders: 4 em 48h"
+      - "Content Ad Hammer: 25 pecas, 11 em 48h"
+      - "Dynamic Custom Audience: Rolling 4 dias"
+    aplicacao: "Show rate optimization"
+    resultado: "50-80% show rate"
+
+  # ═══════════════════════════════════════════════════════════════
+  # BUSINESS & MINDSET
+  # ═══════════════════════════════════════════════════════════════
+  - id: "JH-FRM-017"
+    titulo: "Time Collapsing Exercise"
+    descricao: "Gun to head, 7 dias para meta de 90 dias."
+    peso: 0.95
+    chunks: ["JH082_016"]
+    fontes: ["BATCH-082"]
+    componentes:
+      - "Imagine: Gun to head"
+      - "7 days to hit 90-day goal"
+      - "What would you do differently?"
+      - "Execute that NOW"
+    aplicacao: "Produtividade, urgencia"
+    resultado: "$0 → $1M/mês em 2 meses (case)"
+
+  - id: "JH-FRM-018"
+    titulo: "5 Categories Rich People"
+    descricao: "Framework de status signaling para marketing."
+    peso: 0.85
+    chunks: ["JH083_017"]
+    fontes: ["BATCH-083"]
+    componentes:
+      - "Achievers: Results-focused"
+      - "Influencers: Social status"
+      - "Connectors: Network value"
+      - "Luxurians: Quality/exclusivity"
+      - "Adventurers: Experience seekers"
+    aplicacao: "Messaging, targeting"
+
+  - id: "JH-FRM-019"
+    titulo: "Investment Banking Exit"
+    descricao: "Framework para exit via IB - $2M+ EBITDA required."
+    peso: 0.90
+    chunks: ["JH084_018"]
+    fontes: ["BATCH-084"]
+    componentes:
+      - "$2M+ EBITDA minimum"
+      - "$50-100K retainer typical"
+      - "12-18 month process"
+      - "Multiple bidders = better price"
+    aplicacao: "Exit strategy, M&A"
+
+  - id: "JH-FRM-020"
+    titulo: "Value vs Time Paradigm"
+    descricao: "$10K deals vs $15/hour - shift de mentalidade."
+    peso: 0.90
+    chunks: ["JH085_019"]
+    fontes: ["BATCH-084"]
+    componentes:
+      - "Stop selling time"
+      - "Package outcomes"
+      - "Value-based pricing"
+      - "Decouple hours from income"
+    aplicacao: "Pricing, positioning"
+
+  - id: "JH-FRM-021"
+    titulo: "Brown/Green Exercise"
+    descricao: "Tony Robbins selective attention exercise."
+    peso: 0.85
+    chunks: ["JH086_020"]
+    fontes: ["BATCH-084"]
+    componentes:
+      - "Close eyes, think of brown objects"
+      - "Open eyes, notice green objects"
+      - "What you focus on expands"
+      - "Attention = reality filter"
+    aplicacao: "Mindset, focus"
+
+  - id: "JH-FRM-022"
+    titulo: "33% Law"
+    descricao: "33% stick, 33% duds, 33% burnout after 90 days."
+    peso: 0.90
+    chunks: ["JH087_021"]
+    fontes: ["BATCH-084"]
+    componentes:
+      - "33% will stick and perform"
+      - "33% will be duds"
+      - "33% will burnout"
+      - "Plan hiring accordingly"
+    aplicacao: "Hiring, team building"
+
+  - id: "JH-FRM-023"
+    titulo: "Secret Shopping Method"
+    descricao: "Comprar de concorrentes supera qualquer training."
+    peso: 0.95
+    chunks: ["JH088_022"]
+    fontes: ["BATCH-084"]
+    componentes:
+      - "Buy from competitors"
+      - "Document entire process"
+      - "Note sales tactics"
+      - "Adapt best practices"
+    aplicacao: "Competitive intelligence, training"
+
+  - id: "JH-FRM-024"
+    titulo: "Fair Pricing Framework"
+    descricao: "Estrutura para precificacao justa em recurring."
+    peso: 0.95
+    chunks: ["JH001_009"]
+    fontes: ["JH001"]
+    componentes:
+      - "Comecar MENOR - validar sistema antes de subir"
+      - "Subir conforme CERTEZA aumenta"
+      - "Tracking de VALOR obrigatorio"
+      - "Demanda alta = sinal para SUBIR"
+    aplicacao: "Jornada de pricing, decisao de quando subir"
+
+  - id: "JH-FRM-025"
+    titulo: "Call Funnel Structure"
+    descricao: "Estrutura completa do funil de calls."
+    peso: 0.90
+    chunks: ["JH002_006"]
+    fontes: ["JH002"]
+    componentes:
+      - "Ad"
+      - "Landing Page (Mini Webinar 5-15 min)"
+      - "Application (TypeForm)"
+      - "Qualify"
+      - "Schedule (Calendly EMBEDDED)"
+      - "Close"
+      - "Setters: Unqualified + No-shows"
+    aplicacao: "Estruturacao de funil high-ticket"
+
+metadados:
+  total_chunks_processados: 25
+  batches_fonte: ["BATCH-068", "BATCH-069", "BATCH-070", "BATCH-071", "BATCH-072", "BATCH-073", "BATCH-074", "BATCH-075", "BATCH-076", "BATCH-077", "BATCH-078", "BATCH-079", "BATCH-080", "BATCH-081", "BATCH-082", "BATCH-083", "BATCH-084", "JH001", "JH002"]
+  peso_medio: 0.92
+  criado_em: "2025-12-28T00:00:00Z"
+  atualizado_em: "2026-01-10T17:45:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  fase: "Phase 5 Consolidation"
+  changelog:
+    - data: "2026-01-10T17:45:00Z"
+      acao: "Enriquecimento Fase 5 - 20 frameworks adicionados"
+      fonte: "SOURCE-JH.md + BATCH-068 a BATCH-084"
+      versao: "2.0.0"
