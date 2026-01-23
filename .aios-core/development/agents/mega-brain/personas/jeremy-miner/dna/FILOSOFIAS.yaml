@@ -1,0 +1,561 @@
+# 02-KNOWLEDGE/DNA/PERSONS/JEREMY-MINER/FILOSOFIAS.yaml
+# Crencas fundamentais que guiam TODAS as decisoes de Jeremy Miner
+# Gerado em: 2026-01-09 | Total extraido: 198 | Top 25 documentadas aqui
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-01-09T19:30:00Z"
+total_itens: 25
+total_fonte: 198
+
+filosofias:
+
+  - id: "FIL-JM-001"
+    crenca: "Self-persuasion > External persuasion. Quando eles dizem POR QUE, estao dizendo para si mesmos, nao para voce."
+
+    implicacoes:
+      - "Fazer perguntas que ativem auto-reflexao"
+      - "Motivacao interna dura; externa causa buyer's remorse"
+      - "Nunca argumentar - deixar prospect chegar a conclusao"
+      - "Commitment questions > closing techniques"
+
+    evidencias:
+      - citacao: "When they tell you WHY, they're telling THEMSELVES, not you. That's self-persuasion."
+        chunk_id: "JM001_001"
+        source_id: "JM-0001"
+        source_title: "NEPQ Foundation"
+
+    dominios:
+      - "self-persuasion"
+      - "psychology"
+      - "closing"
+
+    peso: 0.98
+
+  - id: "FIL-JM-002"
+    crenca: "Problem FINDING > Problem SOLVING. Encontrar o problema representa 80-90% da venda. Resolver e so 10-20%."
+
+    implicacoes:
+      - "Investir 80%+ do tempo em discovery"
+      - "Pitch deve ser minimo se discovery foi bem feito"
+      - "Prospect que entende problema profundamente quer solucao"
+      - "Nunca apresentar solucao sem antes encontrar dor real"
+
+    evidencias:
+      - citacao: "Problem finding is 80-90% of the sale. Problem solving is only 10-20%. Most salespeople get this backwards."
+        chunk_id: "JM003_002"
+        source_id: "JM-0003"
+        source_title: "Discovery Mastery"
+
+    dominios:
+      - "discovery"
+      - "problem-finding"
+      - "sales-process"
+
+    peso: 0.97
+
+  - id: "FIL-JM-003"
+    crenca: "Closing e apenas 1-2% do processo de vendas. Se voce fez o discovery correto, o fechamento acontece sozinho."
+
+    implicacoes:
+      - "Nao estudar 'closing techniques' - estudar discovery"
+      - "Objecoes no final = discovery mal feito"
+      - "Commitment questions substituem traditional closing"
+      - "Prospect fecha a si mesmo quando discovery e profundo"
+
+    evidencias:
+      - citacao: "Closing is only 1-2% of the sales process. If you've done discovery correctly, the close happens naturally."
+        chunk_id: "JM005_003"
+        source_id: "JM-0005"
+        source_title: "NEPQ Advanced"
+
+    dominios:
+      - "closing"
+      - "discovery"
+      - "sales-process"
+
+    peso: 0.96
+
+  - id: "FIL-JM-004"
+    crenca: "Pain + Fear > Pleasure. Dor e 2.5x mais motivadora que prazer. Pessoas fogem do fogo, nao correm para a agua."
+
+    implicacoes:
+      - "Amplificar consequencias do problema atual"
+      - "Consequence questions sao essenciais"
+      - "Prazer sozinho nao gera urgencia"
+      - "Foco na dor PRESENTE, nao futuro ideal"
+
+    evidencias:
+      - citacao: "Pain is 2.5x more motivating than pleasure. People run FROM fire, they don't run TO water."
+        chunk_id: "JM007_001"
+        source_id: "JM-0007"
+        source_title: "Pain Psychology"
+
+    dominios:
+      - "psychology"
+      - "motivation"
+      - "urgency"
+
+    peso: 0.95
+
+  - id: "FIL-JM-005"
+    crenca: "Detach from the OUTCOME. Foque em WHETHER ha uma venda, nao em MAKING a venda."
+
+    implicacoes:
+      - "Desapego aumenta confianca e credibilidade"
+      - "Pressao desaparece quando foco muda"
+      - "Prospect sente quando voce PRECISA da venda"
+      - "Autoridade vem de quem nao esta desesperado"
+
+    evidencias:
+      - citacao: "Detach from the outcome. Focus on WHETHER there's a sale to be made, not MAKING the sale."
+        chunk_id: "JM002_001"
+        source_id: "JM-0002"
+        source_title: "Mindset Mastery"
+
+    dominios:
+      - "mindset"
+      - "detachment"
+      - "inner-game"
+
+    peso: 0.95
+
+  - id: "FIL-JM-006"
+    crenca: "Telling is NOT selling. Contar nao e vender. Perguntar e vender."
+
+    implicacoes:
+      - "Eliminar monologos de produto"
+      - "Cada afirmacao pode virar pergunta"
+      - "Prospect precisa DIZER, nao OUVIR"
+      - "Questions = most powerful form of persuasion"
+
+    evidencias:
+      - citacao: "Telling is NOT selling. If you're talking AT them, you're not selling TO them. Questions sell."
+        chunk_id: "JM001_005"
+        source_id: "JM-0001"
+        source_title: "NEPQ Foundation"
+
+    dominios:
+      - "questions"
+      - "communication"
+      - "persuasion"
+
+    peso: 0.95
+
+  - id: "FIL-JM-007"
+    crenca: "The confused mind always says NO. Nao confunda com excesso de informacao."
+
+    implicacoes:
+      - "Simplicidade vende"
+      - "Menos opcoes = mais decisao"
+      - "Clareza sobre features"
+      - "Confusao = objecao automatica"
+
+    evidencias:
+      - citacao: "The confused mind always says NO. Don't overwhelm with information."
+        chunk_id: "JM012_001"
+        source_id: "JM-0012"
+        source_title: "Presentation Psychology"
+
+    dominios:
+      - "presentation"
+      - "clarity"
+      - "decision-making"
+
+    peso: 0.93
+
+  - id: "FIL-JM-008"
+    crenca: "Trust > Features. Fatos e features raramente vendem. Confianca e emocao sempre vendem."
+
+    implicacoes:
+      - "Build trust primeiro, mostrar features depois"
+      - "Emocao decide, logica justifica"
+      - "Materiais de vendas sao suporte, nao muletas"
+      - "Discovery builds trust, pitch destroys it"
+
+    evidencias:
+      - citacao: "Facts and features rarely sell. Trust and emotion always sell."
+        chunk_id: "JM015_002"
+        source_id: "JM-0015"
+        source_title: "Trust Building"
+
+    dominios:
+      - "trust"
+      - "emotion"
+      - "features"
+
+    peso: 0.93
+
+  - id: "FIL-JM-009"
+    crenca: "72% da comunicacao e NAO-VERBAL. Tom, ritmo, pausas importam mais que as palavras."
+
+    implicacoes:
+      - "Estudar tonalidades e essencial"
+      - "Mesmas palavras, resultados diferentes = tonalidade"
+      - "Pausas criam pressao produtiva"
+      - "Tom curious vs Tom vendedor = resultados opostos"
+
+    evidencias:
+      - citacao: "72% of communication is NON-VERBAL. Tone, pacing, pauses matter more than your words."
+        chunk_id: "JM020_001"
+        source_id: "JM-0020"
+        source_title: "Tonality Mastery"
+
+    dominios:
+      - "tonality"
+      - "non-verbal"
+      - "communication"
+
+    peso: 0.94
+
+  - id: "FIL-JM-010"
+    crenca: "Rejection is TRIGGERED by your approach, not inherent. Mude a abordagem, mude o resultado."
+
+    implicacoes:
+      - "Nao culpar prospects por rejeicao"
+      - "Analisar abertura e primeiros 30 segundos"
+      - "Pattern interrupt elimina 95% da rejeicao"
+      - "Problema esta no vendedor, nao no mercado"
+
+    evidencias:
+      - citacao: "Rejection is triggered by YOUR approach. Change the approach, change the result."
+        chunk_id: "JM025_001"
+        source_id: "JM-0025"
+        source_title: "Cold Calling Revolution"
+
+    dominios:
+      - "rejection"
+      - "approach"
+      - "mindset"
+
+    peso: 0.92
+
+  - id: "FIL-JM-011"
+    crenca: "Average salespeople PITCH. Seven-figure salespeople INTERVIEW."
+
+    implicacoes:
+      - "Mudar mentalidade de vendedor para entrevistador"
+      - "Controle atraves de perguntas"
+      - "Prospect e o expert em seu problema"
+      - "Voce e o doctor, nao o farmaceutico"
+
+    evidencias:
+      - citacao: "Average salespeople PITCH. Seven-figure salespeople INTERVIEW."
+        chunk_id: "JM030_001"
+        source_id: "JM-0030"
+        source_title: "Seven-Figure Framework"
+
+    dominios:
+      - "positioning"
+      - "interviewing"
+      - "sales-approach"
+
+    peso: 0.94
+
+  - id: "FIL-JM-012"
+    crenca: "82% dos vendedores se sentem desconfortaveis usando tecnicas tradicionais de vendas."
+
+    implicacoes:
+      - "NEPQ e mais natural para vendedores"
+      - "Tecnicas tradicionais nao funcionam mais"
+      - "Consumidor moderno rejeita manipulacao"
+      - "Conforto do vendedor = melhor performance"
+
+    evidencias:
+      - citacao: "82% of salespeople are uncomfortable using traditional sales techniques. That's because they don't work anymore."
+        chunk_id: "JM035_001"
+        source_id: "JM-0035"
+        source_title: "Why NEPQ Works"
+
+    dominios:
+      - "traditional-sales"
+      - "industry-stats"
+      - "nepq-positioning"
+
+    peso: 0.91
+
+  - id: "FIL-JM-013"
+    crenca: "A palavra 'closing' tem estigma negativo. Seven-figure salespeople usam 'committing' no lugar."
+
+    implicacoes:
+      - "Linguagem importa para mindset"
+      - "Commitment = escolha; closing = pressao"
+      - "Prospect se compromete; voce nao fecha"
+      - "Mudar vocabulario muda comportamento"
+
+    evidencias:
+      - citacao: "The word 'closing' has a negative stigma. Seven-figure salespeople use 'committing' instead."
+        chunk_id: "JM040_001"
+        source_id: "JM-0040"
+        source_title: "Language Patterns"
+
+    dominios:
+      - "language"
+      - "commitment"
+      - "closing"
+
+    peso: 0.90
+
+  - id: "FIL-JM-014"
+    crenca: "Everyone has TWO TRUTHS. A primeira resposta e protegida, a segunda e a real."
+
+    implicacoes:
+      - "Nunca aceitar primeira resposta como final"
+      - "Pergunta follow-up revela verdade"
+      - "'Anything you'd change?' gatilha segunda verdade"
+      - "99% contradizem primeira resposta"
+
+    evidencias:
+      - citacao: "Everyone has TWO TRUTHS. The first is their protected story, the second is the real one."
+        chunk_id: "JM045_001"
+        source_id: "JM-0045"
+        source_title: "Two Truths Psychology"
+
+    dominios:
+      - "psychology"
+      - "two-truths"
+      - "probing"
+
+    peso: 0.95
+
+  - id: "FIL-JM-015"
+    crenca: "Feel-Felt-Found is DEAD. Ja foi usado milhoes de vezes. Prospects sentem a manipulacao instantaneamente."
+
+    implicacoes:
+      - "Abandonar tecnicas overused"
+      - "Prospects modernos detectam scripts"
+      - "Autenticidade > formulas"
+      - "NEPQ e conversation, nao script"
+
+    evidencias:
+      - citacao: "Feel-Felt-Found is DEAD. Prospects instantly sense manipulation when you use it."
+        chunk_id: "JM050_001"
+        source_id: "JM-0050"
+        source_title: "What Not To Do"
+
+    dominios:
+      - "traditional-sales"
+      - "manipulation"
+      - "authenticity"
+
+    peso: 0.89
+
+  - id: "FIL-JM-016"
+    crenca: "External enthusiasm KILLS sales. Prospects interpretam entusiasmo como desespero para vender."
+
+    implicacoes:
+      - "Calm confidence > high energy"
+      - "Neutralidade cria autoridade"
+      - "Entusiasmo interno, nao externo"
+      - "Desespero afasta; calma atrai"
+
+    evidencias:
+      - citacao: "External enthusiasm KILLS sales. Prospects interpret it as desperation."
+        chunk_id: "JM055_001"
+        source_id: "JM-0055"
+        source_title: "Energy Management"
+
+    dominios:
+      - "energy"
+      - "enthusiasm"
+      - "positioning"
+
+    peso: 0.91
+
+  - id: "FIL-JM-017"
+    crenca: "Prevent objections, don't handle them. 10x melhor prevenir do que manejar depois."
+
+    implicacoes:
+      - "Discovery bem feito = zero objecoes"
+      - "Cada objecao = gap no discovery"
+      - "Mapear objecoes para fase faltante"
+      - "Objection handling e band-aid"
+
+    evidencias:
+      - citacao: "Prevent objections, don't handle them. It's 10x better to prevent than to handle."
+        chunk_id: "JM060_001"
+        source_id: "JM-0060"
+        source_title: "Objection Prevention"
+
+    dominios:
+      - "objections"
+      - "prevention"
+      - "discovery"
+
+    peso: 0.94
+
+  - id: "FIL-JM-018"
+    crenca: "Your potential customers HAVE the answers. Voce so precisa das perguntas certas."
+
+    implicacoes:
+      - "Nao dar respostas - extrair deles"
+      - "Doctor model - paciente conhece sintomas"
+      - "Perguntas revelam; afirmacoes obscurecem"
+      - "Prospect e expert em seu problema"
+
+    evidencias:
+      - citacao: "Your potential customers HAVE the answers. You just need the right questions."
+        chunk_id: "JM001_010"
+        source_id: "JM-0001"
+        source_title: "NEPQ Foundation"
+
+    dominios:
+      - "questions"
+      - "discovery"
+      - "positioning"
+
+    peso: 0.93
+
+  - id: "FIL-JM-019"
+    crenca: "Concerns are NOT objections. Valide os sentimentos primeiro, depois explore o que esta por tras."
+
+    implicacoes:
+      - "Separar concern de objection"
+      - "Validar antes de resolver"
+      - "Empatia antes de logica"
+      - "3-step diffusing: clarify-discuss-diffuse"
+
+    evidencias:
+      - citacao: "Concerns are NOT objections. Validate feelings first, then explore what's behind them."
+        chunk_id: "JM065_001"
+        source_id: "JM-0065"
+        source_title: "Concern vs Objection"
+
+    dominios:
+      - "objections"
+      - "concerns"
+      - "empathy"
+
+    peso: 0.90
+
+  - id: "FIL-JM-020"
+    crenca: "Today's consumer does NOT want to be talked AT and TOLD. They want to be ASKED and HEARD."
+
+    implicacoes:
+      - "Era do consumidor empoderado"
+      - "Informacao disponivel - prospects pesquisam"
+      - "Dialogo > monologo"
+      - "Listening = selling"
+
+    evidencias:
+      - citacao: "Today's consumer does NOT want to be talked AT and TOLD. They want to be ASKED and HEARD."
+        chunk_id: "JM070_001"
+        source_id: "JM-0070"
+        source_title: "Modern Consumer"
+
+    dominios:
+      - "modern-sales"
+      - "consumer-behavior"
+      - "listening"
+
+    peso: 0.92
+
+  - id: "FIL-JM-021"
+    crenca: "Joe Girard hasn't sold a car since 1977. Por que seguir gurus de tecnicas de 40+ anos atras?"
+
+    implicacoes:
+      - "Questionar fontes de treinamento"
+      - "Tecnicas envelhecem"
+      - "Consumidor mudou radicalmente"
+      - "NEPQ e para era moderna"
+
+    evidencias:
+      - citacao: "Joe Girard hasn't sold a car since 1977. Why follow gurus teaching 40+ year old techniques?"
+        chunk_id: "JM075_001"
+        source_id: "JM-0075"
+        source_title: "Guru Critique"
+
+    dominios:
+      - "traditional-sales"
+      - "gurus"
+      - "evolution"
+
+    peso: 0.88
+
+  - id: "FIL-JM-022"
+    crenca: "The bigger the plane, the longer the runway. Quanto maior o preco, mais educacao antes do pitch."
+
+    implicacoes:
+      - "High-ticket = mais discovery"
+      - "Preco correlaciona com preparacao"
+      - "Apressar = perder deal grande"
+      - "Runway = trust building time"
+
+    evidencias:
+      - citacao: "The bigger the plane, the longer the runway. Higher price = more education before pitch."
+        chunk_id: "JM080_001"
+        source_id: "JM-0080"
+        source_title: "High-Ticket Principles"
+
+    dominios:
+      - "high-ticket"
+      - "pricing"
+      - "process-length"
+
+    peso: 0.91
+
+  - id: "FIL-JM-023"
+    crenca: "Accepting without judgment does NOT mean agreeing. Cria espaco para o prospect reconsiderar."
+
+    implicacoes:
+      - "4 Rules of Listening inclui accepting"
+      - "Julgamento fecha portas"
+      - "Aceitacao abre espaco para mudanca"
+      - "Prospect muda quando nao se sente atacado"
+
+    evidencias:
+      - citacao: "Accepting without judgment does NOT mean agreeing. It creates space for them to reconsider."
+        chunk_id: "JM085_001"
+        source_id: "JM-0085"
+        source_title: "Listening Mastery"
+
+    dominios:
+      - "listening"
+      - "acceptance"
+      - "psychology"
+
+    peso: 0.89
+
+  - id: "FIL-JM-024"
+    crenca: "Selling is a numbers game = MYTH. E skill game, nao numbers game."
+
+    implicacoes:
+      - "Qualidade > quantidade"
+      - "Skill multiplica resultados"
+      - "Volume sem skill = burnout"
+      - "Treinar skill, nao aumentar volume"
+
+    evidencias:
+      - citacao: "Selling is a numbers game = MYTH. It's a skill game, not a numbers game."
+        chunk_id: "JM090_001"
+        source_id: "JM-0090"
+        source_title: "Sales Myths"
+
+    dominios:
+      - "myths"
+      - "skills"
+      - "volume"
+
+    peso: 0.90
+
+  - id: "FIL-JM-025"
+    crenca: "Calling warm leads is NOT cold calling. They ASKED you to call. It's out of integrity NOT to."
+
+    implicacoes:
+      - "Warm leads = convite, nao interrupcao"
+      - "Mindset muda quando entende isso"
+      - "Prospect preencheu form = quer falar"
+      - "Nao ligar = falha de integridade"
+
+    evidencias:
+      - citacao: "Calling warm leads is NOT cold calling. They ASKED you to call. It's out of integrity NOT to."
+        chunk_id: "JM095_001"
+        source_id: "JM-0095"
+        source_title: "Warm Lead Mindset"
+
+    dominios:
+      - "warm-leads"
+      - "mindset"
+      - "integrity"
+
+    peso: 0.88

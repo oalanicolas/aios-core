@@ -1,0 +1,162 @@
+# CONFIG - JEREMY MINER DNA COGNITIVO
+# Arquivo central de configuracao e metadados do DNA
+# Versao: 1.0.0 | Criado: 2026-01-09
+
+versao: "3.0.0"
+pessoa: "Jeremy Miner"
+nome_canonico: "Jeremy Miner"
+empresa: "7th Level Communications"
+localizacao: "USA"
+metodologia_principal: "NEPQ - Neuro Emotional Persuasion Questions"
+
+# Credenciais validadas
+credenciais:
+  - "$33M+ em comissoes pessoais de vendas"
+  - "#45 Sales Rep nos EUA entre 100M+ vendedores"
+  - "Fundador do metodo NEPQ"
+  - "7,000+ testimonials em 26 meses"
+  - "Treinador de milhares de vendedores globalmente"
+
+# Padroes comportamentais identificados
+padroes_comportamentais:
+  - padrao: "NEPQ Question-Based Selling"
+    frequencia: "ALTA"
+    evidencia: "6 fases de perguntas, discovery-heavy, self-persuasion"
+  - padrao: "Anti-Traditional Sales"
+    frequencia: "ALTA"
+    evidencia: "Contra pitch-heavy, entusiasmo externo, closing pressure"
+  - padrao: "Tonality Mastery"
+    frequencia: "ALTA"
+    evidencia: "7 tonalidades, 72% comunicacao nao-verbal"
+  - padrao: "Two Truths Psychology"
+    frequencia: "ALTA"
+    evidencia: "99% contradizem primeira resposta com pergunta certa"
+  - padrao: "Objection Prevention Over Handling"
+    frequencia: "ALTA"
+    evidencia: "10x melhor prevenir, discovery elimina objecoes"
+
+# Sintese narrativa
+sintese_narrativa: |
+  Jeremy Miner revolucionou vendas com NEPQ - Neuro Emotional Persuasion Questions.
+  Ao inves de pitch e closing tradicional, NEPQ foca em DISCOVERY e SELF-PERSUASION.
+
+  A filosofia central: "Perguntas sao a forma mais poderosa de persuasao conhecida
+  pela humanidade. Nao tente persuadir - deixe que eles persuadam a si mesmos."
+
+  Diferencial critico: Enquanto vendas tradicionais focam em CLOSING (1-2% do processo),
+  NEPQ foca em Problem Finding (80-90% da venda). Se o discovery esta correto,
+  o fechamento acontece sozinho atraves das 3 Commitment Questions.
+
+  Tonalidade e central - 72% da comunicacao e nao-verbal. Tom, ritmo, pausas
+  importam mais que palavras. 7 tonalidades diferentes para diferentes situacoes.
+
+  Two Truths Psychology: Todo prospect tem duas verdades - a primeira (protegida)
+  e a segunda (real). 99% contradizem a primeira resposta quando voce faz
+  a pergunta certa no momento certo.
+
+# Estatisticas do DNA
+estatisticas:
+  filosofias: 198
+  modelos_mentais: 98
+  heuristicas: 537
+  frameworks: 212
+  metodologias: 154
+  total_itens: 1199
+
+  peso_medio_geral: 0.88
+  itens_peso_acima_070: 1150
+  percentual_alta_confianca: 95.9
+
+  # Densidade por arquivo processado
+  arquivos_processados: 153
+  batches: 16
+  densidade_media: 7.8
+
+# Fontes utilizadas
+fontes:
+  processadas:
+    - source_id: "JM-0001"
+      tipo: "video_training"
+      titulo: "NEPQ Foundation"
+      batch: "BATCH-052"
+    - source_id: "JM-0010"
+      tipo: "video_training"
+      titulo: "7 Anti-Manipulation Tactics"
+      batch: "BATCH-052"
+    - source_id: "JM-0153"
+      tipo: "video_training"
+      titulo: "Warm Calls Advanced"
+      batch: "BATCH-067"
+
+  range_completo: "JM-0001 a JM-0153"
+  batches_range: "BATCH-052 a BATCH-067"
+  source_consolidation: "/06-LOGS/SOURCES/SOURCE-JM.md"
+
+# Relacionamentos e cross-references
+relacionamentos:
+  foco_principal: "Question-based selling, Self-persuasion, Discovery"
+  modelo_recomendado: "NEPQ 6-Phase Framework"
+  pricing_approach: "High-ticket compatible, enterprise-ready"
+
+# Conexoes cross-source
+conexoes_cross_source:
+  - fonte: "Alex Hormozi"
+    overlap: "Doctor-Patient Model, Detachment Philosophy"
+    tipo: "COMPLEMENTAR"
+  - fonte: "Cole Gordon"
+    overlap: "SPIN foundation, Tonality importance"
+    tipo: "COMPLEMENTAR"
+  - fonte: "G4 Educacao"
+    overlap: "Rapport principles, Follow-up protocols"
+    tipo: "COMPLEMENTAR"
+
+# Contribuicoes unicas (apenas Jeremy Miner)
+contribuicoes_unicas:
+  - "Two Truths Psychology (original)"
+  - "7 Tonalities Framework (proprietario)"
+  - "Confused Tone for objections (inovacao)"
+  - "Self-Persuasion Trigger Point (original)"
+  - "NEPQ 6-Phase Question Framework"
+  - "3 Commitment Questions (vs traditional closing)"
+  - "'Selling is NOT a numbers game' (contrarian)"
+
+# Tensoes com outras fontes
+tensoes:
+  - fonte: "Traditional Sales Training"
+    topico: "Closing techniques"
+    jeremy_miner: "Commitment questions, self-persuasion"
+    outra_fonte: "ABC - Always Be Closing"
+    tipo: "CONTRARIO"
+    nota: "NEPQ e anti-tradicional por design"
+  - fonte: "Joe Girard / Old School"
+    topico: "Enthusiasm"
+    jeremy_miner: "Internal enthusiasm, neutral stance"
+    outra_fonte: "External enthusiasm, high energy"
+    tipo: "CONTRARIO"
+    nota: "Entusiasmo externo interpretado como desespero"
+
+# Metadados de extracao
+metadados:
+  criado_em: "2026-01-09T19:30:00Z"
+  atualizado_em: "2026-01-10T17:30:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  pipeline: "Jarvis v3.33.0"
+  extraido_por: "Claude Code"
+  missao: "MISSION-2026-001"
+  fase: "PHASE-5-CONSOLIDATION"
+
+changelog:
+  - data: "2026-01-10T17:30:00Z"
+    acao: "Fase 5 Consolidation - Verificação completa"
+    mudancas:
+      - "Versão atualizada para 3.0.0 (alinhamento Fase 5)"
+      - "Verificado: 1,199 elementos = maior DNA do sistema"
+      - "Confirmado: 198 filosofias, 98 modelos, 537 heurísticas, 212 frameworks, 154 metodologias"
+      - "16 batches (BATCH-052 a BATCH-067) validados"
+      - "153 arquivos fonte processados"
+    versao: "3.0.0"
+  - data: "2026-01-09T19:30:00Z"
+    acao: "Criacao inicial do DNA"
+    fonte: "SOURCE-JM.md (~1,199 elementos)"
+    itens_adicionados: 1199
+    versao: "1.0.0"

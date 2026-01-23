@@ -1,0 +1,356 @@
+# 02-KNOWLEDGE/DNA/PERSONS/JEREMY-MINER/MODELOS-MENTAIS.yaml
+# Formas de ver e interpretar a realidade - Mental Models
+# Gerado em: 2026-01-09 | Total extraido: 98 | Top 15 documentados aqui
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-01-09T19:30:00Z"
+total_itens: 15
+total_fonte: 98
+
+modelos_mentais:
+
+  - id: "MM-JM-001"
+    modelo: "Doctor-Patient Model"
+    descricao: "Medicos nao dao respostas sem primeiro fazer perguntas. Respostas devem vir do PACIENTE que conhece as circunstancias."
+
+    aplicacao:
+      - "Ver prospect como paciente com sintomas"
+      - "Voce e o doctor fazendo diagnostico"
+      - "Perguntas antes de prescricao"
+      - "Paciente conhece a dor; doctor conhece a cura"
+
+    evidencias:
+      - citacao: "Doctors don't give answers without first asking questions. The patient knows their circumstances best."
+        chunk_id: "JM001_MM01"
+        source_id: "JM-0001"
+        source_title: "NEPQ Foundation"
+
+    dominios:
+      - "positioning"
+      - "discovery"
+      - "authority"
+
+    peso: 0.96
+
+  - id: "MM-JM-002"
+    modelo: "Onion Peeling Model"
+    descricao: "Cada camada descascada = mais perto da verdade central. Master salespeople continuam descascando. Average ficam na superficie."
+
+    aplicacao:
+      - "Nunca parar na primeira resposta"
+      - "Probing questions descascam camadas"
+      - "Core truth esta no centro"
+      - "Superficie = historia; centro = verdade"
+
+    evidencias:
+      - citacao: "Master salespeople keep peeling the onion. Average salespeople stay at the surface."
+        chunk_id: "JM045_MM01"
+        source_id: "JM-0045"
+        source_title: "Probing Deep"
+
+    dominios:
+      - "probing"
+      - "depth"
+      - "discovery"
+
+    peso: 0.94
+
+  - id: "MM-JM-003"
+    modelo: "Chase-Run Dynamic"
+    descricao: "Tecnicas tradicionais criam pressao. Prospect se sente 'cacado'. Resposta natural e fugir. Solucao: eliminar pressao completamente."
+
+    aplicacao:
+      - "Quanto mais persegue, mais foge"
+      - "Detachment elimina dinamica chase-run"
+      - "Neutral stance = prospect nao sente pressao"
+      - "Atrai ao inves de perseguir"
+
+    evidencias:
+      - citacao: "Traditional closing creates pressure. Prospect feels chased. Natural response is to run. Eliminate pressure entirely."
+        chunk_id: "JM055_MM01"
+        source_id: "JM-0055"
+        source_title: "Pressure Psychology"
+
+    dominios:
+      - "pressure"
+      - "psychology"
+      - "closing"
+
+    peso: 0.93
+
+  - id: "MM-JM-004"
+    modelo: "Self-Persuasion Superiority"
+    descricao: "Quando pessoas dizem POR QUE, estao dizendo para si mesmas. Motivacao interna dura. Externa causa buyer's remorse."
+
+    aplicacao:
+      - "Criar perguntas que geram 'por que'"
+      - "Deixar prospect convencer a si mesmo"
+      - "Evitar argumentacao externa"
+      - "Decisao interna = sem arrependimento"
+
+    evidencias:
+      - citacao: "When they tell you WHY, they're telling themselves. Internal motivation lasts. External fades and causes remorse."
+        chunk_id: "JM001_MM02"
+        source_id: "JM-0001"
+        source_title: "NEPQ Foundation"
+
+    dominios:
+      - "self-persuasion"
+      - "commitment"
+      - "psychology"
+
+    peso: 0.97
+
+  - id: "MM-JM-005"
+    modelo: "Trust-Features Continuum"
+    descricao: "Fatos/features raramente vendem. Confianca/emocao sempre vendem. Materiais de vendas sao suporte, nao muletas."
+
+    aplicacao:
+      - "Build trust primeiro, features depois"
+      - "Features sem trust = objecoes"
+      - "Emocao decide, logica justifica"
+      - "Demos/presentations sao suporte, nao venda"
+
+    evidencias:
+      - citacao: "Facts and features rarely sell. Trust and emotion always sell. Sales materials are support, not crutches."
+        chunk_id: "JM015_MM01"
+        source_id: "JM-0015"
+        source_title: "Trust Building"
+
+    dominios:
+      - "trust"
+      - "features"
+      - "emotion"
+
+    peso: 0.93
+
+  - id: "MM-JM-006"
+    modelo: "Two Truths Psychology"
+    descricao: "Primeira resposta = historia protegida (automatica). Segunda resposta = verdade real (emerge com pergunta certa)."
+
+    aplicacao:
+      - "Nunca aceitar primeira resposta"
+      - "Pergunta follow-up: 'Anything you'd change?'"
+      - "99% contradizem primeira resposta"
+      - "Paciencia para chegar a segunda verdade"
+
+    evidencias:
+      - citacao: "First response is protected story (automatic). Second response is real truth (emerges with right question)."
+        chunk_id: "JM045_MM02"
+        source_id: "JM-0045"
+        source_title: "Two Truths Psychology"
+
+    dominios:
+      - "psychology"
+      - "probing"
+      - "truth-finding"
+
+    peso: 0.95
+
+  - id: "MM-JM-007"
+    modelo: "Neutral Stance Positioning"
+    descricao: "Nao excitado (vendedor tipico), nao negativo (Debbie Downer). NEUTRO = autoridade confiavel."
+
+    aplicacao:
+      - "Energia interna, nao externa"
+      - "Neutralidade transmite confianca"
+      - "Nem desperado nem desinteressado"
+      - "Tom de consultor, nao vendedor"
+
+    evidencias:
+      - citacao: "Not excited (typical salesperson), not negative. NEUTRAL = trusted authority."
+        chunk_id: "JM055_MM02"
+        source_id: "JM-0055"
+        source_title: "Energy Management"
+
+    dominios:
+      - "positioning"
+      - "energy"
+      - "authority"
+
+    peso: 0.92
+
+  - id: "MM-JM-008"
+    modelo: "Internal vs External Enthusiasm"
+    descricao: "Entusiasmo EXTERNO = parece desespero para vender. Entusiasmo INTERNO (calm confidence) = atrai prospects."
+
+    aplicacao:
+      - "Suprimir energia externa excessiva"
+      - "Calma e mais atraente que excitacao"
+      - "Confianca interna se manifesta naturalmente"
+      - "High energy = red flag para prospect"
+
+    evidencias:
+      - citacao: "External enthusiasm = looks like desperation. Internal enthusiasm (calm confidence) = attracts prospects."
+        chunk_id: "JM055_MM03"
+        source_id: "JM-0055"
+        source_title: "Energy Management"
+
+    dominios:
+      - "energy"
+      - "enthusiasm"
+      - "attraction"
+
+    peso: 0.91
+
+  - id: "MM-JM-009"
+    modelo: "Pattern Interrupt Model"
+    descricao: "99.9% dos vendedores usam mesma abertura ('Hi, my name is...'). Interromper padrao = ganhar atencao instantanea."
+
+    aplicacao:
+      - "Abrir de forma inesperada"
+      - "'Could you possibly help me out for a moment?'"
+      - "Quebrar expectativa = ganhar atencao"
+      - "Diferente = memoravel"
+
+    evidencias:
+      - citacao: "99.9% of salespeople use 'Hi, my name is...' Opening different interrupts pattern and gets instant attention."
+        chunk_id: "JM025_MM01"
+        source_id: "JM-0025"
+        source_title: "Cold Calling Revolution"
+
+    dominios:
+      - "opening"
+      - "attention"
+      - "differentiation"
+
+    peso: 0.93
+
+  - id: "MM-JM-010"
+    modelo: "Downplay-Rescue Response"
+    descricao: "Quando voce se diminui, instinto humano e elevar e resgatar. 'Before I go into all that boring stuff...' = prospect te resgata."
+
+    aplicacao:
+      - "Downplay seu pitch/produto"
+      - "Prospect quer resgatar voce"
+      - "Cria conexao humana instantanea"
+      - "Trigger de instinto de ajuda"
+
+    evidencias:
+      - citacao: "When you downplay yourself, human instinct is to rescue and elevate. 'Before I go into all that boring stuff...'"
+        chunk_id: "JM025_MM02"
+        source_id: "JM-0025"
+        source_title: "Cold Calling Revolution"
+
+    dominios:
+      - "psychology"
+      - "opening"
+      - "connection"
+
+    peso: 0.90
+
+  - id: "MM-JM-011"
+    modelo: "Dating Analogy Model"
+    descricao: "Vendas = namoro. Falar so de si, ignorar necessidades, pressionar commitment = rejeicao. Mesmo em sales."
+
+    aplicacao:
+      - "Perguntar sobre ELES, nao falar de VOCE"
+      - "Mostrar interesse genuino"
+      - "Commitment vem naturalmente"
+      - "Ninguem quer quem esta desesperado"
+
+    evidencias:
+      - citacao: "Talking only about yourself, ignoring their needs, pressuring commitment = rejection. Same in dating and sales."
+        chunk_id: "JM070_MM01"
+        source_id: "JM-0070"
+        source_title: "Relationship Sales"
+
+    dominios:
+      - "analogy"
+      - "relationship"
+      - "approach"
+
+    peso: 0.88
+
+  - id: "MM-JM-012"
+    modelo: "Soldier on Remote Island"
+    descricao: "Soldado que nao sabe que guerra acabou continua lutando. Joe Girard (40+ anos sem vender) e como 'gurus' ensinando tecnicas obsoletas."
+
+    aplicacao:
+      - "Questionar idade das tecnicas"
+      - "Mundo mudou radicalmente"
+      - "Consumidor de 2026 =/= de 1980"
+      - "Update constante necessario"
+
+    evidencias:
+      - citacao: "Like the soldier who doesn't know the war ended. Joe Girard hasn't sold since 1977 but gurus still teach his methods."
+        chunk_id: "JM075_MM01"
+        source_id: "JM-0075"
+        source_title: "Guru Critique"
+
+    dominios:
+      - "evolution"
+      - "gurus"
+      - "obsolescence"
+
+    peso: 0.87
+
+  - id: "MM-JM-013"
+    modelo: "Fire vs Water Motivation"
+    descricao: "Pessoas fogem do fogo (dor), nao correm para agua (prazer). Dor e 2.5x mais motivadora."
+
+    aplicacao:
+      - "Amplificar dor ATUAL"
+      - "Consequence questions = mostrar fogo"
+      - "Prazer nao gera urgencia"
+      - "Pain motivates; pleasure inspires"
+
+    evidencias:
+      - citacao: "People run FROM fire, they don't run TO water. Pain is 2.5x more motivating than pleasure."
+        chunk_id: "JM007_MM01"
+        source_id: "JM-0007"
+        source_title: "Pain Psychology"
+
+    dominios:
+      - "motivation"
+      - "pain"
+      - "urgency"
+
+    peso: 0.94
+
+  - id: "MM-JM-014"
+    modelo: "Guard Up/Guard Down Dynamic"
+    descricao: "Prospect tem guarda alta no inicio. Quando pensa que voce esta saindo, guarda baixa. 'Before I go...' revela verdade."
+
+    aplicacao:
+      - "Usar 'Before I go' para objecoes"
+      - "Guarda baixa = verdade emerge"
+      - "Nao forcar; deixar relaxar"
+      - "Spouse objection real emerge com guarda baixa"
+
+    evidencias:
+      - citacao: "When prospect thinks you're leaving, guard comes down. 'Before I go...' reveals real objection."
+        chunk_id: "JM065_MM01"
+        source_id: "JM-0065"
+        source_title: "Objection Psychology"
+
+    dominios:
+      - "psychology"
+      - "objections"
+      - "timing"
+
+    peso: 0.91
+
+  - id: "MM-JM-015"
+    modelo: "Skill Game vs Numbers Game"
+    descricao: "Mito: 'Vendas e jogo de numeros'. Realidade: E jogo de SKILL. Volume sem skill = burnout; skill multiplica resultados."
+
+    aplicacao:
+      - "Investir em skill development"
+      - "Qualidade > quantidade"
+      - "Um closer habilidoso > 10 mediocres"
+      - "Training ROI e enorme"
+
+    evidencias:
+      - citacao: "Selling is NOT a numbers game - that's a MYTH. It's a skill game. Skill multiplies results."
+        chunk_id: "JM090_MM01"
+        source_id: "JM-0090"
+        source_title: "Sales Myths"
+
+    dominios:
+      - "skills"
+      - "volume"
+      - "training"
+
+    peso: 0.90

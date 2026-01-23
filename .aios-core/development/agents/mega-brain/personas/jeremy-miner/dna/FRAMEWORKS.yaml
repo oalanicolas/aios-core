@@ -1,0 +1,714 @@
+# 02-KNOWLEDGE/DNA/PERSONS/JEREMY-MINER/FRAMEWORKS.yaml
+# Estruturas de analise e execucao - Frameworks replicaveis
+# Gerado em: 2026-01-09 | Total extraido: 212 | Top 20 documentados aqui
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-01-09T19:30:00Z"
+total_itens: 20
+total_fonte: 212
+
+frameworks:
+
+  - id: "FRA-JM-001"
+    nome: "NEPQ Framework (Neuro Emotional Persuasion Questions)"
+    descricao: "Framework completo de 6 fases de perguntas para vendas baseadas em self-persuasion"
+
+    estrutura:
+      - fase: "Phase 1: Connecting Questions"
+        objetivo: "Entender por que responderam, iniciar self-persuasion"
+        perguntas:
+          - "What was it about [X] that attracted your attention?"
+          - "Was there anything else that attracted your attention?"
+          - "Do you know what you're looking for?"
+
+      - fase: "Phase 2: Situation Questions"
+        objetivo: "Mapear situacao atual sem julgamento"
+        perguntas:
+          - "What do you currently have/use?"
+          - "How long have you had/used it?"
+          - "What made you choose that one?"
+
+      - fase: "Phase 3: Problem Awareness Questions"
+        objetivo: "Fazer prospect SENTIR a dor (80-90% da venda)"
+        perguntas:
+          - "What problems are you experiencing with [current situation]?"
+          - "How long has this been going on?"
+          - "What have you tried to fix it?"
+
+      - fase: "Phase 4: Solution Awareness Questions"
+        objetivo: "Deixar prospect descrever solucao ideal"
+        perguntas:
+          - "What would be ideal for you?"
+          - "What would that mean for you/your business?"
+          - "How important is it to solve this?"
+
+      - fase: "Phase 5: Consequence Questions"
+        objetivo: "Amplificar urgencia atraves de dor futura"
+        perguntas:
+          - "What happens if you don't solve this?"
+          - "How is this affecting [other areas]?"
+          - "What's the cost of NOT doing anything?"
+
+      - fase: "Phase 6: Commitment Questions"
+        objetivo: "Self-persuasion final, nao closing tradicional"
+        perguntas:
+          - "Do you feel like this could be what you're looking for?"
+          - "Why do you feel like it is though?"
+          - "What would you like to do from here?"
+
+    evidencias:
+      - citacao: "NEPQ - Neuro Emotional Persuasion Questions - The complete question-based selling framework"
+        source_id: "JM-0001"
+
+    dominios:
+      - "sales-methodology"
+      - "discovery"
+      - "closing"
+
+    peso: 0.98
+
+  - id: "FRA-JM-002"
+    nome: "7 Tonalities Framework"
+    descricao: "7 tons de voz distintos para diferentes situacoes de vendas - 72% da comunicacao e nao-verbal"
+
+    estrutura:
+      - tonalidade: "1. Curious"
+        uso: "Para perguntas de descoberta"
+        exemplo: "Hmmm, interessante... e o que aconteceu depois?"
+
+      - tonalidade: "2. Confused"
+        uso: "Para objecoes - desativa defesas"
+        exemplo: "Espera... nao tenho certeza se entendi..."
+
+      - tonalidade: "3. Concerned"
+        uso: "Para amplificar consequencias"
+        exemplo: "Isso me preocupa... e se isso continuar?"
+
+      - tonalidade: "4. Challenging"
+        uso: "Para testar comprometimento"
+        exemplo: "Voce realmente quer resolver isso ou...?"
+
+      - tonalidade: "5. Playful"
+        uso: "Para quebrar tensao"
+        exemplo: "Bom, eu poderia mentir e dizer que e perfeito..."
+
+      - tonalidade: "6. Skeptical"
+        uso: "Para aumentar credibilidade"
+        exemplo: "Nao sei se isso e pra todo mundo..."
+
+      - tonalidade: "7. Empathetic"
+        uso: "Para validar sentimentos"
+        exemplo: "Eu entendo como isso pode ser frustrante..."
+
+    evidencias:
+      - citacao: "72% of communication is NON-VERBAL. Tone + Pace + Pauses > Words"
+        source_id: "JM-0020"
+
+    dominios:
+      - "tonality"
+      - "communication"
+      - "non-verbal"
+
+    peso: 0.96
+
+  - id: "FRA-JM-003"
+    nome: "Two Truths Framework"
+    descricao: "Todo prospect tem duas verdades - a primeira e protegida/automatica, a segunda e real"
+
+    estrutura:
+      - passo: "1. Receber primeira resposta"
+        descricao: "Historia protegida - 'We love our current provider'"
+
+      - passo: "2. Aplicar pergunta gatilho"
+        descricao: "'Anything you would change if you could?'"
+
+      - passo: "3. Receber segunda resposta"
+        descricao: "Verdade real emerge - 'Well, actually...'"
+
+      - passo: "4. Explorar segunda verdade"
+        descricao: "Probing questions para aprofundar"
+
+    metricas:
+      - "99% contradizem primeira resposta"
+      - "8/10 dizem amar onde moram, depois contradizem"
+
+    evidencias:
+      - citacao: "Everyone has TWO TRUTHS. First is protected, second is real."
+        source_id: "JM-0045"
+
+    dominios:
+      - "psychology"
+      - "probing"
+      - "discovery"
+
+    peso: 0.95
+
+  - id: "FRA-JM-004"
+    nome: "3-Step Objection Diffusing Framework"
+    descricao: "3 passos para difundir objecoes sem confronto - 99% dos vendedores pulam para handling"
+
+    estrutura:
+      - passo: "Step 1: CLARIFY"
+        objetivo: "Entender objecao real, nao superficial"
+        perguntas:
+          - "O que voce quer dizer com isso?"
+          - "Pode me dar mais detalhes?"
+
+      - passo: "Step 2: DISCUSS"
+        objetivo: "Deixar prospect processar"
+        perguntas:
+          - "Se pudessemos resolver isso, o que significaria?"
+          - "Explore as implicacoes"
+
+      - passo: "Step 3: DIFFUSE"
+        objetivo: "Resolver com credibilidade, nao pressao"
+        tecnicas:
+          - "Use evidencias, nao argumentos"
+          - "Valide primeiro, resolva depois"
+
+    evidencias:
+      - citacao: "99% of salespeople skip straight to handling mode"
+        source_id: "JM-0060"
+
+    dominios:
+      - "objections"
+      - "diffusing"
+      - "communication"
+
+    peso: 0.94
+
+  - id: "FRA-JM-005"
+    nome: "3 Commitment Questions Framework"
+    descricao: "Substituicao de closing tradicional por self-persuasion questions"
+
+    estrutura:
+      - pergunta: "Question 1"
+        texto: "Do you feel like this could be what you're looking for?"
+        objetivo: "Ativar auto-avaliacao"
+
+      - pergunta: "Question 2"
+        texto: "Why do you feel like it is though?"
+        objetivo: "SELF-PERSUASION TRIGGER - quando dizem POR QUE, convencem a si mesmos"
+
+      - pergunta: "Question 3"
+        texto: "What would you like to do from here?"
+        objetivo: "Transferir controle - eles escolhem, nao sao pressionados"
+
+    principio: "O close acontece DURANTE o discovery, nao no final"
+
+    evidencias:
+      - citacao: "3 Commitment Questions outperform any closing technique"
+        source_id: "JM-0005"
+
+    dominios:
+      - "closing"
+      - "commitment"
+      - "self-persuasion"
+
+    peso: 0.96
+
+  - id: "FRA-JM-006"
+    nome: "Cold Call Gatekeeper Framework"
+    descricao: "Pattern interrupt para cold calls - diferente de 99.9% dos vendedores"
+
+    estrutura:
+      - passo: "1. Abertura Pattern Interrupt"
+        texto: "Hi, this is [nome]. I was wondering if you could possibly help me out for a moment?"
+        nota: "NAO usar 'Hi, my name is X from Y company...'"
+
+      - passo: "2. Pausa Estrategica"
+        duracao: "3 segundos"
+        resultado: "Gatekeeper: 'Sure, how can I help you?'"
+
+      - passo: "3. Downplay Introduction"
+        texto: "Well, I'm not sure you could yet, but I was calling to see if you would be open to looking at [problema que resolve]..."
+
+      - passo: "4. Boring Stuff Downplay"
+        texto: "...before I go into who we are and what we do and all that kind of boring stuff..."
+
+    resultado: "Gatekeeper se torna aliado, nao obstaculo"
+
+    evidencias:
+      - citacao: "99.9% use 'Hi, my name is...' which triggers instant rejection"
+        source_id: "JM-0025"
+
+    dominios:
+      - "cold-calling"
+      - "gatekeeper"
+      - "pattern-interrupt"
+
+    peso: 0.93
+
+  - id: "FRA-JM-007"
+    nome: "6-Step Warm Lead Call Framework"
+    descricao: "Sequencia completa para ligar para leads que preencheram form"
+
+    estrutura:
+      - passo: "Step 1: State who you are"
+        nota: "Relaxed, conversational"
+
+      - passo: "Step 2: Where you're from"
+        nota: "Relaxed, conversational"
+
+      - passo: "Step 3: Reference the ad"
+        texto: "It looks like you responded to an ad about..."
+        nota: "Lembra que ELES pediram para voce ligar"
+
+      - passo: "Step 4: Appropriate time check"
+        texto: "Is this an appropriate time to talk?"
+        nota: "Average salespeople pulam este step"
+
+      - passo: "Step 5: Still looking check"
+        texto: "Have you found what you're looking for or still looking?"
+        nota: "99% ainda estao procurando"
+
+      - passo: "Step 6: Present situation"
+        texto: "Before I go into who we are and all that boring stuff..."
+        nota: "Downplay-Rescue ativado"
+
+    principio: "Leads quentes NAO sao cold calls - eles pediram para voce ligar"
+
+    evidencias:
+      - citacao: "6-step framework for warm lead calls"
+        source_id: "JM-0095"
+
+    dominios:
+      - "warm-leads"
+      - "phone-calls"
+      - "opening"
+
+    peso: 0.91
+
+  - id: "FRA-JM-008"
+    nome: "Spouse Objection Framework"
+    descricao: "5 passos para lidar com 'preciso falar com meu conjuge' - 70% sao smokescreens"
+
+    estrutura:
+      - passo: "1. Acknowledge"
+        texto: "Faz total sentido consultar seu conjuge..."
+
+      - passo: "2. Benefit Question"
+        texto: "Se seu conjuge estivesse aqui, o que voce acha que ele/ela diria sobre isso?"
+
+      - passo: "3. Consequence Question"
+        texto: "O que acontece se voces decidirem nao fazer nada sobre [problema]?"
+
+      - passo: "4. Calendar Commit"
+        texto: "Quando voces vao conversar sobre isso? Que tal agendarmos um horario para os tres?"
+
+      - passo: "5. 'Before I Go' Magic Question"
+        texto: "Antes de eu ir... quais partes especificamente voce precisa discutir com seu conjuge?"
+        nota: "Guarda baixa quando pensa que voce esta saindo - objecao REAL emerge"
+
+    resultado: "Feche ALI, sem follow-up"
+
+    evidencias:
+      - citacao: "70% of 'spouse' objections are smokescreens"
+        source_id: "JM-0065"
+
+    dominios:
+      - "objections"
+      - "spouse"
+      - "closing"
+
+    peso: 0.92
+
+  - id: "FRA-JM-009"
+    nome: "Travel Commitment Pre-Check Framework"
+    descricao: "Testar commitment antes de viajar para demos/apresentacoes"
+
+    estrutura:
+      - passo: "1. Hypothetical Setup"
+        texto: "Let's pretend I fly to [city] for a demo..."
+
+      - passo: "2. Decision Scenario"
+        texto: "And everyone agrees this fits what you're looking for..."
+
+      - passo: "3. Commitment Question"
+        texto: "What do you see happening next?"
+
+    respostas_possiveis:
+      - resposta: "'Fechariamos negocio na hora'"
+        acao: "VIAJE - ha commitment real"
+      - resposta: "'Teriamos que passar pelo juridico/comite...'"
+        acao: "NAO VIAJE - remova obstaculos primeiro"
+
+    starter_phrases:
+      - "Let's pretend we could..."
+      - "What if..."
+      - "Just suppose that we could..."
+      - "Imagine for a moment..."
+      - "Assuming we were able to..."
+
+    evidencias:
+      - citacao: "Travel commitment pre-check prevents 80% of wasted trips"
+        source_id: "JM-0085"
+
+    dominios:
+      - "enterprise-sales"
+      - "commitment"
+      - "qualification"
+
+    peso: 0.89
+
+  - id: "FRA-JM-010"
+    nome: "'Too Good To Be True' Humor Response Framework"
+    descricao: "Resposta para 'isso parece bom demais para ser verdade'"
+
+    estrutura:
+      - passo: "Step 1: Acknowledge + Humor"
+        texto: "Sabe, eu poderia mentir e dizer que e perfeito... [pausa] ...mas nao seria verdade."
+
+      - passo: "Step 2: Honestidade Desarmante"
+        texto: "A verdade e que nem tudo funciona para todo mundo. E por isso que estou fazendo essas perguntas."
+
+      - passo: "Step 3: Reframe"
+        texto: "Se eu achasse que nao ia funcionar para voce, eu mesmo diria. Nao preciso dessa venda."
+
+    principio: "Humor difunde medo. Detachment aumenta confianca."
+
+    evidencias:
+      - citacao: "Humor diffuses fear. Detachment increases trust."
+        source_id: "JM-0070"
+
+    dominios:
+      - "objections"
+      - "humor"
+      - "trust"
+
+    peso: 0.88
+
+  - id: "FRA-JM-011"
+    nome: "Negative Review Reframe Framework"
+    descricao: "5 passos para lidar com 'vi reviews negativos'"
+
+    estrutura:
+      - passo: "1. Clarify"
+        texto: "O que voce viu especificamente?"
+
+      - passo: "2. Real vs Fake"
+        texto: "Voce verificou se eram reviews reais?"
+
+      - passo: "3. Quantity"
+        texto: "Quantos reviews negativos vs positivos?"
+
+      - passo: "4. Math Reframe"
+        texto: "11 em 5,132 = 0.02% = 99.98% satisfeitos"
+
+      - passo: "5. Universal Truth"
+        texto: "Impossivel agradar 100%"
+
+    evidencias:
+      - citacao: "11 complaints out of 5,132 clients = 99.8% satisfaction"
+        source_id: "JM-0070"
+
+    dominios:
+      - "objections"
+      - "social-proof"
+      - "reframe"
+
+    peso: 0.87
+
+  - id: "FRA-JM-012"
+    nome: "4 Rules of Listening Framework"
+    descricao: "Fundacao de listening para seven-figure salespeople - 99.9% nao conhecem"
+
+    estrutura:
+      - regra: "Rule 1: Be Present"
+        descricao: "Estar 100% focado, nao pensando na proxima pergunta"
+
+      - regra: "Rule 2: Be Acknowledging"
+        descricao: "Dar sinais verbais e nao-verbais de que esta ouvindo"
+
+      - regra: "Rule 3: Be Accepting"
+        descricao: "Aceitar sem julgamento (accepting =/= agreeing)"
+
+      - regra: "Rule 4: Be Curious"
+        descricao: "Genuina curiosidade, nao curiosidade performatica"
+
+    principio: "Accepting without judgment creates space for them to reconsider"
+
+    evidencias:
+      - citacao: "99.9% don't know these listening principles"
+        source_id: "JM-0085"
+
+    dominios:
+      - "listening"
+      - "presence"
+      - "discovery"
+
+    peso: 0.90
+
+  - id: "FRA-JM-013"
+    nome: "7-Figure Language Replacements Framework"
+    descricao: "Substituicoes de linguagem que diferenciam vendedores de 7 figuras"
+
+    estrutura:
+      - original: "Solution you need"
+        substituto: "Might have something that could possibly help"
+
+      - original: "Sign contract"
+        substituto: "Authorize agreement"
+
+      - original: "Follow up"
+        substituto: "Would it be appropriate to touch base?"
+
+      - original: "Should"
+        substituto: "Might"
+
+      - original: "Closing"
+        substituto: "Committing"
+
+      - original: "Objection"
+        substituto: "Concern"
+
+    principio: "Mudar vocabulario muda comportamento"
+
+    evidencias:
+      - citacao: "Language patterns differentiate seven-figure salespeople"
+        source_id: "JM-0040"
+
+    dominios:
+      - "language"
+      - "communication"
+      - "positioning"
+
+    peso: 0.89
+
+  - id: "FRA-JM-014"
+    nome: "Problem Awareness Deep Probing Framework"
+    descricao: "Perguntas expandidas para NEPQ Phase 3 - a fase mais critica"
+
+    estrutura:
+      - pergunta: "What's happening with [problem] right now?"
+        objetivo: "Current state"
+
+      - pergunta: "How long has this been going on?"
+        objetivo: "Duration/urgency"
+
+      - pergunta: "What have you done to try to fix it?"
+        objetivo: "Previous attempts"
+
+      - pergunta: "Why do you think that hasn't worked?"
+        objetivo: "Root cause"
+
+      - pergunta: "How is this affecting other areas of your [business/life]?"
+        objetivo: "Ripple effects"
+
+      - pergunta: "On a scale of 1-10, how urgent is solving this?"
+        objetivo: "Priority level"
+
+      - pergunta: "What made you reach out NOW vs 6 months ago?"
+        objetivo: "Timing trigger"
+
+    resultado: "2x closing em 7 dias com estas perguntas"
+
+    evidencias:
+      - citacao: "Problem Awareness Questions can double conversion in 7 days"
+        source_id: "JM-0003"
+
+    dominios:
+      - "discovery"
+      - "problem-awareness"
+      - "probing"
+
+    peso: 0.94
+
+  - id: "FRA-JM-015"
+    nome: "Consequence Questions Amplification Framework"
+    descricao: "Perguntas para amplificar urgencia atraves de consequencias - 5x urgency boost"
+
+    estrutura:
+      - pergunta: "What happens if you don't solve this in the next [timeframe]?"
+        objetivo: "Future pain"
+
+      - pergunta: "How will this affect [specific area] if it continues?"
+        objetivo: "Domain-specific consequences"
+
+      - pergunta: "What's the real cost of doing nothing?"
+        objetivo: "Opportunity cost"
+
+      - pergunta: "Who else is being affected by this?"
+        objetivo: "Stakeholder impact"
+
+      - pergunta: "What will life look like in a year if nothing changes?"
+        objetivo: "Long-term visualization"
+
+    principio: "Pain is 2.5x more motivating than pleasure"
+
+    evidencias:
+      - citacao: "Consequence Questions amplify urgency by 5x"
+        source_id: "JM-0007"
+
+    dominios:
+      - "urgency"
+      - "consequences"
+      - "motivation"
+
+    peso: 0.92
+
+  - id: "FRA-JM-016"
+    nome: "'I Need to Think About It' Framework"
+    descricao: "Sequencia para revelar objecao real quando prospect pede tempo"
+
+    estrutura:
+      - passo: "1. Validate"
+        texto: "Nao e problema. E uma grande decisao..."
+
+      - passo: "2. Curious Clarification"
+        texto: "So por curiosidade, o que especificamente voce precisa pensar?"
+        tonalidade: "Curious, not challenging"
+
+      - passo: "3. Listen"
+        nota: "Objecao real emerge"
+
+      - passo: "4. Solution Awareness"
+        texto: "Se pudessemos resolver isso, o que significaria?"
+
+      - passo: "5. Resolve"
+        nota: "Enderece objecao real, nao a superficial"
+
+      - passo: "6. Commitment Question"
+        texto: "Agora que resolvemos isso, como voce se sente?"
+
+    evidencias:
+      - citacao: "'I need to think about it' usually hides a specific concern"
+        source_id: "JM-0060"
+
+    dominios:
+      - "objections"
+      - "stalling"
+      - "discovery"
+
+    peso: 0.90
+
+  - id: "FRA-JM-017"
+    nome: "Budget Discussion Framework"
+    descricao: "9 perguntas NEPQ para descobrir processo orcamentario"
+
+    estrutura:
+      - pergunta: "Typically, how does the budget process work at your company?"
+        objetivo: "Process understanding"
+
+      - pergunta: "Who else would need to be involved in the budget discussion?"
+        objetivo: "Stakeholder mapping"
+
+      - pergunta: "How have you budgeted for similar projects in the past?"
+        objetivo: "Historical context"
+
+      - pergunta: "What happens if this comes in over your initial expectations?"
+        objetivo: "Flexibility assessment"
+
+      - pergunta: "Is budget typically the deciding factor, or are there other priorities?"
+        objetivo: "Priority ranking"
+
+    principio: "Budget objection often masks other concerns"
+
+    evidencias:
+      - citacao: "9 NEPQ questions for budgetary process discovery"
+        source_id: "JM-0085"
+
+    dominios:
+      - "budget"
+      - "discovery"
+      - "qualification"
+
+    peso: 0.88
+
+  - id: "FRA-JM-018"
+    nome: "Doctor-Patient Diagnostic Framework"
+    descricao: "Posicionamento como medico fazendo diagnostico, nao vendedor fazendo pitch"
+
+    estrutura:
+      - principio: "1. Medico nao prescreve sem diagnostico"
+        aplicacao: "Nao apresentar solucao sem discovery completo"
+
+      - principio: "2. Paciente conhece sintomas"
+        aplicacao: "Prospect e expert em seu problema"
+
+      - principio: "3. Medico faz perguntas antes de dar respostas"
+        aplicacao: "Questions first, solutions second"
+
+      - principio: "4. Confianca vem do diagnostico"
+        aplicacao: "Trust is built in discovery, not rapport"
+
+    resultado: "Prospect ve voce como autoridade confiavel, nao vendedor"
+
+    evidencias:
+      - citacao: "Doctors don't give answers without first asking questions"
+        source_id: "JM-0001"
+
+    dominios:
+      - "positioning"
+      - "authority"
+      - "trust"
+
+    peso: 0.93
+
+  - id: "FRA-JM-019"
+    nome: "Competitor Handling Framework"
+    descricao: "Resposta para 'Estou olhando outros fornecedores'"
+
+    estrutura:
+      - passo: "1. Validate"
+        texto: "Faz sentido comparar opcoes..."
+
+      - passo: "2. Curious Discovery"
+        texto: "O que especificamente voce esta comparando?"
+
+      - passo: "3. Priority Ranking"
+        texto: "Qual criterio e mais importante para sua decisao?"
+
+      - passo: "4. Differentiation Discovery"
+        texto: "O que voce viu la que achou interessante?"
+
+      - passo: "5. Position"
+        texto: "[Basear diferenciacao no que eles valorizaram]"
+
+    principio: "Descobrir criterios antes de defender seu produto"
+
+    evidencias:
+      - citacao: "Competitor price objection requires understanding their real criteria first"
+        source_id: "JM-0075"
+
+    dominios:
+      - "competition"
+      - "objections"
+      - "positioning"
+
+    peso: 0.87
+
+  - id: "FRA-JM-020"
+    nome: "Pattern Interrupt Opening Framework"
+    descricao: "Aberturas que quebram padroes esperados"
+
+    estrutura:
+      - tecnica: "Help Request"
+        texto: "Could you possibly help me out for a moment?"
+        psicologia: "Ativa instinto de ajuda"
+
+      - tecnica: "Uncertainty Lead"
+        texto: "I'm not sure if you could, but..."
+        psicologia: "Downplay cria curiosidade"
+
+      - tecnica: "Boring Stuff Disclaimer"
+        texto: "Before I go into all that boring stuff..."
+        psicologia: "Downplay-Rescue activation"
+
+      - tecnica: "Permission Based"
+        texto: "Would it be okay if I ask a few questions first?"
+        psicologia: "Gives control to prospect"
+
+    resultado: "Diferenciacao instantanea de 99.9% dos vendedores"
+
+    evidencias:
+      - citacao: "Pattern interrupt eliminates 95% of immediate rejection"
+        source_id: "JM-0025"
+
+    dominios:
+      - "opening"
+      - "pattern-interrupt"
+      - "differentiation"
+
+    peso: 0.91

@@ -1,0 +1,1011 @@
+# 02-KNOWLEDGE/DNA/PERSONS/JEREMY-MINER/HEURISTICAS.yaml
+# Regras praticas COM NUMEROS especificos
+# Gerado em: 2026-01-09 | Total extraido: 537 | Top 50 documentadas aqui
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-01-09T19:30:00Z"
+total_itens: 50
+total_fonte: 537
+
+heuristicas:
+
+  - id: "HEU-JM-001"
+    regra: "72% da comunicacao e NAO-VERBAL (tom, ritmo, pausas)"
+
+    contexto: "Tonalidade e mais importante que palavras"
+    aplicacao:
+      - "Estudar 7 tonalidades NEPQ"
+      - "Mesmas palavras, diferentes tons = resultados opostos"
+      - "Pausas de 3+ segundos criam pressao produtiva"
+
+    metricas:
+      valor: 72
+      unidade: "percent"
+      condicao: "comunicacao nao-verbal"
+
+    evidencias:
+      - citacao: "72% of communication is NON-VERBAL"
+        source_id: "JM-0020"
+
+    peso: 0.95
+
+  - id: "HEU-JM-002"
+    regra: "Dor e 2.5x mais motivadora que prazer"
+
+    contexto: "Psychology de motivacao"
+    aplicacao:
+      - "Amplificar dor presente"
+      - "Consequence questions antes de solution"
+      - "Pain triggers action; pleasure inspires dreams"
+
+    metricas:
+      valor: 2.5
+      unidade: "multiplicador"
+      condicao: "motivacao dor vs prazer"
+
+    evidencias:
+      - citacao: "Pain is 2.5x more motivating than pleasure"
+        source_id: "JM-0007"
+
+    peso: 0.94
+
+  - id: "HEU-JM-003"
+    regra: "82% dos vendedores desconfortaveis com tecnicas tradicionais"
+
+    contexto: "Industry statistics - North American survey"
+    aplicacao:
+      - "NEPQ e mais natural para maioria"
+      - "Desconforto = baixa performance"
+      - "Tecnicas tradicionais nao funcionam mais"
+
+    metricas:
+      valor: 82
+      unidade: "percent"
+      condicao: "vendedores desconfortaveis"
+
+    evidencias:
+      - citacao: "82% of salespeople are uncomfortable using traditional sales techniques"
+        source_id: "JM-0035"
+
+    peso: 0.91
+
+  - id: "HEU-JM-004"
+    regra: "95% dos prospects dizem 'sim' com discovery adequado"
+
+    contexto: "Correlacao discovery-close"
+    aplicacao:
+      - "Investir 80%+ tempo em discovery"
+      - "Close rate baixo = problema de discovery"
+      - "Discovery bem feito = close natural"
+
+    metricas:
+      valor: 95
+      unidade: "percent"
+      condicao: "com discovery adequado"
+
+    evidencias:
+      - citacao: "95% will say yes if you've done discovery correctly"
+        source_id: "JM-0003"
+
+    peso: 0.93
+
+  - id: "HEU-JM-005"
+    regra: "99% contradizem primeira resposta com pergunta certa"
+
+    contexto: "Two Truths Psychology"
+    aplicacao:
+      - "Nunca aceitar primeira resposta"
+      - "Follow-up: 'Anything you'd change?'"
+      - "Segunda verdade e a real"
+
+    metricas:
+      valor: 99
+      unidade: "percent"
+      condicao: "com pergunta follow-up correta"
+
+    evidencias:
+      - citacao: "99% will contradict their first response when you ask the right follow-up"
+        source_id: "JM-0045"
+
+    peso: 0.94
+
+  - id: "HEU-JM-006"
+    regra: "99% dos vendedores pulam clarificacao de objecoes"
+
+    contexto: "3-Step Diffusing"
+    aplicacao:
+      - "Sempre clarificar antes de responder"
+      - "Step 1: 'O que voce quer dizer com isso?'"
+      - "Objecao superficial =/= objecao real"
+
+    metricas:
+      valor: 99
+      unidade: "percent"
+      condicao: "pulam para handling mode"
+
+    evidencias:
+      - citacao: "99% of salespeople skip straight to handling mode"
+        source_id: "JM-0060"
+
+    peso: 0.92
+
+  - id: "HEU-JM-007"
+    regra: "99.9% dos vendedores erram abertura de cold call"
+
+    contexto: "Cold Call Framework"
+    aplicacao:
+      - "Nao usar 'Hi, my name is X from Y company...'"
+      - "Pattern interrupt obrigatorio"
+      - "'Could you possibly help me out?' = diferente"
+
+    metricas:
+      valor: 99.9
+      unidade: "percent"
+      condicao: "usam abertura tradicional"
+
+    evidencias:
+      - citacao: "99.9% use 'Hi, my name is...' which triggers instant rejection"
+        source_id: "JM-0025"
+
+    peso: 0.93
+
+  - id: "HEU-JM-008"
+    regra: "70% das objecoes 'conjuge' sao smokescreens"
+
+    contexto: "Spouse Objection Framework"
+    aplicacao:
+      - "Nao aceitar objecao spouse imediatamente"
+      - "'Before I go...' revela objecao real"
+      - "30% sao legitimas - agendar com ambos"
+
+    metricas:
+      valor: 70
+      unidade: "percent"
+      condicao: "sao objecoes falsas"
+
+    evidencias:
+      - citacao: "70% of 'I need to talk to my spouse' objections are smokescreens"
+        source_id: "JM-0065"
+
+    peso: 0.91
+
+  - id: "HEU-JM-009"
+    regra: "9 em 10 que pedem 'envie info' NUNCA retornam"
+
+    contexto: "Follow-up psychology"
+    aplicacao:
+      - "'Envie info' = educada rejeicao"
+      - "Nao enviar; descobrir objecao real"
+      - "Perguntar: 'O que especificamente voce quer ver?'"
+
+    metricas:
+      valor: 90
+      unidade: "percent"
+      condicao: "nao retornam"
+
+    evidencias:
+      - citacao: "9 out of 10 who ask for information never call back"
+        source_id: "JM-0080"
+
+    peso: 0.90
+
+  - id: "HEU-JM-010"
+    regra: "99% dos warm leads ainda estao procurando"
+
+    contexto: "Warm Lead Call Framework"
+    aplicacao:
+      - "Perguntar: 'Ainda procurando ou ja encontrou?'"
+      - "99% = ainda procurando"
+      - "Abre conversa de discovery"
+
+    metricas:
+      valor: 99
+      unidade: "percent"
+      condicao: "ainda procurando"
+
+    evidencias:
+      - citacao: "99% of warm leads are still looking when you ask"
+        source_id: "JM-0095"
+
+    peso: 0.89
+
+  - id: "HEU-JM-011"
+    regra: "Closing e apenas 1-2% do processo de vendas"
+
+    contexto: "Sales Process Distribution"
+    aplicacao:
+      - "Nao estudar closing techniques"
+      - "98-99% e discovery/qualification"
+      - "Close acontece naturalmente"
+
+    metricas:
+      valor: "1-2"
+      unidade: "percent"
+      condicao: "do processo total"
+
+    evidencias:
+      - citacao: "Closing is only 1-2% of the sales process"
+        source_id: "JM-0005"
+
+    peso: 0.95
+
+  - id: "HEU-JM-012"
+    regra: "Problem finding = 80-90% da venda"
+
+    contexto: "Discovery Distribution"
+    aplicacao:
+      - "Inverter tempo gasto em discovery vs pitch"
+      - "Encontrar problema e a venda"
+      - "Resolver e apenas 10-20%"
+
+    metricas:
+      valor: "80-90"
+      unidade: "percent"
+      condicao: "da venda"
+
+    evidencias:
+      - citacao: "Problem finding is 80-90% of the sale. Solving is only 10-20%"
+        source_id: "JM-0003"
+
+    peso: 0.96
+
+  - id: "HEU-JM-013"
+    regra: "$42,340.57 salario medio vendedor (PayScale)"
+
+    contexto: "Industry baseline"
+    aplicacao:
+      - "Resultado de tecnicas tradicionais"
+      - "NEPQ transcende media"
+      - "Skill gap entre average e seven-figure"
+
+    metricas:
+      valor: 42340.57
+      unidade: "USD/ano"
+      condicao: "salario medio US"
+
+    evidencias:
+      - citacao: "$42,340.57 average salesperson salary according to PayScale"
+        source_id: "JM-0090"
+
+    peso: 0.88
+
+  - id: "HEU-JM-014"
+    regra: "$33M+ em comissoes pessoais (Jeremy Miner)"
+
+    contexto: "Credencial do criador"
+    aplicacao:
+      - "Prova de conceito do metodo"
+      - "NEPQ funciona em escala"
+      - "Nao e teoria - e pratica comprovada"
+
+    metricas:
+      valor: 33000000
+      unidade: "USD"
+      condicao: "comissoes pessoais carreira"
+
+    evidencias:
+      - citacao: "$33M+ in personal sales commissions"
+        source_id: "JM-0001"
+
+    peso: 0.95
+
+  - id: "HEU-JM-015"
+    regra: "10x melhor PREVENIR objecoes do que manejar"
+
+    contexto: "Objection Prevention vs Handling"
+    aplicacao:
+      - "Discovery elimina objecoes"
+      - "Handling e band-aid"
+      - "Cada objecao = gap no discovery"
+
+    metricas:
+      valor: 10
+      unidade: "multiplicador"
+      condicao: "eficiencia prevencao vs handling"
+
+    evidencias:
+      - citacao: "It's 10x better to prevent objections than to handle them"
+        source_id: "JM-0060"
+
+    peso: 0.93
+
+  - id: "HEU-JM-016"
+    regra: "2x closing em 7 dias com Problem Awareness Questions"
+
+    contexto: "Impact of NEPQ Phase 3"
+    aplicacao:
+      - "Problem Awareness e a fase critica"
+      - "Fazer prospect SENTIR a dor"
+      - "Resultados rapidos possiveis"
+
+    metricas:
+      valor: 2
+      unidade: "multiplicador"
+      condicao: "em 7 dias"
+
+    evidencias:
+      - citacao: "Doubled closing rate in 7 days just with Problem Awareness Questions"
+        source_id: "JM-0003"
+
+    peso: 0.89
+
+  - id: "HEU-JM-017"
+    regra: "Joe Girard 40+ anos sem vender carro (desde 1977)"
+
+    contexto: "Guru Critique"
+    aplicacao:
+      - "Questionar idade das tecnicas"
+      - "World's Greatest Salesman = obsoleto"
+      - "Ensinar =/= praticar atualmente"
+
+    metricas:
+      valor: 40
+      unidade: "anos"
+      condicao: "desde ultima venda"
+
+    evidencias:
+      - citacao: "Joe Girard hasn't sold a car since 1977"
+        source_id: "JM-0075"
+
+    peso: 0.87
+
+  - id: "HEU-JM-018"
+    regra: "#45 Sales Rep entre 100M+ nos EUA"
+
+    contexto: "Jeremy Miner ranking"
+    aplicacao:
+      - "Prova de conceito empirica"
+      - "Top 0.00005% performance"
+      - "Metodo validated em escala"
+
+    metricas:
+      valor: 45
+      unidade: "ranking"
+      condicao: "entre 100+ milhoes"
+
+    evidencias:
+      - citacao: "#45 Sales Rep in the USA among 100+ million salespeople"
+        source_id: "JM-0001"
+
+    peso: 0.94
+
+  - id: "HEU-JM-019"
+    regra: "7,000+ testimonials em 26 meses"
+
+    contexto: "Social proof 7th Level"
+    aplicacao:
+      - "NEPQ funciona para outros"
+      - "Nao e one-person success"
+      - "Method replicavel"
+
+    metricas:
+      valor: 7000
+      unidade: "testimonials"
+      condicao: "em 26 meses"
+
+    evidencias:
+      - citacao: "7,000+ testimonials in 26 months"
+        source_id: "JM-0001"
+
+    peso: 0.92
+
+  - id: "HEU-JM-020"
+    regra: "95% de rejeicao com abordagem tradicional"
+
+    contexto: "Cold Call tradicional"
+    aplicacao:
+      - "Abordagem tradicional nao funciona"
+      - "Pattern interrupt elimina 95%"
+      - "Apenas 5% conversam com tradicional"
+
+    metricas:
+      valor: 95
+      unidade: "percent"
+      condicao: "rejeicao imediata"
+
+    evidencias:
+      - citacao: "95% rejection rate with traditional cold call approach"
+        source_id: "JM-0025"
+
+    peso: 0.90
+
+  - id: "HEU-JM-021"
+    regra: "8/10 pessoas dizem 'sim' para qualquer lugar que moram"
+
+    contexto: "Two Truths demonstration"
+    aplicacao:
+      - "'Voce gosta de onde mora?' = sempre sim"
+      - "Follow-up revela insatisfacao"
+      - "Primeira verdade e automatica"
+
+    metricas:
+      valor: 80
+      unidade: "percent"
+      condicao: "resposta inicial positiva"
+
+    evidencias:
+      - citacao: "8 out of 10 say they love where they live, then contradict when asked 'anything you'd change?'"
+        source_id: "JM-0045"
+
+    peso: 0.88
+
+  - id: "HEU-JM-022"
+    regra: "99.8% sem reclamacoes (11 em 5,132 clientes)"
+
+    contexto: "Negative Review Reframe"
+    aplicacao:
+      - "Math reframe para objecao 'vi reviews negativos'"
+      - "11/5132 = 0.002% reclamacoes"
+      - "99.8% satisfacao"
+
+    metricas:
+      valor: 99.8
+      unidade: "percent"
+      condicao: "satisfacao calculada"
+
+    evidencias:
+      - citacao: "11 complaints out of 5,132 clients = 99.8% satisfaction"
+        source_id: "JM-0070"
+
+    peso: 0.87
+
+  - id: "HEU-JM-023"
+    regra: "Pausa de 3 segundos apos perguntas-chave"
+
+    contexto: "Timing e silencio"
+    aplicacao:
+      - "Silencio cria pressao produtiva"
+      - "Prospect precisa de tempo para processar"
+      - "Vendedor que fala primeiro perde"
+
+    metricas:
+      valor: 3
+      unidade: "segundos"
+      condicao: "pausa minima"
+
+    evidencias:
+      - citacao: "Pause for at least 3 seconds after key questions"
+        source_id: "JM-0020"
+
+    peso: 0.91
+
+  - id: "HEU-JM-024"
+    regra: "7 tonalidades para diferentes situacoes"
+
+    contexto: "Tonality Framework"
+    aplicacao:
+      - "Curious, Confused, Concerned, Challenging, Playful, Skeptical, Empathetic"
+      - "Tom certo para momento certo"
+      - "Confused = melhor para objecoes"
+
+    metricas:
+      valor: 7
+      unidade: "tonalidades"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "7 distinct tonalities for different situations in NEPQ"
+        source_id: "JM-0020"
+
+    peso: 0.93
+
+  - id: "HEU-JM-025"
+    regra: "Self-persuasion comeca na PRIMEIRA connecting question"
+
+    contexto: "NEPQ Phase 1"
+    aplicacao:
+      - "'What attracted your attention?' ja ativa self-persuasion"
+      - "Prospect comecar a vender para si mesmo"
+      - "Cada fase amplifica"
+
+    metricas:
+      valor: 1
+      unidade: "fase"
+      condicao: "inicio do processo"
+
+    evidencias:
+      - citacao: "Self-persuasion starts from the FIRST connecting question"
+        source_id: "JM-0001"
+
+    peso: 0.90
+
+  - id: "HEU-JM-026"
+    regra: "Vendedores medios pulam Step 4 (appropriate time)"
+
+    contexto: "6-Step Warm Lead Call"
+    aplicacao:
+      - "'Is this an appropriate time?' = respeito"
+      - "Pular = parecer desesperado"
+      - "Step 4 diferencia seven-figure"
+
+    metricas:
+      valor: 4
+      unidade: "step"
+      condicao: "frequentemente pulado"
+
+    evidencias:
+      - citacao: "Average salespeople skip Step 4 - asking if it's appropriate time"
+        source_id: "JM-0095"
+
+    peso: 0.88
+
+  - id: "HEU-JM-027"
+    regra: "Entusiasmo externo = interpretado como desespero"
+
+    contexto: "Energy Management"
+    aplicacao:
+      - "High energy = red flag"
+      - "Calm confidence = atrai"
+      - "Interno sim, externo nao"
+
+    metricas:
+      valor: 0
+      unidade: "nivel"
+      condicao: "entusiasmo externo ideal"
+
+    evidencias:
+      - citacao: "External enthusiasm is interpreted as desperation to make the sale"
+        source_id: "JM-0055"
+
+    peso: 0.91
+
+  - id: "HEU-JM-028"
+    regra: "Gurus ensinando tecnicas de 60-80 anos atras"
+
+    contexto: "Industry Critique"
+    aplicacao:
+      - "Tecnicas de 1940s-1960s"
+      - "Consumidor completamente diferente"
+      - "NEPQ e para era moderna"
+
+    metricas:
+      valor: "60-80"
+      unidade: "anos"
+      condicao: "idade das tecnicas"
+
+    evidencias:
+      - citacao: "Gurus 60-80 years old teaching techniques from the 1960s-1980s"
+        source_id: "JM-0075"
+
+    peso: 0.86
+
+  - id: "HEU-JM-029"
+    regra: "Prospects tem media de 3-5 objecoes escondidas"
+
+    contexto: "Objection Depth"
+    aplicacao:
+      - "Uma objecao raramente e a unica"
+      - "Probing revela camadas"
+      - "Resolver todas antes de fechar"
+
+    metricas:
+      valor: "3-5"
+      unidade: "objecoes"
+      condicao: "media escondidas"
+
+    evidencias:
+      - citacao: "Prospects have an average of 3-5 hidden objections"
+        source_id: "JM-0060"
+
+    peso: 0.87
+
+  - id: "HEU-JM-030"
+    regra: "85% dos prospects decidem nos primeiros 4 segundos"
+
+    contexto: "First Impression"
+    aplicacao:
+      - "Abertura e critica"
+      - "4 segundos para capturar atencao"
+      - "Pattern interrupt essencial"
+
+    metricas:
+      valor: 85
+      unidade: "percent"
+      condicao: "decisao em 4 segundos"
+
+    evidencias:
+      - citacao: "85% of prospects decide in the first 4 seconds"
+        source_id: "JM-0025"
+
+    peso: 0.89
+
+  - id: "HEU-JM-031"
+    regra: "Perguntas abertas geram 3-5x mais informacao"
+
+    contexto: "Question Design"
+    aplicacao:
+      - "Evitar perguntas sim/nao"
+      - "Open-ended = discovery profundo"
+      - "'What' e 'How' > 'Is' e 'Do'"
+
+    metricas:
+      valor: "3-5"
+      unidade: "multiplicador"
+      condicao: "vs perguntas fechadas"
+
+    evidencias:
+      - citacao: "Open-ended questions generate 3-5x more information than closed"
+        source_id: "JM-0003"
+
+    peso: 0.90
+
+  - id: "HEU-JM-032"
+    regra: "Follow-up medio para fechar: 5-12 contatos"
+
+    contexto: "Sales Cycle Length"
+    aplicacao:
+      - "Nao desistir apos 1-2 contatos"
+      - "Persistencia inteligente"
+      - "Maioria desiste antes do 5o"
+
+    metricas:
+      valor: "5-12"
+      unidade: "contatos"
+      condicao: "para fechar"
+
+    evidencias:
+      - citacao: "Average follow-up to close: 5-12 contacts"
+        source_id: "JM-0080"
+
+    peso: 0.88
+
+  - id: "HEU-JM-033"
+    regra: "80% das vendas acontecem apos 5o contato"
+
+    contexto: "Follow-up Persistence"
+    aplicacao:
+      - "Maioria desiste antes do 5o"
+      - "Persistencia = diferencial"
+      - "Follow-up com valor, nao pressao"
+
+    metricas:
+      valor: 80
+      unidade: "percent"
+      condicao: "apos 5 contatos"
+
+    evidencias:
+      - citacao: "80% of sales happen after the 5th contact"
+        source_id: "JM-0080"
+
+    peso: 0.89
+
+  - id: "HEU-JM-034"
+    regra: "Silencio de 4+ segundos cria desconforto produtivo"
+
+    contexto: "Strategic Silence"
+    aplicacao:
+      - "Prospect preenche silencio com verdade"
+      - "Nao quebrar silencio primeiro"
+      - "Desconforto e aliado"
+
+    metricas:
+      valor: 4
+      unidade: "segundos"
+      condicao: "minimo para efeito"
+
+    evidencias:
+      - citacao: "4+ seconds of silence creates productive discomfort"
+        source_id: "JM-0020"
+
+    peso: 0.88
+
+  - id: "HEU-JM-035"
+    regra: "3 Commitment Questions > qualquer tecnica de closing"
+
+    contexto: "Closing Alternative"
+    aplicacao:
+      - "Commitment questions substituem closing"
+      - "Self-persuasion > external pressure"
+      - "Prospect fecha a si mesmo"
+
+    metricas:
+      valor: 3
+      unidade: "perguntas"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "3 Commitment Questions outperform any closing technique"
+        source_id: "JM-0005"
+
+    peso: 0.94
+
+  - id: "HEU-JM-036"
+    regra: "6 passos para warm lead call framework"
+
+    contexto: "Warm Lead Structure"
+    aplicacao:
+      - "State who you are, where from, reference ad, appropriate time, still looking, present situation"
+      - "Sequencia completa"
+      - "Nao pular nenhum step"
+
+    metricas:
+      valor: 6
+      unidade: "steps"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "6-step framework for warm lead calls"
+        source_id: "JM-0095"
+
+    peso: 0.91
+
+  - id: "HEU-JM-037"
+    regra: "NEPQ tem 6 fases de perguntas"
+
+    contexto: "NEPQ Framework Structure"
+    aplicacao:
+      - "Connecting, Situation, Problem Awareness, Solution Awareness, Consequence, Commitment"
+      - "Ordem importa"
+      - "Cada fase prepara proxima"
+
+    metricas:
+      valor: 6
+      unidade: "fases"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "NEPQ has 6 question phases"
+        source_id: "JM-0001"
+
+    peso: 0.96
+
+  - id: "HEU-JM-038"
+    regra: "Downplay-Rescue ativa instinto de ajuda"
+
+    contexto: "Human Psychology"
+    aplicacao:
+      - "'Before I go into all that boring stuff...'"
+      - "Prospect quer resgatar voce"
+      - "Conexao instantanea"
+
+    metricas:
+      valor: 100
+      unidade: "percent"
+      condicao: "instinto universal"
+
+    evidencias:
+      - citacao: "Downplay-Rescue activates human help instinct"
+        source_id: "JM-0025"
+
+    peso: 0.89
+
+  - id: "HEU-JM-039"
+    regra: "Confused tone desativa 90% das defesas"
+
+    contexto: "Objection Handling Tonality"
+    aplicacao:
+      - "'Hmm, I'm not sure I understand...' (confused)"
+      - "Prospect explica mais"
+      - "Defesas baixam com confusao genuina"
+
+    metricas:
+      valor: 90
+      unidade: "percent"
+      condicao: "defesas desativadas"
+
+    evidencias:
+      - citacao: "Confused tone deactivates 90% of prospect defenses"
+        source_id: "JM-0020"
+
+    peso: 0.90
+
+  - id: "HEU-JM-040"
+    regra: "Travel commitment pre-check evita 80% de viagens desperdicadas"
+
+    contexto: "Enterprise Sales"
+    aplicacao:
+      - "'Let's pretend I flew there... what happens next?'"
+      - "Testar commitment antes de viajar"
+      - "Evitar demos sem decisao"
+
+    metricas:
+      valor: 80
+      unidade: "percent"
+      condicao: "viagens desperdicadas evitadas"
+
+    evidencias:
+      - citacao: "Travel commitment pre-check prevents 80% of wasted trips"
+        source_id: "JM-0085"
+
+    peso: 0.87
+
+  - id: "HEU-JM-041"
+    regra: "'Before I go' revela objecao real em 70%+ dos casos"
+
+    contexto: "Guard Down Technique"
+    aplicacao:
+      - "Usar quando prospect parece decidido a nao comprar"
+      - "Guarda baixa quando pensa que voce vai embora"
+      - "Objecao real emerge"
+
+    metricas:
+      valor: 70
+      unidade: "percent"
+      condicao: "revelacao de objecao real"
+
+    evidencias:
+      - citacao: "'Before I go' reveals real objection in 70%+ of cases"
+        source_id: "JM-0065"
+
+    peso: 0.89
+
+  - id: "HEU-JM-042"
+    regra: "Connecting question 1 tem 3 partes recomendadas"
+
+    contexto: "NEPQ Phase 1 Detail"
+    aplicacao:
+      - "'What attracted your attention?' + 'Anything else?' + 'What are you looking for?'"
+      - "Tres perguntas em sequencia"
+      - "Build momentum from start"
+
+    metricas:
+      valor: 3
+      unidade: "partes"
+      condicao: "connecting question 1"
+
+    evidencias:
+      - citacao: "Connecting question 1 has 3 recommended parts"
+        source_id: "JM-0001"
+
+    peso: 0.88
+
+  - id: "HEU-JM-043"
+    regra: "Concern diffusing tem 3 steps obrigatorios"
+
+    contexto: "Objection Framework"
+    aplicacao:
+      - "Clarify -> Discuss -> Diffuse"
+      - "Nao pular para diffuse"
+      - "Sequencia completa"
+
+    metricas:
+      valor: 3
+      unidade: "steps"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "Concern diffusing has 3 mandatory steps"
+        source_id: "JM-0060"
+
+    peso: 0.92
+
+  - id: "HEU-JM-044"
+    regra: "4 Rules of Listening para seven-figures"
+
+    contexto: "Active Listening Framework"
+    aplicacao:
+      - "Be Present, Be Acknowledging, Be Accepting, Be Curious"
+      - "99.9% nao conhecem"
+      - "Foundation de discovery"
+
+    metricas:
+      valor: 4
+      unidade: "rules"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "4 Rules of Listening for seven-figure salespeople"
+        source_id: "JM-0085"
+
+    peso: 0.90
+
+  - id: "HEU-JM-045"
+    regra: "Spouse objection handling tem 5 steps"
+
+    contexto: "Spouse Framework"
+    aplicacao:
+      - "Acknowledge -> Benefit Q -> Consequence Q -> Calendar -> 'Before I go'"
+      - "Magic question revela verdade"
+      - "70% sao smokescreens"
+
+    metricas:
+      valor: 5
+      unidade: "steps"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "Spouse objection handling has 5 sequential steps"
+        source_id: "JM-0065"
+
+    peso: 0.91
+
+  - id: "HEU-JM-046"
+    regra: "Negative review reframe usa 5 steps"
+
+    contexto: "Objection: 'Vi reviews negativos'"
+    aplicacao:
+      - "Clarify -> Real vs Fake -> Quantity -> Math Reframe -> Universal Truth"
+      - "0.02% = 99.98% satisfacao"
+      - "Math dissolves emotion"
+
+    metricas:
+      valor: 5
+      unidade: "steps"
+      condicao: "framework completo"
+
+    evidencias:
+      - citacao: "Negative review reframe protocol has 5 steps"
+        source_id: "JM-0070"
+
+    peso: 0.87
+
+  - id: "HEU-JM-047"
+    regra: "Problem Awareness Questions duplicam conversao em 7 dias"
+
+    contexto: "NEPQ Phase 3 Impact"
+    aplicacao:
+      - "Fase mais impactante do NEPQ"
+      - "Fazer prospect SENTIR a dor"
+      - "Resultados rapidos possiveis"
+
+    metricas:
+      valor: 7
+      unidade: "dias"
+      condicao: "para duplicar"
+
+    evidencias:
+      - citacao: "Problem Awareness Questions can double conversion in 7 days"
+        source_id: "JM-0003"
+
+    peso: 0.88
+
+  - id: "HEU-JM-048"
+    regra: "Consequence Questions amplificam urgencia em 5x"
+
+    contexto: "NEPQ Phase 5 Impact"
+    aplicacao:
+      - "'What happens if you don't solve this?'"
+      - "Pain amplification"
+      - "Creates urgency naturally"
+
+    metricas:
+      valor: 5
+      unidade: "multiplicador"
+      condicao: "amplificacao de urgencia"
+
+    evidencias:
+      - citacao: "Consequence Questions amplify urgency by 5x"
+        source_id: "JM-0007"
+
+    peso: 0.89
+
+  - id: "HEU-JM-049"
+    regra: "Solution Awareness Questions preparam 90% do pitch"
+
+    contexto: "NEPQ Phase 4 Impact"
+    aplicacao:
+      - "'What would be ideal for you?'"
+      - "Prospect descreve solucao"
+      - "Voce so confirma que tem"
+
+    metricas:
+      valor: 90
+      unidade: "percent"
+      condicao: "do pitch preparado"
+
+    evidencias:
+      - citacao: "Solution Awareness Questions prepare 90% of your pitch"
+        source_id: "JM-0005"
+
+    peso: 0.88
+
+  - id: "HEU-JM-050"
+    regra: "153 arquivos processados = 1,199 elementos DNA"
+
+    contexto: "Source Statistics"
+    aplicacao:
+      - "Densidade de 7.8 elementos/arquivo"
+      - "Fonte mais densa do Mega Brain"
+      - "NEPQ e methodology completa"
+
+    metricas:
+      valor: 7.8
+      unidade: "elementos/arquivo"
+      condicao: "densidade media"
+
+    evidencias:
+      - citacao: "153 files processed yielding 1,199 DNA elements"
+        source_id: "SOURCE-JM.md"
+
+    peso: 0.95
