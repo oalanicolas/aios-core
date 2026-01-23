@@ -1,0 +1,161 @@
+# 02-KNOWLEDGE/DNA/PERSONS/FULL-SALES-SYSTEM/MODELOS-MENTAIS.yaml
+# Gerado em: 2025-12-24
+# Atualizado: 2026-01-10 (Fase 5 Consolidation)
+# Lentes atraves das quais problemas sao analisados
+
+pessoa: "Full Sales System"
+versao: "2.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T17:00:00Z"
+total_itens: 15
+fontes: ["FSS001", "BATCH-009", "BATCH-010", "BATCH-011", "BATCH-012", "BATCH-013", "BATCH-014", "BATCH-015"]
+
+modelos_mentais:
+
+  - id: "MM-FSS-001"
+    nome: "4 Tipos de SDR"
+    descricao: "Modelo para classificar e contratar SDRs baseado na funcao especifica que executarao."
+
+    quando_aplicar: "Contratando SDRs ou estruturando area comercial"
+
+    como_usar: |
+      IDENTIFICAR qual tipo de lead voce tem:
+
+      SDR1 - FUNIS:
+      → Leads de cadencia (1 mes)
+      → Vieram de VSL, webinar, quiz
+      → Trabalho de nurture e follow-up
+
+      SDR2 - SOCIAL SELLER:
+      → Receptivo + Prospectivo no Instagram
+      → 30-50 directs + 50-150 abordagens/dia
+      → Requer perfil digital-native
+
+      SDR3 - HUNTER:
+      → Prospeccao ativa externa
+      → Cold call, cold email, lista externa
+      → Perfil agressivo e resiliente
+
+      SDR4 - FARMER (SALES FARMING):
+      → Repescagem coordenada
+      → Leads que nao fecharam ha 30-60-90 dias
+      → Perfil paciente e persistente
+
+    evidencias:
+      - citacao: "SDR1 (Funis), SDR2 (Social Seller), SDR3 (Hunter), SDR4 (Sales Farmer)"
+        chunk_id: "FSS001_004"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "hiring"
+      - "team-structure"
+      - "specialization"
+
+    peso: 0.95
+
+  - id: "MM-FSS-002"
+    nome: "Esteira de Produtos (DIY/DWY/DFY)"
+    descricao: "Modelo de tres niveis de produto para estruturar oferta e entrega."
+
+    quando_aplicar: "Definindo mix de produtos e precificacao"
+
+    como_usar: |
+      FRONT END (DIY - Do It Yourself):
+      → R$500-3k
+      → Entrada ou saida
+      → Cursos, templates, ferramentas
+
+      BACK END (DWY - Done With You):
+      → R$10-30k
+      → Principal oferta
+      → Mentoria, grupo, acompanhamento
+      → ESCALAVEL
+
+      HIGH END (DFY - Done For You):
+      → R$50k+
+      → Caixa
+      → Servico executado
+      → POUCA ESCALA
+
+    evidencias:
+      - citacao: "Front End (DIY R$500-3k), Back End (DWY R$10-30k), High End (DFY R$50k+)"
+        chunk_id: "FSS001_005"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    relacionado_a:
+      - "Sam Ovens - DIY/DWY/DFY"
+      - "Alex Hormozi - Value Ladder"
+
+    dominios:
+      - "pricing"
+      - "product-strategy"
+      - "business-model"
+
+    peso: 0.90
+
+  - id: "MM-FSS-003"
+    nome: "Dimensionamento Comercial"
+    descricao: "Modelo para calcular tamanho de time baseado em volume de leads e capacidade."
+
+    quando_aplicar: "Decidindo quando contratar mais pessoas"
+
+    como_usar: |
+      SDR: 15-25 leads/dia = 1 SDR (max 750/mes)
+      → Menos que 15: SDR ocioso
+      → Mais que 25: Qualidade cai
+
+      CLOSER:
+      → 3-4 calls/dia = IDEAL
+      → 5 calls/dia = LIMITE
+      → 6+ calls/dia = CONTRATAR IMEDIATO
+
+      RATIO INICIAL: 1 SDR : 1 Closer
+      → Ajustar conforme taxa de conversao
+
+    evidencias:
+      - citacao: "Dimensionamento: 15-25 leads/dia = 1 SDR. 3-4 calls/dia ideal, 5 maximo, 6+ = contratar"
+        chunk_id: "FSS001_006"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "team-sizing"
+      - "capacity-planning"
+      - "hiring"
+
+    peso: 0.95
+
+  - id: "MM-FSS-004"
+    nome: "Calibracao Brasil vs USA"
+    descricao: "Modelo para ajustar expectativas e metricas do mercado americano para Brasil."
+
+    quando_aplicar: "Implementando frameworks americanos no Brasil"
+
+    como_usar: |
+      REMUNERACAO:
+      Brasil = 10-15% do mercado americano
+
+      SDR fixo: R$2k (~$400) vs USA $3.3k/mes
+      Closer OTE: R$6-10k vs USA $10-18k
+
+      TERMINOLOGIA:
+      Brasil: SDR1, SDR2, SDR3, SDR4
+      USA: BDR, SDS, BC
+
+      METRICAS:
+      Ajustar benchmarks em 10-15%
+
+    evidencias:
+      - citacao: "Calibracao Brasil vs USA: SDR fixo R$2k (~$400) vs USA $3.3k/mes. Proporcao 10-15% do mercado americano."
+        chunk_id: "FSS001_007"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "market-calibration"
+      - "compensation"
+      - "benchmarks"
+
+    peso: 0.85

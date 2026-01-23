@@ -1,0 +1,315 @@
+# 02-KNOWLEDGE/DNA/PERSONS/FULL-SALES-SYSTEM/HEURISTICAS.yaml
+# Gerado em: 2025-12-24
+# Atualizado: 2026-01-10 (Fase 5 Consolidation)
+# NOTA: Esta e a camada MAIS VALIOSA - priorizar heuristicas com numeros
+
+pessoa: "Full Sales System"
+versao: "2.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T17:00:00Z"
+total_itens: 45
+fontes: ["FSS001", "BATCH-009", "BATCH-010", "BATCH-011", "BATCH-012", "BATCH-013", "BATCH-014", "BATCH-015"]
+
+heuristicas:
+  # ===========================================================================
+  # HEURISTICAS COM THRESHOLD NUMERICO (Mais valiosas)
+  # ===========================================================================
+
+  - id: "HEUR-FSS-001"
+    regra: "15-25 leads/dia = 1 SDR. Menos e ocioso, mais e sobrecarga."
+
+    threshold:
+      valor_min: 15
+      valor_max: 25
+      operador: "range"
+      unidade: "leads/dia"
+
+    contexto_de_uso: "Dimensionando time de SDRs"
+
+    acao_recomendada: "Manter 15-25 leads/dia por SDR. Acima de 25, contratar mais."
+
+    excecoes:
+      - "SDR muito experiente pode processar mais"
+      - "Leads muito frios podem exigir menos volume"
+
+    evidencias:
+      - citacao: "SDR: 15-25 leads/dia = 1 SDR (max 750/mes)"
+        chunk_id: "FSS001_008"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "team-sizing"
+      - "capacity-planning"
+      - "sdr"
+
+    peso: 0.95
+
+  - id: "HEUR-FSS-002"
+    regra: "3-4 calls/dia = ideal para closer. 5 = limite. 6+ = contratar imediato."
+
+    threshold:
+      valor_ideal: 3.5
+      valor_limite: 5
+      valor_contratar: 6
+      operador: "steps"
+      unidade: "calls/dia"
+
+    contexto_de_uso: "Dimensionando time de closers"
+
+    acao_recomendada: "Manter closers em 3-4 calls. Se chegar a 6+, contratar urgente."
+
+    excecoes:
+      - "Calls mais curtas podem permitir mais volume"
+      - "High-ticket muito alto pode exigir menos"
+
+    evidencias:
+      - citacao: "CLOSER: 3-4 calls/dia = IDEAL, 5 calls/dia = LIMITE, 6+ calls/dia = CONTRATAR IMEDIATO"
+        chunk_id: "FSS001_009"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "team-sizing"
+      - "capacity-planning"
+      - "closing"
+
+    peso: 0.95
+
+  - id: "HEUR-FSS-003"
+    regra: "Show rate B2C >65%, B2B >70%. Abaixo disso, problema no funil."
+
+    threshold:
+      valor_b2c: 65
+      valor_b2b: 70
+      operador: ">="
+      unidade: "%"
+
+    contexto_de_uso: "Avaliando saude do funil"
+
+    acao_recomendada: "Se abaixo do threshold, revisar tempo de contato e nurturing."
+
+    excecoes:
+      - "Mercados muito frios podem ter show rate menor"
+      - "Leads muito qualificados podem ter show rate maior"
+
+    evidencias:
+      - citacao: "Show rate B2C: >65%, Show rate B2B: >70%"
+        chunk_id: "FSS001_010"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "show-rate"
+      - "funnel-health"
+      - "diagnostics"
+
+    peso: 0.90
+
+  - id: "HEUR-FSS-004"
+    regra: "ROAS >7 para operar, >10 para escalar. Abaixo de 7, otimizar primeiro."
+
+    threshold:
+      valor_operar: 7
+      valor_escalar: 10
+      operador: ">="
+      unidade: "x"
+
+    contexto_de_uso: "Decidindo se deve escalar investimento em ads"
+
+    acao_recomendada: "ROAS < 7: otimizar. ROAS 7-10: operar. ROAS > 10: escalar agressivo."
+
+    excecoes:
+      - "LTV muito alto pode justificar ROAS menor"
+      - "Fase de aquisicao de mercado pode aceitar ROAS menor temporariamente"
+
+    evidencias:
+      - citacao: "ROAS: >7 para operar, >10 para escalar"
+        chunk_id: "FSS001_011"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "unit-economics"
+      - "scaling"
+      - "marketing"
+
+    peso: 0.90
+
+  - id: "HEUR-FSS-005"
+    regra: "Tempo contato pos-lead: <5min ideal, maximo 1h. Apos isso, lead esfria."
+
+    threshold:
+      valor_ideal: 5
+      valor_max: 60
+      operador: "<="
+      unidade: "minutos"
+
+    contexto_de_uso: "Definindo SLA de contato inicial"
+
+    acao_recomendada: "Contatar lead em menos de 5 minutos. Maximo absoluto: 1 hora."
+
+    excecoes:
+      - "Leads de formulario longo podem tolerar mais"
+      - "Horario comercial pode limitar"
+
+    evidencias:
+      - citacao: "Tempo contato pos-lead: <5min, max 1h"
+        chunk_id: "FSS001_012"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "speed-to-lead"
+      - "sdr"
+      - "sla"
+
+    peso: 0.90
+
+  - id: "HEUR-FSS-006"
+    regra: "SDR2 (Social Seller): 30-50 directs + 50-150 abordagens/dia."
+
+    threshold:
+      directs_min: 30
+      directs_max: 50
+      abordagens_min: 50
+      abordagens_max: 150
+      operador: "range"
+      unidade: "mensagens/dia"
+
+    contexto_de_uso: "Definindo metas de atividade para SDR2"
+
+    acao_recomendada: "SDR2 deve fazer 30-50 directs receptivos + 50-150 abordagens prospectivas."
+
+    excecoes:
+      - "Perfil muito nichado pode exigir menos volume"
+      - "Perfil muito amplo pode permitir mais"
+
+    evidencias:
+      - citacao: "SDR2 - SOCIAL SELLER: Receptivo + Prospectivo no Instagram, 30-50 directs + 50-150 abordagens/dia"
+        chunk_id: "FSS001_013"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "social-selling"
+      - "activity-metrics"
+      - "sdr"
+
+    peso: 0.85
+
+  - id: "HEUR-FSS-007"
+    regra: "Taxa Agendamento: minima 10%, base 15%, intermediaria 20%, alvo 25%."
+
+    threshold:
+      valor_minimo: 10
+      valor_base: 15
+      valor_intermediario: 20
+      valor_alvo: 25
+      operador: "tiers"
+      unidade: "%"
+
+    contexto_de_uso: "Avaliando performance de agendamento"
+
+    acao_recomendada: "Abaixo de 10%: problema grave. 10-15%: revisar scripts. 15-20%: bom. 20-25%: excelente."
+
+    excecoes:
+      - "Leads muito frios podem ter taxa menor"
+      - "Leads muito qualificados podem ter taxa maior"
+
+    evidencias:
+      - citacao: "Taxa Agendamento: minima 10%, base 15%, intermediaria 20%, alvo 25%"
+        chunk_id: "FSS001_014"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "conversion-rate"
+      - "sdr-performance"
+      - "benchmarks"
+
+    peso: 0.90
+
+  - id: "HEUR-FSS-008"
+    regra: "Taxa Conversao (closer): minima 15%, base 20%, intermediaria 25%, alvo 30%+."
+
+    threshold:
+      valor_minimo: 15
+      valor_base: 20
+      valor_intermediario: 25
+      valor_alvo: 30
+      operador: "tiers"
+      unidade: "%"
+
+    contexto_de_uso: "Avaliando performance de fechamento"
+
+    acao_recomendada: "Abaixo de 15%: treinamento urgente. 15-20%: revisar. 20-25%: bom. 25-30%+: excelente."
+
+    excecoes:
+      - "Ticket muito alto pode ter taxa menor"
+      - "Leads muito qualificados podem ter taxa maior"
+
+    evidencias:
+      - citacao: "Taxa Conversao: minima 15%, base 20%, intermediaria 25%, alvo 30%+"
+        chunk_id: "FSS001_015"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "close-rate"
+      - "closer-performance"
+      - "benchmarks"
+
+    peso: 0.90
+
+  # ===========================================================================
+  # HEURISTICAS TEXTUAIS
+  # ===========================================================================
+
+  - id: "HEUR-FSS-009"
+    regra: "Scheduler EMBUTIDO no formulario de aplicacao. Nunca separe."
+
+    threshold: null
+
+    qualificador: "sempre embutir"
+
+    contexto_de_uso: "Configurando funil de agendamento"
+
+    acao_recomendada: "Colocar scheduler direto no final do formulario, sem passo extra."
+
+    evidencias:
+      - citacao: "Critico: Scheduler EMBUTIDO no formulario de aplicacao. Nunca separe."
+        chunk_id: "FSS001_016"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "funnel-design"
+      - "conversion-optimization"
+      - "booking"
+
+    peso: 0.85
+
+  - id: "HEUR-FSS-010"
+    regra: "Ratio inicial 1 SDR : 1 Closer. Ajustar conforme taxa de conversao."
+
+    threshold: null
+
+    qualificador: "ponto de partida"
+
+    contexto_de_uso: "Estruturando time comercial inicial"
+
+    acao_recomendada: "Comecar com 1:1, ajustar baseado em metricas reais."
+
+    evidencias:
+      - citacao: "RATIO INICIAL: 1 SDR : 1 Closer"
+        chunk_id: "FSS001_017"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "team-structure"
+      - "ratios"
+      - "scaling"
+
+    peso: 0.80

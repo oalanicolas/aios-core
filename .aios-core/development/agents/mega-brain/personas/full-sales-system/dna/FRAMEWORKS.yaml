@@ -1,0 +1,201 @@
+# 02-KNOWLEDGE/DNA/PERSONS/FULL-SALES-SYSTEM/FRAMEWORKS.yaml
+# Gerado em: 2025-12-24
+# Atualizado: 2026-01-10 (Fase 5 Consolidation)
+# Estruturas para ANALISAR situacoes
+
+pessoa: "Full Sales System"
+versao: "2.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T17:00:00Z"
+total_itens: 27
+fontes: ["FSS001", "BATCH-009", "BATCH-010", "BATCH-011", "BATCH-012", "BATCH-013", "BATCH-014", "BATCH-015"]
+
+frameworks:
+
+  - id: "FW-FSS-001"
+    nome: "4 Tipos de SDR"
+    descricao: "Framework para classificar e estruturar funcoes de pre-vendas."
+
+    componentes:
+      - componente: "SDR1 - FUNIS"
+        descricao: "Trabalha leads de cadencia (1 mes), vindos de VSL, webinar, quiz"
+        perfil: "Paciente, bom em follow-up, organizado"
+      - componente: "SDR2 - SOCIAL SELLER"
+        descricao: "Receptivo + Prospectivo no Instagram, 30-50 directs + 50-150 abordagens/dia"
+        perfil: "Digital-native, criativo, rapido"
+      - componente: "SDR3 - HUNTER"
+        descricao: "Prospeccao ativa externa, cold call, cold email, lista externa"
+        perfil: "Agressivo, resiliente, nao leva rejeicao pessoal"
+      - componente: "SDR4 - FARMER"
+        descricao: "Repescagem coordenada, leads que nao fecharam ha 30-60-90 dias"
+        perfil: "Persistente, paciente, bom em reativacao"
+
+    quando_usar: "Contratando SDRs ou estruturando area de pre-vendas"
+
+    como_aplicar: |
+      1. Identificar fonte de leads primaria
+      2. Mapear para tipo de SDR correspondente
+      3. Contratar com perfil especifico
+      4. Nao trocar SDR de funcao
+
+    evidencias:
+      - citacao: "SDR1 (Funis), SDR2 (Social Seller), SDR3 (Hunter), SDR4 (Sales Farmer)"
+        chunk_id: "FSS001_018"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "team-structure"
+      - "hiring"
+      - "specialization"
+
+    peso: 0.95
+
+  - id: "FW-FSS-002"
+    nome: "Estrutura de Oferta (5 Steps)"
+    descricao: "Sequencia de apresentacao de preco para maximizar conversao."
+
+    componentes:
+      - componente: "1. ANCORAGEM"
+        descricao: "Comparativo integro ('Investimento normal R$30k')"
+      - componente: "2. PRECO TABELA"
+        descricao: "Base psicologica"
+      - componente: "3. PROMOCIONAL"
+        descricao: "~20% off (valida NA CALL)"
+      - componente: "4. ULTIMA CONDICAO"
+        descricao: "5-7% extra (se necessario)"
+      - componente: "5. ARMAS"
+        descricao: "Bonus ocultos, isencoes (ultimo recurso)"
+
+    quando_usar: "Apresentando preco em call de vendas"
+
+    como_aplicar: |
+      1. Comecar com ancora alta (valor real ou mercado)
+      2. Mostrar preco tabela
+      3. Oferecer condicao promocional valida na call
+      4. Se necessario, usar ultima condicao
+      5. Armas so em casos de objecao financeira isolada
+
+    evidencias:
+      - citacao: "1. ANCORAGEM → 2. PRECO TABELA → 3. PROMOCIONAL → 4. ULTIMA CONDICAO → 5. ARMAS"
+        chunk_id: "FSS001_019"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "pricing"
+      - "negotiation"
+      - "closing"
+
+    peso: 0.90
+
+  - id: "FW-FSS-003"
+    nome: "Metas de Conversao por Tier"
+    descricao: "Framework de benchmarks para avaliar performance comercial."
+
+    componentes:
+      - componente: "Taxa Agendamento"
+        minima: "10%"
+        base: "15%"
+        intermediaria: "20%"
+        alvo: "25%"
+      - componente: "Taxa Conversao (Closer)"
+        minima: "15%"
+        base: "20%"
+        intermediaria: "25%"
+        alvo: "30%+"
+      - componente: "Social Prospectivo"
+        minima: "5%"
+        base: "7.5%"
+        intermediaria: "10%"
+        alvo: "12.5%"
+
+    quando_usar: "Avaliando performance e definindo metas"
+
+    como_aplicar: |
+      1. Medir metricas atuais
+      2. Comparar com tier correspondente
+      3. Definir proxima meta (subir um tier)
+      4. Nao pular tiers
+
+    evidencias:
+      - citacao: "Taxa Agendamento: minima 10%, base 15%, intermediaria 20%, alvo 25%"
+        chunk_id: "FSS001_020"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "benchmarks"
+      - "performance"
+      - "goal-setting"
+
+    peso: 0.90
+
+  - id: "FW-FSS-004"
+    nome: "Pipeline CRM (3 Pipelines)"
+    descricao: "Estrutura de pipelines para Go High Level ou similar."
+
+    componentes:
+      - componente: "Pipeline Pre-vendas"
+        etapas: "Entrada → FU1 → FU2 → FU3 → Agendamento → Reagendamento → Sales Farming"
+      - componente: "Pipeline Vendas"
+        etapas: "Agendado → No Show → Venda c/ Sinal → Venda Concluida → Farming"
+      - componente: "Pipeline CS"
+        etapas: "Onboarding → Acompanhamento → Renovacao → Fidelizacao"
+
+    quando_usar: "Configurando CRM para operacao comercial"
+
+    como_aplicar: |
+      1. Criar os 3 pipelines separados
+      2. Configurar automacoes entre etapas
+      3. Definir SLAs por etapa
+      4. Integrar com comunicacao
+
+    evidencias:
+      - citacao: "Pipeline Pre-vendas: Entrada → FU1 → FU2 → FU3 → Agendamento"
+        chunk_id: "FSS001_021"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "crm"
+      - "operations"
+      - "process"
+
+    peso: 0.85
+
+  - id: "FW-FSS-005"
+    nome: "Remuneracao Brasil"
+    descricao: "Framework de compensacao calibrado para mercado brasileiro."
+
+    componentes:
+      - componente: "SDR"
+        fixo: "R$2.000"
+        variavel: "R$10-15/agendamento que aparece"
+      - componente: "Closer"
+        fixo: "R$3.000"
+        variavel: "3-5% comissao"
+      - componente: "Gestor"
+        fixo: "R$5.000-6.500"
+        variavel: "0.5-0.7% sobre vendas do time"
+
+    quando_usar: "Definindo pacote de remuneracao para time comercial"
+
+    como_aplicar: |
+      1. Usar como base para negociacao
+      2. Ajustar conforme regiao (SP paga mais)
+      3. Variavel deve ser atingivel (OTE realista)
+      4. Revisar a cada 6 meses
+
+    evidencias:
+      - citacao: "SDR: R$2.000 fixo + R$10-15/agendamento. Closer: R$3.000 + 3-5%. Gestor: R$5.000-6.500 + 0.5-0.7%"
+        chunk_id: "FSS001_022"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "compensation"
+      - "hiring"
+      - "brazil-specific"
+
+    peso: 0.90

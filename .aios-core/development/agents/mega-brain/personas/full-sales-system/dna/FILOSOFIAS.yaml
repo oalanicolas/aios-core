@@ -1,0 +1,79 @@
+# 02-KNOWLEDGE/DNA/PERSONS/FULL-SALES-SYSTEM/FILOSOFIAS.yaml
+# Gerado em: 2025-12-24
+# Atualizado: 2026-01-10 (Fase 5 Consolidation)
+# Crencas fundamentais que guiam TODAS as decisoes
+
+pessoa: "Full Sales System"
+versao: "2.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T17:00:00Z"
+total_itens: 18
+fontes: ["FSS001", "BATCH-009", "BATCH-010", "BATCH-011", "BATCH-012", "BATCH-013", "BATCH-014", "BATCH-015"]
+
+filosofias:
+
+  - id: "FIL-FSS-001"
+    crenca: "Nao adianta copiar estrutura americana sem calibracao local. Traduzir nao e suficiente - precisa adaptar."
+
+    implicacoes:
+      - "Metricas americanas precisam de ajuste para Brasil"
+      - "Remuneracao BR e 10-15% do mercado americano"
+      - "Cultura de vendas BR tem particularidades"
+      - "SDR brasileiro tem perfil diferente do americano"
+
+    evidencias:
+      - citacao: "Nossa missao: traduzir os modelos americanos (Microsoft, IBM, Salesforce, Hormozi) para a realidade brasileira. Nao adianta copiar estrutura americana sem calibracao local."
+        chunk_id: "FSS001_001"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "market-calibration"
+      - "brazil-specific"
+      - "adaptation"
+
+    peso: 0.95
+
+  - id: "FIL-FSS-002"
+    crenca: "Nem todo SDR e igual. Cada tipo tem funcao especifica e nao funciona bem em outra."
+
+    implicacoes:
+      - "Contratar SDR para funcao especifica, nao generica"
+      - "SDR1 (Funis) ≠ SDR3 (Hunter)"
+      - "Trocar SDR de funcao = perda de produtividade"
+      - "Especializacao gera eficiencia"
+
+    evidencias:
+      - citacao: "Preciso de um SDR. Qual tipo? SDR1 nao faz cold call. SDR3 nao tem paciencia pra nurture. Contrate pra funcao especifica."
+        chunk_id: "FSS001_002"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "hiring"
+      - "specialization"
+      - "team-structure"
+
+    peso: 0.90
+
+  - id: "FIL-FSS-003"
+    crenca: "Escalar prejuizo = prejuizo maior. Primeiro otimize, depois escale."
+
+    implicacoes:
+      - "ROAS minimo de 7 para operar, 10+ para escalar"
+      - "Nao colocar mais dinheiro com ROAS baixo"
+      - "Otimizacao antes de escala"
+      - "Metricas saudaveis sao pre-requisito"
+
+    evidencias:
+      - citacao: "Vamos colocar mais dinheiro. Com ROAS 4? Primeiro otimize, depois escale. Escalar prejuizo = prejuizo maior."
+        chunk_id: "FSS001_003"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "scaling"
+      - "unit-economics"
+      - "growth"
+
+    peso: 0.90

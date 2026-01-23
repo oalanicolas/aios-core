@@ -1,0 +1,163 @@
+# 02-KNOWLEDGE/DNA/PERSONS/FULL-SALES-SYSTEM/METODOLOGIAS.yaml
+# Gerado em: 2025-12-24
+# Atualizado: 2026-01-10 (Fase 5 Consolidation)
+# Processos PASSO-A-PASSO para EXECUTAR tarefas
+
+pessoa: "Full Sales System"
+versao: "2.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T17:00:00Z"
+total_itens: 12
+fontes: ["FSS001", "BATCH-009", "BATCH-010", "BATCH-011", "BATCH-012", "BATCH-013", "BATCH-014", "BATCH-015"]
+
+metodologias:
+
+  - id: "MET-FSS-001"
+    nome: "Dimensionamento Comercial"
+    descricao: "Processo para calcular e ajustar tamanho do time comercial."
+
+    passos:
+      - ordem: 1
+        acao: "Medir volume atual de leads por dia"
+        resultado_esperado: "Numero de leads/dia"
+      - ordem: 2
+        acao: "Dividir por 20 (medio do range 15-25)"
+        resultado_esperado: "Numero de SDRs necessarios"
+      - ordem: 3
+        acao: "Medir taxa de agendamento atual"
+        resultado_esperado: "% de agendamentos"
+      - ordem: 4
+        acao: "Calcular calls/dia geradas"
+        resultado_esperado: "Numero de calls/dia"
+      - ordem: 5
+        acao: "Dividir por 3.5 (medio do range 3-4)"
+        resultado_esperado: "Numero de closers necessarios"
+      - ordem: 6
+        acao: "Se closer > 5 calls/dia, contratar imediato"
+        resultado_esperado: "Decisao de contratacao"
+      - ordem: 7
+        acao: "Revisar ratio SDR:Closer mensalmente"
+        resultado_esperado: "Ajuste continuo"
+
+    quando_usar: "Estruturando time comercial ou avaliando capacidade"
+
+    indicadores_sucesso:
+      - "SDR processando 15-25 leads/dia"
+      - "Closer fazendo 3-4 calls/dia"
+      - "Ninguem sobrecarregado"
+      - "Ninguem ocioso"
+
+    erros_comuns:
+      - "Sobrecarregar closer (6+ calls)"
+      - "Deixar SDR ocioso (<15 leads)"
+      - "Nao revisar ratio mensalmente"
+
+    evidencias:
+      - citacao: "Dimensionamento: 15-25 leads/dia = 1 SDR. 3-4 calls/dia ideal, 5 maximo, 6+ = contratar"
+        chunk_id: "FSS001_023"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "team-sizing"
+      - "capacity-planning"
+      - "hiring"
+
+    peso: 0.95
+
+  - id: "MET-FSS-002"
+    nome: "Implementacao de Funis (Ordem)"
+    descricao: "Sequencia de implementacao de funis para operacoes novas."
+
+    passos:
+      - ordem: 1
+        acao: "Implementar VSL Versao A (5min)"
+        responsavel: "Marketing"
+        resultado_esperado: "Funil de entrada funcionando"
+      - ordem: 2
+        acao: "Implementar Social Selling"
+        responsavel: "Comercial"
+        resultado_esperado: "Prospeccao no Instagram ativa"
+      - ordem: 3
+        acao: "Implementar Isca Paga (apos maturidade)"
+        responsavel: "Marketing"
+        resultado_esperado: "Lead magnet escalavel"
+      - ordem: 4
+        acao: "CRITICO: Embutir scheduler no formulario"
+        responsavel: "Ambos"
+        resultado_esperado: "Conversao maximizada"
+
+    quando_usar: "Montando operacao comercial do zero"
+
+    indicadores_sucesso:
+      - "VSL gerando leads"
+      - "Social convertendo"
+      - "Scheduler embutido"
+      - "Sem fricao no agendamento"
+
+    erros_comuns:
+      - "Pular VSL e ir direto para isca paga"
+      - "Separar scheduler do formulario"
+      - "Comecar isca paga antes de maturidade"
+
+    evidencias:
+      - citacao: "Ordem de implementacao: 1o VSL Versao A, 2o Social Selling, 3o Isca Paga (apos maturidade)"
+        chunk_id: "FSS001_024"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "funnel-implementation"
+      - "operations"
+      - "scaling"
+
+    peso: 0.85
+
+  - id: "MET-FSS-003"
+    nome: "Sales Farming (Repescagem)"
+    descricao: "Processo de reativacao de leads que nao fecharam."
+
+    passos:
+      - ordem: 1
+        acao: "Identificar leads em 30-60-90 dias sem conversao"
+        resultado_esperado: "Lista de leads para reativacao"
+      - ordem: 2
+        acao: "Atribuir para SDR4 (Farmer)"
+        resultado_esperado: "Responsavel definido"
+      - ordem: 3
+        acao: "Criar sequencia de reativacao (3-5 touchpoints)"
+        resultado_esperado: "Cadencia pronta"
+      - ordem: 4
+        acao: "Oferecer nova condicao ou bonus exclusivo"
+        resultado_esperado: "Incentivo para retorno"
+      - ordem: 5
+        acao: "Se reagendar, mover para pipeline vendas"
+        resultado_esperado: "Lead reativado no funil"
+      - ordem: 6
+        acao: "Se nao responder apos cadencia, arquivar"
+        resultado_esperado: "Base limpa"
+
+    quando_usar: "Quando ha volume de leads que nao fecharam"
+
+    indicadores_sucesso:
+      - "Taxa de reativacao > 5%"
+      - "CAC de reativacao < CAC novo lead"
+      - "Leads reativados fechando"
+
+    erros_comuns:
+      - "Usar SDR3 (Hunter) para farming"
+      - "Nao ter condicao especifica para reativacao"
+      - "Manter leads mortos na base indefinidamente"
+
+    evidencias:
+      - citacao: "SDR4 - FARMER (SALES FARMING): Repescagem coordenada, leads que nao fecharam ha 30-60-90 dias"
+        chunk_id: "FSS001_025"
+        source_id: "FSS001"
+        source_title: "Playbook Interno Full Sales System"
+
+    dominios:
+      - "lead-reactivation"
+      - "farming"
+      - "efficiency"
+
+    peso: 0.80

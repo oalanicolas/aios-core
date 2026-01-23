@@ -1,0 +1,101 @@
+# DNA-CONFIG: FULL SALES SYSTEM
+# Agente SOLO - Fonte única (100%)
+
+tipo: SOLO
+organizacao: Full Sales System
+peso: 1.0
+
+# Fundadores
+fundadores:
+  - nome: Vinicius de Sa
+    especialidade: Estruturação comercial
+    peso: 0.50
+  - nome: Yuri Barbosa
+    especialidade: Closer e treinamento
+    peso: 0.35
+  - nome: Matheus Garcia
+    especialidade: Ofertas e funis
+    peso: 0.15
+
+# Referência ao DNA real
+dna_location: /02-KNOWLEDGE/DNA/PERSONS/FULL-SALES-SYSTEM/
+
+# Arquivos de DNA
+dna_files:
+  config: CONFIG.yaml
+  filosofias: FILOSOFIAS.yaml
+  modelos_mentais: MODELOS-MENTAIS.yaml
+  heuristicas: HEURISTICAS.yaml
+  frameworks: FRAMEWORKS.yaml
+  metodologias: METODOLOGIAS.yaml
+
+# Domínios de expertise
+dominios:
+  - vendas
+  - estrutura_comercial
+  - dimensionamento
+  - calibracao_brasil
+  - sdr_tipologia
+  - unit_economics
+
+# Fontes processadas
+fontes:
+  - id: FSS001
+    titulo: "Playbook Interno Full Sales System"
+    insights: 14
+  - id: BATCH-009
+    titulo: "FSS Batch 009 - Vendas B2B"
+    insights: 15
+  - id: BATCH-010
+    titulo: "FSS Batch 010 - Estruturação"
+    insights: 16
+  - id: BATCH-011
+    titulo: "FSS Batch 011 - Processos"
+    insights: 14
+  - id: BATCH-012
+    titulo: "FSS Batch 012 - Fechamento AMF"
+    insights: 16
+  - id: BATCH-013
+    titulo: "FSS Batch 013 - Treinamento"
+    insights: 14
+  - id: BATCH-014
+    titulo: "FSS Batch 014 - Comissionamento"
+    insights: 12
+  - id: BATCH-015
+    titulo: "FSS Batch 015 - Pitch & Gatilhos (LEGENDARY)"
+    insights: 16
+
+# Métricas de DNA
+metricas:
+  total_insights: 117
+  distribuicao:
+    filosofias: 18
+    modelos_mentais: 15
+    heuristicas: 45
+    frameworks: 27
+    metodologias: 12
+  peso_medio: 0.87
+
+# Conflitos
+conflitos: []  # Agente SOLO não tem conflitos internos
+
+# Conexões com outras pessoas
+conexoes:
+  complementa:
+    - pessoa: Alex Hormozi
+      em: Calibração Brasil dos frameworks americanos
+    - pessoa: Cole Gordon
+      em: Contexto de remuneração e estrutura local
+
+  tensiona:
+    - pessoa: Vendas tradicionais BR
+      em: Especialização de funções vs generalistas
+
+  alinha:
+    - pessoa: Microsoft/IBM/Salesforce
+      em: Estrutura comercial enterprise
+
+# Metadados
+versao: "2.0.0"
+criado_em: "2024-12-25"
+atualizado_em: "2026-01-10"

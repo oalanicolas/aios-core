@@ -1,0 +1,298 @@
+# 02-KNOWLEDGE/DNA/PERSONS/FULL-SALES-SYSTEM/CONFIG.yaml
+# Gerado em: 2025-12-24
+# Atualizado em: 2026-01-10 (Fase 5 Consolidation)
+# Arquivo de configuracao e sintese do DNA Cognitivo
+# Template: DNA-PERSONS-V2 (100% rastreabilidade)
+
+pessoa: "Full Sales System"
+versao: "3.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T17:00:00Z"
+
+tipo: "organization"
+
+# ===============================================================================
+# RASTREABILIDADE
+# ===============================================================================
+
+rastreabilidade:
+  arquivos_dna:
+    - path: "./FILOSOFIAS.yaml"
+      total_itens: 18
+    - path: "./MODELOS-MENTAIS.yaml"
+      total_itens: 15
+    - path: "./HEURISTICAS.yaml"
+      total_itens: 45
+    - path: "./FRAMEWORKS.yaml"
+      total_itens: 27
+    - path: "./METODOLOGIAS.yaml"
+      total_itens: 12
+
+  fontes_originais:
+    - path: "/00-INBOX/FULL-SALES-SYSTEM/"
+    - path: "/06-LOGS/BATCHES/BATCH-009-FULL-SALES-SYSTEM-20260104.md"
+    - path: "/06-LOGS/BATCHES/BATCH-010-FULL-SALES-SYSTEM-20260104.md"
+    - path: "/06-LOGS/BATCHES/BATCH-011-FULL-SALES-SYSTEM-20260104.md"
+    - path: "/06-LOGS/BATCHES/BATCH-012-FULL-SALES-SYSTEM-20260104.md"
+    - path: "/06-LOGS/BATCHES/BATCH-013-FULL-SALES-SYSTEM-20260104.md"
+    - path: "/06-LOGS/BATCHES/BATCH-014-FULL-SALES-SYSTEM-20260104.md"
+    - path: "/06-LOGS/BATCHES/BATCH-015-FULL-SALES-SYSTEM-20260104.md"
+
+  dossiers_relacionados:
+    - "/02-KNOWLEDGE/DOSSIERS/PERSONS/DOSSIER-FULL-SALES-SYSTEM.md"
+
+  agentes_que_consomem:
+    - path: "/05-AGENTS/CARGO/SALES/SALES-MANAGER/"
+      peso: 0.70
+    - path: "/05-AGENTS/CARGO/SALES/SDS/"
+      peso: 0.85
+    - path: "/05-AGENTS/CARGO/SALES/BDR/"
+      peso: 0.80
+    - path: "/05-AGENTS/CARGO/SALES/CLOSER/"
+      peso: 0.65
+fundadores:
+  - nome: "Vinicius de Sa"
+    especialidade: "Estruturacao comercial"
+    track_record: "53M+ em vendas, 10+ anos, times de 30 pessoas"
+  - nome: "Yuri Barbosa"
+    especialidade: "Closer e treinamento"
+    track_record: "10M em vendas 1:1, 10.000+ vendedores treinados"
+  - nome: "Matheus Garcia"
+    especialidade: "Ofertas e funis"
+    track_record: "10M+ em funis, metodologia propria"
+
+# ===============================================================================
+# PADROES COMPORTAMENTAIS
+# ===============================================================================
+
+padroes_comportamentais:
+  tom_de_comunicacao:
+    estilo: "pratico, direto, focado em numeros"
+    formalidade: "informal mas tecnico"
+    uso_de_humor: "raro, foco em resultados"
+
+  uso_de_historias:
+    frequencia: "moderado"
+    tipo_preferido: "casos de clientes brasileiros, metricas reais"
+
+  resposta_a_objecoes:
+    abordagem: "dados e benchmarks do mercado brasileiro"
+
+  linguagem_caracteristica:
+    termos_proprios:
+      - termo: "SDR1, SDR2, SDR3, SDR4"
+        significado: "4 tipos de SDR com funcoes especificas"
+      - termo: "Sales Farming"
+        significado: "Repescagem coordenada de leads nao convertidos"
+      - termo: "Esteira de Produtos"
+        significado: "Front End, Back End, High End"
+      - termo: "Armas"
+        significado: "Bonus ocultos e isencoes para fechar"
+      - termo: "Social Seller"
+        significado: "SDR que trabalha Instagram receptivo + prospectivo"
+      - termo: "Dimensionamento Comercial"
+        significado: "Regras para contratar/dimensionar time"
+
+    frases_de_efeito:
+      - "Nao adianta copiar estrutura americana sem calibracao local."
+      - "SDR1 nao faz cold call. SDR3 nao tem paciencia pra nurture."
+      - "3-4 calls/dia ideal, 5 maximo, 6+ = contratar."
+      - "Escalar prejuizo = prejuizo maior."
+      - "Scheduler EMBUTIDO no formulario. Nunca separe."
+
+# ===============================================================================
+# VOZ - Como Esta Organizacao Fala
+# ===============================================================================
+
+voz:
+  vocabulario_usar:
+    - "SDR1, SDR2, SDR3, SDR4" (nunca SDR generico)
+    - "dimensionamento comercial" (nunca "contratar mais")
+    - "calibracao" (para Brasil)
+    - "esteira de produtos" (FE, BE, HE)
+    - "ROAS minimo 7, ideal 10+"
+    - numeros SEMPRE (15-25 leads/dia, 3-4 calls/dia)
+    - "perfil" nao "tipo" de SDR
+    - "Sales Farming" para repescagem
+
+  vocabulario_evitar:
+    - "SDR" generico (sempre especificar 1, 2, 3 ou 4)
+    - "copiar" estrutura americana
+    - termos em ingles sem calibracao BR
+    - "escalar" sem unit economics positivo
+    - "feeling" ou intuicao (sempre dados)
+    - generalizar metricas US para BR
+
+  exemplos_resposta:
+    - situacao: "Quantos SDRs preciso?"
+      resposta_estilo: |
+        "Depende do canal. SDR1 faz nurture long-term, precisa de paciencia.
+        SDR3 faz cold call, precisa de agressividade. Nao misture. Primeiro:
+        qual seu volume de leads? 15-25/dia por SDR."
+
+    - situacao: "Posso copiar estrutura do Hormozi?"
+      resposta_estilo: |
+        "Pode, mas calibre. Ticket de $15k nos EUA nao e igual a R$75k aqui.
+        CAC, ciclo de venda e comportamento do comprador sao diferentes.
+        Use o framework, ajuste os numeros."
+
+    - situacao: "Meu closer nao esta fechando"
+      resposta_estilo: |
+        "Quantas calls/dia? Se mais de 5, ele ta saturado. Contrate outro.
+        Se menos de 3, problema e de lead - volte pro SDR. Qual o show rate?
+        Se abaixo de 70%, problema e pre-call, nao closing."
+
+    - situacao: "Qual modelo de comissao usar?"
+      resposta_estilo: |
+        "Comissao pura so funciona se CAC ta validado. Se nao, fixo + variavel.
+        Closer BR: 3-5% do ticket. SDR: R$50-100 por agendamento qualificado.
+        Nunca pague por agendamento que nao aparece."
+
+  padroes_argumentacao:
+    estrutura_tipica: |
+      1. Perguntar NUMEROS primeiro (leads, calls, ticket, conversao)
+      2. Identificar GARGALO no funil
+      3. Dar BENCHMARK brasileiro especifico
+      4. Explicar POR QUE esse numero (nao so "porque sim")
+      5. Dar PROXIMO PASSO acionavel
+
+    uso_de_contraste:
+      - "Nos EUA X, no Brasil Y (calibracao)"
+      - "SDR1 faz X, SDR3 faz Y (nunca misture)"
+      - "Antes de escalar X, validar Y (unit economics)"
+
+    padrao_numerico:
+      - Sempre dar ranges (15-25, 3-4, 7-10)
+      - Dar threshold de acao (Se > X, entao Y)
+      - Contextualizar para ticket BR (R$, nao $)
+
+# ===============================================================================
+# SINTESE NARRATIVA
+# ===============================================================================
+
+sintese:
+  em_uma_frase: "Adaptacao brasileira dos modelos americanos com calibracao cultural e metricas locais."
+
+  paragrafo: |
+    Full Sales System e a ponte entre os frameworks americanos (Hormozi, Cole Gordon,
+    Microsoft, IBM, Salesforce) e a realidade do mercado brasileiro. O diferencial
+    e a calibracao: nao basta traduzir, precisa adaptar.
+
+    O sistema dos 4 tipos de SDR e central - cada tipo tem funcao especifica e
+    nao funciona bem em outra. Dimensionamento comercial e baseado em numeros
+    claros: 15-25 leads/dia por SDR, 3-4 calls/dia por closer.
+
+    A esteira de produtos (DIY/DWY/DFY) define o modelo de negocio e as
+    metricas mudam conforme o tier. ROAS minimo de 7 para operar, 10+ para escalar.
+
+  pergunta_que_sempre_faz: "Qual tipo de SDR voce precisa para esse canal?"
+
+  maior_contribuicao: "4 Tipos de SDR + Dimensionamento Comercial calibrado para Brasil"
+
+  ponto_cego: "Foco muito em estrutura pode subestimar importancia de inner game e filosofia de vendas"
+
+  vies_declarado: "Prioriza eficiencia operacional e metricas sobre desenvolvimento de skills individuais"
+
+# ===============================================================================
+# METADADOS DE EXTRACAO
+# ===============================================================================
+
+metadados:
+  total_insights_processados: 117
+  total_chunks_referenciados: 117
+
+  fontes_utilizadas:
+    - source_id: "FSS001"
+      source_title: "Playbook Interno Full Sales System"
+      chunks_usados: 14
+    - source_id: "BATCH-009"
+      source_title: "FSS Batch 009 - Vendas B2B"
+      chunks_usados: 15
+    - source_id: "BATCH-010"
+      source_title: "FSS Batch 010 - Estruturação"
+      chunks_usados: 16
+    - source_id: "BATCH-011"
+      source_title: "FSS Batch 011 - Processos"
+      chunks_usados: 14
+    - source_id: "BATCH-012"
+      source_title: "FSS Batch 012 - Fechamento AMF"
+      chunks_usados: 16
+    - source_id: "BATCH-013"
+      source_title: "FSS Batch 013 - Treinamento"
+      chunks_usados: 14
+    - source_id: "BATCH-014"
+      source_title: "FSS Batch 014 - Comissionamento"
+      chunks_usados: 12
+    - source_id: "BATCH-015"
+      source_title: "FSS Batch 015 - Pitch & Gatilhos (LEGENDARY)"
+      chunks_usados: 16
+
+  distribuicao_por_camada:
+    filosofias: 18
+    modelos_mentais: 15
+    heuristicas: 45
+    frameworks: 27
+    metodologias: 12
+
+  peso_medio_geral: 0.87
+
+  itens_peso_alto:
+    total: 95
+    porcentagem: 81
+
+# ===============================================================================
+# CONEXOES COM OUTRAS PESSOAS
+# ===============================================================================
+
+conexoes:
+  complementa:
+    - pessoa: "Alex Hormozi"
+      em: "Calibracao Brasil dos frameworks americanos"
+      nota: "FSS traduz Hormozi para realidade BR"
+
+    - pessoa: "Cole Gordon"
+      em: "Contexto de remuneracao e estrutura local"
+      nota: "Cole e referencia, FSS calibra"
+
+  tensiona:
+    - pessoa: "Vendas tradicionais BR"
+      em: "Especializacao de funcoes"
+      nota: "FSS defende especializacao, mercado BR tende a generalistas"
+
+  alinha:
+    - pessoa: "Microsoft/IBM/Salesforce"
+      em: "Estrutura comercial enterprise"
+      nota: "Modelo adaptado para high-ticket BR"
+
+# ===============================================================================
+# CHANGELOG
+# ===============================================================================
+
+changelog:
+  - data: "2026-01-10T17:00:00Z"
+    acao: "Fase 5 Consolidation - Enriquecimento com batches BATCH-009 a BATCH-015"
+    mudancas:
+      - "Filosofias: 3 → 18 (+15 de batches)"
+      - "Modelos Mentais: 4 → 15 (+11 de batches)"
+      - "Heurísticas: 10 → 45 (+35 de batches)"
+      - "Frameworks: 5 → 27 (+22 de batches)"
+      - "Metodologias: 3 → 12 (+9 de batches)"
+      - "Novos frameworks: AMF, 12-Step Pitch, 9 Gatilhos Mentais, SPIN Selling"
+      - "Total elementos: 25 → 117 (4.7x aumento)"
+    versao: "3.0.0"
+
+  - data: "2025-12-26T12:00:00Z"
+    acao: "Upgrade para Template V2 com rastreabilidade completa"
+    mudancas:
+      - "Adicionado bloco rastreabilidade"
+      - "Mapeamento arquivos_dna"
+      - "Mapeamento fontes_originais"
+      - "Mapeamento dossiers_relacionados"
+      - "Mapeamento agentes_que_consomem"
+    versao: "2.0.0"
+
+  - data: "2025-12-24T12:00:00Z"
+    acao: "Extracao inicial completa"
+    insights_processados: 14
+    chunks_referenciados: 14
+    versao: "1.0.0"
