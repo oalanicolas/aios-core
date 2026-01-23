@@ -1,0 +1,695 @@
+# 02-KNOWLEDGE/DNA/PERSONS/ALEX-HORMOZI/FRAMEWORKS.yaml
+# Gerado em: 2025-12-23
+# Fonte: INSIGHTS-STATE.json + NARRATIVES-STATE.json + DOSSIER
+
+pessoa: "Alex Hormozi"
+versao: "1.1.0"
+data_extracao: "2025-12-27T12:00:00Z"
+total_itens: 8
+
+frameworks:
+  - id: "FW-AH-001"
+    nome: "CLOSER Framework"
+    tipo: "sequencia"
+
+    estrutura:
+      componentes:
+        - nome: "C - Clarify"
+          descricao: "Clarificar por que estão na call"
+          perguntas:
+            - "Por que você quis essa conversa?"
+            - "O que te trouxe até aqui?"
+
+        - nome: "L - Label"
+          descricao: "Nomear o outcome desejado"
+          perguntas:
+            - "Qual é o resultado que você quer?"
+            - "Como seria o sucesso para você?"
+
+        - nome: "O - Overview"
+          descricao: "Revisar dores passadas (pain cycle)"
+          perguntas:
+            - "O que você já tentou?"
+            - "Por que não funcionou antes?"
+
+        - nome: "S - Sell"
+          descricao: "Vender a praia, não o avião"
+          perguntas:
+            - "Está vendendo o destino ou o veículo?"
+            - "Limitou a 3 pontos?"
+
+        - nome: "E - Explain"
+          descricao: "Explicar e trazer objeções (3 buckets)"
+          perguntas:
+            - "Qual dos 3 buckets é a objeção?"
+            - "Decision Maker, Price ou Delay?"
+
+        - nome: "R - Reinforce"
+          descricao: "Reforçar a decisão após fechamento"
+          perguntas:
+            - "Como vou reforçar a decisão?"
+            - "Vídeo personalizado do CS?"
+
+    como_usar: |
+      Seguir cada letra na ordem durante a call de fechamento.
+      Cada fase tem perguntas específicas e objetivos claros.
+      Não pular fases - a sequência constrói para o close.
+
+    output_esperado: "Call estruturada que endereça todas as objeções e fecha ou qualifica out."
+
+    quando_usar:
+      - "Toda call de fechamento high-ticket"
+      - "Treinamento de novos closers"
+      - "Revisão de calls para diagnóstico"
+
+    quando_nao_usar:
+      - "Calls de qualificação (SDS)"
+      - "Cold calls de BDR"
+
+    evidencias:
+      - citacao: "CLOSER Framework: C-Clarify, L-Label outcome, O-Overview past pain, S-Sell vacation, E-Explain concerns, R-Reinforce decision"
+        chunk_id: "AH001_005"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "CL001"
+
+    dominios:
+      - "sales-process"
+      - "scripts"
+      - "closing"
+
+    peso: 0.95  # Framework nomeado + citação direta + muito usado
+
+  - id: "FW-AH-002"
+    nome: "3 Buckets de Objeção"
+    tipo: "lista"
+
+    estrutura:
+      elementos:
+        - nome: "Decision Maker"
+          descricao: "Precisa consultar outra pessoa"
+          estrategia: "Past agreements + 'ask forgiveness not permission'"
+
+        - nome: "Price"
+          descricao: "Acha caro ou não tem dinheiro"
+          estrategia: "Ancorar no valor, construir convicção, levar pra eventos"
+
+        - nome: "Delay"
+          descricao: "Quer pensar, não é o momento"
+          estrategia: "Best case/worst case, Decision Framework (3 Yes = go)"
+
+    como_usar: |
+      Toda objeção cai em um desses 3 buckets.
+      Identificar qual bucket antes de responder.
+      Aplicar estratégia específica do bucket.
+
+    output_esperado: "Objeção categorizada e estratégia de handling clara."
+
+    quando_usar:
+      - "Qualquer objeção em call de vendas"
+      - "Treinamento de closers"
+      - "Análise de calls perdidas"
+
+    quando_nao_usar:
+      - "Objeções técnicas sobre o produto"
+      - "Objeções de compliance/legal"
+
+    evidencias:
+      - citacao: "3 Objection Buckets: Decision Maker, Price, Delay. Each has specific handling strategy."
+        chunk_id: "AH001_008"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "OF001"
+
+    dominios:
+      - "objection-handling"
+      - "sales-process"
+      - "closing"
+
+    peso: 0.90  # Framework claro + citação direta
+
+  - id: "FW-AH-003"
+    nome: "4 Levels por Role"
+    tipo: "progressao"
+
+    estrutura:
+      elementos:
+        - nome: "Junior"
+          descricao: "Entrada, aprendendo basics"
+          requisito: "Início"
+
+        - nome: "Associate"
+          descricao: "Competente, precisa de supervisão"
+          requisito: "~50 shows (8 semanas)"
+
+        - nome: "[Title]"
+          descricao: "Proficiente, trabalha independente"
+          requisito: "~100 shows"
+
+        - nome: "Senior"
+          descricao: "Expert, elegível para promoção de role"
+          requisito: "~150+ shows + ability to promote"
+
+    como_usar: |
+      Aplicar a cada role (BDR, SDS, BC).
+      Bumps de título + pequeno bump de pay a cada nível.
+      Senior não promove automaticamente - ganha ABILITY de ser promovido.
+
+    output_esperado: "Career path claro que mantém vendedores engajados por 6-8 semanas de milestones."
+
+    quando_usar:
+      - "Estruturando plano de carreira de vendas"
+      - "Definindo quando promover"
+      - "Combatendo turnover em posições entry-level"
+
+    quando_nao_usar:
+      - "Times muito pequenos (< 5 pessoas)"
+
+    evidencias:
+      - citacao: "There's four levels of BDRs: you've got Junior BDRs, you got Associate BDRs, you've got BDR, and you've got Senior BDR. And that same four step system applies to all of the levels."
+        chunk_id: "chunk_214"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "CM001"
+
+    dominios:
+      - "compensation"
+      - "career-path"
+      - "retention"
+
+    peso: 0.90  # Framework estruturado + citação direta
+
+  - id: "FW-AH-004"
+    nome: "Growth Levels de Delegação"
+    tipo: "progressao"
+
+    estrutura:
+      elementos:
+        - nome: "0-1M"
+          descricao: "Dar fulfillment (delivery manual)"
+          o_que_largar: "Fazer você mesmo"
+
+        - nome: "1-10M"
+          descricao: "Dar sales (ensinar outros)"
+          o_que_largar: "Vender pessoalmente"
+
+        - nome: "10-30M"
+          descricao: "Dar marketing"
+          o_que_largar: "Criar/gerenciar aquisição"
+
+        - nome: "30-50M+"
+          descricao: "Dar liderança (virar recurso)"
+          o_que_largar: "Ser indispensável"
+
+    como_usar: |
+      Identificar em qual faixa está.
+      Perguntar: "O que estou segurando que preciso largar?"
+      Delegar ANTES de estar 100% confortável.
+
+    output_esperado: "Clareza sobre o que o founder precisa largar para crescer."
+
+    quando_usar:
+      - "Planejando próximo estágio de crescimento"
+      - "Sentindo-se sobrecarregado"
+      - "Contratando para transição"
+
+    quando_nao_usar:
+      - "Negócio lifestyle sem intenção de escalar"
+
+    evidencias:
+      - citacao: "Growth Levels: 0-1M (give up fulfillment), 1-10M (give up sales), 10-30M (give up marketing), 30-50M+ (give up leading)."
+        chunk_id: "AH001_012"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "GL001"
+
+    dominios:
+      - "scaling"
+      - "leadership"
+      - "delegation"
+
+    peso: 0.90  # Framework com números + citação direta
+
+  - id: "FW-AH-005"
+    nome: "Beta Process (Remover Founder)"
+    tipo: "sequencia"
+
+    estrutura:
+      passos:
+        - nome: "Ask clients problems"
+          descricao: "Perguntar aos clientes quais problemas estão tendo"
+
+        - nome: "Top 1% roundtable"
+          descricao: "Reunir os top 1% clientes em roundtable"
+
+        - nome: "Find common things"
+          descricao: "Encontrar coisas que TODOS os top performers fazem (não alguns)"
+
+        - nome: "Consolidate solution"
+          descricao: "Consolidar em solução replicável"
+
+        - nome: "Test on bottom 10%"
+          descricao: "Testar a solução nos bottom 10% clientes"
+
+    como_usar: |
+      Usar para criar processos que não dependem do founder.
+      Processo gera inovação, não guru.
+      Bottom 10% é o teste real - se funcionar lá, funciona em qualquer lugar.
+
+    output_esperado: "Processo replicável que remove dependência do founder."
+
+    quando_usar:
+      - "Preparando para exit"
+      - "Escalando operação"
+      - "Documentando best practices"
+
+    quando_nao_usar:
+      - "Produto ainda em validação"
+      - "Base de clientes muito pequena"
+
+    evidencias:
+      - citacao: "Beta Process for removing founder: top 1% roundtable → find common things ALL do → test on bottom 10%."
+        chunk_id: "AH001_011"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "EX003"
+
+    dominios:
+      - "scaling"
+      - "exit-strategy"
+      - "process-development"
+
+    peso: 0.85  # Framework único + citação direta
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # FRAMEWORKS DE AH-CP001: $100M CLOSING PLAYBOOK
+  # ═══════════════════════════════════════════════════════════════════════
+
+  - id: "FW-AH-006"
+    nome: "3 Audience Buckets"
+    tipo: "lista"
+
+    estrutura:
+      elementos:
+        - nome: "YES Bucket (20%)"
+          descricao: "Ja decidiram comprar - so precisam de confirmacao"
+          estrategia: "Confirmar e fechar rapidamente, nao over-sell"
+
+        - nome: "NO Bucket (20%)"
+          descricao: "Nunca vao comprar - desqualificar rapido"
+          estrategia: "Identificar cedo e nao gastar energia"
+
+        - nome: "MAYBE Bucket (60%)"
+          descricao: "Nao decidiram ainda - AQUI esta o dinheiro"
+          estrategia: "Trabalho real do closer/LNS: mover para YES antes da call"
+
+    como_usar: |
+      Identificar em qual bucket o prospect esta ANTES de investir tempo.
+      60% dos leads sao MAYBE - o closer nao precisa convencer o YES bucket.
+      O LNS eleva o interesse do MAYBE para YES antes da call.
+      Desqualificar NO bucket rapido para nao desperdicar tempo do closer.
+
+    output_esperado: "Alocacao eficiente de tempo - maior parte do esforco no MAYBE bucket."
+
+    quando_usar:
+      - "Qualificacao inicial de leads"
+      - "Estrategia de nurture (LNS)"
+      - "Analise de pipeline"
+
+    quando_nao_usar:
+      - "Leads ja super qualificados (todos YES)"
+
+    evidencias:
+      - citacao: "3 Audience Buckets: YES (20%), NO (20%), MAYBE (60%). The money is made in the MAYBE bucket."
+        chunk_id: "AH-CP001_004"
+        source_id: "AH-CP001"
+        source_title: "$100M Closing Playbook"
+
+    insight_origem: "AH-CP001_004"
+
+    dominios:
+      - "qualification"
+      - "lead-nurturing"
+      - "sales-strategy"
+
+    peso: 0.95  # Framework central + muito pratico
+
+  - id: "FW-AH-007"
+    nome: "STAR Qualification"
+    tipo: "lista"
+
+    estrutura:
+      elementos:
+        - nome: "S - Situation"
+          descricao: "Qual a situacao atual do prospect?"
+          perguntas:
+            - "O que esta acontecendo agora?"
+            - "Qual o cenario atual?"
+
+        - nome: "T - Task"
+          descricao: "O que ele esta tentando fazer?"
+          perguntas:
+            - "Qual objetivo ele quer atingir?"
+            - "O que ele precisa realizar?"
+
+        - nome: "A - Action"
+          descricao: "O que ja tentou?"
+          perguntas:
+            - "Que acoes ja tomou?"
+            - "Por que nao funcionou?"
+
+        - nome: "R - Result"
+          descricao: "Qual resultado espera?"
+          perguntas:
+            - "Como seria o sucesso?"
+            - "O que mudaria na vida dele?"
+
+    como_usar: |
+      Usar na discovery/qualificacao para entender completamente o prospect.
+      Cada letra guia um bloco de perguntas.
+      O resultado gera material para o closer usar depois.
+
+    output_esperado: "Prospect completamente mapeado com dores e desejos claros."
+
+    quando_usar:
+      - "Discovery calls (SDS)"
+      - "Inicio de call de fechamento"
+      - "Qualificacao de leads inbound"
+
+    quando_nao_usar:
+      - "Prospect ja passou por discovery anterior"
+
+    evidencias:
+      - citacao: "STAR Qualification: Situation, Task, Action, Result - use in discovery to fully map the prospect."
+        chunk_id: "AH-CP001_002"
+        source_id: "AH-CP001"
+        source_title: "$100M Closing Playbook"
+
+    insight_origem: "AH-CP001_002"
+
+    dominios:
+      - "discovery"
+      - "qualification"
+      - "sales-process"
+
+    peso: 0.90  # Framework de qualificacao muito pratico
+
+  - id: "FW-AH-008"
+    nome: "Onion of Blame (3 Camadas)"
+    tipo: "progressao"
+
+    estrutura:
+      elementos:
+        - nome: "Circumstance"
+          descricao: "Primeiro culpam as circunstancias"
+          exemplos:
+            - "O mercado esta ruim"
+            - "A economia esta dificil"
+            - "Nao e o momento"
+
+        - nome: "Others"
+          descricao: "Depois culpam outras pessoas"
+          exemplos:
+            - "Meu socio nao deixa"
+            - "Minha esposa nao vai concordar"
+            - "Meus funcionarios nao vao conseguir"
+
+        - nome: "Self"
+          descricao: "Por ultimo (se chegam) culpam a si mesmos"
+          exemplos:
+            - "Talvez eu nao consiga"
+            - "Nao sei se tenho disciplina"
+            - "Eu sempre falho nisso"
+
+    como_usar: |
+      Entender que objecoes seguem esse padrao de camadas.
+      Prospect descasca as camadas ate chegar no medo real (self).
+      Nao resolver a camada superficial - ir ate o core.
+      Quando chega em "self" = objecao real revelada.
+
+    output_esperado: "Identificacao do medo real por tras da objecao superficial."
+
+    quando_usar:
+      - "Prospect dando desculpas vagas"
+      - "Objecao parece nao fazer sentido"
+      - "Handling de objecoes em geral"
+
+    quando_nao_usar:
+      - "Objecao clara e logica (preco real, timing genuino)"
+
+    evidencias:
+      - citacao: "Onion of Blame: 3 layers - Circumstance, Others, Self. Peel until you get to the real fear."
+        chunk_id: "AH-CP001_003"
+        source_id: "AH-CP001"
+        source_title: "$100M Closing Playbook"
+
+    insight_origem: "AH-CP001_003"
+
+    dominios:
+      - "objection-handling"
+      - "psychology"
+      - "closing"
+
+    peso: 0.90  # Framework psicologico muito poderoso
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # FRAMEWORKS DE AH-YT: YouTube Masterclass (19 vídeos)
+  # ═══════════════════════════════════════════════════════════════════════
+
+  - id: "FW-AH-009"
+    nome: "Framework 3A para Objeções"
+    tipo: "sequencia"
+
+    estrutura:
+      componentes:
+        - nome: "A - Acknowledge"
+          descricao: "Reconhecer a objeção sem resistir"
+          perguntas:
+            - "Entendo completamente, faz sentido..."
+            - "Você tem razão em pensar assim..."
+
+        - nome: "A - Associate"
+          descricao: "Associar a uma experiência ou cliente similar"
+          perguntas:
+            - "Muitos dos nossos melhores clientes pensavam isso também..."
+            - "Eu teria a mesma preocupação..."
+
+        - nome: "A - Ask"
+          descricao: "Fazer pergunta que avança a conversa"
+          perguntas:
+            - "Me conta mais sobre isso - o que especificamente te preocupa?"
+            - "Se isso não fosse um problema, você avançaria?"
+
+    como_usar: |
+      Usar SEMPRE que surgir objeção durante call.
+      Mantém rapport enquanto avança a conversa.
+      Não confrontar - absorver e redirecionar.
+      Mais eficaz que rebater diretamente.
+
+    output_esperado: "Objeção neutralizada sem perder rapport, conversa continua fluindo."
+
+    quando_usar:
+      - "Qualquer objeção durante call de vendas"
+      - "Prospect resistente mas ainda engajado"
+      - "Objeções de preço, tempo, decision maker"
+
+    quando_nao_usar:
+      - "Prospect claramente desqualificado"
+      - "Objeção é dealbreaker real"
+
+    evidencias:
+      - citacao: "Framework 3A para objeções: Acknowledge (reconheça), Associate (associe), Ask (pergunte) - mantém rapport enquanto avança"
+        chunk_id: "AH-YT007_001"
+        source_id: "AH-YT007"
+        source_title: "After Closing 4000+ Sales, I Discovered a New Method"
+
+    insight_origem: "SP-AH004"
+
+    dominios:
+      - "objection-handling"
+      - "sales-process"
+      - "closing"
+
+    peso: 0.95  # Framework nomeado + citação direta + muito prático
+
+  - id: "FW-AH-010"
+    nome: "Ghost Product Technique"
+    tipo: "tatica"
+
+    estrutura:
+      componentes:
+        - nome: "Identificar itens não-essenciais"
+          descricao: "Componentes da oferta que custam pouco mas têm valor percebido"
+          exemplos:
+            - "Templates"
+            - "Módulos extras"
+            - "Acesso a comunidade"
+
+        - nome: "Conceder gratuitamente"
+          descricao: "Dar de graça ANTES de pedir o fechamento"
+          exemplos:
+            - "'Olha, isso normalmente é extra, mas vou incluir pra você'"
+            - "'Deixa eu te dar isso também, sem custo'"
+
+        - nome: "Fechar produto principal"
+          descricao: "Com confiança elevada, fechar o produto core"
+          exemplos:
+            - "Agora que você tem tudo isso, faz sentido a gente começar?"
+
+    como_usar: |
+      Usar quando perceber hesitação sobre valor.
+      Dar algo de graça eleva confiança e reciprocidade.
+      Prospect sente que está ganhando vantagem.
+      Reduz resistência ao preço do produto principal.
+
+    output_esperado: "Prospect sente que está fazendo um bom negócio, fecha produto principal."
+
+    quando_usar:
+      - "Prospect hesitante mas interessado"
+      - "Objeção de valor/preço"
+      - "Precisando criar goodwill"
+
+    quando_nao_usar:
+      - "Prospect já decidiu que sim"
+      - "Itens 'ghost' são core do produto"
+
+    evidencias:
+      - citacao: "Técnica 'Ghost Product': conceder itens não essenciais gratuitamente para aumentar confiança e fechar produto principal"
+        chunk_id: "AH-YT006_001"
+        source_id: "AH-YT006"
+        source_title: "My Best Sales Tactic (to Make a TON of Money)"
+
+    insight_origem: "SP-AH006"
+
+    dominios:
+      - "closing"
+      - "value-perception"
+      - "negotiation"
+
+    peso: 0.85  # Técnica específica + citação direta
+
+  - id: "FW-AH-011"
+    nome: "9 Princípios de Vendas"
+    tipo: "lista"
+
+    estrutura:
+      elementos:
+        - nome: "Autoconfiança"
+          descricao: "Acreditar em si mesmo antes de pedir que outros acreditem"
+
+        - nome: "Proposta Clara"
+          descricao: "Saber exatamente o que você oferece e por quê"
+
+        - nome: "Ritmo Adequado"
+          descricao: "Nem rápido demais, nem lento demais - fluidez"
+
+        - nome: "Posicionamento"
+          descricao: "Estar em posição de autoridade, não de súplica"
+
+        - nome: "Autoridade"
+          descricao: "Demonstrar expertise antes de pedir a venda"
+
+        - nome: "Ação Contínua"
+          descricao: "Nunca parar de pedir, sempre avançar"
+
+        - nome: "Convicção"
+          descricao: "Acreditar genuinamente que o cliente precisa"
+
+        - nome: "Responsabilidade"
+          descricao: "Assumir ownership do resultado da conversa"
+
+        - nome: "Persistência"
+          descricao: "Não desistir na primeira (ou quinta) objeção"
+
+    como_usar: |
+      Checklist mental antes de cada call.
+      Avaliar qual princípio está faltando quando call não converte.
+      Usar para coaching de vendedores.
+
+    output_esperado: "Vendedor completo que domina todos os aspectos da venda."
+
+    quando_usar:
+      - "Treinamento de vendedores"
+      - "Auto-avaliação após calls"
+      - "Diagnóstico de problemas de conversão"
+
+    quando_nao_usar:
+      - "N/A - sempre aplicável"
+
+    evidencias:
+      - citacao: "9 princípios de vendas: autoconfiança, proposta clara, ritmo adequado, posicionamento, autoridade e ação contínua"
+        chunk_id: "AH-YT016_001"
+        source_id: "AH-YT016"
+        source_title: "Sales Was Hard Until I Understood These 9 Concepts"
+
+    insight_origem: "SP-AH011"
+
+    dominios:
+      - "sales-philosophy"
+      - "training"
+      - "self-development"
+
+    peso: 0.85  # Framework completo + coaching tool
+
+  - id: "FW-AH-012"
+    nome: "Sistema Autossustentável de Leads"
+    tipo: "ciclo"
+
+    estrutura:
+      componentes:
+        - nome: "Produto Excelente"
+          descricao: "Entregar resultado que excede expectativa"
+          ordem: 1
+
+        - nome: "Reviews"
+          descricao: "Coletar testemunhos e casos de sucesso"
+          ordem: 2
+
+        - nome: "Referrals"
+          descricao: "Clientes satisfeitos indicam novos clientes"
+          ordem: 3
+
+        - nome: "Warm Outreach"
+          descricao: "Abordar indicações com contexto"
+          ordem: 4
+
+        - nome: "Loop"
+          descricao: "Novos clientes alimentam o ciclo"
+          ordem: 5
+
+    como_usar: |
+      Construir cada elemento do ciclo em ordem.
+      Não pular para paid ads antes de dominar referrals.
+      Sistema que se alimenta sozinho após momentum.
+      Produto excelente é PRÉ-REQUISITO - sem isso, ciclo quebra.
+
+    output_esperado: "Fluxo de leads que não depende de investimento em ads."
+
+    quando_usar:
+      - "Construindo sistema de geração de leads"
+      - "Reduzindo dependência de paid media"
+      - "Escalando de forma sustentável"
+
+    quando_nao_usar:
+      - "Produto ainda não entrega resultado consistente"
+      - "Precisando de velocidade extrema (pagar por leads)"
+
+    evidencias:
+      - citacao: "Sistema autossustentável de leads: produto excelente → reviews → referrals → warm outreach"
+        chunk_id: "AH-YT019_001"
+        source_id: "AH-YT019"
+        source_title: "Alex Hormozi's Lead Generation Strategy for 2025"
+
+    insight_origem: "LG-AH003"
+
+    dominios:
+      - "lead-generation"
+      - "referrals"
+      - "organic-growth"
+
+    peso: 0.90  # Ciclo completo + citação direta

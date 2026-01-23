@@ -1,0 +1,405 @@
+# 02-KNOWLEDGE/DNA/PERSONS/ALEX-HORMOZI/METODOLOGIAS.yaml
+# Gerado em: 2025-12-23
+# Fonte: INSIGHTS-STATE.json + NARRATIVES-STATE.json + DOSSIER
+
+pessoa: "Alex Hormozi"
+versao: "1.1.0"
+data_extracao: "2025-12-27T12:00:00Z"
+total_itens: 5
+
+metodologias:
+  - id: "MET-AH-001"
+    nome: "Processo Outbound Completo (BDR → SDS → BC)"
+    objetivo: "Gerar vendas de forma previsível através de cold calling."
+
+    pre_requisitos:
+      - "Ticket mínimo de $15k"
+      - "LTV que justifique CAC de ~$500"
+      - "Lista de prospects qualificados"
+      - "PhoneBurner ou similar com wrap de área code local"
+
+    passos:
+      - numero: 1
+        nome: "Scrape e Enriquecimento de Lista"
+        descricao: "VAs nas Filipinas scrapeiam Google e enriquecem dados (verificam se negócios são reais, números funcionam, emails válidos)."
+        criterio_de_sucesso: "Lista com contatos verificados e enriquecidos"
+        armadilhas:
+          - "Listas desatualizadas = pickup rate baixo"
+          - "Não verificar números antes de carregar"
+
+      - numero: 2
+        nome: "BDR Cold Calling"
+        descricao: "100 calls/dia em blocos de 4h. Script curto oferecendo valor. Objetivo: 2 shows por dia."
+        criterio_de_sucesso: "20 pickups de 100 dials, 2 shows agendados"
+        armadilhas:
+          - "Não usar local area code wrap"
+          - "Blocos de 8h (improdutivo)"
+          - "Compensar por call, não por show"
+
+      - numero: 3
+        nome: "SDS Value Delivery"
+        descricao: "Call de 45min: 30min entregando valor real + 15min transição. Mostrar 2-3 nuggets de expertise."
+        criterio_de_sucesso: "Prospect diz 'esses caras sabem do que estão falando'"
+        armadilhas:
+          - "Não entregar valor real (só lead magnet)"
+          - "SDS não é domain expert"
+          - "Não deixar 15min para transição"
+
+      - numero: 4
+        nome: "Warm Transfer ao Closer"
+        descricao: "SDS liga para closer no speakerphone, diálogo scriptado, prospect ouve. Closer entra no Zoom para face-to-face intro."
+        criterio_de_sucesso: "Closer e prospect se conhecem face-to-face"
+        armadilhas:
+          - "Não fazer warm transfer = no-show rate alto"
+          - "Só texto/email = não funciona"
+
+      - numero: 5
+        nome: "BC Closing Call"
+        descricao: "Usar CLOSER Framework. Expectativa clara de que é call de vendas. Fechar ou qualificar out."
+        criterio_de_sucesso: "10% close rate de shows agendados"
+        armadilhas:
+          - "Não deixar claro que é call de vendas"
+          - "Não usar framework estruturado"
+
+    checkpoints:
+      - apos_passo: 2
+        validar: "Taxa de 100 dials → 20 pickups → 2 shows está sendo atingida?"
+      - apos_passo: 4
+        validar: "Prospects estão aparecendo para BC call?"
+
+    duracao_estimada: "12-14 meses para maturar volume significativo"
+
+    erros_comuns:
+      - erro: "Desistir antes de 12 meses"
+        como_evitar: "Compromisso mínimo de 12 meses se há progresso no funil"
+      - erro: "Compensar BDRs por hora"
+        como_evitar: "Compensar por show confirmado"
+
+    evidencias:
+      - citacao: "Understanding the organizational chart which creates the sale and the actual process of the sale is where we should start. There are three different roles in our sales system."
+        chunk_id: "chunk_201"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "SS001, SS002, SS003"
+
+    dominios:
+      - "outbound"
+      - "sales-process"
+      - "scaling"
+
+    peso: 0.95  # Metodologia completa + múltiplas citações
+
+  - id: "MET-AH-002"
+    nome: "Farm System de Desenvolvimento de Vendedores"
+    objetivo: "Desenvolver closers internamente que têm 60% de close rate (vs 25% de contratados externos)."
+
+    pre_requisitos:
+      - "Volume suficiente para ter níveis (pelo menos 3 BDRs)"
+      - "Commitment de 12+ meses para desenvolver"
+      - "Métricas claras de progressão"
+
+    passos:
+      - numero: 1
+        nome: "Contratar para Double A (BDR)"
+        descricao: "Atrair com visão de $200k (não com $40k). 4 níveis: Junior, Associate, BDR, Senior BDR."
+        criterio_de_sucesso: "Candidatos motivados pela oportunidade de crescimento"
+        armadilhas:
+          - "Atrair pelo salário inicial"
+          - "Não mostrar career path claro"
+
+      - numero: 2
+        nome: "Milestone-Based Progression"
+        descricao: "Promoção por ABILITY (50 shows → 100 → etc), não por tempo. Bumps pequenos de pay + título."
+        criterio_de_sucesso: "6-8 semanas de steam entre milestones"
+        armadilhas:
+          - "Promoções automáticas por tempo"
+          - "Bumps grandes demais (tira motivação)"
+
+      - numero: 3
+        nome: "Promoção para Triple A (SDS)"
+        descricao: "Senior BDR ganha ABILITY de ser promovido. Não automático - precisa de vaga e fit."
+        criterio_de_sucesso: "SDS conhece o domain e entrega valor real"
+        armadilhas:
+          - "Promover quem não é domain expert"
+
+      - numero: 4
+        nome: "Trial de 10 Deals no BC"
+        descricao: "Antes de virar BC permanente, fechar 10 deals como trial. Promoção por performance."
+        criterio_de_sucesso: "10 deals fechados"
+        armadilhas:
+          - "Promover sem trial period"
+          - "Dar inbound leads para novato"
+
+    checkpoints:
+      - apos_passo: 2
+        validar: "Turnover está controlado? Pessoas veem progresso?"
+      - apos_passo: 4
+        validar: "Close rate do novo BC está em 60%+?"
+
+    duracao_estimada: "9-12 meses de BDR para BC"
+
+    erros_comuns:
+      - erro: "Contratar closer pronto de fora"
+        como_evitar: "Desenvolver internamente pelo sistema"
+      - erro: "Poupar novatos de cold calling"
+        como_evitar: "Deixar cut their teeth antes de dar inbound"
+
+    evidencias:
+      - citacao: "The key point here is that the human resource training system itself becomes an asset to the business... Our inbound closing percentage went from 20-25% to 60%."
+        chunk_id: "chunk_213"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "FS001, FS002, FS003"
+
+    dominios:
+      - "hiring"
+      - "training"
+      - "career-path"
+
+    peso: 0.95  # Metodologia diferenciada + resultados comprovados
+
+  - id: "MET-AH-003"
+    nome: "Warm Transfer Protocol (SDS → BC)"
+    objetivo: "Garantir que leads qualificados apareçam para call de fechamento."
+
+    pre_requisitos:
+      - "SDS e BC trabalhando simultaneamente"
+      - "Script de transição pronto"
+      - "Zoom ou similar para face-to-face"
+
+    passos:
+      - numero: 1
+        nome: "Transition no Final do SDS"
+        descricao: "Deixar 15min no final da call de 45min. 'Posso trocar de chapéu por um segundo?'"
+        criterio_de_sucesso: "Prospect diz sim para próxima conversa"
+        armadilhas:
+          - "Não deixar tempo suficiente"
+          - "Fazer transição muito abrupta"
+
+      - numero: 2
+        nome: "Highlight Pain Points"
+        descricao: "Apontar 2-3 coisas que se destacaram. 'Isso me chamou atenção, você já pensou nisso?'"
+        criterio_de_sucesso: "Prospect fica curioso sobre próximo nível"
+        armadilhas:
+          - "Não personalizar para o prospect"
+
+      - numero: 3
+        nome: "Speakerphone Call com Closer"
+        descricao: "SDS liga para BC no speakerphone. Diálogo SCRIPTADO mas parece natural. Prospect ouve os dois lados."
+        criterio_de_sucesso: "BC 'grudgingly' aceita call (scarcity)"
+        armadilhas:
+          - "Parecer muito ensaiado"
+          - "Não ter script pronto"
+
+      - numero: 4
+        nome: "Face-to-Face Zoom Intro"
+        descricao: "BC entra no Zoom por 5min. Faz intro pessoal, confirma horário, mostra que é real."
+        criterio_de_sucesso: "Prospect e BC se 'conhecem'"
+        armadilhas:
+          - "Pular este passo e só agendar"
+
+    checkpoints:
+      - apos_passo: 4
+        validar: "Show rate para BC call é aceitável?"
+
+    duracao_estimada: "15-20min do tempo do SDS + 5min do BC"
+
+    erros_comuns:
+      - erro: "Só mandar email/texto para agendar"
+        como_evitar: "SEMPRE fazer face-to-face intro"
+      - erro: "BC muito disponível (sem scarcity)"
+        como_evitar: "Script mostra BC como ocupado mas disposto"
+
+    evidencias:
+      - citacao: "We could not get the SDS to show for the close calls... But if you do the face-to-face where they hop on the call then they're like 'yeah perfect, well I gotta go in five but I've got you down for tomorrow at four'."
+        chunk_id: "chunk_211"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "SD002"
+
+    dominios:
+      - "sales-process"
+      - "scripts"
+      - "show-rates"
+
+    peso: 0.90  # Metodologia específica + solução de problema real
+
+  - id: "MET-AH-004"
+    nome: "HR Value Creation Process"
+    objetivo: "HR que cria valor para a empresa ao invés de apenas processar papelada."
+
+    pre_requisitos:
+      - "Entendimento de que HR serve a empresa, não funcionários"
+      - "Métricas de atração e retenção"
+      - "Identificação de star employees"
+
+    passos:
+      - numero: 1
+        nome: "Proteger a Empresa"
+        descricao: "Dizer NÃO a contratações desnecessárias. Cada hire deve ser justificada."
+        criterio_de_sucesso: "Headcount controlado, sem inchaço"
+        armadilhas:
+          - "Aprovar toda requisição de contratação"
+          - "Não questionar necessidade"
+
+      - numero: 2
+        nome: "Recruit Best Talent"
+        descricao: "Encontrar, desenvolver e reter os melhores. Não apenas preencher vagas."
+        criterio_de_sucesso: "Talent density aumentando"
+        armadilhas:
+          - "Contratar para volume"
+          - "Não investir em development"
+
+      - numero: 3
+        nome: "Monitorar Compensation vs Market"
+        descricao: "Só aumentar se há problema de ATRAÇÃO ou RETENÇÃO. Não fazer benchmark automático."
+        criterio_de_sucesso: "Compensation costs controlados, turnover controlado"
+        armadilhas:
+          - "Aumentar 25% só porque benchmark diz"
+          - "Não ter dados de atração/retenção"
+
+      - numero: 4
+        nome: "Criar Cultura de Alta Performance"
+        descricao: "Ambiente 'perigoso' onde winners prosperam e low performers não duram."
+        criterio_de_sucesso: "Core team se auto-policia"
+        armadilhas:
+          - "Tolerar mediocridade por medo de turnover"
+          - "Confundir exigente com tóxico sem propósito"
+
+    checkpoints:
+      - apos_passo: 3
+        validar: "Compensation costs estão aumentando sem aumento de output?"
+      - apos_passo: 4
+        validar: "Low performers estão sendo removidos rapidamente?"
+
+    duracao_estimada: "Ongoing - cultura é contínua"
+
+    erros_comuns:
+      - erro: "HR focado em felicidade"
+        como_evitar: "Foco em performance e resultados"
+      - erro: "Star employees não são retidos"
+        como_evitar: "Pagar desproporcional (3-5x valor)"
+
+    evidencias:
+      - citacao: "Your job is NOT to make employees happy. Employees responsible for own happiness. HR's customer = THE COMPANY, not employees."
+        chunk_id: "AH002_002"
+        source_id: "AH-HR001"
+        source_title: "The Role of HR"
+
+    insight_origem: "HR001, HR002, HR003, HR004"
+
+    dominios:
+      - "hr-philosophy"
+      - "organizational-culture"
+      - "compensation"
+
+    peso: 0.85  # Metodologia controversa mas bem documentada
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # METODOLOGIA DE AH-CP001: $100M CLOSING PLAYBOOK
+  # ═══════════════════════════════════════════════════════════════════════
+
+  - id: "MET-AH-005"
+    nome: "7 Universal Closes"
+    objetivo: "Ter arsenal de tecnicas de fechamento para qualquer situacao."
+
+    pre_requisitos:
+      - "Prospect qualificado (passou por STAR ou discovery)"
+      - "Conviccao genuina no produto (conviction > technique)"
+      - "Entendimento do bucket do prospect (YES/NO/MAYBE)"
+
+    passos:
+      - numero: 1
+        nome: "The Assumptive Close"
+        descricao: "Assumir que o prospect vai comprar e agir como se ja tivesse decidido."
+        criterio_de_sucesso: "Prospect nao corrige a suposicao"
+        armadilhas:
+          - "Usar cedo demais sem rapport"
+          - "Parecer arrogante ao inves de confiante"
+        exemplo: "'Entao, vamos comecar com o plano premium ou o standard funciona melhor pra voce?'"
+
+      - numero: 2
+        nome: "The Takeaway Close"
+        descricao: "Remover a oferta ou criar escassez genuina."
+        criterio_de_sucesso: "Prospect reage pedindo para manter a opcao"
+        armadilhas:
+          - "Escassez falsa (prospect sente)"
+          - "Parecer manipulativo"
+        exemplo: "'Na verdade, olhando seu perfil, talvez esse programa nao seja ideal pra voce...'"
+
+      - numero: 3
+        nome: "The Question Close"
+        descricao: "Fechar fazendo uma pergunta que leva naturalmente ao sim."
+        criterio_de_sucesso: "Prospect responde de forma que confirma o fechamento"
+        armadilhas:
+          - "Perguntas que permitem 'nao' facil"
+        exemplo: "'Se eu conseguir resolver essa preocupacao sobre [X], tem algo mais que te impediria de comecar hoje?'"
+
+      - numero: 4
+        nome: "The Now or Never Close"
+        descricao: "Criar urgencia real baseada em beneficio de agir agora."
+        criterio_de_sucesso: "Prospect entende que esperar tem custo"
+        armadilhas:
+          - "Urgencia artificial"
+          - "Pressure tactics sem valor"
+        exemplo: "'Cada mes que passa sem isso, voce esta perdendo [X] - vale a pena esperar mais?'"
+
+      - numero: 5
+        nome: "The Summary Close"
+        descricao: "Resumir todos os beneficios acordados antes de pedir o fechamento."
+        criterio_de_sucesso: "Prospect concorda com o resumo"
+        armadilhas:
+          - "Resumo muito longo"
+          - "Incluir itens que prospect nao validou"
+        exemplo: "'Entao recapitulando: voce quer [A], precisa de [B], e isso resolve [C]. Certo?'"
+
+      - numero: 6
+        nome: "The Sharp Angle Close"
+        descricao: "Quando prospect pede algo, concordar condicionalmente ao fechamento."
+        criterio_de_sucesso: "Prospect aceita a condicao"
+        armadilhas:
+          - "Prometer algo que nao pode entregar"
+        exemplo: "'Se eu conseguir [o que ele pediu], voce fecha hoje?'"
+
+      - numero: 7
+        nome: "The Puppy Dog Close"
+        descricao: "Oferecer trial ou experiencia sem risco para provar valor."
+        criterio_de_sucesso: "Prospect experimenta e nao quer devolver"
+        armadilhas:
+          - "Custo de fulfillment do trial"
+          - "Prospect que abusa de trials"
+        exemplo: "'Que tal comecar com 7 dias e se nao funcionar, devolvemos tudo?'"
+
+    checkpoints:
+      - apos_passo: 1
+        validar: "Prospect mostrou resistencia ao assumptive? Se sim, tentar outro."
+      - apos_passo: 3
+        validar: "Qual close esta ressonando melhor com este prospect?"
+
+    duracao_estimada: "Variar tecnicas ao longo de uma call de 30-60min"
+
+    erros_comuns:
+      - erro: "Usar sempre o mesmo close"
+        como_evitar: "Ter repertorio de 7 closes e variar"
+      - erro: "Nao ouvir sinais de compra"
+        como_evitar: "Parar e fechar quando prospect da sinais"
+      - erro: "Technique > Conviction"
+        como_evitar: "Closes so funcionam com conviccao genuina"
+
+    evidencias:
+      - citacao: "7 Universal Closes: Assumptive, Takeaway, Question, Now or Never, Summary, Sharp Angle, Puppy Dog."
+        chunk_id: "AH-CP001_005"
+        source_id: "AH-CP001"
+        source_title: "$100M Closing Playbook"
+
+    insight_origem: "AH-CP001_005"
+
+    dominios:
+      - "closing"
+      - "sales-process"
+      - "objection-handling"
+
+    peso: 0.95  # Metodologia completa de fechamento

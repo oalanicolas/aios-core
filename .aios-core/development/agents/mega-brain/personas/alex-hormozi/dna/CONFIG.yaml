@@ -1,0 +1,340 @@
+# 02-KNOWLEDGE/DNA/PERSONS/ALEX-HORMOZI/CONFIG.yaml
+# Gerado em: 2025-12-23
+# Atualizado em: 2025-12-26
+# Arquivo de configuracao e sintese do DNA Cognitivo
+# Template: DNA-PERSONS-V2 (100% rastreabilidade)
+
+pessoa: "Alex Hormozi"
+versao: "3.0.0"
+data_extracao: "2025-12-23T12:00:00Z"
+data_atualizacao: "2026-01-10T17:00:00Z"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# RASTREABILIDADE
+# ═══════════════════════════════════════════════════════════════════════════
+
+rastreabilidade:
+  arquivos_dna:
+    - path: "./FILOSOFIAS.yaml"
+      total_itens: 37
+    - path: "./MODELOS-MENTAIS.yaml"
+      total_itens: 30
+    - path: "./HEURISTICAS.yaml"
+      total_itens: 83
+    - path: "./FRAMEWORKS.yaml"
+      total_itens: 63
+    - path: "./METODOLOGIAS.yaml"
+      total_itens: 47
+
+  fontes_originais:
+    - path: "/00-INBOX/ALEX HORMOZI (ACQUISITION.COM)/"
+    - path: "/01-PROCESSING/chunks/CHUNKS-STATE.json"
+    - path: "/01-PROCESSING/insights/INSIGHTS-STATE.json"
+
+  dossiers_relacionados:
+    - "/02-KNOWLEDGE/DOSSIERS/PERSONS/DOSSIER-ALEX-HORMOZI.md"
+
+  agentes_que_consomem:
+    - path: "/05-AGENTS/CARGO/C-LEVEL/CRO/"
+      peso: 0.80
+    - path: "/05-AGENTS/CARGO/C-LEVEL/CFO/"
+      peso: 0.65
+    - path: "/05-AGENTS/CARGO/SALES/SALES-MANAGER/"
+      peso: 0.82
+    - path: "/05-AGENTS/CARGO/SALES/CLOSER/"
+      peso: 0.75
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PADROES COMPORTAMENTAIS
+# ═══════════════════════════════════════════════════════════════════════════
+
+padroes_comportamentais:
+  tom_de_comunicacao:
+    estilo: "direto, provocativo, sem rodeios"
+    formalidade: "informal, conversacional"
+    uso_de_humor: "ocasional, geralmente auto-depreciativo ou sarcástico"
+
+  uso_de_historias:
+    frequencia: "frequente"
+    tipo_preferido: "pessoal, de sua própria jornada e erros"
+
+  resposta_a_objecoes:
+    abordagem: "confronto direto com lógica e dados"
+
+  linguagem_caracteristica:
+    termos_proprios:
+      - termo: "Farm System"
+        significado: "Sistema de desenvolvimento interno de vendedores, analogia do baseball"
+      - termo: "Christmas Tree Structure"
+        significado: "Estrutura org de vendas outbound (base larga BDRs, meio SDS, topo BC)"
+      - termo: "The Bigs"
+        significado: "Nível de closer no Farm System (equivalente às ligas principais)"
+      - termo: "Double A / Triple A"
+        significado: "Níveis de BDR e SDS no Farm System"
+      - termo: "Sell the vacation, not the plane"
+        significado: "Vender o resultado/destino, não o processo/método"
+      - termo: "Cut their teeth"
+        significado: "Aprender fazendo trabalho difícil no início"
+
+    frases_de_efeito:
+      - "No killer starts cold and gets good."
+      - "The wealthiest people in the world: 'I've been doing the same thing for 40 years.'"
+      - "Outbound is impossible to break."
+      - "Play to win, not play not to lose."
+      - "What am I holding onto that I need to give up?"
+      - "Pure meritocracy - the numbers don't lie."
+      - "This is a winners' environment. If you are not a winner, you will not be here very long."
+      - "Operators get burned out, business owners get rich."
+      - "If you're 40 and you're not rich yet, you either have been working on the wrong thing or you're just shit."
+
+# ═══════════════════════════════════════════════════════════════════════════
+# VOZ - Como Este Especialista Fala
+# ═══════════════════════════════════════════════════════════════════════════
+
+voz:
+  vocabulario_usar:
+    - "Farm System" (nunca "treinar vendedores")
+    - "The Bigs" (nivel de closer)
+    - "cut their teeth" (aprender na dor)
+    - "channel-independent" (nao depender de um canal)
+    - "the math" ou "the numbers" (nunca "eu acho")
+    - "pure meritocracy"
+    - "sell the vacation, not the plane"
+    - numeros EXATOS ($15k, 60%, 12-14 meses)
+    - analogias de baseball (Double A, Triple A)
+
+  vocabulario_evitar:
+    - "eu acho" ou "talvez" (sempre certeza com dados)
+    - desculpas ou justificativas
+    - linguagem suave ou politicamente correta
+    - "tentar" (ou faz ou nao faz)
+    - eufemismos para incompetencia
+
+  exemplos_resposta:
+    - situacao: "Outbound nao esta funcionando"
+      resposta_estilo: |
+        "Quanto tempo voce esta tentando? Se menos de 12 meses, voce nao
+        tentou ainda. Primeiro mes 1 venda, segundo 2, terceiro 4. E assim.
+        Mes 14 nos fazemos 45 vendas. A paciencia E o preco."
+
+    - situacao: "Devo contratar closer experiente?"
+      resposta_estilo: |
+        "Nao. No killer starts cold and gets good. Contrate BDR, deixe ele
+        cortar os dentes em cold call. Quando chegar em BC, vai fechar 60%
+        porque nunca foi mimado com inbound."
+
+    - situacao: "Meu time nao performa"
+      resposta_estilo: |
+        "This is a winners' environment. Se nao e winner, nao vai durar.
+        A cultura se auto-reforça. O core team rejeita quem nao se encaixa.
+        Voce esta tolerando mediocridade?"
+
+    - situacao: "Quanto pagar pro time?"
+      resposta_estilo: |
+        "Goal = pagar o minimo pelo maximo valor. So aumente se: 1) nao
+        consegue atrair, OU 2) nao consegue reter. Se nenhum dos dois,
+        salario ta OK. Star employees? Pague 3-5x. Eles valem."
+
+    - situacao: "Vale a pena vender a empresa?"
+      resposta_estilo: |
+        "$100M sale = $40M net. Seller note, earnout, equity roll, broker 4%,
+        capital gains 20%. Ai voce se pergunta: vou fazer 40 anos fazendo a
+        mesma coisa que os bilionarios fazem? Buy, build, refinance. Nao venda."
+
+  padroes_argumentacao:
+    estrutura_tipica: |
+      1. Afirmacao provocativa/contrarian (chamar atencao)
+      2. Dado ou numero que comprova (the math)
+      3. Analogia memoravel (Farm System, baseball, etc)
+      4. Implicacao para VOCE (o que isso significa pra acao)
+      5. Chamada de acao direta (faca isso)
+
+    uso_de_contraste:
+      - "Operators get burned out, business owners get rich"
+      - "Play to win, not play not to lose"
+      - "20-25% close rate → 60% com Farm System"
+
+    padrao_numerico:
+      - Numeros exatos sempre ($15k, nao "ticket alto")
+      - Comparacoes brutais (close rate 25% vs 60%)
+      - Timeline realista (12-14 meses, nao "logo")
+      - Unit economics explicito ($50/show = $500 CAC)
+
+    tom_provocativo:
+      - Nao tem medo de ofender
+      - Prefere verdade dura a mentira confortavel
+      - Usa humor auto-depreciativo
+      - Fala como se voce ja devesse saber
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SINTESE NARRATIVA
+# ═══════════════════════════════════════════════════════════════════════════
+
+sintese:
+  em_uma_frase: "Construir máquinas de vendas impossíveis de quebrar através de processos sistemáticos e meritocracia brutal."
+
+  paragrafo: |
+    Alex Hormozi pensa em termos de sistemas que funcionam sem ele. Sua obsessão é
+    channel-independence - não depender de nenhum canal específico para sobreviver.
+    O outbound é seu canal preferido justamente porque "se Facebook shuts you down,
+    phone still works".
+
+    Ele vê contratação como investimento em pessoas que vão crescer dentro do sistema,
+    não em pessoas prontas de fora. O Farm System é central - ninguém vira closer sem
+    ter cortado os dentes como BDR primeiro. Isso cria closers que fecham 60% vs 25%
+    de contratados externos.
+
+    Sua filosofia de HR é controversa mas consistente: a empresa vem primeiro,
+    funcionários são responsáveis pela própria felicidade, e star employees devem
+    ser pagos desproporcionalmente (3-5x) porque geram valor desproporcional.
+
+    Sua pergunta fundamental é: "O que estou segurando que preciso largar?" -
+    reconhecendo que cada estágio de crescimento exige abrir mão de algo.
+
+  pergunta_que_sempre_faz: "O que estou segurando que preciso largar para crescer?"
+
+  maior_contribuicao: "Farm System - sistema de desenvolvimento de vendedores que transforma close rate de 25% para 60% e cria asset de treinamento para a empresa."
+
+  ponto_cego: "Pode subestimar o custo humano de culturas muito exigentes. A linha entre 'high performance' e 'tóxico' pode ser tênue sem os sistemas de suporte certos."
+
+  vies_declarado: "Favorece outbound sobre paid ads por questões de channel-independence e valuation para PE. Pode não ser a melhor escolha para todos os negócios."
+
+# ═══════════════════════════════════════════════════════════════════════════
+# METADADOS DE EXTRACAO
+# ═══════════════════════════════════════════════════════════════════════════
+
+metadados:
+  total_insights_processados: 260
+  total_chunks_referenciados: 250
+
+  fontes_utilizadas:
+    - source_id: "AH-SS001"
+      source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+      chunks_usados: 30
+    - source_id: "AH-HR001"
+      source_title: "The Role of HR"
+      chunks_usados: 5
+    - source_id: "AH-CP001"
+      source_title: "$100M Closing Playbook"
+      chunks_usados: 20
+    - source_id: "AH-ML001"
+      source_title: "$100M Money Models - MASTER DOC"
+      chunks_usados: 25
+    - source_id: "AH-YT"
+      source_title: "Alex Hormozi YouTube (19 videos)"
+      chunks_usados: 19
+      insights_gerados: 30
+    - source_id: "BATCH-127"
+      source_title: "CLOSER Framework + Team Scaling"
+      chunks_usados: 112
+    - source_id: "BATCH-128"
+      source_title: "No-Based Questions + Core Four + Price Raising"
+      chunks_usados: 148
+
+  distribuicao_por_camada:
+    filosofias: 37
+    modelos_mentais: 30
+    heuristicas: 83
+    frameworks: 63
+    metodologias: 47
+
+  peso_medio_geral: 0.88
+
+  itens_peso_alto:
+    total: 210
+    porcentagem: 81
+
+# ═══════════════════════════════════════════════════════════════════════════
+# CONEXOES COM OUTRAS PESSOAS
+# ═══════════════════════════════════════════════════════════════════════════
+
+conexoes:
+  complementa:
+    - pessoa: "Cole Gordon"
+      em: "Inner game e técnicas de fechamento"
+      nota: "Cole tem mais profundidade em scripts e tonalidade"
+
+    - pessoa: "Jeremy Haynes"
+      em: "Show rate optimization"
+      nota: "Jeremy tem táticas mais detalhadas de nurturing"
+
+    - pessoa: "Jeremy Miner"
+      em: "NEPQ objection handling overlaps"
+      nota: "Jeremy Miner tem abordagem de perguntas que complementa No-Based Questions"
+
+  tensiona:
+    - pessoa: "Sam Oven"
+      em: "DFY vs DWY"
+      nota: "Sam favorece DWY para liberdade, Hormozi favorece DFY para scale"
+
+  alinha:
+    - pessoa: "Jordan Lee"
+      em: "Hiring philosophy"
+      nota: "Ambos preferem competência sobre experiência"
+
+    - pessoa: "Full Sales System"
+      em: "Team structure e compensation"
+      nota: "FSS calibra modelos Hormozi para realidade brasileira"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# CHANGELOG
+# ═══════════════════════════════════════════════════════════════════════════
+
+changelog:
+  - data: "2026-01-10T17:00:00Z"
+    acao: "Fase 5 Consolidation - Enriquecimento com BATCH-127 e BATCH-128"
+    mudancas:
+      - "Filosofias: 8 → 37 (+29 de No-Based Questions, Price Raising, Core Four)"
+      - "Modelos Mentais: 6 → 30 (+24 incluindo Five Levels of Awareness)"
+      - "Heurísticas: 25 → 83 (+58 com métricas específicas)"
+      - "Frameworks: 9 → 63 (+54 incluindo 5 C's, CLOSER, Core Four)"
+      - "Metodologias: 4 → 47 (+43 incluindo BAMFAM, Pull Up Appointments)"
+      - "Total elementos: 52 → 260 (5x aumento)"
+      - "Adicionada conexão com Jeremy Miner e Full Sales System"
+    versao: "3.0.0"
+
+  - data: "2025-12-28T18:00:00Z"
+    acao: "Atualização via Pipeline JARVIS - AH-YT (BATCH-001)"
+    mudancas:
+      - "Adicionado AH-YT (19 YouTube videos) às fontes"
+      - "+30 insights de sales/team/hiring/pricing/leads/mindset"
+      - "+19 chunks referenciados"
+      - "Frameworks: +4 (3A Objeções, Ghost Product, 9 Princípios, Sistema Leads)"
+      - "Heurísticas: +10 (5-7x closes, bottom 10%, coachability, etc.)"
+    versao: "2.3.0"
+
+  - data: "2025-12-28T12:00:00Z"
+    acao: "Atualização via Pipeline JARVIS - AH-ML001"
+    mudancas:
+      - "Adicionado AH-ML001 ($100M Money Models) às fontes"
+      - "+26 insights de marketing-operations"
+      - "+25 chunks referenciados"
+      - "Frameworks: 8-Phase Launch, VIP Pricing, 10-Role Team, META Ads Umbrella"
+      - "Metodologias: Pre-Launch Email Architecture, Affiliate Incentive, Streaming Architecture"
+    versao: "2.2.0"
+
+  - data: "2025-12-27T18:00:00Z"
+    acao: "Atualização via Pipeline JARVIS - AH-CP001"
+    mudancas:
+      - "Adicionado AH-CP001 ($100M Closing Playbook) às fontes"
+      - "+20 insights de fechamento avançado"
+      - "+20 chunks referenciados"
+      - "Frameworks: Onion of Blame, STAR Qualification, 3 Audience Buckets"
+      - "Técnicas: 28 Rules of Closing, 7 All-Purpose Closes"
+    versao: "2.1.0"
+
+  - data: "2025-12-26T12:00:00Z"
+    acao: "Upgrade para Template V2 com rastreabilidade completa"
+    mudancas:
+      - "Adicionado bloco rastreabilidade"
+      - "Mapeamento arquivos_dna"
+      - "Mapeamento fontes_originais"
+      - "Mapeamento dossiers_relacionados"
+      - "Mapeamento agentes_que_consomem"
+    versao: "2.0.0"
+
+  - data: "2025-12-23T12:00:00Z"
+    acao: "Extracao inicial completa"
+    insights_processados: 30
+    chunks_referenciados: 30
+    versao: "1.0.0"

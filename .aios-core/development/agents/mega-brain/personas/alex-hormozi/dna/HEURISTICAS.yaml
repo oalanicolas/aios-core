@@ -1,0 +1,930 @@
+# 02-KNOWLEDGE/DNA/PERSONS/ALEX-HORMOZI/HEURISTICAS.yaml
+# Gerado em: 2025-12-23
+# NOTA: Esta é a camada MAIS VALIOSA - priorizar heurísticas com números
+
+pessoa: "Alex Hormozi"
+versao: "1.1.0"
+data_extracao: "2025-12-27T12:00:00Z"
+total_itens: 18
+
+heuristicas:
+  # ═══════════════════════════════════════════════════════════════════════
+  # HEURÍSTICAS COM THRESHOLD NUMÉRICO (Mais valiosas)
+  # ═══════════════════════════════════════════════════════════════════════
+
+  - id: "HEUR-AH-001"
+    regra: "Se ticket < $15k, não fazer outbound - unit economics não funcionam."
+
+    threshold:
+      valor: 15000
+      operador: "<"
+      unidade: "USD"
+
+    contexto_de_uso: "Decidindo se vale investir em outbound sales para seu produto/serviço."
+
+    acao_recomendada: "Aumentar ticket ou usar outro canal de aquisição."
+
+    excecoes:
+      - "Produtos com LTV muito alto podem funcionar com ticket inicial menor"
+      - "Upsell pipeline pode justificar CAC inicial maior"
+
+    evidencias:
+      - citacao: "If you want to do outbound, your ticket has to be at least 15,000 dollars. The unit economics don't really work otherwise."
+        chunk_id: "chunk_199"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "OB002"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: "FIL-AH-001"
+
+    dominios:
+      - "pricing"
+      - "outbound"
+      - "unit-economics"
+
+    peso: 0.95  # Threshold numérico + citação direta + prescritivo
+
+  - id: "HEUR-AH-002"
+    regra: "100 dials → 20 pickups → 2 shows. Essa é a conversão esperada de BDR."
+
+    threshold:
+      valor: 100
+      operador: "="
+      unidade: "dials/dia"
+
+    contexto_de_uso: "Definindo metas de atividade para BDRs e diagnosticando problemas."
+
+    acao_recomendada: "Se abaixo de 2 shows por 100 dials, revisar script ou lista."
+
+    excecoes:
+      - "Nichos diferentes podem ter taxas diferentes"
+      - "Listas frias vs warm podem variar"
+
+    evidencias:
+      - citacao: "Those BDRs are required to make 100 calls a day... From those 100 calls they are expected to have two appointments that show."
+        chunk_id: "chunk_203"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+      - citacao: "From there you'll get your 100 dials, you'll get 20 to pick up (that's 1 in 5), and from the 20 we will have two who schedule and show."
+        chunk_id: "chunk_204"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "SS003"
+
+    modelo_mental_relacionado: "MM-AH-001"
+    filosofia_relacionada: null
+
+    dominios:
+      - "sales-metrics"
+      - "outbound"
+      - "performance-management"
+
+    peso: 0.95  # Threshold numérico múltiplo + citação direta
+
+  - id: "HEUR-AH-003"
+    regra: "Se close rate < 10% em outbound, problema é qualificação (SDS), não closing."
+
+    threshold:
+      valor: 10
+      operador: "<"
+      unidade: "%"
+
+    contexto_de_uso: "Diagnosticando por que vendas outbound não estão fechando."
+
+    acao_recomendada: "Revisar processo de qualificação do SDS antes de treinar closers."
+
+    excecoes:
+      - "Closers novos podem ter taxa temporariamente menor"
+      - "Mudança de oferta pode afetar temporariamente"
+
+    evidencias:
+      - citacao: "For us we close 10% of scheduled SDS appointments. So if there's two of these, we close 0.2 - we close 10% of showed set calls."
+        chunk_id: "chunk_212"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "SS003"
+
+    modelo_mental_relacionado: "MM-AH-001"
+    filosofia_relacionada: null
+
+    dominios:
+      - "sales-metrics"
+      - "outbound"
+      - "diagnostics"
+
+    peso: 0.90  # Threshold numérico + citação direta
+
+  - id: "HEUR-AH-004"
+    regra: "4 horas de call block, não 8. Pessoas não conseguem cold call produtivamente por 8h."
+
+    threshold:
+      valor: 4
+      operador: "="
+      unidade: "horas"
+
+    contexto_de_uso: "Estruturando jornada de trabalho de BDRs."
+
+    acao_recomendada: "Contratar para blocos de 4h e pagar por performance, não por hora."
+
+    excecoes:
+      - "Pode variar por pessoa, mas 4h é o padrão"
+
+    evidencias:
+      - citacao: "The way that we structure this is that they get four hours to work per day... His experience was that people cannot be productive for eight hours straight cold calling. He said 'if you give them eight hours of pay, they'll do five and a half hours of calls. So you might as well do four hours of pay and get three and a half'."
+        chunk_id: "chunk_203"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "SS004"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "performance-management"
+      - "outbound"
+      - "efficiency"
+
+    peso: 0.90  # Threshold numérico + citação direta + muito prático
+
+  - id: "HEUR-AH-005"
+    regra: "BDR OTE = $40k, SDS OTE = $55-70k, BC OTE = $120-220k."
+
+    threshold:
+      valor_min: 40000
+      valor_max: 220000
+      operador: "range"
+      unidade: "USD/ano"
+
+    contexto_de_uso: "Definindo faixas salariais para time de vendas outbound."
+
+    acao_recomendada: "Atrair BDRs com visão do $200k lottery, não com o $40k inicial."
+
+    excecoes:
+      - "Mercados diferentes podem ter OTEs diferentes"
+      - "Moeda local afeta valores"
+
+    evidencias:
+      - citacao: "The BDRs do not get paid very much - they're on target earnings if they hit all the commissions is 40 grand. How do you attract someone who can do this job well for $40,000? You don't. You attract them because they know that the guys who win the lottery make $200,000 a year."
+        chunk_id: "chunk_216"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "CM002"
+
+    modelo_mental_relacionado: "MM-AH-002"
+    filosofia_relacionada: "FIL-AH-004"
+
+    dominios:
+      - "compensation"
+      - "hiring"
+      - "sales-structure"
+
+    peso: 0.90  # Threshold numérico + citação direta
+
+  - id: "HEUR-AH-006"
+    regra: "6-8 semanas de steam antes de vendedor desanimar. Criar milestones nesse intervalo."
+
+    threshold:
+      valor_min: 6
+      valor_max: 8
+      operador: "range"
+      unidade: "semanas"
+
+    contexto_de_uso: "Estruturando sistema de progressão para reter vendedores."
+
+    acao_recomendada: "Criar promoções/milestones a cada 6-8 semanas para manter engajamento."
+
+    excecoes:
+      - "Top performers podem ter mais steam"
+      - "Cultura forte pode estender"
+
+    evidencias:
+      - citacao: "It's my belief that a sales person has like six to eight weeks of steam in them before they start getting disheartened. So what we did is that we created milestones."
+        chunk_id: "chunk_215"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "CM001"
+
+    modelo_mental_relacionado: "MM-AH-002"
+    filosofia_relacionada: "FIL-AH-004"
+
+    dominios:
+      - "retention"
+      - "performance-management"
+      - "compensation"
+
+    peso: 0.90  # Threshold numérico + citação direta
+
+  - id: "HEUR-AH-007"
+    regra: "12-14 meses para outbound maturar. Desistir antes disso é não ter testado."
+
+    threshold:
+      valor_min: 12
+      valor_max: 14
+      operador: "range"
+      unidade: "meses"
+
+    contexto_de_uso: "Avaliando se outbound está funcionando ou se deve desistir."
+
+    acao_recomendada: "Comprometer-se com no mínimo 12 meses antes de avaliar."
+
+    excecoes:
+      - "Se não há progresso no funil, pode haver problema estrutural"
+
+    evidencias:
+      - citacao: "The first month we made one sale, second month two sales, third month four sales... We're now at month 14 from when we started and now it does about 45 sales a month, which for us is roughly 60% of our sales volume."
+        chunk_id: "chunk_198"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "OB001"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: "FIL-AH-001"
+
+    dominios:
+      - "outbound"
+      - "scaling"
+      - "patience"
+
+    peso: 0.95  # Threshold numérico + citação direta + muito importante
+
+  - id: "HEUR-AH-008"
+    regra: "SDS call = 45min total: 30min value delivery + 15min transição para close."
+
+    threshold:
+      valor: 45
+      operador: "="
+      unidade: "minutos"
+
+    contexto_de_uso: "Estruturando call de qualificação/valor."
+
+    acao_recomendada: "Deixar 15min dead time no final para transicionar para closer."
+
+    excecoes:
+      - "Deals mais complexos podem precisar de mais tempo"
+
+    evidencias:
+      - citacao: "The SDS call is like 45 minutes - so it's 30 to do the thing, 15 to set the next deal."
+        chunk_id: "chunk_208"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "SD001"
+
+    modelo_mental_relacionado: "MM-AH-001"
+    filosofia_relacionada: null
+
+    dominios:
+      - "sales-process"
+      - "time-management"
+      - "scripts"
+
+    peso: 0.85  # Threshold numérico + citação direta
+
+  - id: "HEUR-AH-009"
+    regra: "$50 por show = CAC de $500 para 10% close rate. Unit economics de referência."
+
+    threshold:
+      valor: 50
+      operador: "="
+      unidade: "USD/show"
+
+    contexto_de_uso: "Calculando CAC de outbound e comparando com outros canais."
+
+    acao_recomendada: "Se custo por show > $50, revisar eficiência de BDRs."
+
+    excecoes:
+      - "Tickets maiores justificam CAC maior"
+      - "LTV maior permite CAC maior"
+
+    evidencias:
+      - citacao: "They get 50 bucks for every show, so it's $500 in BDRs per close. Which for a $40,000 LTV is pretty cool."
+        chunk_id: "chunk_212"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: null
+
+    modelo_mental_relacionado: "MM-AH-005"
+    filosofia_relacionada: null
+
+    dominios:
+      - "unit-economics"
+      - "compensation"
+      - "outbound"
+
+    peso: 0.90  # Threshold numérico + citação direta + muito prático
+
+  - id: "HEUR-AH-010"
+    regra: "Close rate 20-25% → 60% quando closer veio do Farm System (outbound training)."
+
+    threshold:
+      valor_antes: 25
+      valor_depois: 60
+      operador: "improvement"
+      unidade: "%"
+
+    contexto_de_uso: "Avaliando valor do Farm System vs contratar closers prontos."
+
+    acao_recomendada: "Desenvolver closers internamente pelo Farm System."
+
+    excecoes:
+      - "Closers externos excepcionais podem manter taxa alta"
+
+    evidencias:
+      - citacao: "Our inbound closing percentage - and we were considered pretty good at sales before this - went from 20-25% to 60%. Because they cut their teeth at the bottom."
+        chunk_id: "chunk_214"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "FS002"
+
+    modelo_mental_relacionado: "MM-AH-002"
+    filosofia_relacionada: "FIL-AH-006"
+
+    dominios:
+      - "training"
+      - "sales-metrics"
+      - "hiring"
+
+    peso: 0.95  # Threshold numérico duplo + resultado impressionante
+
+  - id: "HEUR-AH-011"
+    regra: "Star employees valem 3-5x output normal. Pagar desproporcionalmente para reter."
+
+    threshold:
+      valor_min: 3
+      valor_max: 5
+      operador: "multiplier"
+      unidade: "x"
+
+    contexto_de_uso: "Decidindo quanto pagar para reter top performers."
+
+    acao_recomendada: "Identificar star employees e criar pacote desproporcional."
+
+    excecoes:
+      - "Avaliar se output realmente é 3-5x (não apenas percepção)"
+
+    evidencias:
+      - citacao: "Star employees worth 3-5x normal output. Pay them disproportionately to retain."
+        chunk_id: "AH002_004"
+        source_id: "AH-HR001"
+        source_title: "The Role of HR"
+
+    insight_origem: "HR004"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: "FIL-AH-003"
+
+    dominios:
+      - "compensation"
+      - "retention"
+      - "hr-philosophy"
+
+    peso: 0.85  # Threshold numérico + citação direta
+
+  - id: "HEUR-AH-012"
+    regra: "$100M sale = ~$40M net após seller note, earnout, equity roll, broker 4%, capital gains 20%."
+
+    threshold:
+      valor: 40
+      operador: "="
+      unidade: "% net"
+
+    contexto_de_uso: "Planejando exit e entendendo valor real de venda."
+
+    acao_recomendada: "Calcular net real antes de definir preço-alvo de exit."
+
+    excecoes:
+      - "Estrutura de deal varia"
+      - "Impostos variam por jurisdição"
+
+    evidencias:
+      - citacao: "$100M sale = ~$40M net after: seller note, earnout, equity roll, broker 4%, bonuses, capital gains 20%, escrow."
+        chunk_id: "AH001_010"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "EX001"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "exit-strategy"
+      - "wealth-building"
+      - "financial-planning"
+
+    peso: 0.90  # Threshold numérico + citação direta + muito útil
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # HEURÍSTICAS TEXTUAIS (sem número específico)
+  # ═══════════════════════════════════════════════════════════════════════
+
+  - id: "HEUR-AH-013"
+    regra: "Se funcionário não está atraindo ou retendo, não pague mais - salário está OK."
+
+    threshold: null
+
+    qualificador: "só aumentar se problema de atração/retenção"
+
+    contexto_de_uso: "Decidindo se deve dar aumento para time."
+
+    acao_recomendada: "Verificar métricas de atração e retenção antes de aumentar."
+
+    evidencias:
+      - citacao: "Only pay more if: 1) trouble attracting talent, OR 2) trouble retaining talent. Otherwise, pay is fine."
+        chunk_id: "AH002_004"
+        source_id: "AH-HR001"
+        source_title: "The Role of HR"
+
+    insight_origem: "HR003"
+
+    dominios:
+      - "compensation"
+      - "hr-philosophy"
+
+    peso: 0.80  # Sem número mas muito prescritiva
+
+  - id: "HEUR-AH-014"
+    regra: "Se SDS não é ex-cliente ou domain expert, não vai conseguir mostrar expertise."
+
+    threshold: null
+
+    qualificador: "preferir ex-clientes"
+
+    contexto_de_uso: "Contratando para posição de SDS."
+
+    acao_recomendada: "Buscar ex-clientes de sucesso para SDS roles."
+
+    evidencias:
+      - citacao: "The SDS for us almost exclusively is ex-clients. We may be in a situation where our clients are able to do that - you have to show some domain expertise especially around this thing."
+        chunk_id: "chunk_208"
+        source_id: "AH-SS001"
+        source_title: "How I Scaled My Sales Team [Taki Moore Mastermind]"
+
+    insight_origem: "SD001"
+
+    dominios:
+      - "hiring"
+      - "sales-structure"
+
+    peso: 0.80  # Sem número mas muito prática
+
+  - id: "HEUR-AH-015"
+    regra: "Se core team rejeita novo membro, remover. Cultura se auto-reforça."
+
+    threshold: null
+
+    qualificador: "cultura > indivíduo"
+
+    contexto_de_uso: "Avaliando fit de novo funcionário após onboarding."
+
+    acao_recomendada: "Escutar feedback do core team sobre novos membros."
+
+    evidencias:
+      - citacao: "Strong core team assimilates or rejects new members. Culture self-enforces."
+        chunk_id: "AH002_005"
+        source_id: "AH-HR001"
+        source_title: "The Role of HR"
+
+    insight_origem: "CC002"
+
+    dominios:
+      - "organizational-culture"
+      - "hiring"
+
+    peso: 0.75  # Sem número mas insight útil
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # HEURÍSTICAS DE AH-CP001: $100M CLOSING PLAYBOOK
+  # ═══════════════════════════════════════════════════════════════════════
+
+  - id: "HEUR-AH-016"
+    regra: "Conviction > Technique. Contratar por conviccao, treinar tecnica depois."
+
+    threshold: null
+
+    qualificador: "filosofia de contratacao"
+
+    contexto_de_uso: "Decidindo criterios para contratar closers e vendedores."
+
+    acao_recomendada: "Buscar pessoas que acreditam genuinamente no produto. Tecnica vem depois."
+
+    excecoes:
+      - "Roles muito tecnicos podem precisar de tecnica basica"
+
+    evidencias:
+      - citacao: "Conviction beats technique every time. Hire for conviction, train for technique."
+        chunk_id: "AH-CP001_001"
+        source_id: "AH-CP001"
+        source_title: "$100M Closing Playbook"
+
+    insight_origem: "AH-CP001_001"
+
+    dominios:
+      - "hiring"
+      - "closing"
+      - "sales-philosophy"
+
+    peso: 0.90  # Insight central de contratacao
+
+  - id: "HEUR-AH-017"
+    regra: "MAYBE bucket = 60% dos leads = onde o dinheiro e feito."
+
+    threshold:
+      valor: 60
+      operador: "="
+      unidade: "%"
+
+    contexto_de_uso: "Alocando tempo e esforco de nurture/closing."
+
+    acao_recomendada: "Focar energia no MAYBE bucket, nao no YES que ja vai comprar."
+
+    excecoes:
+      - "Pipelines muito qualificados podem ter proporcao diferente"
+
+    evidencias:
+      - citacao: "The MAYBE bucket is 60% of your audience - this is where the money is made."
+        chunk_id: "AH-CP001_004"
+        source_id: "AH-CP001"
+        source_title: "$100M Closing Playbook"
+
+    insight_origem: "AH-CP001_004"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "lead-nurturing"
+      - "qualification"
+      - "sales-strategy"
+
+    peso: 0.95  # Threshold numerico + insight central
+
+  - id: "HEUR-AH-018"
+    regra: "Descartar objecoes de 'circumstance' e 'others' - ir direto para o medo 'self'."
+
+    threshold: null
+
+    qualificador: "psicologia de objecoes"
+
+    contexto_de_uso: "Handling de objecoes que parecem vagas ou inconsistentes."
+
+    acao_recomendada: "Quando prospect culpa circunstancias ou outras pessoas, escavar mais fundo."
+
+    excecoes:
+      - "Objecoes genuinas de preco ou timing"
+
+    evidencias:
+      - citacao: "Onion of Blame: prospects blame circumstance first, then others, finally self. The real objection is always at the self layer."
+        chunk_id: "AH-CP001_003"
+        source_id: "AH-CP001"
+        source_title: "$100M Closing Playbook"
+
+    insight_origem: "AH-CP001_003"
+
+    dominios:
+      - "objection-handling"
+      - "psychology"
+      - "closing"
+
+    peso: 0.85  # Insight pratico de psychology
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # HEURÍSTICAS DE AH-YT: YouTube Masterclass (19 vídeos)
+  # ═══════════════════════════════════════════════════════════════════════
+
+  - id: "HEUR-AH-019"
+    regra: "Top performers pedem fechamento 5-7x por call. Medianos pedem 1-2x."
+
+    threshold:
+      valor_min: 5
+      valor_max: 7
+      operador: "range"
+      unidade: "asks/call"
+
+    contexto_de_uso: "Treinando closers para aumentar taxa de fechamento."
+
+    acao_recomendada: "Contar asks por call e treinar para aumentar frequência. Cada objeção = nova oportunidade de ask."
+
+    excecoes:
+      - "Não confundir persistência com pressão desagradável"
+      - "Prospect engajado justifica mais asks"
+
+    evidencias:
+      - citacao: "Vendedores medianos pedem 1-2x, top performers pedem 5-7x por call."
+        chunk_id: "AH-YT007_001"
+        source_id: "AH-YT007"
+        source_title: "After Closing 4000+ Sales, I Discovered a New Method to Close Deals Faster"
+
+    insight_origem: "SP-AH010"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "closing"
+      - "sales-training"
+      - "performance-metrics"
+
+    peso: 0.95  # Threshold numérico + muito prático + alta aplicabilidade
+
+  - id: "HEUR-AH-020"
+    regra: "Cortar bottom 10% consistentemente. Manter padrão de excelência é mais importante que evitar turnover."
+
+    threshold:
+      valor: 10
+      operador: "bottom"
+      unidade: "% do time"
+
+    contexto_de_uso: "Gerenciando performance de time de vendas."
+
+    acao_recomendada: "Implementar revisão mensal/trimestral e remover consistentemente os 10% piores performers."
+
+    excecoes:
+      - "Times muito pequenos (menos de 10 pessoas) devem usar critério absoluto"
+      - "Considerar contexto de ramp-up para novos"
+
+    evidencias:
+      - citacao: "Corte do bottom 10%: eliminar consistentemente os piores performers mantém padrão de excelência."
+        chunk_id: "AH-YT011_001"
+        source_id: "AH-YT011"
+        source_title: "How I Built A 20+ Sales Team [The Process]"
+
+    insight_origem: "TS-AH003"
+
+    modelo_mental_relacionado: "MM-AH-002"
+    filosofia_relacionada: "FIL-AH-004"
+
+    dominios:
+      - "performance-management"
+      - "team-building"
+      - "hr-philosophy"
+
+    peso: 0.90  # Threshold numérico + filosofia importante de gestão
+
+  - id: "HEUR-AH-021"
+    regra: "Gravar 100% das calls. Sem gravação = sem QC, sem treinamento, sem padrões."
+
+    threshold:
+      valor: 100
+      operador: "="
+      unidade: "% das calls"
+
+    contexto_de_uso: "Estruturando processo de QC e treinamento de time."
+
+    acao_recomendada: "Implementar gravação obrigatória de todas as calls. Revisar amostra semanal."
+
+    excecoes:
+      - "Regulações locais sobre consent podem exigir adaptação"
+
+    evidencias:
+      - citacao: "Gravação de todas as calls é obrigatória - base para QC, treinamento e identificação de padrões."
+        chunk_id: "AH-YT011_001"
+        source_id: "AH-YT011"
+        source_title: "How I Built A 20+ Sales Team [The Process]"
+
+    insight_origem: "TS-AH002"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "quality-control"
+      - "training"
+      - "sales-process"
+
+    peso: 0.90  # Threshold numérico + fundamento operacional
+
+  - id: "HEUR-AH-022"
+    regra: "Coachability é critério #1 para contratação. Supera experiência prévia."
+
+    threshold: null
+
+    qualificador: "critério de seleção prioritário"
+
+    contexto_de_uso: "Entrevistando candidatos para posições de vendas."
+
+    acao_recomendada: "Testar coachability durante entrevista: dar feedback e observar reação. Rejeitar defensivos."
+
+    excecoes:
+      - "Roles muito seniores podem precisar balancear com track record"
+
+    evidencias:
+      - citacao: "Coachability é o critério #1 na seleção: capacidade de receber feedback e mudar supera experiência prévia."
+        chunk_id: "AH-YT010_001"
+        source_id: "AH-YT010"
+        source_title: "How To Build Large Sales Teams (Starting from 0)"
+
+    insight_origem: "HT-AH001"
+
+    modelo_mental_relacionado: "MM-AH-002"
+    filosofia_relacionada: "FIL-AH-006"
+
+    dominios:
+      - "hiring"
+      - "sales-training"
+      - "team-building"
+
+    peso: 0.95  # Insight central de contratação + muito prescritivo
+
+  - id: "HEUR-AH-023"
+    regra: "Primeiras 2 semanas de onboarding definem sucesso. Intensidade máxima nesse período."
+
+    threshold:
+      valor: 2
+      operador: "="
+      unidade: "semanas"
+
+    contexto_de_uso: "Estruturando programa de onboarding para vendedores."
+
+    acao_recomendada: "Criar onboarding intensivo de 2 semanas. Acompanhamento diário. Decisão de fit ao final."
+
+    excecoes:
+      - "Roles mais complexos podem precisar de onboarding mais longo"
+      - "Manter intensidade mesmo se estender período"
+
+    evidencias:
+      - citacao: "Onboarding intenso: primeiras 2 semanas definem se o vendedor vai performar ou não."
+        chunk_id: "AH-YT010_001"
+        source_id: "AH-YT010"
+        source_title: "How To Build Large Sales Teams (Starting from 0)"
+
+    insight_origem: "HT-AH002"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "onboarding"
+      - "hiring"
+      - "training"
+
+    peso: 0.90  # Threshold numérico + muito prático
+
+  - id: "HEUR-AH-024"
+    regra: "Feedback diário/semanal em rituais > feedback pontual esporádico."
+
+    threshold: null
+
+    qualificador: "cadência de feedback"
+
+    contexto_de_uso: "Estruturando sistema de feedback e coaching de time."
+
+    acao_recomendada: "Implementar rituais fixos: daily standup, weekly 1:1, review semanal de calls."
+
+    excecoes:
+      - "Não substituir feedback imediato quando necessário"
+
+    evidencias:
+      - citacao: "Cadência de feedback: rituais diários/semanais de revisão são mais efetivos que feedback pontual."
+        chunk_id: "AH-YT010_001"
+        source_id: "AH-YT010"
+        source_title: "How To Build Large Sales Teams (Starting from 0)"
+
+    insight_origem: "HT-AH003"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "coaching"
+      - "performance-management"
+      - "leadership"
+
+    peso: 0.80  # Insight prático de gestão
+
+  - id: "HEUR-AH-025"
+    regra: "Consistência > paixão. Tolerância à frustração é o motor real do sucesso."
+
+    threshold: null
+
+    qualificador: "filosofia de performance"
+
+    contexto_de_uso: "Avaliando candidatos e desenvolvendo mentalidade de time."
+
+    acao_recomendada: "Buscar histórico de persistência. Desconfiar de entusiasmo sem disciplina."
+
+    excecoes: null
+
+    evidencias:
+      - citacao: "Consistência supera paixão: disciplina e tolerância à frustração são os motores reais do sucesso."
+        chunk_id: "AH-YT005_001"
+        source_id: "AH-YT005"
+        source_title: "If you're ambitious but inconsistent, please watch this"
+
+    insight_origem: "MC-AH001"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "mindset"
+      - "performance"
+      - "hiring"
+
+    peso: 0.85  # Filosofia central de Hormozi
+
+  - id: "HEUR-AH-026"
+    regra: "Dominar manualmente antes de automatizar. Proficiência precede escala."
+
+    threshold: null
+
+    qualificador: "sequência de maturidade"
+
+    contexto_de_uso: "Decidindo quando automatizar processos."
+
+    acao_recomendada: "Fazer manualmente até dominar. Só então sistematizar. Não pular etapas."
+
+    excecoes:
+      - "Processos commodity podem ser automatizados mais cedo"
+
+    evidencias:
+      - citacao: "Proficiência antes de automação: dominar manualmente antes de escalar com sistemas."
+        chunk_id: "AH-YT005_001"
+        source_id: "AH-YT005"
+        source_title: "If you're ambitious but inconsistent, please watch this"
+
+    insight_origem: "MC-AH002"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "scaling"
+      - "operations"
+      - "systems"
+
+    peso: 0.85  # Insight de maturidade operacional
+
+  - id: "HEUR-AH-027"
+    regra: "Começar gratuito/barato, aumentar preço conforme prova social acumula."
+
+    threshold: null
+
+    qualificador: "progressão de pricing"
+
+    contexto_de_uso: "Definindo estratégia de pricing para produto novo."
+
+    acao_recomendada: "Primeiros clientes = gratuito ou barato. Coletar testemunhos. Aumentar progressivamente."
+
+    excecoes:
+      - "Produtos premium podem começar alto se há autoridade prévia"
+
+    evidencias:
+      - citacao: "Aumento progressivo de preços: começar gratuito/barato, aumentar conforme prova social acumula."
+        chunk_id: "AH-YT008_001"
+        source_id: "AH-YT008"
+        source_title: "Watch this to get your first 5 customers"
+
+    insight_origem: "LG-AH004"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "pricing"
+      - "positioning"
+      - "go-to-market"
+
+    peso: 0.85  # Insight prático de pricing
+
+  - id: "HEUR-AH-028"
+    regra: "Ancorar com preço alto antes de revelar preço real. Aumenta percepção de valor."
+
+    threshold: null
+
+    qualificador: "técnica de pricing"
+
+    contexto_de_uso: "Apresentando preço em call de vendas."
+
+    acao_recomendada: "Mostrar valor total da oferta (ancorar alto). Depois revelar preço real como desconto implícito."
+
+    excecoes:
+      - "Não exagerar ancoragem a ponto de perder credibilidade"
+
+    evidencias:
+      - citacao: "Ancoragem e pré-pagamento: apresentar preço mais alto primeiro, depois revelar preço real, aumenta percepção de valor."
+        chunk_id: "AH-YT014_001"
+        source_id: "AH-YT014"
+        source_title: "How I RAISE PRICES without losing sales...(using this psychological trick)"
+
+    insight_origem: "PO-AH001"
+
+    modelo_mental_relacionado: null
+    filosofia_relacionada: null
+
+    dominios:
+      - "pricing"
+      - "closing"
+      - "psychology"
+
+    peso: 0.85  # Técnica prática de pricing
