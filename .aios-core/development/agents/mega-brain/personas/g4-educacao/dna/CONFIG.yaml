@@ -1,0 +1,119 @@
+# CONFIG - G4 EDUCACAO DNA COGNITIVO
+# Arquivo central de configuracao e metadados do DNA
+# Versao: 3.0.0 | Criado: 2025-12-28 | Atualizado: 2026-01-10
+
+versao: "3.0.0"
+pessoa: "G4 Educacao"
+nome_canonico: "G4 Educacao"
+empresa: "G4 / Gestao 4.0"
+localizacao: "Brasil"
+
+# Padroes comportamentais identificados
+padroes_comportamentais:
+  - padrao: "Calibracao cultural Brasil"
+    frequencia: "ALTA"
+    evidencia: "Nomenclatura local (LDR, BDR, SDR, Closer, Farmer)"
+  - padrao: "Foco em CX (Customer Experience)"
+    frequencia: "ALTA"
+    evidencia: "Jornada Ampulheta, NPS, 89% brasileiros"
+  - padrao: "Employee Experience primeiro"
+    frequencia: "ALTA"
+    evidencia: "Funcionario feliz = cliente bem atendido"
+  - padrao: "Metodologias classicas validadas"
+    frequencia: "MEDIA"
+    evidencia: "SPIN, MEDDIC, Sandler, Challenger, Receita Previsivel"
+
+# Sintese narrativa
+sintese_narrativa: |
+  G4 Educacao representa a calibracao Brasil dos frameworks de vendas americanos.
+  Nao e copia - e adaptacao cultural e terminologica para o mercado local.
+
+  Enquanto americano fala em SDS e BC, brasileiro usa SDR e Closer. Terminologia
+  importa para comunicacao no time.
+
+  CX (Customer Experience) e tao importante quanto o produto - 89% dos brasileiros
+  concordam. Employee Experience vem primeiro: funcionario feliz, cliente bem atendido.
+
+  Foco nos detratores, nao nos promotores. Detrator recuperado vira promotor mais leal.
+
+# Estatisticas do DNA
+estatisticas:
+  filosofias: 25
+  modelos_mentais: 18
+  heuristicas: 156
+  frameworks: 20
+  metodologias: 10
+  total_itens: 229
+
+  peso_medio_geral: 0.80
+  itens_peso_acima_070: 185
+  percentual_alta_confianca: 80.8
+
+  # Densidade de heuristicas: 68% do total (excelente para SDR/Negociacao)
+  arquivos_processados: 55
+  batches_processados: 8
+  batch_range: "021-028"
+
+# Fontes utilizadas
+fontes:
+  processadas:
+    - source_id: "G4-FUN"
+      tipo: "course"
+      titulo: "G4 Fundamentos de Vendas"
+      batches: "021-023"
+    - source_id: "G4-NEG"
+      tipo: "course"
+      titulo: "G4 Negociacao"
+      batches: "024-025"
+    - source_id: "G4-SDR"
+      tipo: "course"
+      titulo: "G4 Formacao SDR"
+      batches: "026-028"
+
+  dossier: "/02-KNOWLEDGE/DOSSIERS/PERSONS/DOSSIER-G4-EDUCACAO.md"
+  source_log: "/06-LOGS/SOURCES/SOURCE-G4.md"
+  chunks_totais: 1020
+  insights_totais: 820
+
+# Relacionamentos
+relacionamentos:
+  foco_principal: "Mercado Brasil"
+  modelo_recomendado: "Calibracao cultural de frameworks USA"
+  pricing_approach: "Metodologias classicas validadas"
+
+# Tensoes com outras fontes
+tensoes:
+  - fonte: "Cole Gordon / Alex Hormozi"
+    topico: "Terminologia"
+    g4_educacao: "LDR/BDR/SDR/Closer"
+    outra_fonte: "SDS/BC"
+    tipo: "COMPLEMENTAR"
+    nota: "G4 e calibracao cultural, nao contradicao"
+
+# Metadados de extracao
+metadados:
+  criado_em: "2025-12-28T00:00:00Z"
+  atualizado_em: "2026-01-10T17:45:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  pipeline: "Jarvis v3.33.0"
+  extraido_por: "Claude Code"
+  missao: "MISSION-2026-001"
+  fase: "PHASE-5-CONSOLIDATION"
+
+changelog:
+  - data: "2026-01-10T17:45:00Z"
+    acao: "Fase 5 Consolidation - Sincronizacao com SOURCE-G4.md"
+    mudancas:
+      - "Versao atualizada para 3.0.0 (alinhamento Fase 5)"
+      - "Estatisticas atualizadas de 17 para 229 elementos"
+      - "Filosofias: 4 → 25, Modelos: 3 → 18, Heuristicas: 4 → 156"
+      - "Frameworks: 4 → 20, Metodologias: 2 → 10"
+      - "8 batches (BATCH-021 a BATCH-028) validados"
+      - "55 arquivos fonte processados"
+      - "Adicionado source_log reference"
+    versao: "3.0.0"
+  - data: "2025-12-28T00:00:00Z"
+    acao: "Criacao inicial do DNA"
+    fonte: "DOSSIER-G4-EDUCACAO.md"
+    itens_adicionados: 17
+    versao: "1.0.0"

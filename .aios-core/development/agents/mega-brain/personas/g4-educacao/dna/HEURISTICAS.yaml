@@ -1,0 +1,65 @@
+# HEURISTICAS - G4 EDUCACAO
+# Regras com THRESHOLD NUMERICO no formato "Se X entao Y"
+# Versao: 1.0.0 | Criado: 2025-12-28
+
+versao: "1.0.0"
+pessoa: "G4 Educacao"
+camada: "HEURISTICAS"
+total_itens: 4
+
+itens:
+  - id: "G4-HEU-001"
+    titulo: "NPS Excelente"
+    descricao: "Se NPS >= 75, empresa esta em zona excelente."
+    peso: 0.90
+    chunks:
+      - "G4002_007"
+    fontes:
+      - "G4002"
+    regra: "SE NPS >= 75 ENTAO zona excelente"
+    threshold: "75-100 = Excelente, 50-74 = Muito bom, 0-49 = Razoavel, <0 = Ruim"
+    aplicacao: "Avaliacao de CX, metas de NPS"
+
+  - id: "G4-HEU-002"
+    titulo: "LTV:CAC Minimo"
+    descricao: "Se LTV:CAC > 3:1, unit economics saudavel."
+    peso: 0.90
+    chunks:
+      - "G4002_008"
+    fontes:
+      - "G4002"
+    regra: "SE LTV/CAC > 3 ENTAO unit economics saudavel"
+    threshold: "> 3:1"
+    aplicacao: "Analise financeira, decisoes de investimento"
+
+  - id: "G4-HEU-003"
+    titulo: "Foco no Detrator"
+    descricao: "Se detrator recuperado, vira promotor mais leal que promotor original."
+    peso: 0.85
+    chunks:
+      - "G4002_009"
+    fontes:
+      - "G4002"
+    regra: "SE detrator recuperado ENTAO promotor mais leal"
+    threshold: "NPS 0-6 = Detrator (foco prioritario)"
+    aplicacao: "Estrategia de atendimento, priorizacao de recursos"
+
+  - id: "G4-HEU-004"
+    titulo: "89% Rule"
+    descricao: "89% dos brasileiros consideram CX tao importante quanto produto."
+    peso: 0.85
+    chunks:
+      - "G4002_010"
+    fontes:
+      - "G4002"
+    regra: "SE mercado Brasil ENTAO CX = prioridade alta (89% validam)"
+    threshold: "89%"
+    aplicacao: "Priorizacao de investimentos, argumentacao interna"
+
+metadados:
+  total_chunks_processados: 4
+  fontes_utilizadas:
+    - "G4002"
+  peso_medio: 0.87
+  criado_em: "2025-12-28T00:00:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v1.0"

@@ -1,0 +1,60 @@
+# FILOSOFIAS - G4 EDUCACAO
+# Crencas fundamentais que aparecem 3+ vezes em contextos diferentes
+# Versao: 1.0.0 | Criado: 2025-12-28
+
+versao: "1.0.0"
+pessoa: "G4 Educacao"
+camada: "FILOSOFIAS"
+total_itens: 4
+
+itens:
+  - id: "G4-FIL-001"
+    titulo: "Employee Experience Primeiro"
+    descricao: "CX comeca interno. Funcionario feliz = cliente bem atendido."
+    peso: 0.90
+    chunks:
+      - "G4002_001"
+    fontes:
+      - "G4002"
+    aplicacao: "Gestao de pessoas, cultura organizacional"
+    citacao: "Employee Experience vem primeiro. Funcionario feliz, cliente bem atendido."
+
+  - id: "G4-FIL-002"
+    titulo: "CX Tao Importante Quanto Produto"
+    descricao: "89% dos brasileiros consideram CX tao importante quanto o produto."
+    peso: 0.90
+    chunks:
+      - "G4002_002"
+    fontes:
+      - "G4002"
+    aplicacao: "Estrategia de atendimento, prioridades de investimento"
+    citacao: "89% dos brasileiros consideram CX tao importante quanto o produto."
+
+  - id: "G4-FIL-003"
+    titulo: "Golden Circle - Comece pelo Porque"
+    descricao: "Por que sua empresa existe antes de o que ela faz (Simon Sinek)."
+    peso: 0.80
+    chunks:
+      - "G4002_003"
+    fontes:
+      - "G4002"
+    aplicacao: "Posicionamento, comunicacao, cultura"
+
+  - id: "G4-FIL-004"
+    titulo: "Calibracao Cultural e Essencial"
+    descricao: "Nomenclatura Brasil (LDR, BDR, SDR) funciona melhor que terminologia USA."
+    peso: 0.85
+    chunks:
+      - "G4001_001"
+    fontes:
+      - "G4001"
+    aplicacao: "Comunicacao com time, treinamento"
+
+metadados:
+  total_chunks_processados: 4
+  fontes_utilizadas:
+    - "G4001"
+    - "G4002"
+  peso_medio: 0.86
+  criado_em: "2025-12-28T00:00:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v1.0"

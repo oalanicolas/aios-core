@@ -1,0 +1,83 @@
+# FRAMEWORKS - G4 EDUCACAO
+# Estruturas nomeadas com componentes definidos (sem ordem rigida)
+# Versao: 1.0.0 | Criado: 2025-12-28
+
+versao: "1.0.0"
+pessoa: "G4 Educacao"
+camada: "FRAMEWORKS"
+total_itens: 4
+
+itens:
+  - id: "G4-FRM-001"
+    titulo: "NPS Framework"
+    descricao: "Net Promoter Score - metrica central de CX."
+    peso: 0.90
+    chunks:
+      - "G4002_011"
+    fontes:
+      - "G4002"
+    componentes:
+      - "Promotores: 9-10"
+      - "Neutros: 7-8"
+      - "Detratores: 0-6"
+      - "Calculo: NPS = %Promotores - %Detratores"
+    aplicacao: "Medicao de satisfacao, priorizacao de acoes"
+
+  - id: "G4-FRM-002"
+    titulo: "Papeis Operacionais Brasil"
+    descricao: "Nomenclatura brasileira para funcoes de vendas."
+    peso: 0.85
+    chunks:
+      - "G4001_002"
+    fontes:
+      - "G4001"
+    componentes:
+      - "LDR: Pesquisa, enriquecimento de dados"
+      - "BDR: Outbound prospecting ativo"
+      - "SDR: Inbound qualification"
+      - "Closer/AE: Fechamento de vendas"
+      - "Farmer/CS: Expansao e retencao"
+    aplicacao: "Estruturacao de time, comunicacao interna"
+
+  - id: "G4-FRM-003"
+    titulo: "8 Formatos de Venda"
+    descricao: "Tipos de operacao de vendas por contexto."
+    peso: 0.80
+    chunks:
+      - "G4001_003"
+    fontes:
+      - "G4001"
+    componentes:
+      - "Inside Sales: Venda remota"
+      - "Field Sales: Venda presencial"
+      - "Hunter: Aquisicao de novos"
+      - "Farmer: Expansao da base"
+      - "Channel Sales: Via parceiros"
+      - "Enterprise: Grandes contas"
+      - "Self-Service: Automatico"
+      - "Hybrid: Combinacao"
+    aplicacao: "Escolha de modelo, estruturacao de operacao"
+
+  - id: "G4-FRM-004"
+    titulo: "Metricas Brasil"
+    descricao: "KPIs essenciais para operacao de vendas."
+    peso: 0.80
+    chunks:
+      - "G4002_012"
+    fontes:
+      - "G4002"
+    componentes:
+      - "CLV: Receita anual x Anos - Custos"
+      - "ROI: (Receita - Custo) / Custo"
+      - "CAC: Custo total / Novos clientes"
+      - "LTV:CAC: Customer Lifetime Value / CAC > 3:1"
+    aplicacao: "Analise financeira, tomada de decisao"
+
+metadados:
+  total_chunks_processados: 4
+  fontes_utilizadas:
+    - "G4001"
+    - "G4002"
+  peso_medio: 0.84
+  criado_em: "2025-12-28T00:00:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v1.0"

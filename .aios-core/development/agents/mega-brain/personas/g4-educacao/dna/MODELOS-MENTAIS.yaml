@@ -1,0 +1,60 @@
+# MODELOS MENTAIS - G4 EDUCACAO
+# Lentes de analise que geram perguntas especificas
+# Versao: 1.0.0 | Criado: 2025-12-28
+
+versao: "1.0.0"
+pessoa: "G4 Educacao"
+camada: "MODELOS_MENTAIS"
+total_itens: 3
+
+itens:
+  - id: "G4-MM-001"
+    titulo: "Consumer 4.0"
+    descricao: "Perfil do consumidor atual: Informado, Conectado, Impaciente, Exigente, Vocal."
+    peso: 0.85
+    chunks:
+      - "G4002_004"
+    fontes:
+      - "G4002"
+    pergunta_geradora: "Meu cliente e Consumer 4.0? Como estou atendendo cada caracteristica?"
+    caracteristicas:
+      - "Informado (pesquisa antes de comprar)"
+      - "Conectado (multiplos canais)"
+      - "Impaciente (espera resposta imediata)"
+      - "Exigente (compara experiencias entre industrias)"
+      - "Vocal (compartilha experiencias)"
+
+  - id: "G4-MM-002"
+    titulo: "Maturidade CX"
+    descricao: "6 estagios de evolucao em Customer Experience."
+    peso: 0.80
+    chunks:
+      - "G4002_005"
+    fontes:
+      - "G4002"
+    pergunta_geradora: "Em qual estagio de maturidade CX minha empresa esta?"
+    estagios:
+      - "1. Ignorancia - nao percebe valor de CX"
+      - "2. Exploracao - investiga o que e CX"
+      - "3. Mobilizacao - primeiras iniciativas"
+      - "4. Operalizacao - CX em toda empresa"
+      - "5. Alinhamento - metricas integradas"
+      - "6. Solidez - CX e DNA da empresa"
+
+  - id: "G4-MM-003"
+    titulo: "Ampulheta vs Funil"
+    descricao: "Jornada completa do cliente - nao termina na venda."
+    peso: 0.85
+    chunks:
+      - "G4002_006"
+    fontes:
+      - "G4002"
+    pergunta_geradora: "Estou tratando a jornada como funil (termina na venda) ou ampulheta (continua apos)?"
+
+metadados:
+  total_chunks_processados: 3
+  fontes_utilizadas:
+    - "G4002"
+  peso_medio: 0.83
+  criado_em: "2025-12-28T00:00:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v1.0"

@@ -1,0 +1,110 @@
+# METODOLOGIAS - G4 EDUCACAO
+# Processos passo-a-passo com ORDEM RIGIDA e criterios de sucesso por etapa
+# Versao: 1.0.0 | Criado: 2025-12-28
+
+versao: "1.0.0"
+pessoa: "G4 Educacao"
+camada: "METODOLOGIAS"
+total_itens: 2
+
+itens:
+  - id: "G4-MET-001"
+    titulo: "Jornada Ampulheta CX"
+    descricao: "Jornada completa do cliente - nao termina na venda."
+    peso: 0.85
+    chunks:
+      - "G4002_013"
+    fontes:
+      - "G4002"
+    etapas:
+      - passo: 1
+        nome: "Consciencia"
+        descricao: "Cliente descobre que existe solucao"
+        criterio_sucesso: "Lead entra no funil"
+        fase: "PRE-COMPRA"
+      - passo: 2
+        nome: "Identificacao"
+        descricao: "Cliente percebe que precisa"
+        criterio_sucesso: "Lead qualificado"
+        fase: "PRE-COMPRA"
+      - passo: 3
+        nome: "Pesquisa"
+        descricao: "Cliente busca opcoes"
+        criterio_sucesso: "Lead engajado"
+        fase: "PRE-COMPRA"
+      - passo: 4
+        nome: "Avaliacao"
+        descricao: "Cliente compara alternativas"
+        criterio_sucesso: "Proposta enviada"
+        fase: "PRE-COMPRA"
+      - passo: 5
+        nome: "Justificativa"
+        descricao: "Cliente valida decisao internamente"
+        criterio_sucesso: "Aprovacao interna"
+        fase: "PRE-COMPRA"
+      - passo: 6
+        nome: "Transacao"
+        descricao: "Momento da venda"
+        criterio_sucesso: "Contrato assinado"
+        fase: "COMPRA"
+      - passo: 7
+        nome: "Aprovacao"
+        descricao: "Onboarding, primeiros resultados"
+        criterio_sucesso: "Quick win entregue"
+        fase: "POS-COMPRA"
+      - passo: 8
+        nome: "Retencao"
+        descricao: "Manter usando"
+        criterio_sucesso: "NPS positivo"
+        fase: "POS-COMPRA"
+      - passo: 9
+        nome: "Expansao"
+        descricao: "Upsell, cross-sell"
+        criterio_sucesso: "Receita adicional"
+        fase: "POS-COMPRA"
+      - passo: 10
+        nome: "Promocao"
+        descricao: "Evangelizacao, referrals"
+        criterio_sucesso: "Indicacoes geradas"
+        fase: "POS-COMPRA"
+    aplicacao: "Estruturacao de jornada, KPIs por etapa"
+
+  - id: "G4-MET-002"
+    titulo: "Metodologias Classicas de Vendas"
+    descricao: "Framework de referencia para metodologias validadas."
+    peso: 0.80
+    chunks:
+      - "G4001_004"
+    fontes:
+      - "G4001"
+    etapas:
+      - passo: 1
+        nome: "SPIN Selling"
+        descricao: "Situacao, Problema, Implicacao, Necessidade"
+        criterio_sucesso: "Necessidade identificada"
+      - passo: 2
+        nome: "MEDDIC"
+        descricao: "Metrics, Economic Buyer, Decision, Criteria, Identify Pain, Champion"
+        criterio_sucesso: "Deal qualificado"
+      - passo: 3
+        nome: "Sandler"
+        descricao: "Pain, Budget, Decision (ordem inversa)"
+        criterio_sucesso: "Qualificacao completa"
+      - passo: 4
+        nome: "Challenger"
+        descricao: "Teach, Tailor, Take Control"
+        criterio_sucesso: "Cliente desafiado"
+      - passo: 5
+        nome: "Receita Previsivel"
+        descricao: "Separacao SDR/AE, especializacao por funcao"
+        criterio_sucesso: "Processo especializado"
+    aplicacao: "Escolha de metodologia por contexto"
+
+metadados:
+  total_chunks_processados: 2
+  fontes_utilizadas:
+    - "G4001"
+    - "G4002"
+  peso_medio: 0.82
+  criado_em: "2025-12-28T00:00:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v1.0"
