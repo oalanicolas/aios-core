@@ -1,0 +1,353 @@
+workflow:
+  id: ingest-knowledge
+  name: Knowledge Ingestion Pipeline
+  description: >-
+    Agent workflow for processing raw content into structured knowledge following
+    the DNA extraction methodology. Transforms transcripts, articles, books, and
+    courses into searchable, actionable knowledge components.
+  type: knowledge-processing
+  version: "1.0.0"
+  source: "Mega Brain Integration - Story 5.1"
+
+  content_types:
+    - transcript
+    - article
+    - book-chapter
+    - course-module
+    - podcast
+    - interview
+
+  sequence:
+    # ============================================================================
+    # STAGE 1: INTAKE - Receive and validate raw content
+    # ============================================================================
+    - step: intake
+      stage: 1
+      name: Content Intake
+      agent: analyst
+      action: receive and validate raw content
+      folder: .aios-core/data/inbox/
+      notes: |
+        Receive content and perform initial validation:
+        - Validate file format (txt, md, pdf, docx supported)
+        - Detect content type (transcript, article, etc.)
+        - Identify source metadata (author, date, title)
+        - Create intake record with unique ID
+
+        Ask user: "Please provide the content to process. You can:
+        1. Paste inline content
+        2. Provide a file path
+        3. Specify a batch folder for multiple files"
+
+    - step: intake_validation
+      condition: after_intake
+      routes:
+        valid_content:
+          continue: to_chunking
+          notes: "Content validated, proceed to chunking stage"
+        invalid_format:
+          action: reject_with_feedback
+          notes: "Reject with clear reason and supported formats"
+        missing_metadata:
+          action: elicit_metadata
+          notes: "Request missing metadata from user before proceeding"
+
+    # ============================================================================
+    # STAGE 2: CHUNKING - Split content into processable pieces
+    # ============================================================================
+    - step: chunking
+      stage: 2
+      name: Content Chunking
+      agent: analyst
+      action: split content into manageable chunks
+      folder: .aios-core/data/processing/chunks/
+      notes: |
+        Split content using intelligent chunking:
+        - Semantic chunking (by topic/section)
+        - Max chunk size: 2000 tokens
+        - Overlap: 200 tokens for context preservation
+        - Maintain chunk metadata (position, word count)
+
+        Chunking strategies:
+        - Transcripts: Split by speaker turn or topic shift
+        - Articles: Split by section/heading
+        - Books: Split by paragraph groups with coherent ideas
+
+        Output: {source_id}-chunks/ folder with numbered .md files
+
+    - step: chunking_validation
+      action: validate chunks
+      condition: after_chunking
+      notes: |
+        Validate chunk quality:
+        - No orphaned context
+        - Reasonable chunk sizes
+        - Preserved speaker attribution for transcripts
+        - Log chunk statistics (count, avg size)
+
+    # ============================================================================
+    # STAGE 3: EXTRACTION - Extract knowledge elements using DNA methodology
+    # ============================================================================
+    - step: extraction
+      stage: 3
+      name: Knowledge Extraction
+      agent: analyst
+      action: extract DNA knowledge elements
+      command: "*extract-knowledge"
+      folder: .aios-core/data/processing/extracted/
+      notes: |
+        Execute knowledge extraction for each chunk:
+        - Uses *extract-knowledge command (Story 4.1)
+        - Extracts 5 DNA categories:
+          1. FILOSOFIAS (core principles)
+          2. FRAMEWORKS (structured methodologies)
+          3. HEURISTICAS (decision rules)
+          4. METODOLOGIAS (step processes)
+          5. MODELOS-MENTAIS (thinking models)
+
+        For each extraction:
+        - Cite exact quotes as evidence
+        - Assign confidence weight (0.0-1.0)
+        - Use ID conventions (FIL, FW, HEU, MET, MM)
+        - Tag with relevant domains
+
+    - step: extraction_review
+      action: review extracted knowledge
+      optional: true
+      condition: user_wants_review
+      notes: |
+        OPTIONAL: Review extraction quality
+        - Check accuracy of categorization
+        - Validate evidence citations
+        - Adjust confidence weights if needed
+        - Merge duplicate concepts
+
+    # ============================================================================
+    # STAGE 4: CANONICALIZATION - Normalize to AIOS format
+    # ============================================================================
+    - step: canonicalization
+      stage: 4
+      name: Format Canonicalization
+      agent: analyst
+      action: normalize extracted knowledge to AIOS DNA format
+      folder: .aios-core/data/processing/canonical/
+      notes: |
+        Normalize all extractions to standard AIOS YAML format:
+        - Merge extractions from all chunks
+        - Deduplicate similar concepts (cosine similarity > 0.85)
+        - Assign final IDs using persona prefix (CG, AH, JM, etc.)
+        - Validate YAML syntax
+        - Generate INDEX.yaml entry
+
+        Output format per category:
+        - {persona}-filosofias.yaml
+        - {persona}-frameworks.yaml
+        - {persona}-heuristicas.yaml
+        - {persona}-metodologias.yaml
+        - {persona}-modelos-mentais.yaml
+
+    - step: canonicalization_validation
+      action: validate canonical output
+      notes: |
+        Final validation before storage:
+        - YAML syntax check
+        - Schema compliance
+        - Cross-reference integrity
+        - No orphaned references
+
+    # ============================================================================
+    # STAGE 5: STORAGE - Store in knowledge folders
+    # ============================================================================
+    - step: storage
+      stage: 5
+      name: Knowledge Storage
+      agent: analyst
+      action: store canonical knowledge in appropriate folders
+      folder: .aios-core/data/knowledge/
+      notes: |
+        Store knowledge in appropriate locations:
+
+        Categorize by type:
+        - dna/{persona}/ → DNA extractions (philosophies, frameworks, etc.)
+        - sources/{source-id}/ → Original source metadata
+        - dossiers/{topic}/ → Topic-based compilations
+
+        Update indexes:
+        - .aios-core/data/knowledge/dna/INDEX.yaml
+        - .aios-core/data/knowledge/sources/INDEX.yaml
+
+        Archive processed content:
+        - Move processed chunks to archive
+        - Keep extraction logs for audit
+
+    - step: storage_confirmation
+      action: confirm storage and generate report
+      notes: |
+        Generate ingestion report:
+        - Source: {source_name}
+        - Chunks processed: {chunk_count}
+        - Extractions by category:
+          - Filosofias: {count}
+          - Frameworks: {count}
+          - Heuristicas: {count}
+          - Metodologias: {count}
+          - Modelos Mentais: {count}
+        - Storage locations: {paths}
+        - Processing time: {duration}
+
+    # ============================================================================
+    # WORKFLOW END
+    # ============================================================================
+    - workflow_end:
+      action: pipeline_complete
+      notes: |
+        Knowledge ingestion complete!
+        Content has been transformed into structured DNA knowledge.
+
+        Next steps:
+        - Use *kb to query the knowledge base
+        - Reference DNA in agent personas
+        - Build dossiers for specific topics
+
+        Reference: .aios-core/data/knowledge/dna/INDEX.yaml
+
+  flow_diagram: |
+    ```mermaid
+    graph TD
+        A[Raw Content] --> B[inbox/]
+        B --> C{Validate}
+        C -->|Valid| D[Chunking]
+        C -->|Invalid| E[Reject]
+        C -->|Missing Info| F[Elicit Metadata]
+        F --> C
+
+        D --> G[processing/chunks/]
+        G --> H{Validate Chunks}
+        H -->|OK| I[Extraction]
+        H -->|Issues| J[Rechunk]
+        J --> G
+
+        I --> K[*extract-knowledge]
+        K --> L[processing/extracted/]
+        L --> M{Review?}
+        M -->|Yes| N[Review & Adjust]
+        M -->|No| O[Canonicalization]
+        N --> O
+
+        O --> P[Normalize Format]
+        P --> Q[processing/canonical/]
+        Q --> R{Validate YAML}
+        R -->|Invalid| S[Fix Format]
+        S --> Q
+        R -->|Valid| T[Storage]
+
+        T --> U{Categorize}
+        U -->|DNA| V[knowledge/dna/persona/]
+        U -->|Source| W[knowledge/sources/]
+        U -->|Dossier| X[knowledge/dossiers/]
+
+        V --> Y[Update INDEX.yaml]
+        W --> Y
+        X --> Y
+        Y --> Z[Generate Report]
+        Z --> AA[Complete]
+
+        style AA fill:#90EE90
+        style E fill:#FF6B6B
+        style A fill:#87CEEB
+        style K fill:#FFE4B5
+        style V fill:#DDA0DD
+        style W fill:#DDA0DD
+        style X fill:#DDA0DD
+    ```
+
+  stage_summary:
+    - stage: 1
+      id: intake
+      name: Content Intake
+      input: raw content (file, inline, batch)
+      output: validated content with metadata
+      folder: .aios-core/data/inbox/
+
+    - stage: 2
+      id: chunking
+      name: Content Chunking
+      input: validated content
+      output: chunk files
+      folder: .aios-core/data/processing/chunks/
+
+    - stage: 3
+      id: extraction
+      name: Knowledge Extraction
+      input: chunk files
+      output: extracted DNA components
+      folder: .aios-core/data/processing/extracted/
+      command: "*extract-knowledge"
+
+    - stage: 4
+      id: canonicalization
+      name: Format Canonicalization
+      input: extracted components
+      output: normalized YAML files
+      folder: .aios-core/data/processing/canonical/
+
+    - stage: 5
+      id: storage
+      name: Knowledge Storage
+      input: canonical files
+      output: stored knowledge
+      folder: .aios-core/data/knowledge/{type}/
+
+  decision_guidance:
+    when_to_use:
+      - Processing new transcripts or articles for knowledge extraction
+      - Building DNA profiles for new personas
+      - Batch processing content from a course or training
+      - Updating existing knowledge with new sources
+
+    when_not_to_use:
+      - Quick reference lookup (use *kb instead)
+      - Single quote extraction (use *extract-knowledge directly)
+      - Content already in DNA format
+
+  handoff_prompts:
+    intake_to_chunking: |
+      Content validated successfully.
+      Source: {{source_name}}
+      Type: {{content_type}}
+      Size: {{word_count}} words
+      Proceeding to chunking stage...
+
+    chunking_to_extraction: |
+      Chunking complete.
+      Created {{chunk_count}} chunks in {{chunks_folder}}
+      Average chunk size: {{avg_size}} tokens
+      Proceeding to knowledge extraction...
+
+    extraction_to_canon: |
+      Extraction complete for all chunks.
+      Raw extractions:
+      - Filosofias: {{fil_count}}
+      - Frameworks: {{fw_count}}
+      - Heuristicas: {{heu_count}}
+      - Metodologias: {{met_count}}
+      - Modelos Mentais: {{mm_count}}
+      Proceeding to canonicalization...
+
+    canon_to_storage: |
+      Canonicalization complete.
+      Final counts after deduplication:
+      {{final_counts}}
+      Ready to store in knowledge folders...
+
+    complete: |
+      Knowledge ingestion pipeline complete!
+
+      Source: {{source_name}}
+      Persona: {{persona_id}}
+
+      Files created:
+      {{file_list}}
+
+      INDEX.yaml updated with new entries.
+      Use *kb to query the knowledge base.
