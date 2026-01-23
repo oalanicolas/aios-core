@@ -1,0 +1,142 @@
+# CONFIG - THE SCALABLE COMPANY DNA COGNITIVO
+# Arquivo central de configuracao e metadados do DNA
+# Versao: 1.0.0 | Criado: 2026-01-10 | Fase 5 Foundation
+
+versao: "1.0.0"
+pessoa: "Ryan Deiss"
+nome_canonico: "THE SCALABLE COMPANY"
+empresa: "The Scalable Company / DigitalMarketer"
+localizacao: "Austin, Texas, USA"
+
+# Padroes comportamentais identificados
+padroes_comportamentais:
+  - padrao: "ScalableOS Framework"
+    frequencia: "ALTA"
+    evidencia: "Build-Install-Optimize 3-phase program"
+  - padrao: "Value Engine Mapping"
+    frequencia: "ALTA"
+    evidencia: "Growth, Fulfillment, Innovation engines"
+  - padrao: "Manual > Automated Scorecards"
+    frequencia: "ALTA"
+    evidencia: "Insights + ownership > automation"
+  - padrao: "90-Day Execution Cycles"
+    frequencia: "ALTA"
+    evidencia: "QSP quarterly sprint planning"
+  - padrao: "Clarity Compass"
+    frequencia: "ALTA"
+    evidencia: "3-Year Target, Purpose, Anchors, Values"
+  - padrao: "Power Stages Focus"
+    frequencia: "ALTA"
+    evidencia: "2-3 critical stages per value engine"
+
+# Sintese narrativa
+sintese_narrativa: |
+  Ryan Deiss e fundador do The Scalable Company e DigitalMarketer.
+  Desenvolveu o ScalableOS - um sistema operacional para empresas escalarem
+  sem depender exclusivamente do fundador.
+
+  FILOSOFIA CORE: Sistemas bem documentados permitem escalar com previsibilidade.
+  Manual > Automated para scorecards. Clareza > Complexidade.
+
+  FRAMEWORKS SIGNATURE:
+  - ScalableOS (Build → Install → Optimize)
+  - Value Engine Mapping (Growth, Fulfillment, Innovation)
+  - Clarity Compass (3-Year Target, Purpose, Anchors, Values)
+  - 12Q Planning Grid (3 years = 12 quarterly sprints)
+  - QSP Meeting (5-Step Quarterly Sprint Planning)
+  - High Output Team Canvas
+  - CABs (Critical Accountability Bullets)
+  - Traffic Light Leadership (Red → Yellow → Green)
+  - 3D Playbook Process (Define → Design → Deploy)
+  - Power Stages Identification
+
+  METRICAS DE REFERENCIA:
+  - 2-3 power stages por value engine
+  - 3-5 metricas por time (maximo)
+  - 90-day sprints (nao annual planning)
+  - 9/10 vezes criador esquece passos do proprio checklist
+  - 30-45 min para recuperar de interrupcao
+  - 12 semanas minimo para definir targets precisos
+
+# Estatisticas do DNA
+estatisticas:
+  filosofias: 75
+  modelos_mentais: 55
+  heuristicas: 95
+  frameworks: 105
+  metodologias: 63
+  total_itens: 393
+
+  peso_medio_geral: 0.88
+  itens_peso_acima_070: 370
+  percentual_alta_confianca: 94.1
+
+# Fontes utilizadas
+fontes:
+  batches_processados: 7
+  batch_range: "085-091"
+  arquivos_processados: 64
+
+  series:
+    - serie: "ScalableOS"
+      titulo: "ScalableOS Accelerator"
+      arquivos: 64
+      batches: "085-091"
+      temas:
+        - "Operating Systems"
+        - "Value Engines"
+        - "Meeting Rhythm"
+        - "Scorecards"
+        - "Playbook Creation"
+        - "Team Structure"
+        - "Quarterly Planning"
+
+  dossier: "/02-KNOWLEDGE/DOSSIERS/PERSONS/DOSSIER-THE-SCALABLE-COMPANY.md"
+  source_log: "/06-LOGS/SOURCES/SOURCE-TSC.md"
+  insights_totais: 393
+
+# Relacionamentos
+relacionamentos:
+  foco_principal: "Operating systems para escalar empresas sem depender do fundador"
+  modelo_recomendado: "ScalableOS 3-Phase (Build-Install-Optimize)"
+  planning_approach: "12Q Grid - 3 years in 12 quarterly sprints"
+
+# Cross-references com outras fontes
+cross_references:
+  - fonte: "Alex Hormozi"
+    topico: "12Q Planning"
+    status: "COMPLEMENTAR"
+    nota: "TSC expande o 12Q de Hormozi com frameworks detalhados"
+  - fonte: "Jeremy Haynes"
+    topico: "Manual > Automated"
+    status: "ALINHADO"
+    nota: "Ambos preferem manual scorecards por ownership"
+
+# Tensoes com outras fontes
+tensoes:
+  - fonte: "Automation advocates"
+    topico: "Scorecards automatizados"
+    the_scalable_company: "Manual + subjective = melhor"
+    outra_fonte: "APIs + formulas = eficiencia"
+    tipo: "DIVERGENTE"
+    nota: "TSC acredita que automacao divorcia time dos numeros"
+
+# Metadados de extracao
+metadados:
+  criado_em: "2026-01-10T16:30:00Z"
+  atualizado_em: "2026-01-10T16:30:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  pipeline: "Jarvis v3.33.0"
+  extraido_por: "Claude Code"
+  missao: "MISSION-2026-001"
+  fase: "PHASE-5-FOUNDATION"
+
+changelog:
+  - data: "2026-01-10T16:30:00Z"
+    acao: "Fase 5.1 COMPLETE - Criacao inicial do DNA"
+    mudancas:
+      - "Criacao CONFIG.yaml para The Scalable Company"
+      - "393 elementos DNA de 7 batches (085-091)"
+      - "64 arquivos ScalableOS Accelerator processados"
+      - "Nova fonte adicionada ao sistema"
+    versao: "1.0.0"

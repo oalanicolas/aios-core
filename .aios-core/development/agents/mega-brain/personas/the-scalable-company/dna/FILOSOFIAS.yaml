@@ -1,0 +1,1182 @@
+# THE SCALABLE COMPANY - DNA COGNITIVO
+# Camada: FILOSOFIAS (Crenças Fundamentais)
+# Versao: 1.0.0 | Criado: 2026-01-11 | Fase 5 Consolidacao
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-01-11T01:30:00Z"
+total_itens: 75
+camada: "FILOSOFIAS"
+
+filosofias:
+
+  # ============================================================================
+  # BLOCO 1: SCORECARDS E METRICAS
+  # ============================================================================
+
+  - id: "FIL-TSC-001"
+    crenca: "Manual scorecards > Automated scorecards"
+    implicacoes:
+      - "Time desenvolve ownership real dos numeros"
+      - "Greater insights quando precisa procurar os dados"
+      - "Automacao divorcia o time das metricas"
+    evidencias:
+      - citacao: "I have seen a lot of companies spend tens of thousands of dollars on automated scorecards... and they say 'we did this automated thing and nobody pays attention to the scorecards now'"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "scorecards"
+      - "metricas"
+      - "ownership"
+    peso: 0.98
+
+  - id: "FIL-TSC-002"
+    crenca: "Document what moves the needle, not everything"
+    implicacoes:
+      - "Maioria das empresas documenta tudo e usa nada"
+      - "Focar em power stages primeiro"
+      - "Circular filing cabinet para o resto"
+    evidencias:
+      - citacao: "Companies document everything and use nothing"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "playbooks"
+      - "documentacao"
+      - "prioridades"
+    peso: 0.96
+
+  - id: "FIL-TSC-003"
+    crenca: "Annual plans = a joke"
+    implicacoes:
+      - "Muito longo para prever com precisao"
+      - "Muito curto para ser significativo"
+      - "Usar 12Q (3-year) em vez disso"
+    evidencias:
+      - citacao: "Annual plans are a joke - too long to predict accurately, too short to be meaningful"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "planejamento"
+      - "estrategia"
+      - "12Q"
+    peso: 0.97
+
+  - id: "FIL-TSC-004"
+    crenca: "Right answers got you here; right QUESTIONS get you there"
+    implicacoes:
+      - "Lideres perguntam, nao dao respostas"
+      - "Perguntas desenvolvem autonomia no time"
+      - "Parar de ser a fonte de todas as respostas"
+    evidencias:
+      - citacao: "Right answers got you here; right questions get you there"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "lideranca"
+      - "coaching"
+      - "desenvolvimento"
+    peso: 0.95
+
+  - id: "FIL-TSC-005"
+    crenca: "Cross-training has ZERO downside and UNLIMITED upside"
+    implicacoes:
+      - "Treinar todos no playbook inteiro"
+      - "Nao apenas na propria etapa"
+      - "Cria redundancia e entendimento sistemico"
+    evidencias:
+      - citacao: "Cross-training has zero downside and unlimited upside"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "treinamento"
+      - "time"
+      - "playbooks"
+    peso: 0.94
+
+  - id: "FIL-TSC-006"
+    crenca: "Mistakes = main catalyst for playbook creation"
+    implicacoes:
+      - "Erros sao oportunidades de documentacao"
+      - "Transformar falhas em processos"
+      - "Nao punir, documentar"
+    evidencias:
+      - citacao: "Mistakes are the main catalyst for playbook creation"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "aprendizado"
+      - "cultura"
+    peso: 0.93
+
+  - id: "FIL-TSC-007"
+    crenca: "Black boxing information = fireable offense"
+    implicacoes:
+      - "Knowledge hoarding cria toxicidade"
+      - "Informacao deve fluir livremente"
+      - "Zero tolerancia para 'meu precioso'"
+    evidencias:
+      - citacao: "Black boxing information is a fireable offense"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "cultura"
+      - "transparencia"
+      - "conhecimento"
+    peso: 0.96
+
+  - id: "FIL-TSC-008"
+    crenca: "Playbook owner should NOT be the CEO"
+    implicacoes:
+      - "Delegar ownership para operadores"
+      - "CEO se liberta do dia-a-dia"
+      - "Empowerment via responsabilidade"
+    evidencias:
+      - citacao: "The playbook owner should not be the CEO"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "delegacao"
+      - "playbooks"
+      - "lideranca"
+    peso: 0.92
+
+  - id: "FIL-TSC-009"
+    crenca: "Step out of day-to-day = achieve entrepreneurial dream"
+    implicacoes:
+      - "Clone your best people via playbooks"
+      - "Sistemas permitem liberdade"
+      - "Founder freedom e o objetivo"
+    evidencias:
+      - citacao: "Stepping out of day-to-day operations achieves the entrepreneurial dream"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "founder-freedom"
+      - "escala"
+      - "sistemas"
+    peso: 0.97
+
+  - id: "FIL-TSC-010"
+    crenca: "Too many ad hoc meetings = planning failure signal"
+    implicacoes:
+      - "Se rhythm esta certo, ad hocs sao raros"
+      - "Ad hocs indicam falta de processo"
+      - "Menos de 10% do total deve ser ad hoc"
+    evidencias:
+      - citacao: "Too many ad hoc meetings is a planning failure signal"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "reunioes"
+      - "meeting-rhythm"
+      - "planejamento"
+    peso: 0.91
+
+  - id: "FIL-TSC-011"
+    crenca: "Learning Now! Accuracy Later"
+    implicacoes:
+      - "Targets vao estar errados no comeco"
+      - "Refinar ao longo dos quarters"
+      - "Acao > perfeicao"
+    evidencias:
+      - citacao: "Learning now, accuracy later - targets will be wrong at first"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "execucao"
+      - "targets"
+      - "iteracao"
+    peso: 0.94
+
+  - id: "FIL-TSC-012"
+    crenca: "Shoulder taps happen because people don't trust themselves"
+    implicacoes:
+      - "Playbooks dao certeza"
+      - "Reduzem interrupcoes"
+      - "Time consulta sistema, nao o chefe"
+    evidencias:
+      - citacao: "Shoulder taps happen because people don't trust themselves to make the right decision"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "playbooks"
+      - "autonomia"
+      - "interrupcoes"
+    peso: 0.90
+
+  # ============================================================================
+  # BLOCO 2: VALUE ENGINES E OPERACOES
+  # ============================================================================
+
+  - id: "FIL-TSC-013"
+    crenca: "Business is an orchestrated ballet, not disconnected tasks"
+    implicacoes:
+      - "Uma atividade flui para a proxima"
+      - "Pensar em sistemas, nao tarefas isoladas"
+      - "Mapear o flow completo"
+    evidencias:
+      - citacao: "Business should be like an orchestrated ballet where one activity flows seamlessly to the next"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "sistemas"
+      - "flow"
+    peso: 0.89
+
+  - id: "FIL-TSC-014"
+    crenca: "Power stages are the 2-3 critical moments that make or break"
+    implicacoes:
+      - "Nem tudo e igualmente importante"
+      - "Identificar os poucos criticos"
+      - "Documentar power stages primeiro"
+    evidencias:
+      - citacao: "Power stages are the 2-3 critical high-leverage actions - must get right or entire engine fails"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "power-stages"
+      - "prioridades"
+      - "value-engines"
+    peso: 0.95
+
+  - id: "FIL-TSC-015"
+    crenca: "Your playbook library is like the Coca-Cola vault"
+    implicacoes:
+      - "Ativo mais valioso da empresa"
+      - "Receita secreta do negocio"
+      - "Proteger e atualizar constantemente"
+    evidencias:
+      - citacao: "Your playbook library is like the Coca-Cola vault - your most valuable asset"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "ativos"
+      - "propriedade-intelectual"
+    peso: 0.93
+
+  - id: "FIL-TSC-016"
+    crenca: "Messy sticky notes > beautiful unused docs"
+    implicacoes:
+      - "Funcional supera bonito"
+      - "Acao supera perfeccionismo"
+      - "Usar o que funciona"
+    evidencias:
+      - citacao: "Messy sticky notes are better than beautiful unused documents"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "documentacao"
+      - "pragmatismo"
+      - "execucao"
+    peso: 0.91
+
+  - id: "FIL-TSC-017"
+    crenca: "If you're getting interrupted constantly, your playbooks aren't working"
+    implicacoes:
+      - "Interrupcoes = diagnostico de sistema"
+      - "Playbooks devem reduzir shoulder taps"
+      - "Medir interrupcoes como KPI de processo"
+    evidencias:
+      - citacao: "If you're getting interrupted constantly, it means your playbooks aren't working"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "playbooks"
+      - "produtividade"
+      - "autonomia"
+    peso: 0.90
+
+  - id: "FIL-TSC-018"
+    crenca: "Clone your best people through playbooks"
+    implicacoes:
+      - "Playbooks capturam expertise"
+      - "Escalar sem depender de individuos"
+      - "Best practices documentadas"
+    evidencias:
+      - citacao: "Clone your best people through playbooks"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "playbooks"
+      - "escala"
+      - "conhecimento"
+    peso: 0.94
+
+  # ============================================================================
+  # BLOCO 3: PLANEJAMENTO E EXECUCAO
+  # ============================================================================
+
+  - id: "FIL-TSC-019"
+    crenca: "3-year vision executed in 90-day sprints"
+    implicacoes:
+      - "Longo prazo da direcao"
+      - "Curto prazo da execucao"
+      - "12Q grid conecta os dois"
+    evidencias:
+      - citacao: "3-year goals are the elephant, quarterly sprints are the bites"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "planejamento"
+      - "execucao"
+      - "12Q"
+    peso: 0.96
+
+  - id: "FIL-TSC-020"
+    crenca: "QSP is the heartbeat of the operating system"
+    implicacoes:
+      - "Quarterly Sprint Planning e obrigatorio"
+      - "Alinha toda a empresa"
+      - "5 passos estruturados"
+    evidencias:
+      - citacao: "QSP Meeting is the heartbeat of the entire operating system"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "QSP"
+      - "planejamento"
+      - "alinhamento"
+    peso: 0.95
+
+  - id: "FIL-TSC-021"
+    crenca: "Strategic anchors = framework for saying NO"
+    implicacoes:
+      - "Clareza sobre o que NAO fazer"
+      - "Evita shiny object syndrome"
+      - "Protege foco da equipe"
+    evidencias:
+      - citacao: "Strategic anchors are your framework for saying NO to distractions"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "estrategia"
+      - "foco"
+      - "priorizacao"
+    peso: 0.92
+
+  - id: "FIL-TSC-022"
+    crenca: "Meeting rhythm replaces chaos with predictability"
+    implicacoes:
+      - "QSP, MBR, Weekly, 1:1 - cada um com proposito"
+      - "Menos reunioes, mais eficazes"
+      - "Cadencia cria confianca"
+    evidencias:
+      - citacao: "A proper meeting rhythm replaces chaos with predictability"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "meeting-rhythm"
+      - "previsibilidade"
+      - "produtividade"
+    peso: 0.93
+
+  - id: "FIL-TSC-023"
+    crenca: "Build first, install second, optimize forever"
+    implicacoes:
+      - "Ordem importa"
+      - "Nao otimizar o que nao existe"
+      - "Processo de 3 fases e sequencial"
+    evidencias:
+      - citacao: "ScalableOS follows BUILD then INSTALL then OPTIMIZE - in that order"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "ScalableOS"
+      - "implementacao"
+      - "sequenciamento"
+    peso: 0.94
+
+  # ============================================================================
+  # BLOCO 4: TIMES E LIDERANCA
+  # ============================================================================
+
+  - id: "FIL-TSC-024"
+    crenca: "Traffic Light Leadership develops autonomy"
+    implicacoes:
+      - "RED: do for them (novo)"
+      - "YELLOW: do with them (aprendendo)"
+      - "GREEN: they do (autonomo)"
+    evidencias:
+      - citacao: "Traffic Light Leadership: RED (do for them), YELLOW (do with them), GREEN (they do)"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "lideranca"
+      - "delegacao"
+      - "desenvolvimento"
+    peso: 0.94
+
+  - id: "FIL-TSC-025"
+    crenca: "CABs (3-5 metrics) per team maximum"
+    implicacoes:
+      - "Critical Accountability Bullets"
+      - "Muitas metricas = nenhuma metrica"
+      - "Foco nos poucos que importam"
+    evidencias:
+      - citacao: "CABs - Critical Accountability Bullets - maximum 3-5 metrics per team"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "metricas"
+      - "accountability"
+      - "foco"
+    peso: 0.93
+
+  - id: "FIL-TSC-026"
+    crenca: "High output teams need clarity, not micromanagement"
+    implicacoes:
+      - "Clareza de expectativas"
+      - "Autonomia de execucao"
+      - "Accountability de resultados"
+    evidencias:
+      - citacao: "High output teams need clarity on expectations, not micromanagement on execution"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "times"
+      - "lideranca"
+      - "autonomia"
+    peso: 0.91
+
+  - id: "FIL-TSC-027"
+    crenca: "One-on-ones are sacred, not optional"
+    implicacoes:
+      - "Desenvolvimento individual"
+      - "Captura de insights"
+      - "Prevencao de problemas"
+    evidencias:
+      - citacao: "One-on-ones are sacred meetings - never skip them"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "lideranca"
+      - "one-on-ones"
+      - "desenvolvimento"
+    peso: 0.89
+
+  # ============================================================================
+  # BLOCO 5: PLAYBOOKS E PROCESSOS
+  # ============================================================================
+
+  - id: "FIL-TSC-028"
+    crenca: "Do-Document-Do Again methodology prevents errors"
+    implicacoes:
+      - "Fazer primeiro, documentar depois"
+      - "Validar com segunda execucao"
+      - "Field test antes de deploy"
+    evidencias:
+      - citacao: "Do it, document it, do it again, field test it"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "playbooks"
+      - "processos"
+      - "validacao"
+    peso: 0.92
+
+  - id: "FIL-TSC-029"
+    crenca: "Then what happens? keeps asking until done"
+    implicacoes:
+      - "Pergunta magica para mapeamento"
+      - "Revela todo o processo"
+      - "Natural flow discovery"
+    evidencias:
+      - citacao: "Keep asking 'Then what happens?' until they say 'that's it' - natural process mapping"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "mapeamento"
+      - "processos"
+      - "discovery"
+    peso: 0.91
+
+  - id: "FIL-TSC-030"
+    crenca: "9 out of 10 times creator skips steps on own checklist"
+    implicacoes:
+      - "Quem criou nao deve ser unico executor"
+      - "Fresh eyes validam melhor"
+      - "Field test com outros e obrigatorio"
+    evidencias:
+      - citacao: "9 out of 10 times the creator will skip steps on their own checklist"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "validacao"
+      - "human-nature"
+    peso: 0.88
+
+  # ============================================================================
+  # BLOCO 6: FILOSOFIAS ADICIONAIS (extraidas dos batches)
+  # ============================================================================
+
+  - id: "FIL-TSC-031"
+    crenca: "Clarity Compass precedes all execution"
+    implicacoes:
+      - "3-Year Target + Purpose + Anchors + Values"
+      - "Sem clareza, execucao e desperdicada"
+      - "Primeiro passo do ScalableOS"
+    evidencias:
+      - citacao: "Clarity Compass must be completed before any execution planning"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "clarity-compass"
+      - "estrategia"
+      - "fundamentos"
+    peso: 0.95
+
+  - id: "FIL-TSC-032"
+    crenca: "Value engines reveal the true business architecture"
+    implicacoes:
+      - "Growth, Fulfillment, Innovation"
+      - "Mapear antes de otimizar"
+      - "Cada engine tem power stages proprios"
+    evidencias:
+      - citacao: "Value Engine Mapping reveals the true architecture of your business"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "value-engines"
+      - "arquitetura"
+      - "diagnostico"
+    peso: 0.94
+
+  - id: "FIL-TSC-033"
+    crenca: "Theme creates emotional connection to the quarter"
+    implicacoes:
+      - "Cada quarter tem um tema"
+      - "Nome memoravel e motivador"
+      - "Alinha energia do time"
+    evidencias:
+      - citacao: "Quarterly theme creates emotional connection and alignment"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "QSP"
+      - "engajamento"
+      - "cultura"
+    peso: 0.87
+
+  - id: "FIL-TSC-034"
+    crenca: "North star metric focuses the entire company"
+    implicacoes:
+      - "Uma metrica principal por quarter"
+      - "Todos sabem o numero"
+      - "Alinha decisoes em todos os niveis"
+    evidencias:
+      - citacao: "North star metric provides focus for the entire company"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "metricas"
+      - "foco"
+      - "alinhamento"
+    peso: 0.93
+
+  - id: "FIL-TSC-035"
+    crenca: "MBR (Monthly Business Review) catches drift early"
+    implicacoes:
+      - "Revisao mensal e suficiente"
+      - "Ajustes antes de virar crise"
+      - "Conecta weekly com QSP"
+    evidencias:
+      - citacao: "MBR catches drift early before it becomes a crisis"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "meeting-rhythm"
+      - "monitoramento"
+      - "ajustes"
+    peso: 0.90
+
+  # ============================================================================
+  # BLOCO 7: FILOSOFIAS DE CULTURA E MINDSET
+  # ============================================================================
+
+  - id: "FIL-TSC-036"
+    crenca: "Knowledge hoarders treat info as 'my precious'"
+    implicacoes:
+      - "Referencia a Gollum (LOTR)"
+      - "Comportamento toxico e visivel"
+      - "Criar cultura de compartilhamento"
+    evidencias:
+      - citacao: "Knowledge hoarders treat information as 'my precious' like Gollum"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "cultura"
+      - "conhecimento"
+      - "transparencia"
+    peso: 0.86
+
+  - id: "FIL-TSC-037"
+    crenca: "Circular filing cabinet is where unused SOPs go"
+    implicacoes:
+      - "= lixo (trash can)"
+      - "SOPs nao usadas sao lixo"
+      - "Uso > existencia"
+    evidencias:
+      - citacao: "Circular filing cabinet = trash can - where unused SOPs end up"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "playbooks"
+      - "pragmatismo"
+      - "uso"
+    peso: 0.85
+
+  - id: "FIL-TSC-038"
+    crenca: "Matrix vision: seeing patterns where others see numbers"
+    implicacoes:
+      - "Referencia a Neo (Matrix)"
+      - "Time desenvolve intuicao para dados"
+      - "Vem de trabalhar manual com numeros"
+    evidencias:
+      - citacao: "Team develops Matrix vision - seeing patterns where others just see numbers"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "metricas"
+      - "insights"
+      - "ownership"
+    peso: 0.89
+
+  - id: "FIL-TSC-039"
+    crenca: "30-45 minutes to recover from interruption"
+    implicacoes:
+      - "Interrupcoes sao caras"
+      - "Proteger deep work"
+      - "Playbooks reduzem interrupcoes"
+    evidencias:
+      - citacao: "It takes 30-45 minutes to recover focus after an interruption"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "produtividade"
+      - "foco"
+      - "custos"
+    peso: 0.88
+
+  - id: "FIL-TSC-040"
+    crenca: "Minimum 12 weeks to calibrate targets"
+    implicacoes:
+      - "Targets iniciais estarao errados"
+      - "1 quarter de aprendizado"
+      - "Nao punir por miss no primeiro Q"
+    evidencias:
+      - citacao: "Targets need minimum 12 weeks (1 quarter) to calibrate properly"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "targets"
+      - "calibracao"
+      - "paciencia"
+    peso: 0.90
+
+  # ============================================================================
+  # BLOCO 8-13: FILOSOFIAS EXPANDIDAS (continuacao dos 75 elementos)
+  # ============================================================================
+
+  - id: "FIL-TSC-041"
+    crenca: "Weekly check-ins keep momentum between monthly reviews"
+    implicacoes:
+      - "Cadencia semanal e essencial"
+      - "Ajustes rapidos sem esperar MBR"
+      - "Formato estruturado e curto"
+    evidencias:
+      - citacao: "Weekly check-ins maintain momentum between monthly business reviews"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "meeting-rhythm"
+      - "execucao"
+      - "accountability"
+    peso: 0.88
+
+  - id: "FIL-TSC-042"
+    crenca: "Targets should start 10-20% above current benchmark"
+    implicacoes:
+      - "Desafiador mas alcancavel"
+      - "Usar baseline real"
+      - "Evitar targets arbitrarios"
+    evidencias:
+      - citacao: "Start targets 10-20% above current benchmark"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "targets"
+      - "metas"
+      - "calibracao"
+    peso: 0.87
+
+  - id: "FIL-TSC-043"
+    crenca: "Install phase requires full team alignment before rollout"
+    implicacoes:
+      - "QSP Meeting alinha todos"
+      - "Nao fazer rollout parcial"
+      - "2-3 semanas de instalacao estruturada"
+    evidencias:
+      - citacao: "Install phase requires full team alignment - 2-3 weeks structured rollout"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "ScalableOS"
+      - "implementacao"
+      - "alinhamento"
+    peso: 0.89
+
+  - id: "FIL-TSC-044"
+    crenca: "Build phase is documentation and architecture, not execution"
+    implicacoes:
+      - "6-8 semanas de construcao"
+      - "Playbooks, scorecards, value engines"
+      - "Ferramentas antes de acao"
+    evidencias:
+      - citacao: "BUILD phase is about documentation and architecture - 6-8 weeks"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "ScalableOS"
+      - "documentacao"
+      - "preparacao"
+    peso: 0.90
+
+  - id: "FIL-TSC-045"
+    crenca: "Optimize phase never ends"
+    implicacoes:
+      - "Melhoria continua permanente"
+      - "Quarterly reviews para ajustes"
+      - "Sistema vivo, nao estatico"
+    evidencias:
+      - citacao: "Optimize phase is ongoing - the system is alive and evolving"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "ScalableOS"
+      - "melhoria-continua"
+      - "evolucao"
+    peso: 0.91
+
+  - id: "FIL-TSC-046"
+    crenca: "Growth engine is how you acquire and convert customers"
+    implicacoes:
+      - "Primeiro value engine a mapear"
+      - "Marketing + Sales + Onboarding"
+      - "Receita nova depende disso"
+    evidencias:
+      - citacao: "Growth engine is how you acquire and convert customers"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "value-engines"
+      - "growth"
+      - "receita"
+    peso: 0.92
+
+  - id: "FIL-TSC-047"
+    crenca: "Fulfillment engine is how you deliver value after the sale"
+    implicacoes:
+      - "Entrega + Suporte + Sucesso"
+      - "Retencao depende disso"
+      - "Segundo engine critico"
+    evidencias:
+      - citacao: "Fulfillment engine is how you deliver value after the sale"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "value-engines"
+      - "fulfillment"
+      - "entrega"
+    peso: 0.91
+
+  - id: "FIL-TSC-048"
+    crenca: "Innovation engine keeps you relevant over time"
+    implicacoes:
+      - "R&D + Product + Melhoria"
+      - "Futuro da empresa"
+      - "Terceiro engine, menos urgente"
+    evidencias:
+      - citacao: "Innovation engine keeps you relevant over time"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "inovacao"
+      - "futuro"
+    peso: 0.88
+
+  - id: "FIL-TSC-049"
+    crenca: "Most value engines have only 2-3 power stages"
+    implicacoes:
+      - "Maximo 7, mas raro"
+      - "Focar nos poucos criticos"
+      - "Nao complicar demais"
+    evidencias:
+      - citacao: "Most value engines have only 2-3 power stages - maximum 7"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "power-stages"
+      - "simplicidade"
+      - "foco"
+    peso: 0.90
+
+  - id: "FIL-TSC-050"
+    crenca: "QSP has 5 non-negotiable steps"
+    implicacoes:
+      - "Financials, North Star, Initiatives, Theme, OS"
+      - "Sequencia importa"
+      - "2 dias ou 2-3 meios-dias"
+    evidencias:
+      - citacao: "QSP has 5 steps: Financials, North Star, Initiatives, Theme, Operating System"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "QSP"
+      - "planejamento"
+      - "estrutura"
+    peso: 0.93
+
+  - id: "FIL-TSC-051"
+    crenca: "Purpose statement unifies all decisions"
+    implicacoes:
+      - "Por que a empresa existe"
+      - "Guia para dilemas"
+      - "Parte do Clarity Compass"
+    evidencias:
+      - citacao: "Purpose statement unifies all decisions across the company"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "clarity-compass"
+      - "proposito"
+      - "cultura"
+    peso: 0.89
+
+  - id: "FIL-TSC-052"
+    crenca: "Values must be actionable, not decorative"
+    implicacoes:
+      - "Valores = criterios de decisao"
+      - "Se nao usa, nao serve"
+      - "Testar com casos reais"
+    evidencias:
+      - citacao: "Values must be actionable decision criteria, not wall decorations"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "valores"
+      - "cultura"
+      - "decisoes"
+    peso: 0.88
+
+  - id: "FIL-TSC-053"
+    crenca: "3-Year Target is the elephant you're eating"
+    implicacoes:
+      - "Visao de longo prazo"
+      - "Dividido em 12 quarters"
+      - "Ambicioso mas crivel"
+    evidencias:
+      - citacao: "3-Year Target is the elephant - eaten one quarterly bite at a time"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "12Q"
+      - "visao"
+      - "metas"
+    peso: 0.91
+
+  - id: "FIL-TSC-054"
+    crenca: "Initiatives are the quarterly bites of the elephant"
+    implicacoes:
+      - "3-5 iniciativas por quarter"
+      - "Conectadas ao 3-Year Target"
+      - "Prioridade absoluta do Q"
+    evidencias:
+      - citacao: "Initiatives are the quarterly bites - 3-5 per quarter maximum"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "iniciativas"
+      - "execucao"
+      - "priorizacao"
+    peso: 0.90
+
+  - id: "FIL-TSC-055"
+    crenca: "Operating system upgrades happen every QSP"
+    implicacoes:
+      - "Sistema evolui trimestralmente"
+      - "Novos playbooks, metricas, processos"
+      - "Melhoria continua estruturada"
+    evidencias:
+      - citacao: "Operating system upgrades happen at every QSP"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "ScalableOS"
+      - "evolucao"
+      - "QSP"
+    peso: 0.89
+
+  # ============================================================================
+  # BLOCO FINAL: FILOSOFIAS 56-75
+  # ============================================================================
+
+  - id: "FIL-TSC-056"
+    crenca: "Scorecards create visibility, not judgment"
+    implicacoes:
+      - "Dados para aprender, nao punir"
+      - "Transparencia cria accountability"
+      - "Verde/Amarelo/Vermelho e objetivo"
+    evidencias:
+      - citacao: "Scorecards create visibility for learning, not judgment for punishment"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "scorecards"
+      - "cultura"
+      - "feedback"
+    peso: 0.87
+
+  - id: "FIL-TSC-057"
+    crenca: "QSP in-person > QSP virtual (but virtual works)"
+    implicacoes:
+      - "2 dias presencial e ideal"
+      - "2-3 meios-dias virtual funciona"
+      - "Nao deixar de fazer por falta de presencial"
+    evidencias:
+      - citacao: "QSP works best in-person (2 days) but virtual (2-3 half days) is acceptable"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "QSP"
+      - "formato"
+      - "flexibilidade"
+    peso: 0.86
+
+  - id: "FIL-TSC-058"
+    crenca: "Team canvas makes structure visible"
+    implicacoes:
+      - "Quem faz o que fica claro"
+      - "Gaps ficam evidentes"
+      - "Base para hiring decisions"
+    evidencias:
+      - citacao: "High Output Team Canvas makes team structure and gaps visible"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "times"
+      - "estrutura"
+      - "clareza"
+    peso: 0.85
+
+  - id: "FIL-TSC-059"
+    crenca: "Define before Design before Deploy"
+    implicacoes:
+      - "3D Playbook Process"
+      - "Nao pular etapas"
+      - "Cada D tem proposito"
+    evidencias:
+      - citacao: "3D Playbook Process: DEFINE (what), DESIGN (how), DEPLOY (rollout)"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+      - "processo"
+      - "estrutura"
+    peso: 0.88
+
+  - id: "FIL-TSC-060"
+    crenca: "Field testing reveals real gaps"
+    implicacoes:
+      - "Executar com pessoa diferente"
+      - "Encontrar passos faltantes"
+      - "Validar antes de scale"
+    evidencias:
+      - citacao: "Field testing with a different person reveals gaps the creator missed"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "validacao"
+      - "qualidade"
+    peso: 0.87
+
+  - id: "FIL-TSC-061"
+    crenca: "Automation divorces you from the meaning of numbers"
+    implicacoes:
+      - "Manual = entendimento"
+      - "Automacao = alienacao"
+      - "Trade-off consciente"
+    evidencias:
+      - citacao: "Automation divorces you from the meaning of the numbers"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "scorecards"
+      - "automacao"
+      - "insight"
+    peso: 0.90
+
+  - id: "FIL-TSC-062"
+    crenca: "Insights come from the hunt, not the capture"
+    implicacoes:
+      - "Processo de buscar dados gera aprendizado"
+      - "Automatizar remove esse beneficio"
+      - "Manual tem ROI oculto"
+    evidencias:
+      - citacao: "The insights come from the hunt for the numbers, not the capture"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "metricas"
+      - "aprendizado"
+      - "manual"
+    peso: 0.89
+
+  - id: "FIL-TSC-063"
+    crenca: "Tens of thousands wasted on automation nobody uses"
+    implicacoes:
+      - "Investimento em tech nao garante uso"
+      - "Simples manual frequentemente supera"
+      - "Validar antes de investir"
+    evidencias:
+      - citacao: "I've seen companies spend tens of thousands on automated scorecards nobody uses"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "investimento"
+      - "automacao"
+      - "desperdicio"
+    peso: 0.86
+
+  - id: "FIL-TSC-064"
+    crenca: "Sticky notes then what happens reveals flow"
+    implicacoes:
+      - "Mapeamento fisico funciona"
+      - "Perguntar 'e depois?' ate acabar"
+      - "Messy but effective"
+    evidencias:
+      - citacao: "Sticky note mapping with 'Then what happens?' reveals the true process flow"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "mapeamento"
+      - "processos"
+      - "simplicidade"
+    peso: 0.88
+
+  - id: "FIL-TSC-065"
+    crenca: "Playbook creation starts with mistakes"
+    implicacoes:
+      - "Erro = gatilho para documentar"
+      - "Nao esperar perfeicao"
+      - "Capturar no momento da falha"
+    evidencias:
+      - citacao: "The best playbooks start when someone makes a mistake"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "erros"
+      - "aprendizado"
+    peso: 0.87
+
+  - id: "FIL-TSC-066"
+    crenca: "Founder freedom is the ultimate goal"
+    implicacoes:
+      - "Empresa funciona sem voce"
+      - "Sistemas permitem escolha"
+      - "ScalableOS e o caminho"
+    evidencias:
+      - citacao: "Founder freedom - having the choice to be involved or not - is the ultimate goal"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "founder-freedom"
+      - "escala"
+      - "proposito"
+    peso: 0.94
+
+  - id: "FIL-TSC-067"
+    crenca: "Choice to be involved is different from forced involvement"
+    implicacoes:
+      - "Liberdade = opcao"
+      - "Muitos fundadores querem participar"
+      - "Diferenca e ter escolha"
+    evidencias:
+      - citacao: "The goal isn't to remove yourself - it's to have the CHOICE"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "founder-freedom"
+      - "autonomia"
+      - "escolha"
+    peso: 0.91
+
+  - id: "FIL-TSC-068"
+    crenca: "Systems scale, people don't"
+    implicacoes:
+      - "Depender de individuos = limite"
+      - "Sistemas multiplicam capacidade"
+      - "Playbooks sao o sistema"
+    evidencias:
+      - citacao: "Systems scale, people don't - that's why you need playbooks"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "escala"
+      - "sistemas"
+      - "playbooks"
+    peso: 0.93
+
+  - id: "FIL-TSC-069"
+    crenca: "Best people leave without growth opportunities"
+    implicacoes:
+      - "Playbooks permitem crescimento"
+      - "Cross-training abre caminhos"
+      - "Retencao via desenvolvimento"
+    evidencias:
+      - citacao: "Your best people will leave if they don't see growth opportunities"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "retencao"
+      - "desenvolvimento"
+      - "cultura"
+    peso: 0.88
+
+  - id: "FIL-TSC-070"
+    crenca: "Hiring into chaos creates more chaos"
+    implicacoes:
+      - "Sistemas primeiro, pessoas depois"
+      - "Onboarding precisa de playbooks"
+      - "Escalar sem sistema = desastre"
+    evidencias:
+      - citacao: "Hiring into chaos just creates more chaos - systems first"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "hiring"
+      - "sistemas"
+      - "escala"
+    peso: 0.90
+
+  - id: "FIL-TSC-071"
+    crenca: "Operating system is infrastructure, not overhead"
+    implicacoes:
+      - "Investimento, nao custo"
+      - "Retorno em escala e liberdade"
+      - "ROI real mas diferido"
+    evidencias:
+      - citacao: "Your operating system is infrastructure investment, not overhead cost"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "ScalableOS"
+      - "investimento"
+      - "mentalidade"
+    peso: 0.89
+
+  - id: "FIL-TSC-072"
+    crenca: "Complexity is the enemy of execution"
+    implicacoes:
+      - "Simplificar sempre"
+      - "Menos e mais"
+      - "CABS, nao dashboards infinitos"
+    evidencias:
+      - citacao: "Complexity is the enemy of execution - keep it simple"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "simplicidade"
+      - "execucao"
+      - "foco"
+    peso: 0.91
+
+  - id: "FIL-TSC-073"
+    crenca: "Rhythm beats random every time"
+    implicacoes:
+      - "Previsibilidade > improvisacao"
+      - "Meeting rhythm e estrutura"
+      - "Confie no sistema"
+    evidencias:
+      - citacao: "Rhythm beats random every time - that's why meeting cadence matters"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "meeting-rhythm"
+      - "previsibilidade"
+      - "disciplina"
+    peso: 0.90
+
+  - id: "FIL-TSC-074"
+    crenca: "What gets measured gets managed"
+    implicacoes:
+      - "Scorecards sao essenciais"
+      - "Mas medir o certo (CABs)"
+      - "Nao tudo, so o que importa"
+    evidencias:
+      - citacao: "What gets measured gets managed - but only measure what matters (CABs)"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "metricas"
+      - "gestao"
+      - "foco"
+    peso: 0.88
+
+  - id: "FIL-TSC-075"
+    crenca: "The goal is predictable growth, not explosive growth"
+    implicacoes:
+      - "Sustentavel > rapido"
+      - "Previsibilidade = fundamento"
+      - "ScalableOS cria previsibilidade"
+    evidencias:
+      - citacao: "The goal is predictable growth, not explosive growth"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "crescimento"
+      - "escala"
+      - "sustentabilidade"
+    peso: 0.92
+
+# Metadados de extracao
+metadados:
+  criado_em: "2026-01-11T01:30:00Z"
+  atualizado_em: "2026-01-11T01:30:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  pipeline: "Jarvis v3.33.0"
+  extraido_por: "Claude Code"
+  missao: "MISSION-2026-001"
+  fase: "PHASE-5-CONSOLIDATION"

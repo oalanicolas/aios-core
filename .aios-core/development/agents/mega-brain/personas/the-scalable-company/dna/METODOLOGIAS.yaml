@@ -1,0 +1,1911 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# METODOLOGIAS - THE SCALABLE COMPANY DNA COGNITIVO
+# Camada 5 de 5: Processos passo-a-passo para implementacao
+# ═══════════════════════════════════════════════════════════════════════════════
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-01-11T01:55:00Z"
+total_itens: 63
+camada: "METODOLOGIAS"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 1: SCALABLEOS IMPLEMENTATION (10 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+metodologias:
+  - id: "MET-TSC-001"
+    processo: "ScalableOS Implementation Full Cycle"
+    passos:
+      - passo: 1
+        acao: "Diagnose current state"
+        descricao: "Avaliar maturidade atual do OS"
+        duracao: "1 semana"
+      - passo: 2
+        acao: "Map value engines"
+        descricao: "Identificar Growth, Fulfillment, Innovation"
+        duracao: "2 semanas"
+      - passo: 3
+        acao: "Identify power stages"
+        descricao: "Selecionar 2-3 stages criticos por engine"
+        duracao: "1 semana"
+      - passo: 4
+        acao: "Build scorecards"
+        descricao: "Criar scorecards manuais para cada time"
+        duracao: "2 semanas"
+      - passo: 5
+        acao: "Document playbooks"
+        descricao: "Documentar power stages como playbooks"
+        duracao: "2-4 semanas"
+      - passo: 6
+        acao: "Setup meeting rhythm"
+        descricao: "Implementar QSP, MBR, Weekly, 1:1s"
+        duracao: "2 semanas"
+      - passo: 7
+        acao: "QSP kickoff meeting"
+        descricao: "Primeira reuniao de planejamento trimestral"
+        duracao: "2 dias"
+      - passo: 8
+        acao: "Execute first quarter"
+        descricao: "Rodar primeiro ciclo de 90 dias"
+        duracao: "12 semanas"
+      - passo: 9
+        acao: "Review and optimize"
+        descricao: "Avaliar e melhorar sistema"
+        duracao: "ongoing"
+    evidencias:
+      - citacao: "BUILD-INSTALL-OPTIMIZE full implementation cycle"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+      - "implementation"
+    peso: 0.99
+
+  - id: "MET-TSC-002"
+    processo: "BUILD Phase Execution"
+    passos:
+      - passo: 1
+        acao: "Document existing processes"
+        descricao: "Capturar o que ja existe"
+      - passo: 2
+        acao: "Map value engines with sticky notes"
+        descricao: "Visual mapping em parede"
+      - passo: 3
+        acao: "Identify power stages"
+        descricao: "Marcar stages criticos"
+      - passo: 4
+        acao: "Define metrics for each stage"
+        descricao: "Criar CABs"
+      - passo: 5
+        acao: "Create initial scorecards"
+        descricao: "Montar scorecards manuais"
+      - passo: 6
+        acao: "Document priority playbooks"
+        descricao: "Playbooks dos power stages"
+    duracao_total: "6-8 semanas"
+    evidencias:
+      - citacao: "BUILD (6-8 weeks) phase detailed execution"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+    peso: 0.95
+
+  - id: "MET-TSC-003"
+    processo: "INSTALL Phase Execution"
+    passos:
+      - passo: 1
+        acao: "Prepare QSP materials"
+        descricao: "Reunir dados financeiros e metricas"
+      - passo: 2
+        acao: "Schedule QSP meeting"
+        descricao: "2 dias presencial ou 2-3 meios-dias virtual"
+      - passo: 3
+        acao: "Conduct QSP meeting"
+        descricao: "Executar 5 steps do QSP"
+      - passo: 4
+        acao: "Communicate to team"
+        descricao: "Apresentar theme e north star"
+      - passo: 5
+        acao: "Distribute scorecards"
+        descricao: "Atribuir scorecards aos owners"
+      - passo: 6
+        acao: "Start weekly rhythm"
+        descricao: "Iniciar reunioes semanais"
+    duracao_total: "2-3 semanas"
+    evidencias:
+      - citacao: "INSTALL (2-3 weeks) phase detailed execution"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+    peso: 0.94
+
+  - id: "MET-TSC-004"
+    processo: "OPTIMIZE Phase Execution"
+    passos:
+      - passo: 1
+        acao: "Collect feedback continuously"
+        descricao: "Ouvir o que nao esta funcionando"
+      - passo: 2
+        acao: "Review scorecards weekly"
+        descricao: "Analisar tendencias"
+      - passo: 3
+        acao: "Conduct monthly MBRs"
+        descricao: "Revisoes mensais de negocio"
+      - passo: 4
+        acao: "Run quarterly QSPs"
+        descricao: "Planejamento a cada 90 dias"
+      - passo: 5
+        acao: "Update playbooks based on learnings"
+        descricao: "Melhorar processos documentados"
+      - passo: 6
+        acao: "Recalibrate targets after 12 weeks"
+        descricao: "Ajustar metas baseado em dados"
+    duracao_total: "ongoing"
+    evidencias:
+      - citacao: "OPTIMIZE phase continuous improvement"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+      - "optimization"
+    peso: 0.93
+
+  - id: "MET-TSC-005"
+    processo: "OS Diagnostic Process"
+    passos:
+      - passo: 1
+        acao: "Interview founder"
+        descricao: "Entender dores e objetivos"
+      - passo: 2
+        acao: "Review existing documentation"
+        descricao: "O que ja foi documentado"
+      - passo: 3
+        acao: "Assess meeting rhythm"
+        descricao: "Quais reunioes existem"
+      - passo: 4
+        acao: "Evaluate scorecards"
+        descricao: "O que e medido hoje"
+      - passo: 5
+        acao: "Identify gaps"
+        descricao: "O que falta implementar"
+      - passo: 6
+        acao: "Prioritize actions"
+        descricao: "Criar roadmap de implementacao"
+    evidencias:
+      - citacao: "OS diagnostic before implementation"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "assessment"
+      - "operating-systems"
+    peso: 0.91
+
+  - id: "MET-TSC-006"
+    processo: "Founder Freedom Transition"
+    passos:
+      - passo: 1
+        acao: "List all founder tasks"
+        descricao: "Tudo que fundador faz"
+      - passo: 2
+        acao: "Categorize by necessity"
+        descricao: "O que SO fundador pode fazer"
+      - passo: 3
+        acao: "Document delegable tasks"
+        descricao: "Criar playbooks"
+      - passo: 4
+        acao: "Identify successors"
+        descricao: "Quem pode assumir cada tarefa"
+      - passo: 5
+        acao: "Train successors (Traffic Light)"
+        descricao: "RED → YELLOW → GREEN"
+      - passo: 6
+        acao: "Transfer ownership"
+        descricao: "Completar delegacao"
+      - passo: 7
+        acao: "Monitor and adjust"
+        descricao: "Acompanhar transicao"
+    evidencias:
+      - citacao: "Step out of day-to-day transition process"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "founder"
+      - "delegation"
+    peso: 0.94
+
+  - id: "MET-TSC-007"
+    processo: "OS Rollout Communication"
+    passos:
+      - passo: 1
+        acao: "Prepare communication deck"
+        descricao: "Slides explicando o novo sistema"
+      - passo: 2
+        acao: "Schedule all-hands"
+        descricao: "Reuniao com toda empresa"
+      - passo: 3
+        acao: "Present vision and why"
+        descricao: "Por que estamos implementando"
+      - passo: 4
+        acao: "Explain new rhythm"
+        descricao: "Quais reunioes, quando, proposito"
+      - passo: 5
+        acao: "Introduce scorecards"
+        descricao: "Como vamos medir"
+      - passo: 6
+        acao: "Answer questions"
+        descricao: "Tirar duvidas do time"
+      - passo: 7
+        acao: "Follow up 1:1 with leads"
+        descricao: "Alinhar com cada lider"
+    evidencias:
+      - citacao: "Communication is critical for OS adoption"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "communication"
+      - "change-management"
+    peso: 0.89
+
+  - id: "MET-TSC-008"
+    processo: "OS Health Check Monthly"
+    passos:
+      - passo: 1
+        acao: "Review scorecard update rate"
+        descricao: "Scorecards sendo atualizados?"
+      - passo: 2
+        acao: "Check meeting attendance"
+        descricao: "Reunioes acontecendo?"
+      - passo: 3
+        acao: "Count ad hoc meetings"
+        descricao: "Muitas reunioes extras?"
+      - passo: 4
+        acao: "Gather feedback"
+        descricao: "O que nao esta funcionando?"
+      - passo: 5
+        acao: "Identify improvements"
+        descricao: "O que ajustar"
+      - passo: 6
+        acao: "Implement quick wins"
+        descricao: "Fazer ajustes imediatos"
+    evidencias:
+      - citacao: "Monthly OS health check routine"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "operating-systems"
+      - "monitoring"
+    peso: 0.87
+
+  - id: "MET-TSC-009"
+    processo: "OS Tool Selection"
+    passos:
+      - passo: 1
+        acao: "List requirements"
+        descricao: "O que a ferramenta precisa fazer"
+      - passo: 2
+        acao: "Prioritize must-haves vs nice-to-haves"
+        descricao: "Separar essencial de opcional"
+      - passo: 3
+        acao: "Research options"
+        descricao: "Avaliar ferramentas disponiveis"
+      - passo: 4
+        acao: "Trial top 2-3"
+        descricao: "Testar antes de escolher"
+      - passo: 5
+        acao: "Select and implement"
+        descricao: "Escolher e configurar"
+      - passo: 6
+        acao: "Train team"
+        descricao: "Capacitar usuarios"
+    evidencias:
+      - citacao: "Tool selection process for OS"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "tools"
+      - "implementation"
+    peso: 0.85
+
+  - id: "MET-TSC-010"
+    processo: "OS Scaling Process"
+    passos:
+      - passo: 1
+        acao: "Validate current OS works"
+        descricao: "Sistema funciona com time atual?"
+      - passo: 2
+        acao: "Document all processes"
+        descricao: "Tudo que nao esta documentado"
+      - passo: 3
+        acao: "Create onboarding playbook"
+        descricao: "Como novos entram no sistema"
+      - passo: 4
+        acao: "Define role-specific scorecards"
+        descricao: "Metricas por funcao"
+      - passo: 5
+        acao: "Train hiring managers"
+        descricao: "Como integrar novos no OS"
+      - passo: 6
+        acao: "Monitor scaling health"
+        descricao: "Sistema continua funcionando com mais pessoas?"
+    evidencias:
+      - citacao: "Scaling the OS with team growth"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "scaling"
+      - "operating-systems"
+    peso: 0.88
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 2: VALUE ENGINE METHODOLOGIES (10 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "MET-TSC-011"
+    processo: "Value Engine Mapping Process"
+    passos:
+      - passo: 1
+        acao: "Gather team in room with sticky notes"
+        descricao: "Preparar ambiente visual"
+      - passo: 2
+        acao: "Start with 'A customer comes in...'"
+        descricao: "Ponto de partida"
+      - passo: 3
+        acao: "Ask 'Then what happens?'"
+        descricao: "Perguntar ate acabar"
+      - passo: 4
+        acao: "Write each step on sticky note"
+        descricao: "Um post-it por etapa"
+      - passo: 5
+        acao: "Arrange in flow on wall"
+        descricao: "Organizar sequencia visual"
+      - passo: 6
+        acao: "Identify engine boundaries"
+        descricao: "Onde termina Growth, comeca Fulfillment"
+      - passo: 7
+        acao: "Mark power stages"
+        descricao: "Destacar 2-3 criticos por engine"
+    evidencias:
+      - citacao: "Then what happens? → sticky note → flow mapping"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "value-engines"
+      - "process-mapping"
+    peso: 0.97
+
+  - id: "MET-TSC-012"
+    processo: "Power Stage Identification"
+    passos:
+      - passo: 1
+        acao: "List all stages of value engine"
+        descricao: "Todas as etapas"
+      - passo: 2
+        acao: "For each stage ask: 'If this fails, what happens?'"
+        descricao: "Avaliar criticidade"
+      - passo: 3
+        acao: "Score impact (1-10)"
+        descricao: "Quantificar impacto de falha"
+      - passo: 4
+        acao: "Select top 2-3 by impact"
+        descricao: "Escolher os mais criticos"
+      - passo: 5
+        acao: "Validate with team"
+        descricao: "Confirmar com quem executa"
+    evidencias:
+      - citacao: "2-3 critical stages - must get right or engine fails"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "value-engines"
+      - "prioritization"
+    peso: 0.95
+
+  - id: "MET-TSC-013"
+    processo: "Growth Engine Setup"
+    passos:
+      - passo: 1
+        acao: "Map lead generation sources"
+        descricao: "De onde vem os leads"
+      - passo: 2
+        acao: "Define conversion stages"
+        descricao: "Lead → MQL → SQL → Customer"
+      - passo: 3
+        acao: "Identify power stages in conversion"
+        descricao: "Onde se perde mais"
+      - passo: 4
+        acao: "Set metrics for each stage"
+        descricao: "Taxas de conversao"
+      - passo: 5
+        acao: "Create scorecards"
+        descricao: "Montar scorecard de Growth"
+      - passo: 6
+        acao: "Assign owners"
+        descricao: "Definir responsaveis"
+    evidencias:
+      - citacao: "Growth engine - how you acquire customers"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "growth"
+    peso: 0.92
+
+  - id: "MET-TSC-014"
+    processo: "Fulfillment Engine Setup"
+    passos:
+      - passo: 1
+        acao: "Map delivery process"
+        descricao: "Como valor e entregue"
+      - passo: 2
+        acao: "Define success criteria"
+        descricao: "O que e entrega bem-sucedida"
+      - passo: 3
+        acao: "Identify power stages"
+        descricao: "Onde falha compromete tudo"
+      - passo: 4
+        acao: "Set quality metrics"
+        descricao: "NPS, CSAT, completion rate"
+      - passo: 5
+        acao: "Create fulfillment playbooks"
+        descricao: "Documentar processo de entrega"
+      - passo: 6
+        acao: "Assign ownership"
+        descricao: "Definir responsaveis"
+    evidencias:
+      - citacao: "Fulfillment engine - how you deliver value"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "fulfillment"
+    peso: 0.91
+
+  - id: "MET-TSC-015"
+    processo: "Innovation Engine Setup"
+    passos:
+      - passo: 1
+        acao: "Define innovation cadence"
+        descricao: "Quando novos produtos/servicos"
+      - passo: 2
+        acao: "Map idea to launch process"
+        descricao: "Como ideias viram produtos"
+      - passo: 3
+        acao: "Identify decision gates"
+        descricao: "Pontos de go/no-go"
+      - passo: 4
+        acao: "Set innovation metrics"
+        descricao: "Pipeline, launch rate, revenue from new"
+      - passo: 5
+        acao: "Create innovation playbooks"
+        descricao: "Processo de desenvolvimento"
+      - passo: 6
+        acao: "Assign innovation ownership"
+        descricao: "Quem lidera inovacao"
+    evidencias:
+      - citacao: "Innovation engine - how you create new products/services"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "innovation"
+    peso: 0.89
+
+  - id: "MET-TSC-016"
+    processo: "Value Engine Integration"
+    passos:
+      - passo: 1
+        acao: "Map handoffs between engines"
+        descricao: "Onde Growth entrega para Fulfillment"
+      - passo: 2
+        acao: "Define handoff criteria"
+        descricao: "O que precisa estar pronto"
+      - passo: 3
+        acao: "Create handoff playbooks"
+        descricao: "Como fazer passagem"
+      - passo: 4
+        acao: "Set integration metrics"
+        descricao: "Tempo de handoff, quality at handoff"
+      - passo: 5
+        acao: "Assign cross-engine ownership"
+        descricao: "Quem garante integracao"
+    evidencias:
+      - citacao: "Value engine integration at handoffs"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "value-engines"
+      - "integration"
+    peso: 0.88
+
+  - id: "MET-TSC-017"
+    processo: "Value Engine Review"
+    passos:
+      - passo: 1
+        acao: "Collect engine metrics"
+        descricao: "Reunir dados de cada engine"
+      - passo: 2
+        acao: "Review power stage performance"
+        descricao: "Como estao os pontos criticos"
+      - passo: 3
+        acao: "Identify bottlenecks"
+        descricao: "Onde esta travando"
+      - passo: 4
+        acao: "Propose improvements"
+        descricao: "O que mudar"
+      - passo: 5
+        acao: "Prioritize actions"
+        descricao: "O que fazer primeiro"
+      - passo: 6
+        acao: "Assign and execute"
+        descricao: "Implementar melhorias"
+    evidencias:
+      - citacao: "Regular value engine review process"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "value-engines"
+      - "review"
+    peso: 0.87
+
+  - id: "MET-TSC-018"
+    processo: "Orchestrated Ballet Process"
+    passos:
+      - passo: 1
+        acao: "Visualize end-to-end flow"
+        descricao: "Customer journey completo"
+      - passo: 2
+        acao: "Identify transition points"
+        descricao: "Onde uma atividade passa para outra"
+      - passo: 3
+        acao: "Define seamless handoffs"
+        descricao: "Como transicao deve ser suave"
+      - passo: 4
+        acao: "Remove friction points"
+        descricao: "Eliminar atritos"
+      - passo: 5
+        acao: "Test flow with customer"
+        descricao: "Validar experiencia"
+    evidencias:
+      - citacao: "Business as flow - orchestrated ballet"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "customer-experience"
+      - "flow"
+    peso: 0.86
+
+  - id: "MET-TSC-019"
+    processo: "Engine Bottleneck Resolution"
+    passos:
+      - passo: 1
+        acao: "Identify bottleneck location"
+        descricao: "Onde esta o gargalo"
+      - passo: 2
+        acao: "Analyze root cause"
+        descricao: "Por que esta travando"
+      - passo: 3
+        acao: "Brainstorm solutions"
+        descricao: "Opcoes para resolver"
+      - passo: 4
+        acao: "Select best option"
+        descricao: "Escolher solucao"
+      - passo: 5
+        acao: "Implement fix"
+        descricao: "Executar mudanca"
+      - passo: 6
+        acao: "Monitor improvement"
+        descricao: "Verificar se resolveu"
+    evidencias:
+      - citacao: "Bottleneck resolution process"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "optimization"
+      - "problem-solving"
+    peso: 0.87
+
+  - id: "MET-TSC-020"
+    processo: "Engine Metric Calibration"
+    passos:
+      - passo: 1
+        acao: "Collect 12 weeks of data"
+        descricao: "Base historica minima"
+      - passo: 2
+        acao: "Calculate baselines"
+        descricao: "Media, variacao"
+      - passo: 3
+        acao: "Set stretch targets (10-20% above)"
+        descricao: "Metas desafiadoras"
+      - passo: 4
+        acao: "Communicate new targets"
+        descricao: "Alinhar com time"
+      - passo: 5
+        acao: "Review after another 12 weeks"
+        descricao: "Recalibrar se necessario"
+    evidencias:
+      - citacao: "Targets need 12 weeks to calibrate"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "metrics"
+      - "calibration"
+    peso: 0.90
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 3: MEETING METHODOLOGIES (10 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "MET-TSC-021"
+    processo: "QSP Meeting Execution (5 Steps)"
+    passos:
+      - passo: 1
+        acao: "Review financials"
+        descricao: "Analisar P&L do quarter anterior"
+        duracao: "2-3 horas"
+      - passo: 2
+        acao: "Define North Star metric"
+        descricao: "Escolher UMA metrica de foco"
+        duracao: "1 hora"
+      - passo: 3
+        acao: "Select initiatives"
+        descricao: "Escolher 3-5 iniciativas prioritarias"
+        duracao: "2-3 horas"
+      - passo: 4
+        acao: "Create quarterly theme"
+        descricao: "Nome memoravel para o quarter"
+        duracao: "30 min"
+      - passo: 5
+        acao: "Update operating system"
+        descricao: "Ajustar scorecards, playbooks"
+        duracao: "2-3 horas"
+    evidencias:
+      - citacao: "QSP 5 Steps: Financials → North Star → Initiatives → Theme → OS"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "meetings"
+      - "planning"
+    peso: 0.98
+
+  - id: "MET-TSC-022"
+    processo: "QSP Meeting Preparation"
+    passos:
+      - passo: 1
+        acao: "Compile financial data"
+        descricao: "P&L, cash flow, key metrics"
+      - passo: 2
+        acao: "Review previous quarter goals"
+        descricao: "O que foi planejado vs realizado"
+      - passo: 3
+        acao: "Gather team feedback"
+        descricao: "O que funcionou, o que nao"
+      - passo: 4
+        acao: "Prepare discussion materials"
+        descricao: "Slides, docs de apoio"
+      - passo: 5
+        acao: "Send pre-read to attendees"
+        descricao: "Material para revisao previa"
+      - passo: 6
+        acao: "Confirm logistics"
+        descricao: "Local, horario, participantes"
+    evidencias:
+      - citacao: "QSP preparation ensures productive meeting"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "meetings"
+      - "preparation"
+    peso: 0.92
+
+  - id: "MET-TSC-023"
+    processo: "MBR (Monthly Business Review) Execution"
+    passos:
+      - passo: 1
+        acao: "Review scorecards"
+        descricao: "Status de todas as metricas"
+        duracao: "30-45 min"
+      - passo: 2
+        acao: "Discuss initiative progress"
+        descricao: "Onde estamos em cada iniciativa"
+        duracao: "30-45 min"
+      - passo: 3
+        acao: "Identify blockers"
+        descricao: "O que esta impedindo progresso"
+        duracao: "20-30 min"
+      - passo: 4
+        acao: "Make adjustments"
+        descricao: "Decidir mudancas necessarias"
+        duracao: "20-30 min"
+      - passo: 5
+        acao: "Assign action items"
+        descricao: "Quem faz o que ate quando"
+        duracao: "10-15 min"
+    evidencias:
+      - citacao: "MBR monthly cadence for business review"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "meetings"
+      - "review"
+    peso: 0.93
+
+  - id: "MET-TSC-024"
+    processo: "Weekly Check-in Execution"
+    passos:
+      - passo: 1
+        acao: "Share wins"
+        descricao: "O que de bom aconteceu"
+        duracao: "5 min"
+      - passo: 2
+        acao: "Review numbers"
+        descricao: "Metricas da semana"
+        duracao: "10-15 min"
+      - passo: 3
+        acao: "Discuss stuck points"
+        descricao: "Onde precisa de ajuda"
+        duracao: "10-15 min"
+      - passo: 4
+        acao: "Set weekly priorities"
+        descricao: "Foco desta semana"
+        duracao: "5-10 min"
+      - passo: 5
+        acao: "Quick announcements"
+        descricao: "Informes rapidos"
+        duracao: "5 min"
+    evidencias:
+      - citacao: "Weekly check-in structure"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "meetings"
+    peso: 0.91
+
+  - id: "MET-TSC-025"
+    processo: "One-on-One Execution"
+    passos:
+      - passo: 1
+        acao: "Their agenda first"
+        descricao: "O que querem discutir"
+        duracao: "10-15 min"
+      - passo: 2
+        acao: "Development discussion"
+        descricao: "Crescimento profissional"
+        duracao: "10 min"
+      - passo: 3
+        acao: "Blockers and support"
+        descricao: "Como posso ajudar"
+        duracao: "10 min"
+      - passo: 4
+        acao: "Feedback exchange"
+        descricao: "Feedback mutuo"
+        duracao: "5-10 min"
+      - passo: 5
+        acao: "Action items"
+        descricao: "O que cada um vai fazer"
+        duracao: "5 min"
+    evidencias:
+      - citacao: "One-on-one structure for development"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "meetings"
+      - "leadership"
+    peso: 0.90
+
+  - id: "MET-TSC-026"
+    processo: "Meeting Rhythm Setup"
+    passos:
+      - passo: 1
+        acao: "Define QSP dates for year"
+        descricao: "Marcar 4 QSPs no calendario"
+      - passo: 2
+        acao: "Set MBR monthly slots"
+        descricao: "Definir dia/hora fixo"
+      - passo: 3
+        acao: "Establish weekly meeting time"
+        descricao: "Mesmo dia/hora toda semana"
+      - passo: 4
+        acao: "Schedule 1:1s"
+        descricao: "Slots fixos para cada report"
+      - passo: 5
+        acao: "Communicate rhythm to all"
+        descricao: "Todos sabem quando sao as reunioes"
+      - passo: 6
+        acao: "Protect calendar"
+        descricao: "Nao cancelar reunioes do rhythm"
+    evidencias:
+      - citacao: "Meeting rhythm architecture setup"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "meetings"
+      - "rhythm"
+    peso: 0.94
+
+  - id: "MET-TSC-027"
+    processo: "Ad Hoc Meeting Reduction"
+    passos:
+      - passo: 1
+        acao: "Track ad hoc meetings for 2 weeks"
+        descricao: "Contar quantas acontecem"
+      - passo: 2
+        acao: "Categorize by topic"
+        descricao: "Sobre o que sao"
+      - passo: 3
+        acao: "Identify patterns"
+        descricao: "O que se repete"
+      - passo: 4
+        acao: "Create playbooks for repeating topics"
+        descricao: "Documentar para nao precisar reunir"
+      - passo: 5
+        acao: "Add to weekly agenda"
+        descricao: "Incluir topicos no check-in semanal"
+      - passo: 6
+        acao: "Monitor reduction"
+        descricao: "Verificar se diminuiu"
+    evidencias:
+      - citacao: "Too many ad hoc meetings = planning failure"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "meetings"
+      - "optimization"
+    peso: 0.89
+
+  - id: "MET-TSC-028"
+    processo: "Meeting Effectiveness Improvement"
+    passos:
+      - passo: 1
+        acao: "Collect meeting feedback"
+        descricao: "Perguntar se reunioes sao uteis"
+      - passo: 2
+        acao: "Review time spent vs value"
+        descricao: "Quanto tempo vs quanto valor"
+      - passo: 3
+        acao: "Identify improvement areas"
+        descricao: "O que melhorar"
+      - passo: 4
+        acao: "Implement changes"
+        descricao: "Fazer ajustes"
+      - passo: 5
+        acao: "Re-evaluate after 4 weeks"
+        descricao: "Verificar melhoria"
+    evidencias:
+      - citacao: "Continuous meeting improvement"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "meetings"
+      - "improvement"
+    peso: 0.86
+
+  - id: "MET-TSC-029"
+    processo: "Quarterly Theme Creation"
+    passos:
+      - passo: 1
+        acao: "Review North Star metric"
+        descricao: "O que estamos buscando"
+      - passo: 2
+        acao: "Brainstorm theme ideas"
+        descricao: "Nomes memoraveis"
+      - passo: 3
+        acao: "Select theme that resonates"
+        descricao: "Escolher o melhor"
+      - passo: 4
+        acao: "Define success celebration"
+        descricao: "Como vamos celebrar se atingir"
+      - passo: 5
+        acao: "Communicate theme"
+        descricao: "Apresentar para toda empresa"
+      - passo: 6
+        acao: "Make theme visible"
+        descricao: "Posters, slack, etc"
+    evidencias:
+      - citacao: "Theme creates quarterly focus"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "planning"
+      - "culture"
+    peso: 0.87
+
+  - id: "MET-TSC-030"
+    processo: "North Star Definition"
+    passos:
+      - passo: 1
+        acao: "Review strategic goals"
+        descricao: "O que queremos atingir"
+      - passo: 2
+        acao: "List candidate metrics"
+        descricao: "Metricas possiveis"
+      - passo: 3
+        acao: "Evaluate each for impact"
+        descricao: "Qual move mais a agulha"
+      - passo: 4
+        acao: "Select ONE metric"
+        descricao: "Apenas uma"
+      - passo: 5
+        acao: "Define target"
+        descricao: "Meta especifica"
+      - passo: 6
+        acao: "Communicate to all"
+        descricao: "Todos sabem qual e o North Star"
+    evidencias:
+      - citacao: "North Star as single focus metric"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "metrics"
+      - "focus"
+    peso: 0.91
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 4: SCORECARD METHODOLOGIES (8 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "MET-TSC-031"
+    processo: "Manual Scorecard Creation"
+    passos:
+      - passo: 1
+        acao: "Identify team/function"
+        descricao: "Para quem e o scorecard"
+      - passo: 2
+        acao: "List candidate metrics"
+        descricao: "Todas as metricas possiveis"
+      - passo: 3
+        acao: "Prioritize to 3-5 max"
+        descricao: "Selecionar as mais criticas"
+      - passo: 4
+        acao: "Define calculation method"
+        descricao: "Como calcular cada uma"
+      - passo: 5
+        acao: "Set initial targets"
+        descricao: "Metas iniciais (10-20% stretch)"
+      - passo: 6
+        acao: "Assign owners"
+        descricao: "Quem atualiza cada metrica"
+      - passo: 7
+        acao: "Create manual update process"
+        descricao: "Como/quando atualizar"
+    evidencias:
+      - citacao: "Manual scorecards for ownership and insights"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "scorecards"
+    peso: 0.96
+
+  - id: "MET-TSC-032"
+    processo: "Scorecard Weekly Update"
+    passos:
+      - passo: 1
+        acao: "Collect raw data"
+        descricao: "Buscar dados da fonte"
+      - passo: 2
+        acao: "Calculate metrics"
+        descricao: "Fazer calculos necessarios"
+      - passo: 3
+        acao: "Update scorecard"
+        descricao: "Inserir novos valores"
+      - passo: 4
+        acao: "Note trends"
+        descricao: "Observar direcao"
+      - passo: 5
+        acao: "Flag issues"
+        descricao: "Marcar metricas em risco"
+      - passo: 6
+        acao: "Prepare for weekly meeting"
+        descricao: "Pronto para discussao"
+    evidencias:
+      - citacao: "Weekly scorecard update routine"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "scorecards"
+      - "routine"
+    peso: 0.92
+
+  - id: "MET-TSC-033"
+    processo: "Traffic Light Delegation Process"
+    passos:
+      - passo: 1
+        acao: "Assess person's capability"
+        descricao: "Sabe como fazer? Ja fez? Teve sucesso?"
+      - passo: 2
+        acao: "Determine traffic light level"
+        descricao: "RED, YELLOW, ou GREEN"
+      - passo: 3
+        acao: "If RED - do for them"
+        descricao: "Mostrar como fazer"
+      - passo: 4
+        acao: "If YELLOW - do with them"
+        descricao: "Fazer junto, apoiar"
+      - passo: 5
+        acao: "If GREEN - let them do"
+        descricao: "Delegar com autonomia"
+      - passo: 6
+        acao: "Reassess periodically"
+        descricao: "Reavaliar nivel ao longo do tempo"
+    evidencias:
+      - citacao: "Traffic Light: RED → YELLOW → GREEN delegation"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "delegation"
+      - "development"
+    peso: 0.95
+
+  - id: "MET-TSC-034"
+    processo: "CABs Definition Process"
+    passos:
+      - passo: 1
+        acao: "Review team responsibilities"
+        descricao: "O que o time e responsavel"
+      - passo: 2
+        acao: "List all possible metrics"
+        descricao: "Brainstorm completo"
+      - passo: 3
+        acao: "Filter for critical only"
+        descricao: "O que realmente importa"
+      - passo: 4
+        acao: "Limit to 3-5 bullets"
+        descricao: "Nao mais que isso"
+      - passo: 5
+        acao: "Assign ownership"
+        descricao: "Quem e responsavel por cada"
+      - passo: 6
+        acao: "Define update cadence"
+        descricao: "Quando atualizar"
+    evidencias:
+      - citacao: "CABs: Critical Accountability Bullets 3-5 max"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "accountability"
+      - "metrics"
+    peso: 0.94
+
+  - id: "MET-TSC-035"
+    processo: "Target Setting Process"
+    passos:
+      - passo: 1
+        acao: "Gather historical data"
+        descricao: "Ultimos 12+ semanas"
+      - passo: 2
+        acao: "Calculate current baseline"
+        descricao: "Media do periodo"
+      - passo: 3
+        acao: "Add stretch (10-20%)"
+        descricao: "Meta desafiadora mas alcancavel"
+      - passo: 4
+        acao: "Validate with owner"
+        descricao: "Owner concorda que e realista"
+      - passo: 5
+        acao: "Document rationale"
+        descricao: "Por que esse target"
+      - passo: 6
+        acao: "Plan for recalibration"
+        descricao: "Revisar em 12 semanas"
+    evidencias:
+      - citacao: "Targets need 12 weeks to calibrate properly"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "targets"
+    peso: 0.91
+
+  - id: "MET-TSC-036"
+    processo: "Metric Owner Training"
+    passos:
+      - passo: 1
+        acao: "Explain the metric"
+        descricao: "O que mede e por que importa"
+      - passo: 2
+        acao: "Show calculation method"
+        descricao: "Como calcular"
+      - passo: 3
+        acao: "Demonstrate update process"
+        descricao: "Como atualizar scorecard"
+      - passo: 4
+        acao: "Practice together"
+        descricao: "Owner faz com supervisao"
+      - passo: 5
+        acao: "Release to independence"
+        descricao: "Owner faz sozinho"
+      - passo: 6
+        acao: "Follow up weekly"
+        descricao: "Verificar nas primeiras semanas"
+    evidencias:
+      - citacao: "Metric owner training for accountability"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "training"
+      - "accountability"
+    peso: 0.88
+
+  - id: "MET-TSC-037"
+    processo: "Red Metric Response"
+    passos:
+      - passo: 1
+        acao: "Acknowledge the red"
+        descricao: "Metrica esta abaixo do target"
+      - passo: 2
+        acao: "Analyze root cause"
+        descricao: "Por que esta vermelha"
+      - passo: 3
+        acao: "Identify corrective actions"
+        descricao: "O que fazer para corrigir"
+      - passo: 4
+        acao: "Assign owner and deadline"
+        descricao: "Quem faz o que ate quando"
+      - passo: 5
+        acao: "Monitor recovery"
+        descricao: "Acompanhar melhoria"
+      - passo: 6
+        acao: "Post-mortem if needed"
+        descricao: "Aprender se problema persistir"
+    evidencias:
+      - citacao: "Red metrics need immediate attention"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "scorecards"
+      - "problem-solving"
+    peso: 0.90
+
+  - id: "MET-TSC-038"
+    processo: "Scorecard Review in Weekly"
+    passos:
+      - passo: 1
+        acao: "Display scorecard"
+        descricao: "Mostrar para o time"
+      - passo: 2
+        acao: "Highlight greens"
+        descricao: "Celebrar o que esta bom"
+      - passo: 3
+        acao: "Discuss yellows"
+        descricao: "O que precisa de atencao"
+      - passo: 4
+        acao: "Address reds"
+        descricao: "O que precisa de acao"
+      - passo: 5
+        acao: "Capture action items"
+        descricao: "O que sera feito"
+    evidencias:
+      - citacao: "Scorecard review in weekly check-in"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "scorecards"
+      - "meetings"
+    peso: 0.89
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 5: PLAYBOOK METHODOLOGIES (10 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "MET-TSC-039"
+    processo: "3D Playbook Creation (Define-Design-Deploy)"
+    passos:
+      - passo: 1
+        acao: "DEFINE: What needs to be documented"
+        descricao: "Identificar processo a documentar"
+      - passo: 2
+        acao: "DEFINE: Who is the owner"
+        descricao: "Quem sera responsavel"
+      - passo: 3
+        acao: "DESIGN: Execute the process yourself (DO)"
+        descricao: "Fazer o processo"
+      - passo: 4
+        acao: "DESIGN: Document while doing"
+        descricao: "Escrever os passos"
+      - passo: 5
+        acao: "DESIGN: Do again with documentation (DO AGAIN)"
+        descricao: "Refazer seguindo o que escreveu"
+      - passo: 6
+        acao: "DEPLOY: Field test with someone else"
+        descricao: "Outra pessoa executa"
+      - passo: 7
+        acao: "DEPLOY: Iterate based on feedback"
+        descricao: "Ajustar com feedback"
+      - passo: 8
+        acao: "DEPLOY: Roll out to all"
+        descricao: "Implementar para o time"
+    evidencias:
+      - citacao: "3D Playbook Process: DEFINE → DESIGN → DEPLOY"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+    peso: 0.97
+
+  - id: "MET-TSC-040"
+    processo: "Do-Document-Do Again-Field Test"
+    passos:
+      - passo: 1
+        acao: "DO: Execute the task completely"
+        descricao: "Fazer a tarefa do inicio ao fim"
+      - passo: 2
+        acao: "DOCUMENT: Write each step as you did"
+        descricao: "Anotar cada passo executado"
+      - passo: 3
+        acao: "DO AGAIN: Follow your documentation"
+        descricao: "Refazer seguindo a documentacao"
+      - passo: 4
+        acao: "REFINE: Fix gaps found in do-again"
+        descricao: "Corrigir o que faltou"
+      - passo: 5
+        acao: "FIELD TEST: Someone else follows doc"
+        descricao: "Outra pessoa tenta seguir"
+      - passo: 6
+        acao: "ITERATE: Fix issues from field test"
+        descricao: "Ajustar baseado no teste"
+    evidencias:
+      - citacao: "Do-Document-Do Again-Field Test methodology"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+    peso: 0.96
+
+  - id: "MET-TSC-041"
+    processo: "Field Test Protocol"
+    passos:
+      - passo: 1
+        acao: "Select tester"
+        descricao: "Alguem que NAO criou o playbook"
+      - passo: 2
+        acao: "Brief tester"
+        descricao: "Explicar objetivo do teste"
+      - passo: 3
+        acao: "Observe execution"
+        descricao: "Assistir pessoa seguindo playbook"
+      - passo: 4
+        acao: "Note all questions/confusion"
+        descricao: "O que nao ficou claro"
+      - passo: 5
+        acao: "Collect feedback"
+        descricao: "O que melhorar"
+      - passo: 6
+        acao: "Update playbook"
+        descricao: "Fazer ajustes"
+      - passo: 7
+        acao: "Re-test if major changes"
+        descricao: "Testar novamente se mudou muito"
+    evidencias:
+      - citacao: "Field test with someone who didn't create it"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+      - "validation"
+    peso: 0.93
+
+  - id: "MET-TSC-042"
+    processo: "Mistake-to-Playbook Conversion"
+    passos:
+      - passo: 1
+        acao: "Recognize mistake happened"
+        descricao: "Erro foi identificado"
+      - passo: 2
+        acao: "Analyze what should have been done"
+        descricao: "Qual era o caminho certo"
+      - passo: 3
+        acao: "Document correct process"
+        descricao: "Escrever como deveria ser"
+      - passo: 4
+        acao: "Add prevention steps"
+        descricao: "Como evitar o erro"
+      - passo: 5
+        acao: "Share with team"
+        descricao: "Comunicar o novo playbook"
+      - passo: 6
+        acao: "Train affected people"
+        descricao: "Treinar quem precisa"
+    evidencias:
+      - citacao: "Mistakes = main catalyst for playbook creation"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+      - "learning"
+    peso: 0.92
+
+  - id: "MET-TSC-043"
+    processo: "Playbook Ownership Transfer"
+    passos:
+      - passo: 1
+        acao: "Identify new owner"
+        descricao: "Quem vai assumir"
+      - passo: 2
+        acao: "Walk through playbook together"
+        descricao: "Revisar todo o documento"
+      - passo: 3
+        acao: "New owner executes with supervision"
+        descricao: "Fazer com acompanhamento"
+      - passo: 4
+        acao: "New owner executes alone"
+        descricao: "Fazer sozinho"
+      - passo: 5
+        acao: "Transfer formal ownership"
+        descricao: "Atualizar owner no sistema"
+      - passo: 6
+        acao: "Follow up after 2-4 weeks"
+        descricao: "Verificar se esta funcionando"
+    evidencias:
+      - citacao: "Playbook ownership transfer process"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "succession"
+    peso: 0.88
+
+  - id: "MET-TSC-044"
+    processo: "Clone Your Best People Process"
+    passos:
+      - passo: 1
+        acao: "Identify top performer"
+        descricao: "Quem faz melhor"
+      - passo: 2
+        acao: "Observe their process"
+        descricao: "Assistir como fazem"
+      - passo: 3
+        acao: "Interview for tacit knowledge"
+        descricao: "Perguntar o que nao e obvio"
+      - passo: 4
+        acao: "Document their approach"
+        descricao: "Transformar em playbook"
+      - passo: 5
+        acao: "Validate with them"
+        descricao: "Confirmar que capturou certo"
+      - passo: 6
+        acao: "Train others"
+        descricao: "Ensinar para o time"
+      - passo: 7
+        acao: "Monitor adoption"
+        descricao: "Verificar se estao usando"
+    evidencias:
+      - citacao: "Clone your best people via playbooks"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+      - "scaling"
+    peso: 0.94
+
+  - id: "MET-TSC-045"
+    processo: "Playbook Update Process"
+    passos:
+      - passo: 1
+        acao: "Identify needed change"
+        descricao: "O que precisa mudar"
+      - passo: 2
+        acao: "Draft update"
+        descricao: "Escrever nova versao"
+      - passo: 3
+        acao: "Review with stakeholders"
+        descricao: "Validar com quem usa"
+      - passo: 4
+        acao: "Test updated version"
+        descricao: "Testar mudanca"
+      - passo: 5
+        acao: "Publish new version"
+        descricao: "Atualizar documento oficial"
+      - passo: 6
+        acao: "Communicate change"
+        descricao: "Avisar quem usa"
+    evidencias:
+      - citacao: "Living documents need update process"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+    peso: 0.87
+
+  - id: "MET-TSC-046"
+    processo: "Cross-Training Execution"
+    passos:
+      - passo: 1
+        acao: "Identify playbook for training"
+        descricao: "Qual processo treinar"
+      - passo: 2
+        acao: "Schedule training session"
+        descricao: "Marcar sessao"
+      - passo: 3
+        acao: "Owner presents playbook"
+        descricao: "Dono explica processo"
+      - passo: 4
+        acao: "Team practices together"
+        descricao: "Todos praticam"
+      - passo: 5
+        acao: "Q&A session"
+        descricao: "Tirar duvidas"
+      - passo: 6
+        acao: "Document learnings"
+        descricao: "Anotar feedback para melhorar playbook"
+    evidencias:
+      - citacao: "Cross-training has ZERO downside"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "training"
+      - "playbooks"
+    peso: 0.91
+
+  - id: "MET-TSC-047"
+    processo: "Playbook Library Organization"
+    passos:
+      - passo: 1
+        acao: "Audit existing playbooks"
+        descricao: "Listar todos que existem"
+      - passo: 2
+        acao: "Categorize by value engine"
+        descricao: "Growth, Fulfillment, Innovation"
+      - passo: 3
+        acao: "Create folder structure"
+        descricao: "Organizar por categoria"
+      - passo: 4
+        acao: "Standardize naming"
+        descricao: "Convencao de nomes"
+      - passo: 5
+        acao: "Set access permissions"
+        descricao: "Quem pode ver/editar"
+      - passo: 6
+        acao: "Create index/search"
+        descricao: "Facilitar encontrar"
+    evidencias:
+      - citacao: "Playbook library organization (Coca-Cola vault)"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "knowledge-management"
+      - "playbooks"
+    peso: 0.89
+
+  - id: "MET-TSC-048"
+    processo: "Playbook Quality Audit"
+    passos:
+      - passo: 1
+        acao: "List all playbooks"
+        descricao: "Inventario completo"
+      - passo: 2
+        acao: "Check last update date"
+        descricao: "Quando foi atualizado"
+      - passo: 3
+        acao: "Verify field test status"
+        descricao: "Foi testado?"
+      - passo: 4
+        acao: "Confirm owner is active"
+        descricao: "Owner ainda trabalha aqui?"
+      - passo: 5
+        acao: "Flag outdated playbooks"
+        descricao: "Marcar os que precisam update"
+      - passo: 6
+        acao: "Schedule updates"
+        descricao: "Planejar atualizacoes"
+    evidencias:
+      - citacao: "Regular playbook quality audit"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+      - "quality"
+    peso: 0.86
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 6: EXECUTION & REVIEW METHODOLOGIES (15 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "MET-TSC-049"
+    processo: "90-Day Sprint Execution"
+    passos:
+      - passo: 1
+        acao: "Week 1: Kick off sprint"
+        descricao: "Comunicar goals e theme"
+      - passo: 2
+        acao: "Weeks 1-4: Foundation"
+        descricao: "Setup, primeiras acoes"
+      - passo: 3
+        acao: "Week 4: First check-in"
+        descricao: "Avaliar progresso inicial"
+      - passo: 4
+        acao: "Weeks 5-8: Core execution"
+        descricao: "Bulk do trabalho"
+      - passo: 5
+        acao: "Week 8: Mid-sprint review"
+        descricao: "Ajustar se necessario"
+      - passo: 6
+        acao: "Weeks 9-12: Final push"
+        descricao: "Sprint para linha de chegada"
+      - passo: 7
+        acao: "Week 12: Close and celebrate"
+        descricao: "Finalizar e celebrar"
+    evidencias:
+      - citacao: "90-day execution cycle structure"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "execution"
+    peso: 0.93
+
+  - id: "MET-TSC-050"
+    processo: "Initiative Tracking Process"
+    passos:
+      - passo: 1
+        acao: "Define initiative scope"
+        descricao: "O que esta dentro e fora"
+      - passo: 2
+        acao: "Set milestones"
+        descricao: "Marcos intermediarios"
+      - passo: 3
+        acao: "Assign owner"
+        descricao: "Responsavel pela iniciativa"
+      - passo: 4
+        acao: "Track weekly progress"
+        descricao: "Atualizar status toda semana"
+      - passo: 5
+        acao: "Flag blockers immediately"
+        descricao: "Levantar impedimentos"
+      - passo: 6
+        acao: "Report in MBR"
+        descricao: "Status na reuniao mensal"
+    evidencias:
+      - citacao: "Initiative tracking with milestones"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "execution"
+      - "tracking"
+    peso: 0.90
+
+  - id: "MET-TSC-051"
+    processo: "Blocker Resolution Process"
+    passos:
+      - passo: 1
+        acao: "Identify blocker clearly"
+        descricao: "O que exatamente esta travando"
+      - passo: 2
+        acao: "Assess impact"
+        descricao: "Quanto esta impactando"
+      - passo: 3
+        acao: "Assign resolver"
+        descricao: "Quem vai destravar"
+      - passo: 4
+        acao: "Set resolution deadline"
+        descricao: "Ate quando precisa resolver"
+      - passo: 5
+        acao: "Escalate if not resolved"
+        descricao: "Subir se nao conseguir"
+      - passo: 6
+        acao: "Document resolution"
+        descricao: "Registrar como foi resolvido"
+    evidencias:
+      - citacao: "Blocker resolution with ownership and deadlines"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "execution"
+      - "problem-solving"
+    peso: 0.89
+
+  - id: "MET-TSC-052"
+    processo: "Quarterly Review Process"
+    passos:
+      - passo: 1
+        acao: "Compile quarter results"
+        descricao: "Reunir dados do quarter"
+      - passo: 2
+        acao: "Compare to goals"
+        descricao: "Realizado vs planejado"
+      - passo: 3
+        acao: "Analyze what worked"
+        descricao: "O que deu certo"
+      - passo: 4
+        acao: "Analyze what didn't"
+        descricao: "O que nao funcionou"
+      - passo: 5
+        acao: "Document learnings"
+        descricao: "Registrar aprendizados"
+      - passo: 6
+        acao: "Feed into next QSP"
+        descricao: "Usar no proximo planejamento"
+    evidencias:
+      - citacao: "Quarterly review informs next planning"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "review"
+      - "learning"
+    peso: 0.91
+
+  - id: "MET-TSC-053"
+    processo: "Retrospective Execution"
+    passos:
+      - passo: 1
+        acao: "Schedule session"
+        descricao: "Agendar com participantes"
+      - passo: 2
+        acao: "What went well?"
+        descricao: "Coletar positivos"
+      - passo: 3
+        acao: "What didn't go well?"
+        descricao: "Coletar negativos"
+      - passo: 4
+        acao: "What will we change?"
+        descricao: "Definir mudancas"
+      - passo: 5
+        acao: "Assign action items"
+        descricao: "Quem faz o que"
+      - passo: 6
+        acao: "Follow up on changes"
+        descricao: "Verificar se mudancas aconteceram"
+    evidencias:
+      - citacao: "Retrospective for continuous improvement"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "learning"
+      - "improvement"
+    peso: 0.88
+
+  - id: "MET-TSC-054"
+    processo: "Lessons Learned Capture"
+    passos:
+      - passo: 1
+        acao: "Identify learning moment"
+        descricao: "Algo significativo aconteceu"
+      - passo: 2
+        acao: "Document what happened"
+        descricao: "Fatos objetivos"
+      - passo: 3
+        acao: "Analyze root cause"
+        descricao: "Por que aconteceu"
+      - passo: 4
+        acao: "Extract learning"
+        descricao: "O que aprendemos"
+      - passo: 5
+        acao: "Define action"
+        descricao: "O que mudar"
+      - passo: 6
+        acao: "Share with team"
+        descricao: "Comunicar aprendizado"
+    evidencias:
+      - citacao: "Lessons learned prevent repeated mistakes"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "learning"
+    peso: 0.87
+
+  - id: "MET-TSC-055"
+    processo: "Priority Setting Weekly"
+    passos:
+      - passo: 1
+        acao: "List all pending tasks"
+        descricao: "Tudo que precisa fazer"
+      - passo: 2
+        acao: "Identify top 3 priorities"
+        descricao: "Os 3 mais importantes"
+      - passo: 3
+        acao: "Block time for priorities"
+        descricao: "Reservar tempo no calendario"
+      - passo: 4
+        acao: "Defer or delegate rest"
+        descricao: "O que nao cabe, adiar ou delegar"
+      - passo: 5
+        acao: "Review end of week"
+        descricao: "Avaliar o que conseguiu"
+    evidencias:
+      - citacao: "Weekly priority setting for focus"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "execution"
+      - "prioritization"
+    peso: 0.86
+
+  - id: "MET-TSC-056"
+    processo: "Progress Reporting Process"
+    passos:
+      - passo: 1
+        acao: "Collect status from owners"
+        descricao: "Pedir update de cada responsavel"
+      - passo: 2
+        acao: "Compile into report"
+        descricao: "Montar relatorio consolidado"
+      - passo: 3
+        acao: "Highlight wins and risks"
+        descricao: "Destacar positivos e alertas"
+      - passo: 4
+        acao: "Share with stakeholders"
+        descricao: "Enviar para quem precisa saber"
+      - passo: 5
+        acao: "Discuss in next meeting"
+        descricao: "Revisar na reuniao"
+    evidencias:
+      - citacao: "Progress reporting for visibility"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "reporting"
+      - "communication"
+    peso: 0.85
+
+  - id: "MET-TSC-057"
+    processo: "Celebration Process"
+    passos:
+      - passo: 1
+        acao: "Identify win to celebrate"
+        descricao: "O que foi conquistado"
+      - passo: 2
+        acao: "Recognize contributors"
+        descricao: "Quem fez acontecer"
+      - passo: 3
+        acao: "Plan celebration"
+        descricao: "Como vamos celebrar"
+      - passo: 4
+        acao: "Execute celebration"
+        descricao: "Fazer a celebracao"
+      - passo: 5
+        acao: "Share story"
+        descricao: "Comunicar para empresa"
+    evidencias:
+      - citacao: "Celebration reinforces desired behaviors"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "culture"
+    peso: 0.84
+
+  - id: "MET-TSC-058"
+    processo: "Action Item Follow-up"
+    passos:
+      - passo: 1
+        acao: "Document action items"
+        descricao: "O que, quem, quando"
+      - passo: 2
+        acao: "Send to owners"
+        descricao: "Confirmar responsabilidade"
+      - passo: 3
+        acao: "Check before deadline"
+        descricao: "Verificar andamento"
+      - passo: 4
+        acao: "Flag overdue items"
+        descricao: "Marcar atrasados"
+      - passo: 5
+        acao: "Review in next meeting"
+        descricao: "Discutir status"
+    evidencias:
+      - citacao: "Action item follow-up for accountability"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "execution"
+      - "accountability"
+    peso: 0.87
+
+  - id: "MET-TSC-059"
+    processo: "Resource Request Process"
+    passos:
+      - passo: 1
+        acao: "Define resource need"
+        descricao: "O que precisa e por que"
+      - passo: 2
+        acao: "Quantify requirement"
+        descricao: "Quanto (tempo, dinheiro, pessoas)"
+      - passo: 3
+        acao: "Build business case"
+        descricao: "Justificativa de ROI"
+      - passo: 4
+        acao: "Submit request"
+        descricao: "Apresentar para decisor"
+      - passo: 5
+        acao: "Negotiate if needed"
+        descricao: "Ajustar conforme feedback"
+      - passo: 6
+        acao: "Execute if approved"
+        descricao: "Usar recursos conforme planejado"
+    evidencias:
+      - citacao: "Resource request process for alignment"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "resources"
+    peso: 0.84
+
+  - id: "MET-TSC-060"
+    processo: "Change Communication Process"
+    passos:
+      - passo: 1
+        acao: "Define the change"
+        descricao: "O que vai mudar"
+      - passo: 2
+        acao: "Identify affected people"
+        descricao: "Quem sera impactado"
+      - passo: 3
+        acao: "Craft the message"
+        descricao: "O que dizer e como"
+      - passo: 4
+        acao: "Communicate to leaders first"
+        descricao: "Alinhamento com lideranca"
+      - passo: 5
+        acao: "Communicate to all"
+        descricao: "Mensagem para todos"
+      - passo: 6
+        acao: "Answer questions"
+        descricao: "Tirar duvidas"
+      - passo: 7
+        acao: "Follow up on adoption"
+        descricao: "Verificar se mudou"
+    evidencias:
+      - citacao: "Change communication for adoption"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "change-management"
+      - "communication"
+    peso: 0.86
+
+  - id: "MET-TSC-061"
+    processo: "Escalation Process"
+    passos:
+      - passo: 1
+        acao: "Identify need for escalation"
+        descricao: "Nao consegui resolver no meu nivel"
+      - passo: 2
+        acao: "Document the issue"
+        descricao: "O que e o problema"
+      - passo: 3
+        acao: "Propose solutions"
+        descricao: "Opcoes ja consideradas"
+      - passo: 4
+        acao: "Escalate to appropriate level"
+        descricao: "Levar para quem pode decidir"
+      - passo: 5
+        acao: "Get decision"
+        descricao: "Obter direcao"
+      - passo: 6
+        acao: "Execute and close"
+        descricao: "Implementar e finalizar"
+    evidencias:
+      - citacao: "Escalation process for blockers"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "execution"
+      - "decision-making"
+    peso: 0.85
+
+  - id: "MET-TSC-062"
+    processo: "Continuous Improvement Cycle (PDCA)"
+    passos:
+      - passo: 1
+        acao: "PLAN: Identify improvement opportunity"
+        descricao: "O que pode melhorar"
+      - passo: 2
+        acao: "PLAN: Design improvement"
+        descricao: "Como vamos melhorar"
+      - passo: 3
+        acao: "DO: Implement improvement"
+        descricao: "Executar mudanca"
+      - passo: 4
+        acao: "CHECK: Measure results"
+        descricao: "Verificar se melhorou"
+      - passo: 5
+        acao: "ACT: Standardize or adjust"
+        descricao: "Padronizar se funcionou, ajustar se nao"
+    evidencias:
+      - citacao: "PDCA for continuous improvement"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "improvement"
+    peso: 0.88
+
+  - id: "MET-TSC-063"
+    processo: "System Optimization Review"
+    passos:
+      - passo: 1
+        acao: "Gather system metrics"
+        descricao: "KPIs do sistema"
+      - passo: 2
+        acao: "Identify inefficiencies"
+        descricao: "O que nao esta funcionando bem"
+      - passo: 3
+        acao: "Prioritize improvements"
+        descricao: "Quais atacar primeiro"
+      - passo: 4
+        acao: "Design solutions"
+        descricao: "Como resolver"
+      - passo: 5
+        acao: "Implement changes"
+        descricao: "Executar melhorias"
+      - passo: 6
+        acao: "Measure impact"
+        descricao: "Verificar resultado"
+      - passo: 7
+        acao: "Document learnings"
+        descricao: "Registrar o que aprendeu"
+    evidencias:
+      - citacao: "Regular system optimization review"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "optimization"
+      - "operating-systems"
+    peso: 0.89
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# METADADOS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+metadados:
+  extraido_por: "JARVIS v3.33.0"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  missao: "MISSION-2026-001"
+  fase: "PHASE-5-FOUNDATION"
+  source_batches:
+    - "TSC-BATCH-085"
+    - "TSC-BATCH-086"
+    - "TSC-BATCH-087"
+    - "TSC-BATCH-088"
+    - "TSC-BATCH-089"
+    - "TSC-BATCH-090"
+    - "TSC-BATCH-091"
+
+distribuicao_por_bloco:
+  scalableos_implementation: 10
+  value_engine_methodologies: 10
+  meeting_methodologies: 10
+  scorecard_methodologies: 8
+  playbook_methodologies: 10
+  execution_review: 15
+  total: 63
+
+changelog:
+  - data: "2026-01-11T01:55:00Z"
+    acao: "Criacao inicial"
+    detalhes: "63 metodologias extraidas de 7 batches TSC"
+    versao: "1.0.0"

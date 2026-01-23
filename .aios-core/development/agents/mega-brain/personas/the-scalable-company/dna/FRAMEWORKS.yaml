@@ -1,0 +1,1958 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# FRAMEWORKS - THE SCALABLE COMPANY DNA COGNITIVO
+# Camada 4 de 5: Estruturas conceituais para analise e tomada de decisao
+# ═══════════════════════════════════════════════════════════════════════════════
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-01-11T01:45:00Z"
+total_itens: 105
+camada: "FRAMEWORKS"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 1: CORE OPERATING SYSTEM FRAMEWORKS (18 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+frameworks:
+  # --- ScalableOS Master Framework ---
+  - id: "FW-TSC-001"
+    framework: "ScalableOS 3-Phase Program"
+    componentes:
+      - fase: "BUILD"
+        duracao: "6-8 semanas"
+        descricao: "Documentar, arquitetar, configurar ferramentas"
+      - fase: "INSTALL"
+        duracao: "2-3 semanas"
+        descricao: "QSP Meeting, rollout do sistema"
+      - fase: "OPTIMIZE"
+        duracao: "ongoing"
+        descricao: "Quarterly reviews, upgrades continuos"
+    aplicacao:
+      - "Implementar sistema operacional completo"
+      - "Escalar empresa sem depender do fundador"
+    evidencias:
+      - citacao: "Build-Install-Optimize 3-phase program"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+      - "scaling"
+    peso: 0.99
+
+  - id: "FW-TSC-002"
+    framework: "ScalableOS BUILD Phase"
+    componentes:
+      - etapa: "Document existing processes"
+        descricao: "Mapear o que ja existe"
+      - etapa: "Architect operating system"
+        descricao: "Desenhar estrutura completa"
+      - etapa: "Setup tools and scorecards"
+        descricao: "Configurar ferramentas necessarias"
+      - etapa: "Map value engines"
+        descricao: "Identificar motores de valor"
+    aplicacao:
+      - "Fase inicial de implementacao"
+    evidencias:
+      - citacao: "BUILD (6-8 weeks): Document, architect, tools"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+    peso: 0.95
+
+  - id: "FW-TSC-003"
+    framework: "ScalableOS INSTALL Phase"
+    componentes:
+      - etapa: "QSP Meeting Kickoff"
+        descricao: "Primeira reuniao de planejamento trimestral"
+      - etapa: "Team rollout"
+        descricao: "Comunicar e treinar equipe"
+      - etapa: "First scorecard cycle"
+        descricao: "Iniciar ciclo de metricas"
+    aplicacao:
+      - "Fase de ativacao do sistema"
+    evidencias:
+      - citacao: "INSTALL (2-3 weeks): QSP Meeting, rollout"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+    peso: 0.94
+
+  - id: "FW-TSC-004"
+    framework: "ScalableOS OPTIMIZE Phase"
+    componentes:
+      - etapa: "Quarterly reviews"
+        descricao: "Revisar e ajustar a cada trimestre"
+      - etapa: "Playbook refinement"
+        descricao: "Melhorar playbooks existentes"
+      - etapa: "System upgrades"
+        descricao: "Implementar melhorias"
+    aplicacao:
+      - "Melhoria continua do sistema"
+    evidencias:
+      - citacao: "OPTIMIZE (ongoing): Quarterly reviews, upgrades"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "operating-systems"
+    peso: 0.93
+
+  - id: "FW-TSC-005"
+    framework: "Operating System Readiness Assessment"
+    componentes:
+      - criterio: "Value engines mapeados"
+      - criterio: "Power stages identificados"
+      - criterio: "Meeting rhythm definido"
+      - criterio: "Scorecards ativos"
+      - criterio: "Playbooks documentados"
+    aplicacao:
+      - "Avaliar maturidade do sistema"
+    evidencias:
+      - citacao: "Assessment of OS readiness before INSTALL"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "operating-systems"
+      - "assessment"
+    peso: 0.88
+
+  # --- Value Engine Frameworks ---
+  - id: "FW-TSC-006"
+    framework: "Value Engine Mapping"
+    componentes:
+      - engine: "GROWTH"
+        descricao: "Motores que trazem novos clientes"
+      - engine: "FULFILLMENT"
+        descricao: "Motores que entregam valor"
+      - engine: "INNOVATION"
+        descricao: "Motores que criam novos produtos/servicos"
+    aplicacao:
+      - "Mapear como a empresa cria valor"
+      - "Identificar pontos de alavancagem"
+    evidencias:
+      - citacao: "Growth, Fulfillment, Innovation engines"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "value-engines"
+      - "strategy"
+    peso: 0.98
+
+  - id: "FW-TSC-007"
+    framework: "Growth Engine Framework"
+    componentes:
+      - estagio: "Lead Generation"
+        descricao: "Atrair prospects"
+      - estagio: "Lead Conversion"
+        descricao: "Converter em clientes"
+      - estagio: "Customer Acquisition"
+        descricao: "Fechar vendas"
+    aplicacao:
+      - "Mapear funil de aquisicao"
+    evidencias:
+      - citacao: "Growth engines - how you acquire customers"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "growth"
+    peso: 0.92
+
+  - id: "FW-TSC-008"
+    framework: "Fulfillment Engine Framework"
+    componentes:
+      - estagio: "Onboarding"
+        descricao: "Integrar novo cliente"
+      - estagio: "Delivery"
+        descricao: "Entregar produto/servico"
+      - estagio: "Success"
+        descricao: "Garantir resultado"
+    aplicacao:
+      - "Mapear entrega de valor"
+    evidencias:
+      - citacao: "Fulfillment engines - how you deliver value"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "fulfillment"
+    peso: 0.91
+
+  - id: "FW-TSC-009"
+    framework: "Innovation Engine Framework"
+    componentes:
+      - estagio: "Research"
+        descricao: "Pesquisar oportunidades"
+      - estagio: "Development"
+        descricao: "Desenvolver solucoes"
+      - estagio: "Launch"
+        descricao: "Lancar no mercado"
+    aplicacao:
+      - "Mapear ciclo de inovacao"
+    evidencias:
+      - citacao: "Innovation engines - how you create new products/services"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "innovation"
+    peso: 0.89
+
+  - id: "FW-TSC-010"
+    framework: "Power Stages Identification Framework"
+    componentes:
+      - passo: "Identificar etapas do engine"
+        descricao: "Listar todas as etapas"
+      - passo: "Avaliar impacto de cada etapa"
+        descricao: "Qual o peso no resultado final"
+      - passo: "Selecionar 2-3 criticas"
+        descricao: "Escolher as que mais impactam"
+    aplicacao:
+      - "Identificar pontos de alta alavancagem"
+    evidencias:
+      - citacao: "2-3 critical high-leverage actions per value engine"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "value-engines"
+      - "prioritization"
+    peso: 0.96
+
+  - id: "FW-TSC-011"
+    framework: "Then What Happens Discovery"
+    componentes:
+      - passo: "Comece com primeiro evento"
+      - passo: "Pergunte 'Then what happens?'"
+      - passo: "Anote a resposta"
+      - passo: "Repita ate 'That's it'"
+    aplicacao:
+      - "Mapear processos naturalmente"
+      - "Descobrir fluxo real de trabalho"
+    evidencias:
+      - citacao: "Keep asking until 'that's it' - natural process mapping"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "process-mapping"
+    peso: 0.94
+
+  - id: "FW-TSC-012"
+    framework: "Sticky Note Mapping Framework"
+    componentes:
+      - elemento: "Sticky notes"
+        descricao: "Um post-it por etapa"
+      - elemento: "Flow arrows"
+        descricao: "Conexoes entre etapas"
+      - elemento: "Wall space"
+        descricao: "Area visual para mapeamento"
+    aplicacao:
+      - "Mapear processos visualmente"
+    evidencias:
+      - citacao: "Messy sticky notes > beautiful unused docs"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "process-mapping"
+    peso: 0.92
+
+  # --- Clarity & Planning Frameworks ---
+  - id: "FW-TSC-013"
+    framework: "Clarity Compass"
+    componentes:
+      - elemento: "3-Year Target"
+        descricao: "Onde queremos estar em 3 anos"
+      - elemento: "Purpose Statement"
+        descricao: "Por que existimos"
+      - elemento: "Strategic Anchors"
+        descricao: "Framework para dizer NAO"
+      - elemento: "Core Values"
+        descricao: "Como nos comportamos"
+    aplicacao:
+      - "Alinhar direcao estrategica"
+      - "Criar clareza organizacional"
+    evidencias:
+      - citacao: "Clarity Compass: 3-Year Target, Purpose, Anchors, Values"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "strategy"
+      - "alignment"
+    peso: 0.97
+
+  - id: "FW-TSC-014"
+    framework: "12Q Planning Grid"
+    componentes:
+      - horizonte: "3 anos"
+      - unidade: "12 sprints trimestrais"
+      - logica: "Elephant eating model"
+    aplicacao:
+      - "Planejamento de longo prazo executavel"
+    evidencias:
+      - citacao: "3 years = 12 quarterly sprints"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "planning"
+      - "strategy"
+    peso: 0.96
+
+  - id: "FW-TSC-015"
+    framework: "Strategic Anchors Framework"
+    componentes:
+      - funcao: "Filtro de decisao"
+        descricao: "O que faz sentido para nos"
+      - funcao: "Framework para NO"
+        descricao: "Como dizer nao com clareza"
+      - funcao: "Alinhamento de iniciativas"
+        descricao: "O que se encaixa nos anchors"
+    aplicacao:
+      - "Filtrar oportunidades e distracoes"
+    evidencias:
+      - citacao: "Strategic Anchors: Framework for saying NO to distractions"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "strategy"
+      - "prioritization"
+    peso: 0.93
+
+  - id: "FW-TSC-016"
+    framework: "3-Year Target Setting"
+    componentes:
+      - elemento: "Revenue target"
+      - elemento: "Team size"
+      - elemento: "Market position"
+      - elemento: "Key milestones"
+    aplicacao:
+      - "Definir visao de 3 anos"
+    evidencias:
+      - citacao: "3-Year Target as north star"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "planning"
+    peso: 0.91
+
+  - id: "FW-TSC-017"
+    framework: "Purpose Statement Framework"
+    componentes:
+      - pergunta: "Por que existimos?"
+      - pergunta: "Que impacto queremos ter?"
+      - pergunta: "Quem servimos?"
+    aplicacao:
+      - "Articular proposito organizacional"
+    evidencias:
+      - citacao: "Purpose Statement in Clarity Compass"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "purpose"
+      - "alignment"
+    peso: 0.89
+
+  - id: "FW-TSC-018"
+    framework: "Core Values Definition Framework"
+    componentes:
+      - criterio: "Comportamentos observaveis"
+      - criterio: "Exemplos concretos"
+      - criterio: "Anti-exemplos"
+    aplicacao:
+      - "Definir valores que guiam comportamento"
+    evidencias:
+      - citacao: "Core Values as behavioral guide"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "culture"
+      - "alignment"
+    peso: 0.88
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 2: MEETING ARCHITECTURE FRAMEWORKS (15 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "FW-TSC-019"
+    framework: "Meeting Rhythm Architecture"
+    componentes:
+      - cadencia: "QSP"
+        frequencia: "Trimestral"
+        duracao: "2 dias"
+      - cadencia: "MBR"
+        frequencia: "Mensal"
+        duracao: "2-3 horas"
+      - cadencia: "Weekly"
+        frequencia: "Semanal"
+        duracao: "30-60 min"
+      - cadencia: "One-on-ones"
+        frequencia: "Semanal/Bisemanal"
+        duracao: "30-45 min"
+    aplicacao:
+      - "Estruturar cadencia de reunioes"
+    evidencias:
+      - citacao: "QSP → MBR (Monthly) → Weekly Check-ins → One-on-ones"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "meetings"
+      - "rhythm"
+    peso: 0.97
+
+  - id: "FW-TSC-020"
+    framework: "QSP Meeting Framework (5 Steps)"
+    componentes:
+      - step: "1. Review Financials"
+        descricao: "Analisar numeros do trimestre"
+      - step: "2. Set North Star"
+        descricao: "Definir metrica principal"
+      - step: "3. Define Initiatives"
+        descricao: "Escolher iniciativas prioritarias"
+      - step: "4. Create Theme"
+        descricao: "Criar tema do trimestre"
+      - step: "5. Update OS"
+        descricao: "Atualizar sistema operacional"
+    aplicacao:
+      - "Conduzir planejamento trimestral"
+    evidencias:
+      - citacao: "5 Steps: Financials → North Star → Initiatives → Theme → OS"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "meetings"
+      - "planning"
+    peso: 0.98
+
+  - id: "FW-TSC-021"
+    framework: "QSP Meeting Logistics Framework"
+    componentes:
+      - opcao: "Presencial"
+        duracao: "2 dias completos"
+      - opcao: "Virtual"
+        duracao: "2-3 meios-dias"
+    aplicacao:
+      - "Planejar logistica do QSP"
+    evidencias:
+      - citacao: "2 days in-person OR 2-3 half days virtual"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "meetings"
+    peso: 0.91
+
+  - id: "FW-TSC-022"
+    framework: "MBR (Monthly Business Review) Framework"
+    componentes:
+      - secao: "Scorecard review"
+        descricao: "Revisar metricas do mes"
+      - secao: "Initiative progress"
+        descricao: "Status das iniciativas"
+      - secao: "Blockers"
+        descricao: "Identificar impedimentos"
+      - secao: "Adjustments"
+        descricao: "Fazer ajustes necessarios"
+    aplicacao:
+      - "Conduzir revisao mensal"
+    evidencias:
+      - citacao: "MBR for monthly cadence review"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "meetings"
+    peso: 0.93
+
+  - id: "FW-TSC-023"
+    framework: "Weekly Check-in Framework"
+    componentes:
+      - elemento: "Wins"
+        descricao: "Celebrar vitorias"
+      - elemento: "Numbers"
+        descricao: "Revisar metricas"
+      - elemento: "Stuck points"
+        descricao: "Identificar travamentos"
+      - elemento: "Priorities"
+        descricao: "Definir foco da semana"
+    aplicacao:
+      - "Conduzir reuniao semanal de time"
+    evidencias:
+      - citacao: "Weekly check-ins for team alignment"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "meetings"
+    peso: 0.92
+
+  - id: "FW-TSC-024"
+    framework: "One-on-One Framework"
+    componentes:
+      - secao: "Their agenda"
+        descricao: "O que querem discutir"
+      - secao: "Development"
+        descricao: "Crescimento profissional"
+      - secao: "Blockers"
+        descricao: "O que esta travando"
+      - secao: "Feedback"
+        descricao: "Retorno bidirecional"
+    aplicacao:
+      - "Conduzir reunioes individuais"
+    evidencias:
+      - citacao: "One-on-ones for development and alignment"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "meetings"
+      - "leadership"
+    peso: 0.91
+
+  - id: "FW-TSC-025"
+    framework: "Ad Hoc Meeting Diagnosis"
+    componentes:
+      - sinal: "Muitas reunioes ad hoc"
+        diagnostico: "Meeting rhythm falho"
+      - sinal: "Poucas reunioes ad hoc"
+        diagnostico: "Rhythm esta funcionando"
+    aplicacao:
+      - "Diagnosticar saude do sistema de reunioes"
+    evidencias:
+      - citacao: "Too many ad hoc meetings = planning failure signal"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "meetings"
+      - "diagnosis"
+    peso: 0.90
+
+  - id: "FW-TSC-026"
+    framework: "Meeting Purpose Clarity Framework"
+    componentes:
+      - tipo: "Decision meetings"
+        proposito: "Tomar decisoes"
+      - tipo: "Information meetings"
+        proposito: "Compartilhar informacao"
+      - tipo: "Discussion meetings"
+        proposito: "Explorar ideias"
+    aplicacao:
+      - "Clarificar proposito de cada reuniao"
+    evidencias:
+      - citacao: "Every meeting needs clear purpose"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "meetings"
+    peso: 0.87
+
+  - id: "FW-TSC-027"
+    framework: "Meeting Preparation Framework"
+    componentes:
+      - item: "Agenda clara"
+      - item: "Pre-read materials"
+      - item: "Expected outcomes"
+      - item: "Right attendees"
+    aplicacao:
+      - "Preparar reunioes efetivas"
+    evidencias:
+      - citacao: "Preparation is key to effective meetings"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "meetings"
+    peso: 0.86
+
+  - id: "FW-TSC-028"
+    framework: "Meeting Follow-up Framework"
+    componentes:
+      - elemento: "Action items"
+        descricao: "O que sera feito"
+      - elemento: "Owners"
+        descricao: "Quem e responsavel"
+      - elemento: "Deadlines"
+        descricao: "Quando sera feito"
+      - elemento: "Communication"
+        descricao: "Como sera comunicado"
+    aplicacao:
+      - "Garantir follow-up pos-reuniao"
+    evidencias:
+      - citacao: "Meetings without follow-up are wasted time"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "meetings"
+    peso: 0.88
+
+  - id: "FW-TSC-029"
+    framework: "Quarterly Theme Framework"
+    componentes:
+      - elemento: "Theme name"
+        descricao: "Nome memoravel"
+      - elemento: "Key metric"
+        descricao: "North star do quarter"
+      - elemento: "Celebration"
+        descricao: "Como celebrar sucesso"
+    aplicacao:
+      - "Criar foco trimestral"
+    evidencias:
+      - citacao: "Theme creates focus for the quarter"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "planning"
+      - "culture"
+    peso: 0.89
+
+  - id: "FW-TSC-030"
+    framework: "North Star Metric Framework"
+    componentes:
+      - criterio: "Uma unica metrica"
+      - criterio: "Alinhada com objetivo do quarter"
+      - criterio: "Mensuravel semanalmente"
+      - criterio: "Entendida por todos"
+    aplicacao:
+      - "Definir metrica principal do trimestre"
+    evidencias:
+      - citacao: "North Star as single focus metric"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "metrics"
+      - "planning"
+    peso: 0.92
+
+  - id: "FW-TSC-031"
+    framework: "Initiative Selection Framework"
+    componentes:
+      - filtro: "Alinhamento com North Star"
+      - filtro: "Resources disponiveis"
+      - filtro: "Impact potential"
+      - filtro: "Strategic Anchor fit"
+    aplicacao:
+      - "Selecionar iniciativas do trimestre"
+    evidencias:
+      - citacao: "Initiatives must align with North Star and Anchors"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "planning"
+      - "prioritization"
+    peso: 0.91
+
+  - id: "FW-TSC-032"
+    framework: "Quarterly Sprint Framework"
+    componentes:
+      - fase: "Planning"
+        quando: "Inicio do quarter"
+      - fase: "Execution"
+        quando: "Durante o quarter"
+      - fase: "Review"
+        quando: "Final do quarter"
+    aplicacao:
+      - "Estruturar ciclo de 90 dias"
+    evidencias:
+      - citacao: "90-day sprints for execution"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "execution"
+    peso: 0.93
+
+  - id: "FW-TSC-033"
+    framework: "Learning Now Accuracy Later Framework"
+    componentes:
+      - fase: "Quarter 1"
+        expectativa: "Targets serao errados - aprendizado"
+      - fase: "Quarter 2+"
+        expectativa: "Targets mais precisos"
+    aplicacao:
+      - "Calibrar expectativas de targets"
+    evidencias:
+      - citacao: "Learning Now! Accuracy Later"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "targets"
+      - "mindset"
+    peso: 0.90
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 3: SCORECARD & METRICS FRAMEWORKS (15 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "FW-TSC-034"
+    framework: "CABs Framework (Critical Accountability Bullets)"
+    componentes:
+      - regra: "Maximo 3-5 metricas por time"
+      - regra: "Apenas metricas criticas"
+      - regra: "Update semanal obrigatorio"
+    aplicacao:
+      - "Definir metricas de responsabilidade"
+    evidencias:
+      - citacao: "CABS: 3-5 metrics per team maximum"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "scorecards"
+      - "accountability"
+    peso: 0.96
+
+  - id: "FW-TSC-035"
+    framework: "Manual Scorecard Framework"
+    componentes:
+      - principio: "Manual > Automated"
+      - beneficio: "Greater insights"
+      - beneficio: "Greater ownership"
+      - beneficio: "Matrix vision development"
+    aplicacao:
+      - "Criar scorecards manuais"
+    evidencias:
+      - citacao: "Manual scorecards > Automated scorecards"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "scorecards"
+    peso: 0.98
+
+  - id: "FW-TSC-036"
+    framework: "Traffic Light Leadership Framework"
+    componentes:
+      - nivel: "RED"
+        descricao: "Do FOR them"
+        quando: "Iniciante, sem experiencia"
+      - nivel: "YELLOW"
+        descricao: "Do WITH them"
+        quando: "Em desenvolvimento"
+      - nivel: "GREEN"
+        descricao: "THEY do"
+        quando: "Autonomo e competente"
+    aplicacao:
+      - "Delegar com nivel apropriado"
+    evidencias:
+      - citacao: "RED (do for them) → YELLOW (do with them) → GREEN (they do)"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "delegation"
+      - "leadership"
+    peso: 0.97
+
+  - id: "FW-TSC-037"
+    framework: "Traffic Light Assessment"
+    componentes:
+      - pergunta: "Pessoa sabe COMO fazer?"
+      - pergunta: "Pessoa ja FEZ antes?"
+      - pergunta: "Pessoa teve SUCESSO fazendo?"
+    aplicacao:
+      - "Avaliar nivel de delegacao apropriado"
+    evidencias:
+      - citacao: "Assess capability before delegating"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "delegation"
+    peso: 0.91
+
+  - id: "FW-TSC-038"
+    framework: "Scorecard Design Framework"
+    componentes:
+      - elemento: "Metric name"
+        descricao: "Nome claro da metrica"
+      - elemento: "Owner"
+        descricao: "Responsavel pela metrica"
+      - elemento: "Target"
+        descricao: "Meta a atingir"
+      - elemento: "Current"
+        descricao: "Valor atual"
+      - elemento: "Trend"
+        descricao: "Direcao do movimento"
+    aplicacao:
+      - "Desenhar scorecards efetivos"
+    evidencias:
+      - citacao: "Scorecard design with owner and target"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "scorecards"
+    peso: 0.93
+
+  - id: "FW-TSC-039"
+    framework: "Target Setting Framework"
+    componentes:
+      - passo: "Identificar benchmark atual"
+      - passo: "Adicionar 10-20% stretch"
+      - passo: "Validar com owner"
+      - passo: "Calibrar apos 12 semanas"
+    aplicacao:
+      - "Definir targets realistas mas desafiadores"
+    evidencias:
+      - citacao: "Start 10-20% above current benchmark"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "targets"
+    peso: 0.90
+
+  - id: "FW-TSC-040"
+    framework: "Target Calibration Framework"
+    componentes:
+      - fase: "Weeks 1-4"
+        acao: "Coletar dados iniciais"
+      - fase: "Weeks 5-8"
+        acao: "Identificar padroes"
+      - fase: "Weeks 9-12"
+        acao: "Ajustar targets"
+    aplicacao:
+      - "Calibrar targets ao longo do tempo"
+    evidencias:
+      - citacao: "Targets need minimum 12 weeks to calibrate"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "targets"
+    peso: 0.89
+
+  - id: "FW-TSC-041"
+    framework: "Metric Ownership Framework"
+    componentes:
+      - principio: "Uma pessoa por metrica"
+      - principio: "Owner atualiza semanalmente"
+      - principio: "Owner apresenta no weekly"
+    aplicacao:
+      - "Garantir accountability de metricas"
+    evidencias:
+      - citacao: "Single owner per metric"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "accountability"
+    peso: 0.92
+
+  - id: "FW-TSC-042"
+    framework: "Matrix Numbers Vision Framework"
+    componentes:
+      - estagio: "Iniciante"
+        visao: "Ve apenas numeros"
+      - estagio: "Intermediario"
+        visao: "Ve tendencias"
+      - estagio: "Avancado"
+        visao: "Ve padroes como Matrix"
+    aplicacao:
+      - "Desenvolver capacidade analitica"
+    evidencias:
+      - citacao: "Team sees patterns where others see numbers (Neo seeing the Matrix)"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "analytics"
+      - "development"
+    peso: 0.88
+
+  - id: "FW-TSC-043"
+    framework: "Scorecard Review Framework"
+    componentes:
+      - frequencia: "Semanal"
+        foco: "Status atual"
+      - frequencia: "Mensal"
+        foco: "Tendencias"
+      - frequencia: "Trimestral"
+        foco: "Recalibracao"
+    aplicacao:
+      - "Revisar scorecards em diferentes cadencias"
+    evidencias:
+      - citacao: "Weekly for status, monthly for trends, quarterly for recalibration"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "scorecards"
+    peso: 0.90
+
+  - id: "FW-TSC-044"
+    framework: "Leading vs Lagging Metrics Framework"
+    componentes:
+      - tipo: "Leading"
+        descricao: "Indicadores de acao (inputs)"
+      - tipo: "Lagging"
+        descricao: "Indicadores de resultado (outputs)"
+    aplicacao:
+      - "Balancear tipos de metricas"
+    evidencias:
+      - citacao: "Balance leading and lagging indicators"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "metrics"
+    peso: 0.87
+
+  - id: "FW-TSC-045"
+    framework: "Metric Naming Framework"
+    componentes:
+      - regra: "Nome claro e especifico"
+      - regra: "Unidade de medida explicita"
+      - regra: "Periodo de tempo definido"
+    aplicacao:
+      - "Nomear metricas sem ambiguidade"
+    evidencias:
+      - citacao: "Clear metric naming prevents confusion"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "metrics"
+    peso: 0.85
+
+  - id: "FW-TSC-046"
+    framework: "Red/Yellow/Green Status Framework"
+    componentes:
+      - status: "GREEN"
+        condicao: "At or above target"
+      - status: "YELLOW"
+        condicao: "Within 10% of target"
+      - status: "RED"
+        condicao: "More than 10% below target"
+    aplicacao:
+      - "Visualizar status de metricas"
+    evidencias:
+      - citacao: "Traffic light status for quick visual assessment"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "scorecards"
+      - "visualization"
+    peso: 0.91
+
+  - id: "FW-TSC-047"
+    framework: "Scorecard Simplification Framework"
+    componentes:
+      - principio: "Menos e mais"
+      - principio: "Foco em needle-movers"
+      - principio: "Remover vanity metrics"
+    aplicacao:
+      - "Simplificar scorecards complexos"
+    evidencias:
+      - citacao: "Document what moves the needle, not everything"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "scorecards"
+    peso: 0.93
+
+  - id: "FW-TSC-048"
+    framework: "Accountability Ownership Transfer"
+    componentes:
+      - fase: "Assign owner"
+      - fase: "Train on metric"
+      - fase: "Monitor first cycle"
+      - fase: "Release to autonomy"
+    aplicacao:
+      - "Transferir ownership de metricas"
+    evidencias:
+      - citacao: "Ownership transfer process for accountability"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "accountability"
+      - "delegation"
+    peso: 0.86
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 4: PLAYBOOK FRAMEWORKS (15 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "FW-TSC-049"
+    framework: "3D Playbook Process"
+    componentes:
+      - fase: "DEFINE"
+        descricao: "O que precisa ser documentado"
+      - fase: "DESIGN"
+        descricao: "Como sera estruturado"
+      - fase: "DEPLOY"
+        descricao: "Como sera implementado"
+    aplicacao:
+      - "Criar playbooks de forma estruturada"
+    evidencias:
+      - citacao: "DEFINE → DESIGN → DEPLOY"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+    peso: 0.96
+
+  - id: "FW-TSC-050"
+    framework: "Do-Document-Do Again Framework"
+    componentes:
+      - passo: "DO"
+        descricao: "Execute o processo"
+      - passo: "DOCUMENT"
+        descricao: "Documente enquanto faz"
+      - passo: "DO AGAIN"
+        descricao: "Execute com documentacao"
+      - passo: "FIELD TEST"
+        descricao: "Outra pessoa executa"
+    aplicacao:
+      - "Criar playbooks praticos"
+    evidencias:
+      - citacao: "Do-Document-Do Again-Field Test methodology"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+    peso: 0.95
+
+  - id: "FW-TSC-051"
+    framework: "Playbook Ownership Framework"
+    componentes:
+      - regra: "Owner NAO deve ser CEO"
+      - regra: "Owner e quem executa"
+      - regra: "Owner mantem atualizado"
+    aplicacao:
+      - "Delegar ownership de playbooks"
+    evidencias:
+      - citacao: "Playbook owner should NOT be the CEO"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+      - "delegation"
+    peso: 0.94
+
+  - id: "FW-TSC-052"
+    framework: "Clone Your Best People Framework"
+    componentes:
+      - passo: "Identificar top performer"
+      - passo: "Observar como faz"
+      - passo: "Documentar processo"
+      - passo: "Treinar outros"
+    aplicacao:
+      - "Escalar conhecimento de top performers"
+    evidencias:
+      - citacao: "Clone your best people via playbooks"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+      - "scaling"
+    peso: 0.93
+
+  - id: "FW-TSC-053"
+    framework: "Playbook Prioritization Framework"
+    componentes:
+      - criterio: "Power stage?"
+        peso: "Alto"
+      - criterio: "Frequencia de uso?"
+        peso: "Medio"
+      - criterio: "Impacto de erro?"
+        peso: "Alto"
+    aplicacao:
+      - "Priorizar quais playbooks criar"
+    evidencias:
+      - citacao: "Document what moves the needle first"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "playbooks"
+      - "prioritization"
+    peso: 0.92
+
+  - id: "FW-TSC-054"
+    framework: "Mistake-to-Playbook Framework"
+    componentes:
+      - trigger: "Erro acontece"
+      - acao: "Documentar o que deveria ter sido feito"
+      - resultado: "Playbook criado"
+    aplicacao:
+      - "Transformar erros em processos"
+    evidencias:
+      - citacao: "Mistakes = main catalyst for playbook creation"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+      - "learning"
+    peso: 0.91
+
+  - id: "FW-TSC-055"
+    framework: "Field Test Protocol"
+    componentes:
+      - passo: "Selecionar testador"
+        criterio: "Alguem que NAO criou o playbook"
+      - passo: "Executar playbook"
+        criterio: "Sem ajuda adicional"
+      - passo: "Coletar feedback"
+        criterio: "O que faltou, o que confundiu"
+      - passo: "Iterar"
+        criterio: "Ajustar baseado no feedback"
+    aplicacao:
+      - "Validar playbooks antes de roll-out"
+    evidencias:
+      - citacao: "Field test with someone who didn't create it"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+      - "validation"
+    peso: 0.90
+
+  - id: "FW-TSC-056"
+    framework: "Playbook Library Framework (Coca-Cola Vault)"
+    componentes:
+      - conceito: "Biblioteca centralizada"
+      - conceito: "Acesso para todos"
+      - conceito: "Versao controlada"
+    aplicacao:
+      - "Organizar biblioteca de playbooks"
+    evidencias:
+      - citacao: "Your playbook library is like the Coca-Cola vault"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+      - "knowledge-management"
+    peso: 0.89
+
+  - id: "FW-TSC-057"
+    framework: "Cross-Training Framework"
+    componentes:
+      - principio: "Treinar todos no playbook inteiro"
+      - principio: "Nao apenas no proprio step"
+      - beneficio: "Zero downside, unlimited upside"
+    aplicacao:
+      - "Treinar equipe de forma holistica"
+    evidencias:
+      - citacao: "Cross-training has ZERO downside and UNLIMITED upside"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "training"
+      - "playbooks"
+    peso: 0.94
+
+  - id: "FW-TSC-058"
+    framework: "Playbook Update Framework"
+    componentes:
+      - trigger: "Processo mudou"
+        acao: "Atualizar playbook"
+      - trigger: "Erro repetido"
+        acao: "Adicionar step"
+      - trigger: "Melhor pratica descoberta"
+        acao: "Incorporar no playbook"
+    aplicacao:
+      - "Manter playbooks atualizados"
+    evidencias:
+      - citacao: "Living documents, not static files"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+    peso: 0.88
+
+  - id: "FW-TSC-059"
+    framework: "Playbook Format Framework"
+    componentes:
+      - elemento: "Overview"
+        descricao: "Objetivo do playbook"
+      - elemento: "Prerequisites"
+        descricao: "O que precisa antes"
+      - elemento: "Steps"
+        descricao: "Passo a passo"
+      - elemento: "Checklist"
+        descricao: "Verificacao final"
+      - elemento: "FAQ"
+        descricao: "Perguntas comuns"
+    aplicacao:
+      - "Estruturar playbooks consistentemente"
+    evidencias:
+      - citacao: "Standard playbook format for consistency"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+    peso: 0.87
+
+  - id: "FW-TSC-060"
+    framework: "Knowledge Hoarding Prevention (Anti-Gollum)"
+    componentes:
+      - regra: "Black boxing = fireable offense"
+      - regra: "Compartilhar conhecimento obrigatorio"
+      - regra: "Documentar tudo que faz diferenca"
+    aplicacao:
+      - "Prevenir acumulo de conhecimento"
+    evidencias:
+      - citacao: "Black boxing information = fireable offense"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "culture"
+      - "knowledge-management"
+    peso: 0.93
+
+  - id: "FW-TSC-061"
+    framework: "Playbook Handoff Framework"
+    componentes:
+      - passo: "Identificar successor"
+      - passo: "Treinar no playbook"
+      - passo: "Supervised execution"
+      - passo: "Solo execution"
+      - passo: "Ownership transfer"
+    aplicacao:
+      - "Transferir playbooks entre pessoas"
+    evidencias:
+      - citacao: "Playbook handoff process for continuity"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "succession"
+    peso: 0.86
+
+  - id: "FW-TSC-062"
+    framework: "Playbook Simplicity Framework"
+    componentes:
+      - principio: "Messy sticky notes > Beautiful unused docs"
+      - principio: "Simple beats complex"
+      - principio: "Good enough today > Perfect never"
+    aplicacao:
+      - "Evitar over-engineering de playbooks"
+    evidencias:
+      - citacao: "Messy sticky notes > beautiful unused docs"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+    peso: 0.91
+
+  - id: "FW-TSC-063"
+    framework: "Checklist Execution Framework"
+    componentes:
+      - insight: "Criador pula steps 9/10 vezes"
+      - solucao: "Outra pessoa verifica"
+      - solucao: "Checklist digital com obrigatoriedade"
+    aplicacao:
+      - "Garantir execucao completa de checklists"
+    evidencias:
+      - citacao: "9 out of 10 times creator skips steps"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "execution"
+      - "playbooks"
+    peso: 0.89
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 5: TEAM & DELEGATION FRAMEWORKS (12 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "FW-TSC-064"
+    framework: "High Output Team Canvas"
+    componentes:
+      - elemento: "Team purpose"
+      - elemento: "Key metrics"
+      - elemento: "Meeting rhythm"
+      - elemento: "Roles and responsibilities"
+      - elemento: "Dependencies"
+    aplicacao:
+      - "Visualizar estrutura de time"
+    evidencias:
+      - citacao: "High Output Team Canvas for team structure visualization"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "teams"
+      - "structure"
+    peso: 0.94
+
+  - id: "FW-TSC-065"
+    framework: "Founder Freedom Framework"
+    componentes:
+      - fase: "Trapped"
+        descricao: "Founder faz tudo"
+      - fase: "Delegating"
+        descricao: "Founder delega tarefas"
+      - fase: "Designing"
+        descricao: "Founder desenha sistemas"
+      - fase: "Free"
+        descricao: "Founder lidera estrategia"
+    aplicacao:
+      - "Evoluir papel do fundador"
+    evidencias:
+      - citacao: "Step out of day-to-day → achieve entrepreneurial dream"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "founder"
+      - "scaling"
+    peso: 0.95
+
+  - id: "FW-TSC-066"
+    framework: "Shoulder Tap Diagnosis"
+    componentes:
+      - sintoma: "Muitas interrupcoes"
+      - causa: "Playbooks nao funcionam"
+      - causa: "Pessoas nao confiam em si"
+      - solucao: "Melhorar playbooks"
+    aplicacao:
+      - "Diagnosticar causa de interrupcoes"
+    evidencias:
+      - citacao: "Shoulder taps happen because people don't trust themselves"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "productivity"
+      - "diagnosis"
+    peso: 0.90
+
+  - id: "FW-TSC-067"
+    framework: "Focus Recovery Framework"
+    componentes:
+      - fato: "Interrupcao custa 30-45 min de recuperacao"
+      - estrategia: "Block time para deep work"
+      - estrategia: "Playbooks reduzem interrupcoes"
+    aplicacao:
+      - "Proteger tempo de foco"
+    evidencias:
+      - citacao: "Takes 30-45 minutes to recover from interruption"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "productivity"
+    peso: 0.88
+
+  - id: "FW-TSC-068"
+    framework: "Delegation Readiness Assessment"
+    componentes:
+      - pergunta: "Tarefa esta documentada?"
+      - pergunta: "Pessoa tem capacidade?"
+      - pergunta: "Qual nivel de suporte precisa?"
+    aplicacao:
+      - "Avaliar prontidao para delegar"
+    evidencias:
+      - citacao: "Assess before delegating"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "delegation"
+    peso: 0.87
+
+  - id: "FW-TSC-069"
+    framework: "Right Questions Framework"
+    componentes:
+      - principio: "Right answers got you here"
+      - principio: "Right QUESTIONS get you there"
+      - aplicacao: "Leaders ask, don't tell"
+    aplicacao:
+      - "Desenvolver lideranca por perguntas"
+    evidencias:
+      - citacao: "Right answers got you here; right QUESTIONS get you there"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "leadership"
+    peso: 0.92
+
+  - id: "FW-TSC-070"
+    framework: "Team Metric Assignment Framework"
+    componentes:
+      - regra: "Cada time tem scorecard proprio"
+      - regra: "Maximo 3-5 metricas"
+      - regra: "Metricas devem ser acionaveis pelo time"
+    aplicacao:
+      - "Atribuir metricas a times"
+    evidencias:
+      - citacao: "Each team has its own scorecard with 3-5 metrics"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "teams"
+      - "metrics"
+    peso: 0.91
+
+  - id: "FW-TSC-071"
+    framework: "Role Clarity Framework"
+    componentes:
+      - elemento: "Role title"
+      - elemento: "Key responsibilities"
+      - elemento: "Success metrics"
+      - elemento: "Decision authority"
+    aplicacao:
+      - "Clarificar papeis e responsabilidades"
+    evidencias:
+      - citacao: "Role clarity prevents confusion and overlap"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "teams"
+      - "structure"
+    peso: 0.89
+
+  - id: "FW-TSC-072"
+    framework: "Decision Authority Framework"
+    componentes:
+      - nivel: "Decide alone"
+        descricao: "Pessoa decide sem consultar"
+      - nivel: "Decide with input"
+        descricao: "Pessoa consulta antes de decidir"
+      - nivel: "Recommend"
+        descricao: "Pessoa recomenda, outro decide"
+      - nivel: "Informed"
+        descricao: "Pessoa e informada apos decisao"
+    aplicacao:
+      - "Clarificar autoridade de decisao"
+    evidencias:
+      - citacao: "Clear decision authority prevents bottlenecks"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "delegation"
+      - "structure"
+    peso: 0.88
+
+  - id: "FW-TSC-073"
+    framework: "Team Dependencies Mapping"
+    componentes:
+      - pergunta: "De quem dependemos?"
+      - pergunta: "Quem depende de nos?"
+      - pergunta: "Como coordenamos?"
+    aplicacao:
+      - "Mapear interdependencias entre times"
+    evidencias:
+      - citacao: "Understanding dependencies prevents bottlenecks"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "teams"
+      - "coordination"
+    peso: 0.86
+
+  - id: "FW-TSC-074"
+    framework: "Capability Development Framework"
+    componentes:
+      - fase: "Identify gap"
+        descricao: "O que pessoa nao sabe"
+      - fase: "Create learning path"
+        descricao: "Como vai aprender"
+      - fase: "Practice with support"
+        descricao: "Fazer com acompanhamento"
+      - fase: "Independent execution"
+        descricao: "Fazer sozinho"
+    aplicacao:
+      - "Desenvolver capacidades da equipe"
+    evidencias:
+      - citacao: "Capability development follows a structured path"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "development"
+      - "teams"
+    peso: 0.87
+
+  - id: "FW-TSC-075"
+    framework: "Team Communication Framework"
+    componentes:
+      - canal: "Urgente"
+        meio: "Call/message direto"
+      - canal: "Importante"
+        meio: "Meeting semanal"
+      - canal: "Informativo"
+        meio: "Email/async"
+    aplicacao:
+      - "Estruturar comunicacao de time"
+    evidencias:
+      - citacao: "Right channel for right message"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "communication"
+      - "teams"
+    peso: 0.85
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 6: EXECUTION & IMPLEMENTATION FRAMEWORKS (15 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "FW-TSC-076"
+    framework: "90-Day Execution Framework"
+    componentes:
+      - semana: "1-4"
+        foco: "Setup e kick-off"
+      - semana: "5-8"
+        foco: "Execution e ajustes"
+      - semana: "9-12"
+        foco: "Sprint final e review"
+    aplicacao:
+      - "Estruturar execucao trimestral"
+    evidencias:
+      - citacao: "90-day sprints (not annual planning)"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "execution"
+    peso: 0.94
+
+  - id: "FW-TSC-077"
+    framework: "Initiative Tracking Framework"
+    componentes:
+      - elemento: "Initiative name"
+      - elemento: "Owner"
+      - elemento: "Status (R/Y/G)"
+      - elemento: "Key milestones"
+      - elemento: "Blockers"
+    aplicacao:
+      - "Acompanhar iniciativas do quarter"
+    evidencias:
+      - citacao: "Track initiatives with clear status and ownership"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "execution"
+      - "tracking"
+    peso: 0.91
+
+  - id: "FW-TSC-078"
+    framework: "Blocker Resolution Framework"
+    componentes:
+      - passo: "Identify blocker"
+        descricao: "O que esta travando"
+      - passo: "Assign owner"
+        descricao: "Quem vai resolver"
+      - passo: "Set deadline"
+        descricao: "Quando precisa estar resolvido"
+      - passo: "Escalate if needed"
+        descricao: "Subir se nao resolver"
+    aplicacao:
+      - "Resolver impedimentos rapidamente"
+    evidencias:
+      - citacao: "Blockers need owners and deadlines"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "execution"
+    peso: 0.90
+
+  - id: "FW-TSC-079"
+    framework: "Priority Stack Framework"
+    componentes:
+      - nivel: "Must do"
+        descricao: "Nao-negociavel"
+      - nivel: "Should do"
+        descricao: "Importante mas flexivel"
+      - nivel: "Could do"
+        descricao: "Se sobrar tempo"
+      - nivel: "Won't do"
+        descricao: "Explicitamente nao"
+    aplicacao:
+      - "Priorizar trabalho do quarter"
+    evidencias:
+      - citacao: "Explicit prioritization prevents overwhelm"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "prioritization"
+    peso: 0.89
+
+  - id: "FW-TSC-080"
+    framework: "Weekly Execution Cadence"
+    componentes:
+      - dia: "Segunda"
+        foco: "Planning da semana"
+      - dia: "Terca-Quinta"
+        foco: "Deep work"
+      - dia: "Sexta"
+        foco: "Review e admin"
+    aplicacao:
+      - "Estruturar semana de trabalho"
+    evidencias:
+      - citacao: "Weekly cadence for predictable execution"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "execution"
+      - "productivity"
+    peso: 0.86
+
+  - id: "FW-TSC-081"
+    framework: "Progress Reporting Framework"
+    componentes:
+      - frequencia: "Semanal"
+        conteudo: "Status de iniciativas"
+      - frequencia: "Mensal"
+        conteudo: "Metricas e tendencias"
+      - frequencia: "Trimestral"
+        conteudo: "Review completo"
+    aplicacao:
+      - "Reportar progresso consistentemente"
+    evidencias:
+      - citacao: "Consistent progress reporting at multiple cadences"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "reporting"
+    peso: 0.88
+
+  - id: "FW-TSC-082"
+    framework: "Resource Allocation Framework"
+    componentes:
+      - pergunta: "Tempo necessario?"
+      - pergunta: "Budget necessario?"
+      - pergunta: "Pessoas necessarias?"
+      - pergunta: "Trade-offs aceitos?"
+    aplicacao:
+      - "Alocar recursos para iniciativas"
+    evidencias:
+      - citacao: "Resource allocation must match initiative ambition"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "resources"
+      - "planning"
+    peso: 0.87
+
+  - id: "FW-TSC-083"
+    framework: "Milestone Definition Framework"
+    componentes:
+      - criterio: "Especifico"
+        descricao: "O que exatamente"
+      - criterio: "Mensuravel"
+        descricao: "Como sabemos que aconteceu"
+      - criterio: "Prazo"
+        descricao: "Quando deve acontecer"
+    aplicacao:
+      - "Definir milestones claros"
+    evidencias:
+      - citacao: "Milestones must be specific and measurable"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "planning"
+    peso: 0.86
+
+  - id: "FW-TSC-084"
+    framework: "Risk Assessment Framework"
+    componentes:
+      - dimensao: "Probabilidade"
+        escala: "Alta/Media/Baixa"
+      - dimensao: "Impacto"
+        escala: "Alto/Medio/Baixo"
+      - acao: "Mitigacao"
+        descricao: "O que fazer se acontecer"
+    aplicacao:
+      - "Avaliar riscos de iniciativas"
+    evidencias:
+      - citacao: "Risk assessment prevents surprises"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "risk"
+      - "planning"
+    peso: 0.85
+
+  - id: "FW-TSC-085"
+    framework: "Change Management Framework"
+    componentes:
+      - fase: "Communicate why"
+        descricao: "Por que estamos mudando"
+      - fase: "Train how"
+        descricao: "Como vai funcionar"
+      - fase: "Support transition"
+        descricao: "Ajudar na transicao"
+      - fase: "Reinforce new way"
+        descricao: "Garantir nova pratica"
+    aplicacao:
+      - "Gerenciar mudancas organizacionais"
+    evidencias:
+      - citacao: "Change requires communication, training, and support"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "change-management"
+    peso: 0.87
+
+  - id: "FW-TSC-086"
+    framework: "Celebration Framework"
+    componentes:
+      - trigger: "Milestone atingido"
+      - trigger: "Quarter goal achieved"
+      - trigger: "Behavior exemplificado"
+    aplicacao:
+      - "Celebrar conquistas da equipe"
+    evidencias:
+      - citacao: "Celebration reinforces desired behaviors"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "culture"
+    peso: 0.84
+
+  - id: "FW-TSC-087"
+    framework: "Retrospective Framework"
+    componentes:
+      - pergunta: "O que funcionou?"
+      - pergunta: "O que nao funcionou?"
+      - pergunta: "O que vamos mudar?"
+    aplicacao:
+      - "Conduzir retrospectivas de quarter"
+    evidencias:
+      - citacao: "Retrospectives drive continuous improvement"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "learning"
+      - "meetings"
+    peso: 0.89
+
+  - id: "FW-TSC-088"
+    framework: "Lessons Learned Framework"
+    componentes:
+      - categoria: "What worked"
+        acao: "Double down"
+      - categoria: "What didn't work"
+        acao: "Stop or fix"
+      - categoria: "What we learned"
+        acao: "Document and share"
+    aplicacao:
+      - "Capturar aprendizados"
+    evidencias:
+      - citacao: "Lessons learned prevent repeated mistakes"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "learning"
+    peso: 0.88
+
+  - id: "FW-TSC-089"
+    framework: "Continuous Improvement Framework"
+    componentes:
+      - ciclo: "Plan"
+        descricao: "Identificar melhoria"
+      - ciclo: "Do"
+        descricao: "Implementar"
+      - ciclo: "Check"
+        descricao: "Avaliar resultado"
+      - ciclo: "Act"
+        descricao: "Padronizar ou ajustar"
+    aplicacao:
+      - "Melhorar continuamente"
+    evidencias:
+      - citacao: "PDCA cycle for continuous improvement"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "improvement"
+    peso: 0.86
+
+  - id: "FW-TSC-090"
+    framework: "Scaling Readiness Framework"
+    componentes:
+      - criterio: "Processos documentados?"
+      - criterio: "Metricas definidas?"
+      - criterio: "Pessoas treinadas?"
+      - criterio: "Sistema replicavel?"
+    aplicacao:
+      - "Avaliar prontidao para escalar"
+    evidencias:
+      - citacao: "Scaling requires documented, measured, trained processes"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "scaling"
+    peso: 0.90
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BLOCO 7: ASSESSMENT & DIAGNOSTIC FRAMEWORKS (15 elementos)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+  - id: "FW-TSC-091"
+    framework: "OS Maturity Assessment"
+    componentes:
+      - nivel: "Level 0 - Chaos"
+        descricao: "Nada documentado, fundador faz tudo"
+      - nivel: "Level 1 - Emerging"
+        descricao: "Alguns processos, sem sistema"
+      - nivel: "Level 2 - Defined"
+        descricao: "Processos documentados, metricas basicas"
+      - nivel: "Level 3 - Managed"
+        descricao: "Sistema operando, metricas ativas"
+      - nivel: "Level 4 - Optimizing"
+        descricao: "Melhoria continua, fundador livre"
+    aplicacao:
+      - "Avaliar maturidade do OS"
+    evidencias:
+      - citacao: "OS maturity levels for assessment"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "assessment"
+      - "operating-systems"
+    peso: 0.92
+
+  - id: "FW-TSC-092"
+    framework: "Value Engine Health Check"
+    componentes:
+      - pergunta: "Power stages identificados?"
+      - pergunta: "Metricas definidas?"
+      - pergunta: "Playbooks existem?"
+      - pergunta: "Owners designados?"
+    aplicacao:
+      - "Avaliar saude de value engines"
+    evidencias:
+      - citacao: "Value engine health check questions"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "assessment"
+      - "value-engines"
+    peso: 0.89
+
+  - id: "FW-TSC-093"
+    framework: "Meeting Effectiveness Assessment"
+    componentes:
+      - criterio: "Agenda clara?"
+      - criterio: "Right people?"
+      - criterio: "Decisions made?"
+      - criterio: "Actions assigned?"
+    aplicacao:
+      - "Avaliar efetividade de reunioes"
+    evidencias:
+      - citacao: "Meeting effectiveness criteria"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "assessment"
+      - "meetings"
+    peso: 0.87
+
+  - id: "FW-TSC-094"
+    framework: "Playbook Quality Assessment"
+    componentes:
+      - criterio: "Clear steps?"
+      - criterio: "Field tested?"
+      - criterio: "Updated recently?"
+      - criterio: "Actually used?"
+    aplicacao:
+      - "Avaliar qualidade de playbooks"
+    evidencias:
+      - citacao: "Playbook quality assessment criteria"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "assessment"
+      - "playbooks"
+    peso: 0.88
+
+  - id: "FW-TSC-095"
+    framework: "Scorecard Effectiveness Assessment"
+    componentes:
+      - criterio: "Updated weekly?"
+      - criterio: "Discussed in meetings?"
+      - criterio: "Driving decisions?"
+      - criterio: "Actionable?"
+    aplicacao:
+      - "Avaliar efetividade de scorecards"
+    evidencias:
+      - citacao: "Scorecard effectiveness assessment"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "assessment"
+      - "scorecards"
+    peso: 0.89
+
+  - id: "FW-TSC-096"
+    framework: "Team Health Assessment"
+    componentes:
+      - dimensao: "Clarity"
+        pergunta: "Sabem o que fazer?"
+      - dimensao: "Capability"
+        pergunta: "Sabem como fazer?"
+      - dimensao: "Capacity"
+        pergunta: "Tem tempo para fazer?"
+      - dimensao: "Commitment"
+        pergunta: "Querem fazer?"
+    aplicacao:
+      - "Avaliar saude do time"
+    evidencias:
+      - citacao: "4C team health assessment"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "assessment"
+      - "teams"
+    peso: 0.90
+
+  - id: "FW-TSC-097"
+    framework: "Founder Trap Assessment"
+    componentes:
+      - sinal: "Todas decisoes passam por voce"
+      - sinal: "Nao consegue tirar ferias"
+      - sinal: "Primeiro a chegar, ultimo a sair"
+      - sinal: "Team so funciona com voce presente"
+    aplicacao:
+      - "Identificar se fundador esta preso"
+    evidencias:
+      - citacao: "Founder trap assessment signals"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "assessment"
+      - "founder"
+    peso: 0.93
+
+  - id: "FW-TSC-098"
+    framework: "System Bottleneck Identification"
+    componentes:
+      - pergunta: "Onde acumulam filas?"
+      - pergunta: "Onde tem esperas longas?"
+      - pergunta: "Onde dependem de uma pessoa?"
+    aplicacao:
+      - "Identificar gargalos do sistema"
+    evidencias:
+      - citacao: "Bottleneck identification questions"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "assessment"
+      - "optimization"
+    peso: 0.88
+
+  - id: "FW-TSC-099"
+    framework: "Documentation Gap Analysis"
+    componentes:
+      - passo: "Listar todos os processos"
+      - passo: "Identificar quais tem playbook"
+      - passo: "Priorizar gaps por impacto"
+    aplicacao:
+      - "Identificar gaps de documentacao"
+    evidencias:
+      - citacao: "Documentation gap analysis process"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "assessment"
+      - "playbooks"
+    peso: 0.87
+
+  - id: "FW-TSC-100"
+    framework: "Rhythm Compliance Assessment"
+    componentes:
+      - metrica: "QSP attendance"
+      - metrica: "Weekly consistency"
+      - metrica: "Scorecard update rate"
+    aplicacao:
+      - "Avaliar compliance com ritmo"
+    evidencias:
+      - citacao: "Rhythm compliance metrics"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "assessment"
+      - "rhythm"
+    peso: 0.86
+
+  - id: "FW-TSC-101"
+    framework: "Knowledge Sharing Assessment"
+    componentes:
+      - pergunta: "Todos tem acesso aos playbooks?"
+      - pergunta: "Cross-training acontece?"
+      - pergunta: "Black boxes existem?"
+    aplicacao:
+      - "Avaliar nivel de compartilhamento de conhecimento"
+    evidencias:
+      - citacao: "Knowledge sharing assessment"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "assessment"
+      - "culture"
+    peso: 0.89
+
+  - id: "FW-TSC-102"
+    framework: "Strategic Alignment Assessment"
+    componentes:
+      - pergunta: "Iniciativas alinhadas com Anchors?"
+      - pergunta: "Team knows 3-Year Target?"
+      - pergunta: "North Star clear to all?"
+    aplicacao:
+      - "Avaliar alinhamento estrategico"
+    evidencias:
+      - citacao: "Strategic alignment assessment"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "assessment"
+      - "strategy"
+    peso: 0.88
+
+  - id: "FW-TSC-103"
+    framework: "Delegation Effectiveness Assessment"
+    componentes:
+      - pergunta: "Tasks being delegated?"
+      - pergunta: "Right level (R/Y/G)?"
+      - pergunta: "Delegation successful?"
+    aplicacao:
+      - "Avaliar efetividade de delegacao"
+    evidencias:
+      - citacao: "Delegation effectiveness assessment"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "assessment"
+      - "delegation"
+    peso: 0.87
+
+  - id: "FW-TSC-104"
+    framework: "Quarterly Review Assessment"
+    componentes:
+      - pergunta: "Goals achieved?"
+      - pergunta: "What worked?"
+      - pergunta: "What didn't?"
+      - pergunta: "Learnings captured?"
+    aplicacao:
+      - "Estruturar review de quarter"
+    evidencias:
+      - citacao: "Quarterly review assessment framework"
+        source_id: "TSC-BATCH-090"
+    dominios:
+      - "assessment"
+      - "planning"
+    peso: 0.89
+
+  - id: "FW-TSC-105"
+    framework: "ScalableOS ROI Assessment"
+    componentes:
+      - metrica: "Founder time freed"
+      - metrica: "Decision speed improved"
+      - metrica: "Error rate reduced"
+      - metrica: "Onboarding time decreased"
+    aplicacao:
+      - "Medir retorno do ScalableOS"
+    evidencias:
+      - citacao: "ScalableOS ROI metrics"
+        source_id: "TSC-BATCH-091"
+    dominios:
+      - "assessment"
+      - "roi"
+    peso: 0.91
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# METADADOS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+metadados:
+  extraido_por: "JARVIS v3.33.0"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  missao: "MISSION-2026-001"
+  fase: "PHASE-5-FOUNDATION"
+  source_batches:
+    - "TSC-BATCH-085"
+    - "TSC-BATCH-086"
+    - "TSC-BATCH-087"
+    - "TSC-BATCH-088"
+    - "TSC-BATCH-089"
+    - "TSC-BATCH-090"
+    - "TSC-BATCH-091"
+
+distribuicao_por_bloco:
+  core_os_frameworks: 18
+  meeting_architecture: 15
+  scorecard_metrics: 15
+  playbook_frameworks: 15
+  team_delegation: 12
+  execution_implementation: 15
+  assessment_diagnostic: 15
+  total: 105
+
+changelog:
+  - data: "2026-01-11T01:45:00Z"
+    acao: "Criacao inicial"
+    detalhes: "105 frameworks extraidos de 7 batches TSC"
+    versao: "1.0.0"

@@ -1,0 +1,1688 @@
+# THE SCALABLE COMPANY - DNA COGNITIVO
+# Camada: HEURISTICAS (Regras Praticas com Numeros)
+# Versao: 1.0.0 | Criado: 2026-01-11 | Fase 5 Consolidacao
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-01-11T01:40:00Z"
+total_itens: 95
+camada: "HEURISTICAS"
+
+heuristicas:
+
+  # ============================================================================
+  # BLOCO 1: HEURISTICAS DE TEMPO E DURACAO
+  # ============================================================================
+
+  - id: "HEU-TSC-001"
+    regra: "Targets precisam de minimo 12 semanas para calibrar"
+    numero: "12 semanas"
+    contexto: "Definicao de metas e targets"
+    aplicacao:
+      - "Primeiro quarter e aprendizado"
+      - "Nao punir por miss inicial"
+      - "Refinar ao longo do tempo"
+    evidencias:
+      - citacao: "Targets need minimum 12 weeks (1 quarter) to calibrate properly"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "targets"
+      - "calibracao"
+      - "planejamento"
+    peso: 0.94
+
+  - id: "HEU-TSC-002"
+    regra: "Interrupcao custa 30-45 minutos de recuperacao de foco"
+    numero: "30-45 minutos"
+    contexto: "Produtividade e deep work"
+    aplicacao:
+      - "Proteger tempo de trabalho profundo"
+      - "Playbooks reduzem interrupcoes"
+      - "Calcular custo real de shoulder taps"
+    evidencias:
+      - citacao: "It takes 30-45 minutes to recover focus after an interruption"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "produtividade"
+      - "foco"
+      - "custos"
+    peso: 0.91
+
+  - id: "HEU-TSC-003"
+    regra: "BUILD phase dura 6-8 semanas"
+    numero: "6-8 semanas"
+    contexto: "Implementacao ScalableOS"
+    aplicacao:
+      - "Documentacao, arquitetura, ferramentas"
+      - "Nao apressar essa fase"
+      - "Fundacao para INSTALL"
+    evidencias:
+      - citacao: "BUILD phase is 6-8 weeks of documentation and architecture"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "ScalableOS"
+      - "implementacao"
+      - "tempo"
+    peso: 0.93
+
+  - id: "HEU-TSC-004"
+    regra: "INSTALL phase dura 2-3 semanas"
+    numero: "2-3 semanas"
+    contexto: "Rollout ScalableOS"
+    aplicacao:
+      - "QSP Meeting + alinhamento"
+      - "Rollout estruturado"
+      - "Full team alignment"
+    evidencias:
+      - citacao: "INSTALL phase is 2-3 weeks of structured rollout"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "ScalableOS"
+      - "implementacao"
+      - "rollout"
+    peso: 0.92
+
+  - id: "HEU-TSC-005"
+    regra: "QSP Meeting requer 2 dias presencial ou 2-3 meios-dias virtual"
+    numero: "2 dias / 2-3 meios-dias"
+    contexto: "Quarterly Sprint Planning"
+    aplicacao:
+      - "Presencial e preferivel"
+      - "Virtual funciona se necessario"
+      - "Nao comprimir demais"
+    evidencias:
+      - citacao: "QSP works best in-person (2 days) but virtual (2-3 half days) is acceptable"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "QSP"
+      - "reunioes"
+      - "formato"
+    peso: 0.90
+
+  - id: "HEU-TSC-006"
+    regra: "Planejamento de longo prazo = 3 anos (12Q), nao 5-10"
+    numero: "3 anos / 12 quarters"
+    contexto: "Horizonte de planejamento"
+    aplicacao:
+      - "12Q grid para visao"
+      - "Evitar planos de decada"
+      - "Curto demais pra significar"
+    evidencias:
+      - citacao: "3 years (12 quarters) is the right planning horizon - not 5-10 years"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "12Q"
+      - "planejamento"
+      - "horizonte"
+    peso: 0.93
+
+  - id: "HEU-TSC-007"
+    regra: "Execucao = 90 dias (quarterly), nao anual"
+    numero: "90 dias"
+    contexto: "Ciclo de execucao"
+    aplicacao:
+      - "Sprints trimestrais"
+      - "QSP no inicio, MBR no meio"
+      - "Resultado tangivel em 90 dias"
+    evidencias:
+      - citacao: "Execution happens in 90-day cycles, not annual planning"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "execucao"
+      - "sprints"
+      - "tempo"
+    peso: 0.94
+
+  - id: "HEU-TSC-008"
+    regra: "Medicao = semanal, nao mensal"
+    numero: "semanal"
+    contexto: "Frequencia de acompanhamento"
+    aplicacao:
+      - "Weekly check-ins sao essenciais"
+      - "Nao esperar MBR para saber status"
+      - "Ajustes rapidos"
+    evidencias:
+      - citacao: "Measurement should be weekly, not monthly"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "metricas"
+      - "frequencia"
+      - "acompanhamento"
+    peso: 0.89
+
+  # ============================================================================
+  # BLOCO 2: HEURISTICAS DE QUANTIDADE E LIMITES
+  # ============================================================================
+
+  - id: "HEU-TSC-009"
+    regra: "Maximo 3-5 metricas por time (CABs)"
+    numero: "3-5"
+    contexto: "Scorecards e metricas de time"
+    aplicacao:
+      - "Critical Accountability Bullets"
+      - "Muitas metricas = nenhuma metrica"
+      - "Foco nos poucos que importam"
+    evidencias:
+      - citacao: "CABs - Critical Accountability Bullets - maximum 3-5 metrics per team"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "metricas"
+      - "foco"
+      - "CABs"
+    peso: 0.93
+
+  - id: "HEU-TSC-010"
+    regra: "Maximo 7 power stages por value engine, mas maioria tem apenas 2-3"
+    numero: "2-3 (max 7)"
+    contexto: "Power stages por engine"
+    aplicacao:
+      - "Nao complicar demais"
+      - "Identificar os poucos criticos"
+      - "Maioria tem 2-3, nao mais"
+    evidencias:
+      - citacao: "Most value engines have only 2-3 power stages - maximum 7"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "power-stages"
+      - "prioridades"
+      - "simplicidade"
+    peso: 0.92
+
+  - id: "HEU-TSC-011"
+    regra: "3-5 iniciativas por quarter maximo"
+    numero: "3-5"
+    contexto: "Iniciativas trimestrais"
+    aplicacao:
+      - "Foco > quantidade"
+      - "Conectadas ao 3-Year Target"
+      - "Prioridade absoluta do Q"
+    evidencias:
+      - citacao: "3-5 initiatives per quarter maximum"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "iniciativas"
+      - "priorizacao"
+      - "foco"
+    peso: 0.91
+
+  - id: "HEU-TSC-012"
+    regra: "Menos de 10% das reunioes devem ser ad hoc"
+    numero: "< 10%"
+    contexto: "Meeting rhythm"
+    aplicacao:
+      - "Se rhythm esta certo, ad hocs sao raros"
+      - "Mais de 10% = failure signal"
+      - "Diagnostico de planejamento"
+    evidencias:
+      - citacao: "Less than 10% of meetings should be ad hoc"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "reunioes"
+      - "planejamento"
+      - "diagnostico"
+    peso: 0.88
+
+  - id: "HEU-TSC-013"
+    regra: "3 value engines por negocio: Growth, Fulfillment, Innovation"
+    numero: "3"
+    contexto: "Arquitetura de valor"
+    aplicacao:
+      - "Mapear os 3 antes de otimizar"
+      - "Cada engine tem power stages proprios"
+      - "Equilibrio entre os tres"
+    evidencias:
+      - citacao: "Every business has 3 value engines: Growth, Fulfillment, Innovation"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "value-engines"
+      - "arquitetura"
+      - "estrategia"
+    peso: 0.94
+
+  - id: "HEU-TSC-014"
+    regra: "5 passos do QSP: Financials, North Star, Initiatives, Theme, OS"
+    numero: "5 passos"
+    contexto: "Estrutura do QSP Meeting"
+    aplicacao:
+      - "Sequencia importa"
+      - "Nao pular passos"
+      - "Cada passo tem entregavel"
+    evidencias:
+      - citacao: "QSP has 5 steps: Financials, North Star, Initiatives, Theme, Operating System"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "QSP"
+      - "estrutura"
+      - "planejamento"
+    peso: 0.93
+
+  - id: "HEU-TSC-015"
+    regra: "4 niveis de meeting rhythm: QSP, MBR, Weekly, 1:1"
+    numero: "4"
+    contexto: "Arquitetura de reunioes"
+    aplicacao:
+      - "Cada nivel tem proposito"
+      - "Cadencia definida"
+      - "Sistema integrado"
+    evidencias:
+      - citacao: "Meeting rhythm has 4 levels: QSP, MBR, Weekly, One-on-ones"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "meeting-rhythm"
+      - "estrutura"
+      - "cadencia"
+    peso: 0.91
+
+  # ============================================================================
+  # BLOCO 3: HEURISTICAS DE PERCENTUAIS E PROPORCOES
+  # ============================================================================
+
+  - id: "HEU-TSC-016"
+    regra: "Targets iniciais devem ser 10-20% acima do benchmark atual"
+    numero: "10-20%"
+    contexto: "Definicao de metas"
+    aplicacao:
+      - "Desafiador mas alcancavel"
+      - "Usar baseline real"
+      - "Evitar targets arbitrarios"
+    evidencias:
+      - citacao: "Start targets 10-20% above current benchmark"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "targets"
+      - "metas"
+      - "calibracao"
+    peso: 0.89
+
+  - id: "HEU-TSC-017"
+    regra: "Criador pula passos 9 em 10 vezes no proprio checklist"
+    numero: "9/10"
+    contexto: "Validacao de playbooks"
+    aplicacao:
+      - "Nao confiar no criador para validar"
+      - "Fresh eyes sao necessarios"
+      - "Field test obrigatorio"
+    evidencias:
+      - citacao: "9 out of 10 times the creator will skip steps on their own checklist"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "playbooks"
+      - "validacao"
+      - "human-nature"
+    peso: 0.88
+
+  - id: "HEU-TSC-018"
+    regra: "Founder deveria liberar > 50% do tempo operacional"
+    numero: "> 50%"
+    contexto: "Founder freedom"
+    aplicacao:
+      - "Meta de liberdade de tempo"
+      - "ScalableOS possibilita isso"
+      - "Indicador de sistema funcionando"
+    evidencias:
+      - citacao: "Goal is to free more than 50% of founder's operational time"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "founder-freedom"
+      - "metricas"
+      - "escala"
+    peso: 0.90
+
+  - id: "HEU-TSC-019"
+    regra: "94%+ dos elementos DNA devem ter peso acima de 0.70"
+    numero: "94%+"
+    contexto: "Qualidade de extracao de conhecimento"
+    aplicacao:
+      - "Alta confianca no conhecimento"
+      - "Filtrar elementos fracos"
+      - "Manter densidade de valor"
+    evidencias:
+      - citacao: "94.1% of DNA elements have confidence weight above 0.70"
+        source_id: "TSC-CONFIG"
+    dominios:
+      - "qualidade"
+      - "DNA"
+      - "confianca"
+    peso: 0.86
+
+  # ============================================================================
+  # BLOCO 4: HEURISTICAS DE INVESTIMENTO E CUSTO
+  # ============================================================================
+
+  - id: "HEU-TSC-020"
+    regra: "Empresas gastam dezenas de milhares em automacao que ninguem usa"
+    numero: "tens of thousands"
+    contexto: "Investimento em tech"
+    aplicacao:
+      - "Validar necessidade antes de investir"
+      - "Manual frequentemente supera"
+      - "ROI questionavel de automacao"
+    evidencias:
+      - citacao: "I've seen companies spend tens of thousands on automated scorecards nobody uses"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "investimento"
+      - "automacao"
+      - "desperdicio"
+    peso: 0.85
+
+  - id: "HEU-TSC-021"
+    regra: "Cada playbook de power stage pode economizar milhares em erros"
+    numero: "milhares"
+    contexto: "ROI de playbooks"
+    aplicacao:
+      - "Erros em power stages sao caros"
+      - "Playbook previne erro repetido"
+      - "Calcular custo de erro vs custo de documentar"
+    evidencias:
+      - citacao: "Each power stage playbook prevents costly mistakes"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "ROI"
+      - "erros"
+    peso: 0.87
+
+  # ============================================================================
+  # BLOCO 5: HEURISTICAS DE ESTRUTURA SCALABLEOS
+  # ============================================================================
+
+  - id: "HEU-TSC-022"
+    regra: "ScalableOS tem 3 fases: BUILD, INSTALL, OPTIMIZE"
+    numero: "3 fases"
+    contexto: "Estrutura do programa"
+    aplicacao:
+      - "Sequencia e obrigatoria"
+      - "Cada fase tem duracao"
+      - "OPTIMIZE nunca termina"
+    evidencias:
+      - citacao: "ScalableOS 3-Phase: BUILD, INSTALL, OPTIMIZE"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "ScalableOS"
+      - "estrutura"
+      - "implementacao"
+    peso: 0.95
+
+  - id: "HEU-TSC-023"
+    regra: "Clarity Compass tem 4 componentes: 3-Year Target, Purpose, Anchors, Values"
+    numero: "4 componentes"
+    contexto: "Fundacao estrategica"
+    aplicacao:
+      - "Todos os 4 sao necessarios"
+      - "Primeiro passo do BUILD"
+      - "Guia todas as decisoes"
+    evidencias:
+      - citacao: "Clarity Compass: 3-Year Target, Purpose Statement, Strategic Anchors, Values"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "clarity-compass"
+      - "estrategia"
+      - "fundamentos"
+    peso: 0.93
+
+  - id: "HEU-TSC-024"
+    regra: "12Q Grid divide 3 anos em 12 sprints trimestrais"
+    numero: "12 sprints"
+    contexto: "Estrutura de planejamento"
+    aplicacao:
+      - "Cada quarter e gerenciavel"
+      - "Conecta visao com execucao"
+      - "Elefante em 12 mordidas"
+    evidencias:
+      - citacao: "12Q Planning Grid: 3 years = 12 quarterly sprints"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "12Q"
+      - "planejamento"
+      - "execucao"
+    peso: 0.94
+
+  - id: "HEU-TSC-025"
+    regra: "3D Playbook Process: DEFINE, DESIGN, DEPLOY"
+    numero: "3 Ds"
+    contexto: "Criacao de playbooks"
+    aplicacao:
+      - "Sequencia importa"
+      - "Cada D tem entregavel"
+      - "Nao pular etapas"
+    evidencias:
+      - citacao: "3D Playbook Process: DEFINE (what), DESIGN (how), DEPLOY (rollout)"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+      - "processo"
+      - "estrutura"
+    peso: 0.91
+
+  # ============================================================================
+  # BLOCO 6: HEURISTICAS IF-THEN OPERACIONAIS
+  # ============================================================================
+
+  - id: "HEU-TSC-026"
+    regra: "SE targets estao errados → ENTAO esperar 12 weeks para recalibrar"
+    numero: "12 weeks"
+    contexto: "Calibracao de metas"
+    aplicacao:
+      - "Nao mudar targets toda semana"
+      - "Dar tempo para dados reais"
+      - "Learning Now, Accuracy Later"
+    evidencias:
+      - citacao: "If targets are wrong, wait minimum 12 weeks to recalibrate"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "targets"
+      - "calibracao"
+      - "paciencia"
+    peso: 0.89
+
+  - id: "HEU-TSC-027"
+    regra: "SE alguem e interrompido → ENTAO perde 30-45min de foco"
+    numero: "30-45 min"
+    contexto: "Custo de interrupcoes"
+    aplicacao:
+      - "Calcular custo real"
+      - "Justificar investimento em playbooks"
+      - "Proteger deep work"
+    evidencias:
+      - citacao: "If someone is interrupted, they lose 30-45 minutes of focus"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "produtividade"
+      - "custos"
+      - "foco"
+    peso: 0.90
+
+  - id: "HEU-TSC-028"
+    regra: "SE value engine tem muitos power stages → ENTAO verificar se nao passou de 7"
+    numero: "max 7"
+    contexto: "Complexidade de engines"
+    aplicacao:
+      - "Mais de 7 e sinal de problema"
+      - "Provavelmente subdividir"
+      - "Maioria tem 2-3"
+    evidencias:
+      - citacao: "If a value engine has many power stages, verify it's not more than 7"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "power-stages"
+      - "complexidade"
+      - "limite"
+    peso: 0.88
+
+  - id: "HEU-TSC-029"
+    regra: "SE precisa implementar ScalableOS → ENTAO BUILD 6-8 sem + INSTALL 2-3 sem"
+    numero: "8-11 semanas total"
+    contexto: "Timeline de implementacao"
+    aplicacao:
+      - "Planejamento realista"
+      - "Nao apressar"
+      - "Fundacao solida"
+    evidencias:
+      - citacao: "ScalableOS implementation: BUILD 6-8 weeks, INSTALL 2-3 weeks"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "ScalableOS"
+      - "implementacao"
+      - "timeline"
+    peso: 0.92
+
+  - id: "HEU-TSC-030"
+    regra: "SE precisa de QSP → ENTAO reservar 2 dias presencial ou 2-3 meios-dias virtual"
+    numero: "2 dias / 2-3 meios-dias"
+    contexto: "Planejamento de QSP"
+    aplicacao:
+      - "Nao comprimir demais"
+      - "Presencial e preferivel"
+      - "Virtual funciona"
+    evidencias:
+      - citacao: "QSP requires 2 days in-person or 2-3 half-days virtual"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "QSP"
+      - "formato"
+      - "duracao"
+    peso: 0.89
+
+  - id: "HEU-TSC-031"
+    regra: "SE precisa definir targets → ENTAO comecar 10-20% acima do benchmark"
+    numero: "10-20%"
+    contexto: "Definicao de metas"
+    aplicacao:
+      - "Baseline real + stretch"
+      - "Desafiador mas alcancavel"
+      - "Evitar numeros de teto"
+    evidencias:
+      - citacao: "When defining targets, start 10-20% above current benchmark"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "targets"
+      - "metas"
+      - "calibracao"
+    peso: 0.87
+
+  - id: "HEU-TSC-032"
+    regra: "SE time precisa de metricas → ENTAO maximo 3-5 CABs"
+    numero: "3-5"
+    contexto: "Metricas de time"
+    aplicacao:
+      - "Menos e mais"
+      - "Foco nos criticos"
+      - "Muitas = nenhuma"
+    evidencias:
+      - citacao: "Teams need maximum 3-5 CABs - Critical Accountability Bullets"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "metricas"
+      - "CABs"
+      - "foco"
+    peso: 0.91
+
+  - id: "HEU-TSC-033"
+    regra: "SE criador segue proprio checklist → ENTAO 9/10 pula passos"
+    numero: "9/10"
+    contexto: "Validacao de playbooks"
+    aplicacao:
+      - "Field test com outra pessoa"
+      - "Nao confiar no criador"
+      - "Fresh eyes necessarios"
+    evidencias:
+      - citacao: "If the creator follows their own checklist, 9 out of 10 times they skip steps"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "validacao"
+      - "playbooks"
+      - "qualidade"
+    peso: 0.86
+
+  - id: "HEU-TSC-034"
+    regra: "SE empresa quer planejar longo prazo → ENTAO usar 3 anos (12Q), nao 5-10"
+    numero: "3 anos"
+    contexto: "Horizonte de planejamento"
+    aplicacao:
+      - "12Q e suficiente"
+      - "Mais longo e futurologia"
+      - "Visao conectada a execucao"
+    evidencias:
+      - citacao: "For long-term planning, use 3 years (12Q), not 5-10 years"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "planejamento"
+      - "horizonte"
+      - "estrategia"
+    peso: 0.90
+
+  - id: "HEU-TSC-035"
+    regra: "SE empresa quer medir → ENTAO frequencia semanal, nao mensal"
+    numero: "semanal"
+    contexto: "Cadencia de acompanhamento"
+    aplicacao:
+      - "Weekly check-ins"
+      - "Ajustes rapidos"
+      - "Nao esperar MBR"
+    evidencias:
+      - citacao: "Measurement should be weekly, not monthly"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "metricas"
+      - "frequencia"
+      - "agilidade"
+    peso: 0.88
+
+  # ============================================================================
+  # BLOCO 7: HEURISTICAS DE MEETING RHYTHM
+  # ============================================================================
+
+  - id: "HEU-TSC-036"
+    regra: "QSP acontece a cada 90 dias no inicio do quarter"
+    numero: "90 dias"
+    contexto: "Cadencia de QSP"
+    aplicacao:
+      - "Kick-off do quarter"
+      - "Alinha toda empresa"
+      - "5 passos estruturados"
+    evidencias:
+      - citacao: "QSP happens every 90 days at the start of each quarter"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "QSP"
+      - "cadencia"
+      - "planejamento"
+    peso: 0.92
+
+  - id: "HEU-TSC-037"
+    regra: "MBR (Monthly Business Review) acontece 1x por mes"
+    numero: "mensal"
+    contexto: "Cadencia de revisao"
+    aplicacao:
+      - "Pega desvios antes de crise"
+      - "Conecta weekly com QSP"
+      - "Ajustes de curso"
+    evidencias:
+      - citacao: "MBR - Monthly Business Review - happens once per month"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "MBR"
+      - "cadencia"
+      - "monitoramento"
+    peso: 0.89
+
+  - id: "HEU-TSC-038"
+    regra: "Weekly check-ins acontecem 1x por semana por time"
+    numero: "semanal"
+    contexto: "Cadencia de acompanhamento"
+    aplicacao:
+      - "Mantem momentum"
+      - "Ajustes rapidos"
+      - "Status de scorecards"
+    evidencias:
+      - citacao: "Weekly check-ins happen once per week per team"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "weekly"
+      - "cadencia"
+      - "times"
+    peso: 0.88
+
+  - id: "HEU-TSC-039"
+    regra: "One-on-ones acontecem 1x por semana ou quinzena"
+    numero: "semanal/quinzenal"
+    contexto: "Desenvolvimento individual"
+    aplicacao:
+      - "Sagrado, nao opcional"
+      - "Desenvolvimento + feedback"
+      - "Nunca cancelar"
+    evidencias:
+      - citacao: "One-on-ones happen weekly or bi-weekly - never skip them"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "one-on-ones"
+      - "cadencia"
+      - "desenvolvimento"
+    peso: 0.86
+
+  # ============================================================================
+  # BLOCO 8: HEURISTICAS DE PLAYBOOKS
+  # ============================================================================
+
+  - id: "HEU-TSC-040"
+    regra: "Meta de 5+ playbooks criados por quarter"
+    numero: "5+"
+    contexto: "Producao de playbooks"
+    aplicacao:
+      - "Por power stage"
+      - "Melhoria continua"
+      - "Evolucao do OS"
+    evidencias:
+      - citacao: "Target 5+ playbooks created per quarter, focused on power stages"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "playbooks"
+      - "metas"
+      - "producao"
+    peso: 0.85
+
+  - id: "HEU-TSC-041"
+    regra: "Playbook deve ter field test com pessoa diferente do criador"
+    numero: "1 pessoa diferente"
+    contexto: "Validacao de playbooks"
+    aplicacao:
+      - "Fresh eyes revelam gaps"
+      - "Criador e enviesado"
+      - "Validar antes de scale"
+    evidencias:
+      - citacao: "Every playbook must be field tested by someone other than the creator"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "validacao"
+      - "qualidade"
+    peso: 0.89
+
+  - id: "HEU-TSC-042"
+    regra: "Playbook owner NAO deve ser o CEO"
+    numero: "1 owner (nao CEO)"
+    contexto: "Ownership de playbooks"
+    aplicacao:
+      - "Delegar para operadores"
+      - "CEO se liberta"
+      - "Empowerment"
+    evidencias:
+      - citacao: "Playbook owner should NOT be the CEO - delegate ownership"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "playbooks"
+      - "delegacao"
+      - "ownership"
+    peso: 0.88
+
+  # ============================================================================
+  # BLOCO 9: HEURISTICAS DE SCORECARDS
+  # ============================================================================
+
+  - id: "HEU-TSC-043"
+    regra: "Scorecard por time, nao por pessoa"
+    numero: "1 por time"
+    contexto: "Estrutura de scorecards"
+    aplicacao:
+      - "Accountability coletiva"
+      - "3-5 CABs por time"
+      - "Manual preferivel"
+    evidencias:
+      - citacao: "One scorecard per team, not per person"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "scorecards"
+      - "times"
+      - "estrutura"
+    peso: 0.87
+
+  - id: "HEU-TSC-044"
+    regra: "Atualizar scorecard semanalmente, nao em tempo real"
+    numero: "semanal"
+    contexto: "Frequencia de atualizacao"
+    aplicacao:
+      - "Manual intencional"
+      - "Desenvolve Matrix vision"
+      - "Ownership real"
+    evidencias:
+      - citacao: "Update scorecards weekly, not in real-time"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "scorecards"
+      - "frequencia"
+      - "manual"
+    peso: 0.86
+
+  - id: "HEU-TSC-045"
+    regra: "Scorecards manuais > automatizados por ownership"
+    numero: "manual > auto"
+    contexto: "Tipo de scorecard"
+    aplicacao:
+      - "Insights vem da busca"
+      - "Automacao divorcia do significado"
+      - "Trade-off consciente"
+    evidencias:
+      - citacao: "Manual scorecards beat automated ones because of ownership and insights"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "scorecards"
+      - "manual"
+      - "ownership"
+    peso: 0.92
+
+  # ============================================================================
+  # BLOCO 10: HEURISTICAS DE VALUE ENGINES
+  # ============================================================================
+
+  - id: "HEU-TSC-046"
+    regra: "Mapear todos os 3 value engines antes de otimizar qualquer um"
+    numero: "3 engines primeiro"
+    contexto: "Sequencia de trabalho"
+    aplicacao:
+      - "Visao sistemica primeiro"
+      - "Entender interdependencias"
+      - "Evitar otimizacao local"
+    evidencias:
+      - citacao: "Map all 3 value engines before optimizing any single one"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "value-engines"
+      - "sequencia"
+      - "estrategia"
+    peso: 0.90
+
+  - id: "HEU-TSC-047"
+    regra: "Growth engine vem antes de Fulfillment na priorizacao"
+    numero: "Growth > Fulfillment"
+    contexto: "Ordem de foco"
+    aplicacao:
+      - "Receita nova primeiro"
+      - "Sem growth, fulfillment e irrelevante"
+      - "Mas nao ignorar fulfillment"
+    evidencias:
+      - citacao: "Growth engine typically takes priority over Fulfillment"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "value-engines"
+      - "priorizacao"
+      - "growth"
+    peso: 0.85
+
+  - id: "HEU-TSC-048"
+    regra: "Innovation engine e importante mas menos urgente"
+    numero: "3o lugar"
+    contexto: "Prioridade de engines"
+    aplicacao:
+      - "Futuro da empresa"
+      - "Nao ignorar, mas nao urgente"
+      - "R&D, produto, melhoria"
+    evidencias:
+      - citacao: "Innovation engine is important but less urgent than Growth and Fulfillment"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "value-engines"
+      - "innovation"
+      - "prioridade"
+    peso: 0.84
+
+  # ============================================================================
+  # BLOCO 11: HEURISTICAS DE TRAFFIC LIGHT
+  # ============================================================================
+
+  - id: "HEU-TSC-049"
+    regra: "RED: lider faz pela pessoa (novo ou complexo)"
+    numero: "RED = faz por"
+    contexto: "Traffic Light Leadership"
+    aplicacao:
+      - "Pessoa nova ou tarefa nova"
+      - "Demonstrar como fazer"
+      - "Transferir depois"
+    evidencias:
+      - citacao: "RED means leader does the task for the person"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "traffic-light"
+      - "delegacao"
+      - "treinamento"
+    peso: 0.88
+
+  - id: "HEU-TSC-050"
+    regra: "YELLOW: lider faz junto com a pessoa (aprendendo)"
+    numero: "YELLOW = faz junto"
+    contexto: "Traffic Light Leadership"
+    aplicacao:
+      - "Pessoa em aprendizado"
+      - "Coaching ativo"
+      - "Corrigir em tempo real"
+    evidencias:
+      - citacao: "YELLOW means leader does the task with the person"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "traffic-light"
+      - "coaching"
+      - "desenvolvimento"
+    peso: 0.88
+
+  - id: "HEU-TSC-051"
+    regra: "GREEN: pessoa faz sozinha (autonomo)"
+    numero: "GREEN = faz sozinho"
+    contexto: "Traffic Light Leadership"
+    aplicacao:
+      - "Pessoa competente"
+      - "Delegar completamente"
+      - "Objetivo final"
+    evidencias:
+      - citacao: "GREEN means the person does it on their own"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "traffic-light"
+      - "autonomia"
+      - "delegacao"
+    peso: 0.89
+
+  - id: "HEU-TSC-052"
+    regra: "Objetivo e mover todos para GREEN no maximo de tarefas"
+    numero: "100% GREEN ideal"
+    contexto: "Meta de Traffic Light"
+    aplicacao:
+      - "Liberdade do lider"
+      - "Autonomia do time"
+      - "Escala do sistema"
+    evidencias:
+      - citacao: "The goal is to move everyone to GREEN on as many tasks as possible"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "traffic-light"
+      - "escala"
+      - "metas"
+    peso: 0.87
+
+  # ============================================================================
+  # BLOCO 12: HEURISTICAS DE FOUNDER FREEDOM
+  # ============================================================================
+
+  - id: "HEU-TSC-053"
+    regra: "Founder deve sair do dia-a-dia operacional"
+    numero: "sair do day-to-day"
+    contexto: "Founder freedom"
+    aplicacao:
+      - "Sistema permite escolha"
+      - "Nao precisa estar em tudo"
+      - "Entrepreneurial dream"
+    evidencias:
+      - citacao: "The founder should step out of day-to-day operations"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "founder-freedom"
+      - "escala"
+      - "transicao"
+    peso: 0.91
+
+  - id: "HEU-TSC-054"
+    regra: "Clone your best people = nao depender de individuos"
+    numero: "0 dependencia"
+    contexto: "Risco de pessoas"
+    aplicacao:
+      - "Playbooks capturam expertise"
+      - "Sistema > heroi"
+      - "Continuidade garantida"
+    evidencias:
+      - citacao: "Clone your best people - don't depend on individuals"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "playbooks"
+      - "risco"
+      - "escala"
+    peso: 0.90
+
+  - id: "HEU-TSC-055"
+    regra: "Sistemas escalam, pessoas nao"
+    numero: "sistemas > pessoas"
+    contexto: "Limitacoes de escala"
+    aplicacao:
+      - "Individuos tem limite"
+      - "Sistemas multiplicam"
+      - "Playbooks sao o sistema"
+    evidencias:
+      - citacao: "Systems scale, people don't"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "escala"
+      - "sistemas"
+      - "limites"
+    peso: 0.92
+
+  # ============================================================================
+  # BLOCO 13: HEURISTICAS ADICIONAIS (56-95)
+  # ============================================================================
+
+  - id: "HEU-TSC-056"
+    regra: "Cross-training deve cobrir playbook inteiro, nao apenas propria etapa"
+    numero: "100% playbook"
+    contexto: "Treinamento de time"
+    aplicacao:
+      - "Entendimento sistemico"
+      - "Redundancia"
+      - "Zero downside"
+    evidencias:
+      - citacao: "Cross-training should cover the entire playbook, not just their step"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "treinamento"
+      - "playbooks"
+      - "times"
+    peso: 0.87
+
+  - id: "HEU-TSC-057"
+    regra: "Black boxing informacao = motivo de demissao"
+    numero: "fireable offense"
+    contexto: "Cultura de transparencia"
+    aplicacao:
+      - "Zero tolerancia"
+      - "Informacao deve fluir"
+      - "Nada de 'meu precioso'"
+    evidencias:
+      - citacao: "Black boxing information is a fireable offense"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "cultura"
+      - "transparencia"
+      - "consequencias"
+    peso: 0.88
+
+  - id: "HEU-TSC-058"
+    regra: "Sticky note mapping usa pergunta 'Then what happens?' ate acabar"
+    numero: "N perguntas ate 'so isso'"
+    contexto: "Mapeamento de processos"
+    aplicacao:
+      - "Revela processo completo"
+      - "Nao assumir passos"
+      - "Deixar a pessoa guiar"
+    evidencias:
+      - citacao: "Keep asking 'Then what happens?' until they say 'that's it'"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "mapeamento"
+      - "processos"
+      - "discovery"
+    peso: 0.89
+
+  - id: "HEU-TSC-059"
+    regra: "Documentar apenas o que move a agulha, nao tudo"
+    numero: "needle-movers only"
+    contexto: "Priorizacao de documentacao"
+    aplicacao:
+      - "Maioria documenta tudo, usa nada"
+      - "Foco em power stages"
+      - "80/20 de processos"
+    evidencias:
+      - citacao: "Document what moves the needle, not everything"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "documentacao"
+      - "priorizacao"
+      - "foco"
+    peso: 0.90
+
+  - id: "HEU-TSC-060"
+    regra: "Perguntas certas levam adiante, respostas certas te trouxeram ate aqui"
+    numero: "perguntas > respostas"
+    contexto: "Lideranca"
+    aplicacao:
+      - "Lideres perguntam"
+      - "Desenvolve autonomia"
+      - "Coaching via questionamento"
+    evidencias:
+      - citacao: "Right questions get you there, right answers got you here"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "lideranca"
+      - "coaching"
+      - "desenvolvimento"
+    peso: 0.88
+
+  - id: "HEU-TSC-061"
+    regra: "Theme do quarter cria conexao emocional"
+    numero: "1 theme por Q"
+    contexto: "Engajamento de quarter"
+    aplicacao:
+      - "Nome memoravel"
+      - "Motiva o time"
+      - "Celebracao de conclusao"
+    evidencias:
+      - citacao: "Quarterly theme creates emotional connection"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "QSP"
+      - "engajamento"
+      - "cultura"
+    peso: 0.83
+
+  - id: "HEU-TSC-062"
+    regra: "North star metric alinha toda empresa"
+    numero: "1 metrica"
+    contexto: "Foco do quarter"
+    aplicacao:
+      - "Todos sabem o numero"
+      - "Decisoes se alinham"
+      - "Simplicidade de foco"
+    evidencias:
+      - citacao: "One north star metric aligns the entire company"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "metricas"
+      - "alinhamento"
+      - "foco"
+    peso: 0.89
+
+  - id: "HEU-TSC-063"
+    regra: "Values devem ser criterios de decisao, nao decoracao"
+    numero: "actionable values"
+    contexto: "Cultura e valores"
+    aplicacao:
+      - "Se nao usa para decidir, nao serve"
+      - "Testar com casos reais"
+      - "Remover os decorativos"
+    evidencias:
+      - citacao: "Values must be decision criteria, not wall decorations"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "valores"
+      - "cultura"
+      - "decisoes"
+    peso: 0.85
+
+  - id: "HEU-TSC-064"
+    regra: "Purpose statement unifica decisoes"
+    numero: "1 purpose"
+    contexto: "Fundacao estrategica"
+    aplicacao:
+      - "Por que existimos"
+      - "Guia para dilemas"
+      - "Criterio final"
+    evidencias:
+      - citacao: "Purpose statement unifies all decisions"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "proposito"
+      - "estrategia"
+      - "decisoes"
+    peso: 0.86
+
+  - id: "HEU-TSC-065"
+    regra: "Strategic anchors sao framework para dizer NAO"
+    numero: "N anchors"
+    contexto: "Foco estrategico"
+    aplicacao:
+      - "Clareza sobre o que nao fazer"
+      - "Evita shiny objects"
+      - "Protege foco"
+    evidencias:
+      - citacao: "Strategic anchors are your framework for saying NO"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "estrategia"
+      - "foco"
+      - "priorizacao"
+    peso: 0.87
+
+  - id: "HEU-TSC-066"
+    regra: "High output teams precisam de clareza, nao micromanagement"
+    numero: "clareza > controle"
+    contexto: "Gestao de times"
+    aplicacao:
+      - "Expectativas claras"
+      - "Autonomia de execucao"
+      - "Accountability de resultados"
+    evidencias:
+      - citacao: "High output teams need clarity, not micromanagement"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "times"
+      - "gestao"
+      - "autonomia"
+    peso: 0.88
+
+  - id: "HEU-TSC-067"
+    regra: "Team canvas revela gaps de estrutura"
+    numero: "gaps visiveis"
+    contexto: "Analise de time"
+    aplicacao:
+      - "Quem faz o que"
+      - "Gaps ficam evidentes"
+      - "Base para hiring"
+    evidencias:
+      - citacao: "Team canvas makes structure gaps visible"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "times"
+      - "estrutura"
+      - "diagnostico"
+    peso: 0.84
+
+  - id: "HEU-TSC-068"
+    regra: "Erros sao catalalisador principal de playbooks"
+    numero: "erro → playbook"
+    contexto: "Criacao de documentacao"
+    aplicacao:
+      - "Cada erro e oportunidade"
+      - "Documentar na hora"
+      - "Nao punir, capturar"
+    evidencias:
+      - citacao: "Mistakes are the main catalyst for playbook creation"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "playbooks"
+      - "aprendizado"
+      - "cultura"
+    peso: 0.87
+
+  - id: "HEU-TSC-069"
+    regra: "Contratar em caos cria mais caos"
+    numero: "sistemas primeiro"
+    contexto: "Hiring"
+    aplicacao:
+      - "Sistema antes de pessoas"
+      - "Onboarding precisa playbooks"
+      - "Escalar com fundacao"
+    evidencias:
+      - citacao: "Hiring into chaos creates more chaos"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "hiring"
+      - "sistemas"
+      - "escala"
+    peso: 0.88
+
+  - id: "HEU-TSC-070"
+    regra: "Melhores pessoas saem sem oportunidade de crescimento"
+    numero: "retencao via crescimento"
+    contexto: "Retencao de talentos"
+    aplicacao:
+      - "Playbooks abrem caminhos"
+      - "Cross-training desenvolve"
+      - "Desenvolvimento retém"
+    evidencias:
+      - citacao: "Best people leave without growth opportunities"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "retencao"
+      - "desenvolvimento"
+      - "talento"
+    peso: 0.85
+
+  - id: "HEU-TSC-071"
+    regra: "Operating system e infraestrutura, nao overhead"
+    numero: "investimento, nao custo"
+    contexto: "Mentalidade de OS"
+    aplicacao:
+      - "ROI real mas diferido"
+      - "Retorno em escala"
+      - "Construcao, nao despesa"
+    evidencias:
+      - citacao: "Operating system is infrastructure, not overhead"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "investimento"
+      - "mentalidade"
+      - "valor"
+    peso: 0.86
+
+  - id: "HEU-TSC-072"
+    regra: "Complexidade e inimiga da execucao"
+    numero: "simples > complexo"
+    contexto: "Design de sistemas"
+    aplicacao:
+      - "Menos e mais"
+      - "CABs, nao dashboards"
+      - "Foco > completude"
+    evidencias:
+      - citacao: "Complexity is the enemy of execution"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "simplicidade"
+      - "execucao"
+      - "design"
+    peso: 0.89
+
+  - id: "HEU-TSC-073"
+    regra: "Ritmo vence aleatoriedade sempre"
+    numero: "rhythm > random"
+    contexto: "Meeting rhythm"
+    aplicacao:
+      - "Previsibilidade"
+      - "Confianca no sistema"
+      - "Disciplina"
+    evidencias:
+      - citacao: "Rhythm beats random every time"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "meeting-rhythm"
+      - "disciplina"
+      - "consistencia"
+    peso: 0.87
+
+  - id: "HEU-TSC-074"
+    regra: "Playbook library e o ativo mais valioso"
+    numero: "ativo #1"
+    contexto: "Valor de playbooks"
+    aplicacao:
+      - "Coca-Cola vault"
+      - "Proteger e atualizar"
+      - "IP do negocio"
+    evidencias:
+      - citacao: "Your playbook library is your most valuable asset"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "playbooks"
+      - "ativos"
+      - "valor"
+    peso: 0.88
+
+  - id: "HEU-TSC-075"
+    regra: "Objetivo e crescimento previsivel, nao explosivo"
+    numero: "previsivel > explosivo"
+    contexto: "Estrategia de crescimento"
+    aplicacao:
+      - "Sustentavel"
+      - "ScalableOS cria previsibilidade"
+      - "Longo prazo"
+    evidencias:
+      - citacao: "The goal is predictable growth, not explosive growth"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "crescimento"
+      - "sustentabilidade"
+      - "estrategia"
+    peso: 0.89
+
+  - id: "HEU-TSC-076"
+    regra: "OPTIMIZE phase nunca termina"
+    numero: "ongoing"
+    contexto: "ScalableOS"
+    aplicacao:
+      - "Melhoria continua"
+      - "Cada QSP atualiza"
+      - "Sistema vivo"
+    evidencias:
+      - citacao: "OPTIMIZE phase never ends - it's ongoing"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "ScalableOS"
+      - "melhoria-continua"
+      - "evolucao"
+    peso: 0.88
+
+  - id: "HEU-TSC-077"
+    regra: "Cada QSP atualiza o operating system"
+    numero: "upgrade trimestral"
+    contexto: "Evolucao do OS"
+    aplicacao:
+      - "Novos playbooks"
+      - "Ajuste de metricas"
+      - "Refinamento continuo"
+    evidencias:
+      - citacao: "Operating system upgrades happen at every QSP"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "ScalableOS"
+      - "QSP"
+      - "evolucao"
+    peso: 0.87
+
+  - id: "HEU-TSC-078"
+    regra: "Full team alignment antes de rollout"
+    numero: "100% alinhado"
+    contexto: "INSTALL phase"
+    aplicacao:
+      - "Nao fazer rollout parcial"
+      - "QSP alinha todos"
+      - "Comeco sincronizado"
+    evidencias:
+      - citacao: "Full team alignment required before rollout"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "implementacao"
+      - "alinhamento"
+      - "rollout"
+    peso: 0.86
+
+  - id: "HEU-TSC-079"
+    regra: "BUILD e documentacao e arquitetura, nao execucao"
+    numero: "0 execucao no BUILD"
+    contexto: "ScalableOS BUILD"
+    aplicacao:
+      - "Construir ferramentas"
+      - "Nao usar ainda"
+      - "Preparacao completa"
+    evidencias:
+      - citacao: "BUILD is documentation and architecture, not execution"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "ScalableOS"
+      - "BUILD"
+      - "preparacao"
+    peso: 0.85
+
+  - id: "HEU-TSC-080"
+    regra: "Scorecards criam visibilidade, nao julgamento"
+    numero: "visibilidade > julgamento"
+    contexto: "Cultura de metricas"
+    aplicacao:
+      - "Dados para aprender"
+      - "Nao para punir"
+      - "Feedback construtivo"
+    evidencias:
+      - citacao: "Scorecards create visibility, not judgment"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "scorecards"
+      - "cultura"
+      - "feedback"
+    peso: 0.86
+
+  - id: "HEU-TSC-081"
+    regra: "Insights vem da busca, nao da captura automatica"
+    numero: "busca > captura"
+    contexto: "Manual vs automatico"
+    aplicacao:
+      - "Processo de buscar ensina"
+      - "Automacao remove aprendizado"
+      - "ROI oculto do manual"
+    evidencias:
+      - citacao: "Insights come from the hunt, not the capture"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "metricas"
+      - "aprendizado"
+      - "manual"
+    peso: 0.88
+
+  - id: "HEU-TSC-082"
+    regra: "Automacao divorcia time do significado dos numeros"
+    numero: "divorcio de significado"
+    contexto: "Risco de automacao"
+    aplicacao:
+      - "Distancia = falta de conexao"
+      - "Manual = intimidade"
+      - "Trade-off consciente"
+    evidencias:
+      - citacao: "Automation divorces you from the meaning of numbers"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "automacao"
+      - "metricas"
+      - "riscos"
+    peso: 0.87
+
+  - id: "HEU-TSC-083"
+    regra: "Messy sticky notes > beautiful unused docs"
+    numero: "funcional > bonito"
+    contexto: "Pragmatismo"
+    aplicacao:
+      - "Uso > estetica"
+      - "Acao > perfeicao"
+      - "Feito > perfeito"
+    evidencias:
+      - citacao: "Messy sticky notes are better than beautiful unused documents"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "pragmatismo"
+      - "execucao"
+      - "documentacao"
+    peso: 0.86
+
+  - id: "HEU-TSC-084"
+    regra: "Do-Document-Do Again valida playbook"
+    numero: "3 rodadas"
+    contexto: "Validacao de processos"
+    aplicacao:
+      - "Fazer primeiro"
+      - "Documentar"
+      - "Fazer de novo para validar"
+    evidencias:
+      - citacao: "Do it, document it, do it again to validate"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "playbooks"
+      - "validacao"
+      - "processo"
+    peso: 0.85
+
+  - id: "HEU-TSC-085"
+    regra: "Escolha de participar e diferente de ser forcado"
+    numero: "escolha vs forca"
+    contexto: "Founder freedom"
+    aplicacao:
+      - "Nao e sair da empresa"
+      - "E ter OPCAO"
+      - "Liberdade = escolha"
+    evidencias:
+      - citacao: "Choice to be involved is different from forced involvement"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "founder-freedom"
+      - "autonomia"
+      - "liberdade"
+    peso: 0.88
+
+  - id: "HEU-TSC-086"
+    regra: "Shoulder taps indicam playbooks nao funcionando"
+    numero: "tap = diagnostico"
+    contexto: "Diagnostico de sistema"
+    aplicacao:
+      - "Medir interrupcoes"
+      - "Cada tap e sintoma"
+      - "Playbooks devem reduzir"
+    evidencias:
+      - citacao: "Shoulder taps indicate playbooks aren't working"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "playbooks"
+      - "diagnostico"
+      - "produtividade"
+    peso: 0.85
+
+  - id: "HEU-TSC-087"
+    regra: "Shoulder taps acontecem porque pessoas nao confiam em si"
+    numero: "falta de confianca"
+    contexto: "Causa raiz de interrupcoes"
+    aplicacao:
+      - "Playbooks dao certeza"
+      - "Reduzem need de validacao"
+      - "Autonomia via sistema"
+    evidencias:
+      - citacao: "Shoulder taps happen because people don't trust themselves"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "autonomia"
+      - "playbooks"
+      - "confianca"
+    peso: 0.84
+
+  - id: "HEU-TSC-088"
+    regra: "Business deve ser como bale orquestrado"
+    numero: "flow continuo"
+    contexto: "Visao de sistema"
+    aplicacao:
+      - "Atividades fluem"
+      - "Nao tarefas desconectadas"
+      - "Pensar em sistema"
+    evidencias:
+      - citacao: "Business should be like an orchestrated ballet"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "sistemas"
+      - "flow"
+      - "visao"
+    peso: 0.83
+
+  - id: "HEU-TSC-089"
+    regra: "MBR pega desvios antes de virar crise"
+    numero: "prevencao mensal"
+    contexto: "Monitoramento"
+    aplicacao:
+      - "Revisao mensal suficiente"
+      - "Ajustes pequenos frequentes"
+      - "Prevencao > reacao"
+    evidencias:
+      - citacao: "MBR catches drift before it becomes a crisis"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "MBR"
+      - "monitoramento"
+      - "prevencao"
+    peso: 0.86
+
+  - id: "HEU-TSC-090"
+    regra: "Weekly mantém momentum entre MBRs"
+    numero: "momentum semanal"
+    contexto: "Cadencia de execucao"
+    aplicacao:
+      - "Nao esperar mensal"
+      - "Ajustes rapidos"
+      - "Accountability continua"
+    evidencias:
+      - citacao: "Weekly check-ins maintain momentum between MBRs"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "weekly"
+      - "execucao"
+      - "momentum"
+    peso: 0.85
+
+  - id: "HEU-TSC-091"
+    regra: "One-on-ones sao sagrados e nao opcionais"
+    numero: "nunca cancelar"
+    contexto: "Desenvolvimento individual"
+    aplicacao:
+      - "Prioridade absoluta"
+      - "Desenvolvimento acontece aqui"
+      - "Relacao lider-liderado"
+    evidencias:
+      - citacao: "One-on-ones are sacred, not optional"
+        source_id: "TSC-BATCH-089"
+    dominios:
+      - "one-on-ones"
+      - "desenvolvimento"
+      - "lideranca"
+    peso: 0.84
+
+  - id: "HEU-TSC-092"
+    regra: "O que e medido e gerenciado"
+    numero: "medicao → gestao"
+    contexto: "Principio de metricas"
+    aplicacao:
+      - "Scorecards essenciais"
+      - "Mas medir o certo"
+      - "CABs, nao tudo"
+    evidencias:
+      - citacao: "What gets measured gets managed"
+        source_id: "TSC-BATCH-085"
+    dominios:
+      - "metricas"
+      - "gestao"
+      - "foco"
+    peso: 0.86
+
+  - id: "HEU-TSC-093"
+    regra: "Annual plans sao uma piada"
+    numero: "planos anuais = piada"
+    contexto: "Critica a planejamento tradicional"
+    aplicacao:
+      - "Muito longos para prever"
+      - "Muito curtos para significar"
+      - "Usar 12Q em vez"
+    evidencias:
+      - citacao: "Annual plans are a joke"
+        source_id: "TSC-BATCH-086"
+    dominios:
+      - "planejamento"
+      - "critica"
+      - "alternativas"
+    peso: 0.87
+
+  - id: "HEU-TSC-094"
+    regra: "Learning Now, Accuracy Later"
+    numero: "aprendizado > precisao"
+    contexto: "Mentalidade de execucao"
+    aplicacao:
+      - "Targets estarao errados"
+      - "Refinar ao longo do tempo"
+      - "Acao > perfeicao"
+    evidencias:
+      - citacao: "Learning Now! Accuracy Later"
+        source_id: "TSC-BATCH-087"
+    dominios:
+      - "execucao"
+      - "aprendizado"
+      - "mentalidade"
+    peso: 0.88
+
+  - id: "HEU-TSC-095"
+    regra: "Cross-training tem zero downside e unlimited upside"
+    numero: "0 downside, ∞ upside"
+    contexto: "Beneficio de cross-training"
+    aplicacao:
+      - "Sem risco"
+      - "So beneficio"
+      - "Sempre fazer"
+    evidencias:
+      - citacao: "Cross-training has zero downside and unlimited upside"
+        source_id: "TSC-BATCH-088"
+    dominios:
+      - "cross-training"
+      - "beneficios"
+      - "times"
+    peso: 0.87
+
+# Metadados de extracao
+metadados:
+  criado_em: "2026-01-11T01:40:00Z"
+  atualizado_em: "2026-01-11T01:40:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  pipeline: "Jarvis v3.33.0"
+  extraido_por: "Claude Code"
+  missao: "MISSION-2026-001"
+  fase: "PHASE-5-CONSOLIDATION"
