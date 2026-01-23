@@ -1,0 +1,491 @@
+# 02-KNOWLEDGE/DNA/PERSONS/COLE-GORDON/METODOLOGIAS.yaml
+# Gerado em: 2025-12-24
+# Atualizado: 2026-01-10 (Fase 5 Consolidation)
+# Processos PASSO-A-PASSO para EXECUTAR tarefas
+
+pessoa: "Cole Gordon"
+versao: "2.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T16:00:00Z"
+total_itens: 10
+fontes: ["CG001", "CG002", "CG003", "CG004", "BATCH-005", "BATCH-006", "BATCH-007", "BATCH-008"]
+
+metodologias:
+
+  - id: "MET-CG-001"
+    nome: "Double Tie Down Technique"
+    descricao: "Check-in duplo durante pitch para manter prospect engajado e identificar objecoes early."
+
+    passos:
+      - ordem: 1
+        acao: "Apresentar um pillar ou conceito (max 45 segundos)"
+        resultado_esperado: "Prospect recebeu informacao"
+      - ordem: 2
+        acao: "Pergunta 1: 'Does that make sense?'"
+        resultado_esperado: "Prospect confirma entendimento"
+      - ordem: 3
+        acao: "Pergunta 2: 'What are your thoughts on that?'"
+        resultado_esperado: "Prospect verbaliza opiniao - revela objecoes early"
+      - ordem: 4
+        acao: "Se positivo, continuar. Se objecao, resolver antes de prosseguir"
+        resultado_esperado: "Pitch e dialogo, nao monologo"
+
+    quando_usar: "Durante toda a fase de Pitch (Fase 4 do 6-Phase Call Flow)"
+
+    indicadores_sucesso:
+      - "Prospect engajado e respondendo"
+      - "Objecoes identificadas e resolvidas em tempo real"
+      - "Trust sendo instalada progressivamente"
+
+    erros_comuns:
+      - "Falar por muito tempo sem check-in"
+      - "Fazer apenas uma pergunta"
+      - "Nao parar para resolver objecao identificada"
+
+    evidencias:
+      - citacao: "Double Tie Down: 'Does that make sense?' + 'What are your thoughts on that?' Check-in every ~45 seconds"
+        chunk_id: "CG002_015"
+        source_id: "CG002"
+        source_title: "Call Flow Structure"
+
+    dominios:
+      - "pitch"
+      - "engagement"
+      - "dialogue"
+
+    peso: 0.90
+
+  - id: "MET-CG-002"
+    nome: "3 Data Points Method for Financial Objections"
+    descricao: "Processo para lidar com objecoes de dinheiro/preco coletando dados reais."
+
+    passos:
+      - ordem: 1
+        acao: "Isolar dinheiro: 'Money aside, do you 100% want this?'"
+        resultado_esperado: "Confirmar que objecao e APENAS financeira"
+      - ordem: 2
+        acao: "Coletar Data Point 1: Net income nos proximos 30 dias"
+        resultado_esperado: "Entender fluxo de caixa"
+      - ordem: 3
+        acao: "Coletar Data Point 2: Cash on hand (dinheiro disponivel agora)"
+        resultado_esperado: "Entender capacidade imediata"
+      - ordem: 4
+        acao: "Coletar Data Point 3: Credit access (cartao, emprestimo)"
+        resultado_esperado: "Entender opcoes de financiamento"
+      - ordem: 5
+        acao: "APENAS apos coletar os 3, oferecer payment plan"
+        resultado_esperado: "Plano baseado em dados reais"
+      - ordem: 6
+        acao: "Pedir algo em retorno por melhores terms"
+        resultado_esperado: "Preservar valor atraves de reciprocidade"
+
+    quando_usar: "Quando prospect diz que nao tem dinheiro/esta caro"
+
+    indicadores_sucesso:
+      - "Prospect revela situacao financeira real"
+      - "Payment plan customizado e aceito"
+      - "Algo oferecido em retorno (referral, depoimento)"
+
+    erros_comuns:
+      - "Oferecer desconto sem isolar primeiro"
+      - "Nao coletar os 3 data points"
+      - "Dar terms melhores sem pedir nada em retorno"
+
+    evidencias:
+      - citacao: "Financial (3 Data Points Method): 1. 'Money aside...' 2. Net income 3. Cash on hand 4. Credit access"
+        chunk_id: "CG002_016"
+        source_id: "CG002"
+        source_title: "Call Flow Structure"
+
+    dominios:
+      - "objection-handling"
+      - "financial"
+      - "negotiation"
+
+    peso: 0.90
+
+  - id: "MET-CG-003"
+    nome: "Daily Routine for High-Performance Closer"
+    descricao: "Rotina diaria estruturada para closers de alta performance."
+
+    passos:
+      - ordem: 1
+        acao: "MANHA (90 min - 3h antes das calls): Ler 20-30 min"
+        resultado_esperado: "Mente aquecida"
+      - ordem: 2
+        acao: "MANHA: Treinar + ouvir 1-2 melhores calls (wins)"
+        resultado_esperado: "Estado elevado"
+      - ordem: 3
+        acao: "MANHA: Podcast/curso para desenvolvimento"
+        resultado_esperado: "Crescimento continuo"
+      - ordem: 4
+        acao: "MANHA: Breathwork + meditacao"
+        resultado_esperado: "Resolve (calm certainty)"
+      - ordem: 5
+        acao: "MANHA: Checar projections + calendario"
+        resultado_esperado: "Clareza do dia"
+      - ordem: 6
+        acao: "DIA (9am-5pm): Ou gerando calls OU fazendo calls"
+        resultado_esperado: "Foco total em atividade de venda"
+      - ordem: 7
+        acao: "DIA: No-shows → atividade de outbound/follow-up"
+        resultado_esperado: "Tempo nao desperdicado"
+      - ordem: 8
+        acao: "DIA: 30-min almoco, dois breaks de 10-min max"
+        resultado_esperado: "Energia sustentada"
+      - ordem: 9
+        acao: "NOITE: Batch CRM updates, notas"
+        resultado_esperado: "Admin consolidado"
+      - ordem: 10
+        acao: "NOITE: Hot list follow-ups"
+        resultado_esperado: "Pipeline movendo"
+      - ordem: 11
+        acao: "NOITE: Report/journal de fim de dia"
+        resultado_esperado: "Reflexao e melhoria"
+      - ordem: 12
+        acao: "NOITE: Rate yourself em 3 areas chave"
+        resultado_esperado: "Auto-awareness"
+      - ordem: 13
+        acao: "NOITE: Horario consistente de dormir (7.5-8.5 horas)"
+        resultado_esperado: "Recuperacao adequada"
+
+    quando_usar: "Estruturando dia-a-dia de closer"
+
+    indicadores_sucesso:
+      - "Performance consistente"
+      - "Estado mental estavel"
+      - "Crescimento continuo"
+
+    evidencias:
+      - citacao: "Daily Routines: Morning (90 min - 3h before calls)... During the Day (9am-5pm)... Evening (after 5pm)..."
+        chunk_id: "CG001_012"
+        source_id: "CG001"
+        source_title: "7 Beliefs Framework"
+
+    dominios:
+      - "routine"
+      - "performance"
+      - "habits"
+
+    peso: 0.80
+
+  - id: "MET-CG-004"
+    nome: "Transition from Discovery to Pitch (Avoiding Anvil Drop)"
+    descricao: "Processo para transicionar suavemente do discovery para o pitch sem parecer vendedor."
+
+    passos:
+      - ordem: 1
+        acao: "Completar Discovery com todas as 6 Beliefs instaladas"
+        resultado_esperado: "Prospect pronto para ouvir solucao"
+      - ordem: 2
+        acao: "Fazer pergunta de transicao: 'Based on what you've shared, I think I can help. Would you like to hear how?'"
+        resultado_esperado: "Prospect DIZ SIM"
+      - ordem: 3
+        acao: "Prospect deve PEDIR para ouvir, nao voce oferecendo"
+        resultado_esperado: "Permissao explicita"
+      - ordem: 4
+        acao: "Iniciar Pitch com permissao concedida"
+        resultado_esperado: "Prospect receptivo"
+
+    quando_usar: "Fase 3 do 6-Phase Call Flow (Transition)"
+
+    indicadores_sucesso:
+      - "Transicao suave, sem sensacao de venda"
+      - "Prospect engajado e curioso"
+      - "Nao trigger defensas"
+
+    erros_comuns:
+      - "Anvil Drop: Saltar direto para pitch sem pedir permissao"
+      - "Mudar tom de curioso para vendedor"
+      - "Nao esperar resposta antes de comecar pitch"
+
+    evidencias:
+      - citacao: "FASE 3: TRANSITION - EVITAR Anvil Drop (transicao brusca). Fazer prospect PEDIR para ouvir o pitch"
+        chunk_id: "CG002_017"
+        source_id: "CG002"
+        source_title: "Call Flow Structure"
+
+    dominios:
+      - "sales-process"
+      - "transition"
+      - "permission"
+
+    peso: 0.85
+
+  # ===========================================================================
+  # METODOLOGIAS DOS BATCHES 005-008 (Fase 4 Processing)
+  # ===========================================================================
+
+  - id: "MET-CG-005"
+    nome: "Secret Shopping System"
+    descricao: "Sistema para ver comportamento real dos closers quando nao supervisionados."
+
+    passos:
+      - ordem: 1
+        acao: "Comprar burner phones ($30 Total by Verizon) e SIM ($30/mes)"
+        resultado_esperado: "Infraestrutura anonima pronta"
+      - ordem: 2
+        acao: "Criar emails falsos e personas"
+        resultado_esperado: "Identidades de teste"
+      - ordem: 3
+        acao: "Submeter como lead no funil real"
+        resultado_esperado: "Entrar na queue do closer"
+      - ordem: 4
+        acao: "Fazer a call como prospect comum"
+        resultado_esperado: "Closer age normalmente sem saber que e teste"
+      - ordem: 5
+        acao: "Documentar tudo: pitch, rapport, objections, follow-up"
+        resultado_esperado: "Dados inarguaveis"
+      - ordem: 6
+        acao: "Name and shame na frente do time"
+        resultado_esperado: "Accountability publica - reforma comportamental"
+
+    quando_usar: "Semanalmente para garantir qualidade de atendimento"
+
+    indicadores_sucesso:
+      - "Comportamento melhora imediatamente apos reveal"
+      - "Closers sabem que podem ser testados a qualquer momento"
+      - "Qualidade sobe mesmo sem supervisao"
+
+    erros_comuns:
+      - "Usar sempre mesmo numero/email"
+      - "Ser reconhecido pela voz"
+      - "Nao fazer follow-through com accountability"
+
+    evidencias:
+      - citacao: "Secret shopping is the most effective behavioral reform ever seen with closing teams"
+        chunk_id: "BATCH-005_001"
+        source_id: "BATCH-005"
+        source_title: "How to Manage Closers"
+
+    dominios:
+      - "management"
+      - "quality-control"
+      - "accountability"
+
+    peso: 0.90
+
+  - id: "MET-CG-006"
+    nome: "Priority Buckets System"
+    descricao: "Sistema de priorizacao de closers baseado em performance week-over-week."
+
+    passos:
+      - ordem: 1
+        acao: "Classificar closers em 4 niveis baseado em stats"
+        resultado_esperado: "Hierarquia clara"
+      - ordem: 2
+        acao: "Level 1 (Top): Prioridade no calendario - recebe calls primeiro"
+        resultado_esperado: "Melhores closers com melhores leads"
+      - ordem: 3
+        acao: "Level 2: No scheduler mas nao priorizado"
+        resultado_esperado: "Posicao padrao"
+      - ordem: 4
+        acao: "Level 3: So inbound leads (Hydra)"
+        resultado_esperado: "Leads menos qualificados"
+      - ordem: 5
+        acao: "Level 4 (Bottom): Fora do inbound, so pipeline existente"
+        resultado_esperado: "Ultimo recurso antes de demissao"
+      - ordem: 6
+        acao: "Ajustar semanalmente baseado em metricas"
+        resultado_esperado: "52 oportunidades de mover por ano"
+
+    quando_usar: "Gerenciando time de closers - criar competicao saudavel"
+
+    indicadores_sucesso:
+      - "Close rate geral do time sobe"
+      - "Closers lutam para subir de nivel"
+      - "Underperformers se auto-eliminam"
+
+    evidencias:
+      - citacao: "Week-over-week priority system: Level 1 prioritized, Level 4 off inbound"
+        chunk_id: "BATCH-005_002"
+        source_id: "BATCH-005"
+        source_title: "How to Manage Closers"
+
+    dominios:
+      - "team-management"
+      - "incentives"
+      - "performance"
+
+    peso: 0.85
+
+  - id: "MET-CG-007"
+    nome: "Talk Track Building Process"
+    descricao: "Processo para criar talk track ao inves de script rigido."
+
+    passos:
+      - ordem: 1
+        acao: "Definir SIZZLE PITCH (30-60 segundos) - beneficios, nao features"
+        resultado_esperado: "Hook inicial atraente"
+      - ordem: 2
+        acao: "Estruturar THE BIG THREE - 3-4 pilares da oferta max"
+        resultado_esperado: "Oferta memoravel"
+      - ordem: 3
+        acao: "Criar perguntas de discovery baseadas nos 6 tipos"
+        resultado_esperado: "Arsenal de perguntas"
+      - ordem: 4
+        acao: "Desenvolver rebuttals para objecoes comuns"
+        resultado_esperado: "Respostas naturais"
+      - ordem: 5
+        acao: "Praticar improvisacao dentro da estrutura"
+        resultado_esperado: "Flexibilidade comportamental"
+
+    quando_usar: "Ao treinar novos closers ou redesenhar processo de vendas"
+
+    indicadores_sucesso:
+      - "Closers soam naturais, nao roboticos"
+      - "Adaptam para cada prospect"
+      - "Mantém consistencia nos pontos-chave"
+
+    erros_comuns:
+      - "Tentar memorizar palavra por palavra"
+      - "Mais de 4 pilares (ninguem lembra)"
+      - "Sizzle pitch maior que 60 segundos"
+
+    evidencias:
+      - citacao: "Talk Track vs Script: Talk track is flexible framework, script is word-for-word"
+        chunk_id: "BATCH-008_001"
+        source_id: "BATCH-008"
+        source_title: "Talk Track vs Script"
+
+    dominios:
+      - "training"
+      - "scripting"
+      - "flexibility"
+
+    peso: 0.85
+
+  - id: "MET-CG-008"
+    nome: "Four-Scorecard System"
+    descricao: "Sistema de 4 scorecards para avaliar closers em diferentes dimensoes."
+
+    passos:
+      - ordem: 1
+        acao: "Scorecard 1: METRICS - Close rate, show rate, offers per day"
+        resultado_esperado: "Numeros objetivos"
+      - ordem: 2
+        acao: "Scorecard 2: PROCESS - Seguiu o talk track? Todas as fases?"
+        resultado_esperado: "Aderencia ao processo"
+      - ordem: 3
+        acao: "Scorecard 3: SKILLS - Tonalidade, perguntas, handling"
+        resultado_esperado: "Qualidade de execucao"
+      - ordem: 4
+        acao: "Scorecard 4: BEHAVIORS - Atitude, pontualidade, coachability"
+        resultado_esperado: "Soft skills"
+      - ordem: 5
+        acao: "Identificar 1-2 gaps por semana para coaching"
+        resultado_esperado: "Foco - mais que isso nao fixa"
+      - ordem: 6
+        acao: "Review semanal com cada closer"
+        resultado_esperado: "Feedback continuo"
+
+    quando_usar: "Weekly 1:1s com closers e avaliacoes de performance"
+
+    indicadores_sucesso:
+      - "Closers sabem exatamente onde precisam melhorar"
+      - "Progresso mensuravel semana a semana"
+      - "Cultura de melhoria continua"
+
+    evidencias:
+      - citacao: "Four-Scorecard System: Metrics, Process, Skills, Behaviors - max 1-2 focus areas per week"
+        chunk_id: "BATCH-007_001"
+        source_id: "BATCH-007"
+        source_title: "AI Call Intelligence / Scorecard"
+
+    dominios:
+      - "coaching"
+      - "evaluation"
+      - "development"
+
+    peso: 0.90
+
+  - id: "MET-CG-009"
+    nome: "Hammer Them Follow-Up Sequence"
+    descricao: "Sequencia agressiva de follow-up para maximizar show rate e recovery."
+
+    passos:
+      - ordem: 1
+        acao: "Confirmation page com video, beneficios, instrucoes claras"
+        resultado_esperado: "Show rate base de 85%+"
+      - ordem: 2
+        acao: "SMS imediato apos booking"
+        resultado_esperado: "Confirmacao rapida"
+      - ordem: 3
+        acao: "Email com agenda e valor esperado"
+        resultado_esperado: "Clareza de expectativas"
+      - ordem: 4
+        acao: "Lembrete 24h antes"
+        resultado_esperado: "Reduz no-shows"
+      - ordem: 5
+        acao: "Lembrete 1h antes"
+        resultado_esperado: "Last-minute confirmation"
+      - ordem: 6
+        acao: "Se no-show: sequencia de recovery em 24-48h"
+        resultado_esperado: "Recuperar leads perdidos"
+      - ordem: 7
+        acao: "Email 'Sent from iPhone' para casos dificeis"
+        resultado_esperado: "40K+ responses documentado"
+
+    quando_usar: "Todo lead que agenda call"
+
+    indicadores_sucesso:
+      - "Show rate 85%+"
+      - "Recovery rate de no-shows 30-40%"
+      - "CPL efetivo cai drasticamente"
+
+    evidencias:
+      - citacao: "Hammer Them Campaign: confirmation page 60-65% → 85%+ show rate"
+        chunk_id: "BATCH-006_001"
+        source_id: "BATCH-006"
+        source_title: "Cole Gordon Marketing - Hammer Them"
+
+    dominios:
+      - "follow-up"
+      - "show-rate"
+      - "automation"
+
+    peso: 0.95
+
+  - id: "MET-CG-010"
+    nome: "One-Call vs Two-Call Model Decision"
+    descricao: "Framework para decidir entre modelo de uma call ou duas calls."
+
+    passos:
+      - ordem: 1
+        acao: "Avaliar ticket medio - abaixo de $3K geralmente one-call"
+        resultado_esperado: "Decisao inicial"
+      - ordem: 2
+        acao: "Avaliar complexidade - solucoes simples = one-call"
+        resultado_esperado: "Refinamento"
+      - ordem: 3
+        acao: "Avaliar buyer persona - decisores unicos = one-call"
+        resultado_esperado: "Contexto do cliente"
+      - ordem: 4
+        acao: "Se two-call: Call 1 = Discovery + Qualification"
+        resultado_esperado: "Separar etapas"
+      - ordem: 5
+        acao: "Se two-call: Call 2 = Presentation + Close"
+        resultado_esperado: "Call dedicada ao fechamento"
+      - ordem: 6
+        acao: "Testar ambos modelos por 30 dias com metricas"
+        resultado_esperado: "Dados para decisao final"
+
+    quando_usar: "Estruturando processo de vendas ou pivotando modelo existente"
+
+    indicadores_sucesso:
+      - "Close rate otimizado para o modelo escolhido"
+      - "Ciclo de venda adequado ao produto"
+      - "Resources alocados corretamente"
+
+    evidencias:
+      - citacao: "One Call vs Two Call Model: depends on ticket, complexity, and buyer"
+        chunk_id: "BATCH-008_002"
+        source_id: "BATCH-008"
+        source_title: "Setter/Closer Structure"
+
+    dominios:
+      - "process-design"
+      - "strategy"
+      - "optimization"
+
+    peso: 0.85

@@ -1,0 +1,358 @@
+# 02-KNOWLEDGE/DNA/PERSONS/COLE-GORDON/MODELOS-MENTAIS.yaml
+# Gerado em: 2025-12-24
+# Atualizado: 2026-01-10 (Fase 5 Consolidation)
+# Lentes atraves das quais problemas sao analisados
+
+pessoa: "Cole Gordon"
+versao: "2.0.0"
+data_extracao: "2025-12-24T12:00:00Z"
+data_atualizacao: "2026-01-10T16:00:00Z"
+total_itens: 10
+fontes: ["CG001", "CG002", "CG003", "CG004", "BATCH-005", "BATCH-006", "BATCH-007", "BATCH-008"]
+
+modelos_mentais:
+
+  - id: "MM-CG-001"
+    nome: "7 Beliefs como Mapa de Objecoes"
+    descricao: "Qualquer objecao pode ser mapeada para uma das 7 beliefs. Se prospect objeta, uma belief nao foi instalada."
+
+    quando_aplicar: "Analisando porque prospect nao fechou ou qual belief falta"
+
+    como_usar: |
+      1. Prospect apresenta objecao
+      2. Mapear para qual das 7 Beliefs:
+         - PAIN: Nao reconhece problema
+         - DOUBT: Nao acredita ser possivel
+         - COST: Nao ve custo de inacao
+         - DESIRE: Nao quer esse resultado especifico
+         - MONEY: Nao tem recursos
+         - SUPPORT: Nao tem apoio de terceiros
+         - TRUST: Nao confia em voce
+      3. Voltar e instalar belief faltante
+      4. Se estruturou corretamente, objecao desaparece
+
+    evidencias:
+      - citacao: "Every objection maps to one of the 7 beliefs. If they object, you missed installing one."
+        chunk_id: "CG001_006"
+        source_id: "CG001"
+        source_title: "7 Beliefs Framework"
+
+    relacionado_a:
+      - "FIL-CG-002"
+
+    dominios:
+      - "objection-mapping"
+      - "diagnostics"
+      - "discovery"
+
+    peso: 0.95
+
+  - id: "MM-CG-002"
+    nome: "Buying Pocket Spectrum"
+    descricao: "Prospect esta em algum lugar entre 'impossivel para mim' e 'posso fazer sozinho'. Seu trabalho e move-lo para o meio."
+
+    quando_aplicar: "Ajustando abordagem baseado na posicao do prospect"
+
+    como_usar: |
+      IMPOSSIVEL <-----> BUYING POCKET <-----> FAZ SOZINHO
+
+      Se prospect diz "impossivel":
+      → Usar PROOF (cases, stats, testimonials)
+
+      Se prospect diz "posso fazer sozinho":
+      → Usar SKILL QUESTIONS + REFRAMES
+
+      Zona ideal: "E possivel, mas preciso de ajuda"
+
+    evidencias:
+      - citacao: "Adjust approach based on where prospect is on the spectrum between 'impossible' and 'can do it myself'..."
+        chunk_id: "CG002_003"
+        source_id: "CG002"
+        source_title: "Call Flow Structure"
+
+    dominios:
+      - "prospect-assessment"
+      - "calibration"
+      - "pitch-adjustment"
+
+    peso: 0.85
+
+  - id: "MM-CG-003"
+    nome: "Hell Island vs Heaven Island"
+    descricao: "Criar clareza extrema entre futuro sem mudanca (Hell) e futuro com mudanca (Heaven). Quanto mais clareza, mais tensao interna."
+
+    quando_aplicar: "Discovery para criar leverage emocional sem manipulacao"
+
+    como_usar: |
+      1. Hell Island (Dickens Process):
+         "O que acontece em 1, 3, 5, 10 anos se nada mudar?"
+         "Como isso afeta sua familia/carreira/saude?"
+
+      2. Heaven Island:
+         "Se resolver isso, como seria sua vida?"
+         "O que seria possivel que hoje nao e?"
+
+      3. Contraste:
+         Quanto maior a diferenca percebida, maior a tensao interna
+         Tensao interna → motivacao propria para decidir
+
+    evidencias:
+      - citacao: "The more CLARITY on the difference between Hell Island and Heaven Island, the more internal TENSION..."
+        chunk_id: "CG002_004"
+        source_id: "CG002"
+        source_title: "Call Flow Structure"
+
+    relacionado_a:
+      - "FIL-CG-003"
+
+    dominios:
+      - "discovery"
+      - "emotional-leverage"
+      - "future-pacing"
+
+    peso: 0.90
+
+  - id: "MM-CG-004"
+    nome: "Consistency Bias como Motor de Vendas"
+    descricao: "Se prospect DIZ EM VOZ ALTA que acredita algo, ele vai agir de forma consistente com isso. Perguntas sao mais poderosas que afirmacoes."
+
+    quando_aplicar: "Desenhando perguntas de discovery e pitch"
+
+    como_usar: |
+      ERRADO: Voce afirmar algo
+      "Nosso produto e o melhor do mercado"
+
+      CERTO: Prospect afirmar via resposta a pergunta
+      "O que voce acha que acontece se nada mudar nos proximos 12 meses?"
+      (Prospect DIZ que vai continuar no problema)
+
+      Agora prospect se comprometeu verbalmente com a necessidade de mudar.
+
+    evidencias:
+      - citacao: "The Consistency Bias (Cialdini) is the most powerful in sales. If the prospect SAYS OUT LOUD that they believe something, they will act consistently."
+        chunk_id: "CG001_007"
+        source_id: "CG001"
+        source_title: "7 Beliefs Framework"
+
+    relacionado_a:
+      - "Robert Cialdini - Influence"
+
+    dominios:
+      - "persuasion"
+      - "psychology"
+      - "questions"
+
+    peso: 0.90
+
+  - id: "MM-CG-005"
+    nome: "Resolve vs Pumped Up Energy"
+    descricao: "Estado ideal de venda nao e energia hipy mas calm sense of certainty. Como se ja estivesse feito."
+
+    quando_aplicar: "Gerenciando estado interno antes e durante calls"
+
+    como_usar: |
+      EVITAR (Pumped Up):
+      - Tony Robbins "yes yes yes"
+      - Energia hipy/animada demais
+      - Confianca de superficie
+      - Pode triggerar defesas do prospect
+
+      BUSCAR (Resolve):
+      - Calm sense of certainty
+      - Flow state
+      - "As if it's already done"
+      - Builds trust naturally
+
+    evidencias:
+      - citacao: "Resolve is not pumped up energy. It's a calm sense of certainty, as if it's already done."
+        chunk_id: "CG001_008"
+        source_id: "CG001"
+        source_title: "7 Beliefs Framework"
+
+    relacionado_a:
+      - "FIL-CG-004"
+
+    dominios:
+      - "inner-game"
+      - "state-management"
+      - "mindset"
+
+    peso: 0.80
+
+  # ===========================================================================
+  # MODELOS MENTAIS DOS BATCHES 005-008 (Fase 4 Processing)
+  # ===========================================================================
+
+  - id: "MM-CG-006"
+    nome: "Free Throw Analogy"
+    descricao: "Accountability individual na frente do time, como arremesso livre no basquete. Todos veem se voce acerta ou erra."
+
+    quando_aplicar: "Criando cultura de accountability em times de vendas"
+
+    como_usar: |
+      No basquete:
+      - Jogador na linha de lance livre
+      - Todo mundo olhando
+      - Sucesso ou falha e publico
+      - Pressao individual em contexto de time
+
+      Em vendas:
+      - Metricas expostas para o time
+      - Secret shopping revelado publicamente
+      - "Name and shame" em reunioes
+      - Cada um responde pelo proprio resultado
+
+    evidencias:
+      - citacao: "Free Throw Analogy - individual accountability in front of team (basketball → sales)"
+        chunk_id: "BATCH-005_001"
+        source_id: "BATCH-005"
+        source_title: "How to Manage Closers"
+
+    dominios:
+      - "accountability"
+      - "team-culture"
+      - "management"
+
+    peso: 0.80
+
+  - id: "MM-CG-007"
+    nome: "Farmer vs Hunter"
+    descricao: "Closers precisam de ambas skills, nao apenas caca. Cultivar pipeline e tao importante quanto fechar."
+
+    quando_aplicar: "Desenvolvendo closers completos, nao apenas 'fechadores'"
+
+    como_usar: |
+      HUNTER (tradicional):
+      - Foca em fechar cada lead
+      - Mentalidade de caca
+      - Short-term thinking
+
+      FARMER (necessario):
+      - Cultiva pipeline
+      - Nurturing de leads frios
+      - Follow-up consistente
+      - Long-term relationship building
+
+      IDEAL:
+      - 60% Hunter (closing skills)
+      - 40% Farmer (pipeline cultivation)
+
+    evidencias:
+      - citacao: "Farmer vs Hunter - closers need both skills, not just hunting"
+        chunk_id: "BATCH-005_002"
+        source_id: "BATCH-005"
+        source_title: "How to Manage Closers"
+
+    dominios:
+      - "closer-development"
+      - "pipeline"
+      - "skills"
+
+    peso: 0.80
+
+  - id: "MM-CG-008"
+    nome: "Unsupervised Behavior"
+    descricao: "Performance verdadeira so e visivel quando ninguem esta olhando. Por isso secret shopping funciona."
+
+    quando_aplicar: "Avaliando performance real de vendedores"
+
+    como_usar: |
+      PRINCIPIO:
+      - Comportamento supervisionado ≠ comportamento real
+      - Pessoas agem diferente quando sabem que estao sendo observadas
+      - Performance verdadeira emerge quando acham que estao sozinhos
+
+      APLICACAO:
+      - Secret shopping para ver comportamento real
+      - Gravacoes sem aviso previo (onde legal)
+      - Monitoramento aleatorio
+      - "Trust but verify" como filosofia
+
+    evidencias:
+      - citacao: "True performance only visible when nobody's watching - unsupervised behavior reveals truth"
+        chunk_id: "BATCH-005_003"
+        source_id: "BATCH-005"
+        source_title: "How to Manage Closers"
+
+    dominios:
+      - "management"
+      - "performance"
+      - "truth"
+
+    peso: 0.85
+
+  - id: "MM-CG-009"
+    nome: "Interest Level Scale (5 Stages)"
+    descricao: "Escala de 5 niveis de interesse do lead, do curioso ao comprador."
+
+    quando_aplicar: "Qualificando leads e ajustando abordagem"
+
+    como_usar: |
+      NIVEIS:
+      1. CURIOUS - So olhando, sem compromisso
+         → Educar, nao vender
+
+      2. INTERESTED - Quer saber mais
+         → Aprofundar discovery
+
+      3. CONSIDERING - Comparando opcoes
+         → Diferenciar, resolver objecoes
+
+      4. DECIDING - Pronto para escolher
+         → Fechar, criar urgencia interna
+
+      5. BUYING - Decidido, so precisa do caminho
+         → Facilitar processo
+
+      REGRA: Cada nivel requer abordagem diferente
+
+    evidencias:
+      - citacao: "Interest Level Scale: 5 stages from curious to buying - each requires different approach"
+        chunk_id: "BATCH-006_001"
+        source_id: "BATCH-006"
+        source_title: "Cole Gordon Marketing"
+
+    dominios:
+      - "qualification"
+      - "sales-process"
+      - "lead-scoring"
+
+    peso: 0.85
+
+  - id: "MM-CG-010"
+    nome: "VAK System (NLP)"
+    descricao: "Pessoas processam informacao de 3 formas: Visual, Auditivo, Cinestesico. Adaptar comunicacao ao estilo."
+
+    quando_aplicar: "Ajustando pitch ao estilo de processamento do prospect"
+
+    como_usar: |
+      VISUAL (V):
+      - Usa palavras como "veja", "imagine", "visualize"
+      - Gosta de slides, diagramas, demonstracoes
+      - Fala rapido, pensa em imagens
+      → Usar: "Deixa eu te mostrar...", graficos, visuals
+
+      AUDITIVO (A):
+      - Usa palavras como "ouca", "soa bem", "ressoa"
+      - Gosta de explicacoes verbais, discussao
+      - Ritmo moderado, valoriza como coisas soam
+      → Usar: "Como isso soa para voce?", tons de voz variados
+
+      CINESTESICO (K):
+      - Usa palavras como "sente", "pega", "concreto"
+      - Gosta de experiencias hands-on, exemplos reais
+      - Fala devagar, precisa "sentir" a decisao
+      → Usar: "Como voce se sentiria se...", casos concretos
+
+    evidencias:
+      - citacao: "VAK System (NLP): Visual, Auditory, Kinesthetic - adapt communication to prospect's processing style"
+        chunk_id: "BATCH-006_002"
+        source_id: "BATCH-006"
+        source_title: "Cole Gordon Marketing"
+
+    dominios:
+      - "communication"
+      - "nlp"
+      - "adaptability"
+
+    peso: 0.85
